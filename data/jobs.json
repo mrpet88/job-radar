@@ -1,5 +1,84 @@
 [
   {
+    "id": "7c8a67ed88f69e56",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Testing Engineer- Playwright",
+    "company": "Litmus",
+    "location": "Pune, India",
+    "remote": false,
+    "url": "https://jobs.ashbyhq.com/litmus/e021beb2-52a5-4565-b0d7-aa87ebb44c03",
+    "tags": [
+      "Quality Assurance",
+      "Quality Assurance",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-30T23:15:43.686+00:00",
+    "description": "WHO IS LITMUS\n\nLitmus is building the data foundation that powers industrial AI.\n\nAI doesn’t work without real-world, contextualized data - Litmus makes that data usable. As AI adoption accelerates, most industrial environments still can’t access or use their operational data. We solve that gap.\n\nWe",
+    "isNew": true
+  },
+  {
+    "id": "e550d3ad6d7f6e71",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Quality Assurance Engineer (USA)",
+    "company": "Dronedeploy",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.lever.co/dronedeploy/4b577c25-7a57-41eb-b83e-ec1ad5bc0a7b",
+    "tags": [
+      "QA",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-11T16:34:41.379Z",
+    "description": "About DroneDeploy\nDroneDeploy powers field teams with robotics and AI. As the only reality capture platform that combines robotic automation, AI agents, and a truly unified system, DroneDeploy allows critical industries to operate with speed and confidence.\n\nFrom construction and energy to agricultu",
+    "isNew": true
+  },
+  {
+    "id": "a08c37c1812ef9e2",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Testing Engineer",
+    "company": "Litmus",
+    "location": "Pune, India",
+    "remote": false,
+    "url": "https://jobs.ashbyhq.com/litmus/74f895f6-88c1-4b66-b4c7-36603a8ed09e",
+    "tags": [
+      "Quality Assurance",
+      "Quality Assurance",
+      "FullTime"
+    ],
+    "postedAt": "2026-05-29T17:08:31.860+00:00",
+    "description": "WHO IS LITMUS\n\nLitmus is building the data foundation that powers industrial AI.\n\nAI doesn’t work without real-world, contextualized data - Litmus makes that data usable. As AI adoption accelerates, most industrial environments still can’t access or use their operational data. We solve that gap.\n\nWe",
+    "isNew": true
+  },
+  {
+    "id": "44483cc6f081eea5",
+    "source": "web",
+    "vendor": "web",
+    "title": "Job Application for Quality Engineer at Zipline",
+    "company": "boards.greenhouse.io",
+    "location": "",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/embed/job_app?token=6681861003",
+    "tags": [],
+    "description": "As a Quality Engineer on our manufacturing quality team, you will ensure every vehicle leaving the line meets Zipline’s high-performance standards. You will drive the disposition of inspection findings and non conformances, lead root-cause analyses, and implement corrective actions to boost yield an",
+    "isNew": true
+  },
+  {
+    "id": "6901a9890ab151a5",
+    "source": "web",
+    "vendor": "web",
+    "title": "Job Application for Quality Assurance Engineer, Manual Testing at Otter.ai",
+    "company": "boards.greenhouse.io",
+    "location": "",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/embed/job_app?token=7357060003",
+    "tags": [],
+    "description": "Otter.ai is an equal opportunity employer.",
+    "isNew": true
+  },
+  {
     "id": "dc1f1ad42808ebaa",
     "source": "ashby",
     "vendor": "ashby",
@@ -159,22 +238,6 @@
       "Hardware Engineering : Quality Engineering : Quality Engineering"
     ],
     "postedAt": "2026-07-01T14:42:27-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
-    "id": "97fdddaadf0f33bd",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Quality Engineer",
-    "company": "Anduril Industries",
-    "location": "Costa Mesa, California, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/4774251007?gh_jid=4774251007",
-    "tags": [
-      "Hardware Platform : Quality Engineering : Product Quality Engineering"
-    ],
-    "postedAt": "2026-07-01T14:40:27-04:00",
     "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
     "isNew": false
   },
@@ -441,22 +504,6 @@
     "isNew": false
   },
   {
-    "id": "6c7d0d466d38a0f9",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Quality Engineer, Applied AI",
-    "company": "Anduril Industries",
-    "location": "Seattle, Washington, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5137803007?gh_jid=5137803007",
-    "tags": [
-      "Corporate Technology : Corporate Technology Platform : Data Platform"
-    ],
-    "postedAt": "2026-07-01T06:07:50-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
     "id": "e6f92765f7c4e0f1",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -465,6 +512,22 @@
     "location": "Boston, Massachusetts, United States",
     "remote": false,
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5137806007?gh_jid=5137806007",
+    "tags": [
+      "Corporate Technology : Corporate Technology Platform : Data Platform"
+    ],
+    "postedAt": "2026-07-01T06:07:50-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "6c7d0d466d38a0f9",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Quality Engineer, Applied AI",
+    "company": "Anduril Industries",
+    "location": "Seattle, Washington, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5137803007?gh_jid=5137803007",
     "tags": [
       "Corporate Technology : Corporate Technology Platform : Data Platform"
     ],
@@ -565,6 +628,22 @@
       "Manufacturing : Aerostructures Production : Aerostructures Production"
     ],
     "postedAt": "2026-07-01T05:43:20-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "97fdddaadf0f33bd",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Product Quality Engineer",
+    "company": "Anduril Industries",
+    "location": "Costa Mesa, California, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5034007007?gh_jid=5034007007",
+    "tags": [
+      "Hardware Platform : Quality Engineering : Product Quality Engineering"
+    ],
+    "postedAt": "2026-07-01T05:42:03-04:00",
     "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
     "isNew": false
   },
@@ -1008,22 +1087,6 @@
     ],
     "postedAt": "2026-06-30T11:52:37-04:00",
     "description": "QEI - QUALITY ENGINEER (SDET) – Client Team Position Overview: Alarm.com is seeking a Quality Engineer with an interest in Software Development in Test (SDET) to join our Quality Engineering team. In this role, you will support the quality, performance, and reliability of our web and mobile applicat",
-    "isNew": false
-  },
-  {
-    "id": "a2fc703d814d4438",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Quality Engineer - SDET",
-    "company": "OneTrust",
-    "location": "Bengaluru, India",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/onetrust/jobs/8013362",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-06-30T09:02:51-04:00",
-    "description": "Strength in Trust&nbsp; OneTrust’s mission is to enable innovation through the responsible use of data and AI. We believe that ensuring data is trusted shouldn’t slow teams down—it should accelerate what’s possible. This led us to develop the first technology platform for responsible data use in 201",
     "isNew": false
   },
   {
@@ -1775,6 +1838,22 @@
     "isNew": false
   },
   {
+    "id": "a2fc703d814d4438",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Quality Engineer - SDET",
+    "company": "OneTrust",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/onetrust/jobs/7825595",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-06-29T14:16:05-04:00",
+    "description": "Strength in Trust&nbsp; OneTrust’s mission is to enable innovation through the responsible use of data and AI. We believe that ensuring data is trusted shouldn’t slow teams down—it should accelerate what’s possible. This led us to develop the first technology platform for responsible data use in 201",
+    "isNew": false
+  },
+  {
     "id": "f02fa8ee37bd3aa1",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2051,22 +2130,6 @@
     "isNew": false
   },
   {
-    "id": "48fa6a50c63309f6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Electrical Test Automation Engineer, Intelligence Systems ",
-    "company": "Anduril Industries",
-    "location": "Reston, Virginia, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5103309007?gh_jid=5103309007",
-    "tags": [
-      "AFS : Intelligence Systems Engineering"
-    ],
-    "postedAt": "2026-06-26T20:05:43-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
     "id": "d35c404de5feb8c2",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2075,6 +2138,22 @@
     "location": "Santa Ana, California, United States",
     "remote": false,
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5103311007?gh_jid=5103311007",
+    "tags": [
+      "AFS : Intelligence Systems Engineering"
+    ],
+    "postedAt": "2026-06-26T20:05:43-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "48fa6a50c63309f6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Electrical Test Automation Engineer, Intelligence Systems ",
+    "company": "Anduril Industries",
+    "location": "Reston, Virginia, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5103309007?gh_jid=5103309007",
     "tags": [
       "AFS : Intelligence Systems Engineering"
     ],
@@ -2131,22 +2210,6 @@
     "isNew": false
   },
   {
-    "id": "f96e9a482993e4c8",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Reliability Engineer ",
-    "company": "Anduril Industries",
-    "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167915007?gh_jid=5167915007",
-    "tags": [
-      "Hardware Platform : Quality Engineering"
-    ],
-    "postedAt": "2026-06-26T20:05:43-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
     "id": "474c212a2ee0b114",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2155,6 +2218,22 @@
     "location": "Atlanta, Georgia, United States",
     "remote": false,
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5172474007?gh_jid=5172474007",
+    "tags": [
+      "Hardware Platform : Quality Engineering"
+    ],
+    "postedAt": "2026-06-26T20:05:43-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "f96e9a482993e4c8",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Reliability Engineer ",
+    "company": "Anduril Industries",
+    "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167915007?gh_jid=5167915007",
     "tags": [
       "Hardware Platform : Quality Engineering"
     ],
@@ -2291,22 +2370,6 @@
     "isNew": false
   },
   {
-    "id": "4eea353c83f8dcb4",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Reliability Engineer ",
-    "company": "Anduril Industries",
-    "location": "Atlanta, Georgia, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5172472007?gh_jid=5172472007",
-    "tags": [
-      "Hardware Engineering : Quality"
-    ],
-    "postedAt": "2026-06-26T20:05:43-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
     "id": "b9aef525793839d1",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2315,6 +2378,22 @@
     "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
     "remote": false,
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167897007?gh_jid=5167897007",
+    "tags": [
+      "Hardware Engineering : Quality"
+    ],
+    "postedAt": "2026-06-26T20:05:43-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "4eea353c83f8dcb4",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Reliability Engineer ",
+    "company": "Anduril Industries",
+    "location": "Atlanta, Georgia, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5172472007?gh_jid=5172472007",
     "tags": [
       "Hardware Engineering : Quality"
     ],
@@ -2451,22 +2530,6 @@
     "isNew": false
   },
   {
-    "id": "7d9ad10417751f63",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Staff Reliability Engineer ",
-    "company": "Anduril Industries",
-    "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167903007?gh_jid=5167903007",
-    "tags": [
-      "Hardware Engineering : Quality"
-    ],
-    "postedAt": "2026-06-26T20:05:43-04:00",
-    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
-    "isNew": false
-  },
-  {
     "id": "e5c684efa343996a",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2475,6 +2538,22 @@
     "location": "Atlanta, Georgia, United States",
     "remote": false,
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5172465007?gh_jid=5172465007",
+    "tags": [
+      "Hardware Engineering : Quality"
+    ],
+    "postedAt": "2026-06-26T20:05:43-04:00",
+    "description": "Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how mi",
+    "isNew": false
+  },
+  {
+    "id": "7d9ad10417751f63",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff Reliability Engineer ",
+    "company": "Anduril Industries",
+    "location": "Costa Mesa, California, United States; Quincy, Massachusetts, United States",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5167903007?gh_jid=5167903007",
     "tags": [
       "Hardware Engineering : Quality"
     ],
@@ -3860,22 +3939,6 @@
     "isNew": false
   },
   {
-    "id": "e7f2425cb547b5ca",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Supplier Quality Engineer",
-    "company": "Archer",
-    "location": "San Jose, California, United States",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/archer56/jobs/7592284003",
-    "tags": [
-      "Supplier Quality"
-    ],
-    "postedAt": "2026-06-22T13:23:28-04:00",
-    "description": "Archer is an aerospace company based in San Jose, California building an all-electric vertical takeoff and landing aircraft with a mission to advance the benefits of sustainable air mobility. We are designing, manufacturing, and operating an all-electric aircraft that can carry four passengers while",
-    "isNew": false
-  },
-  {
     "id": "154f7f1459b1fb0b",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4489,22 +4552,6 @@
     "isNew": false
   },
   {
-    "id": "5d459c2dedb3f16a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "QA Automation Engineer with Java",
-    "company": "Veeam Software",
-    "location": "Lisbon, Portugal",
-    "remote": false,
-    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856357101",
-    "tags": [
-      "Development, Salesforce 1008723"
-    ],
-    "postedAt": "2026-06-15T17:56:07-04:00",
-    "description": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for th",
-    "isNew": false
-  },
-  {
     "id": "8ebf6eab49714bd1",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4513,6 +4560,22 @@
     "location": "Prague, Czechia",
     "remote": false,
     "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4855142101",
+    "tags": [
+      "Development, Salesforce 1008723"
+    ],
+    "postedAt": "2026-06-15T17:56:07-04:00",
+    "description": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for th",
+    "isNew": false
+  },
+  {
+    "id": "5d459c2dedb3f16a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "QA Automation Engineer with Java",
+    "company": "Veeam Software",
+    "location": "Lisbon, Portugal",
+    "remote": false,
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856357101",
     "tags": [
       "Development, Salesforce 1008723"
     ],
@@ -4537,22 +4600,6 @@
     "isNew": false
   },
   {
-    "id": "5e66293317c862d4",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior QA Engineer",
-    "company": "Veeam Software",
-    "location": "Warsaw, Poland",
-    "remote": false,
-    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4858484101",
-    "tags": [
-      "Quality Assurance 1001154"
-    ],
-    "postedAt": "2026-06-15T17:55:54-04:00",
-    "description": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for th",
-    "isNew": false
-  },
-  {
     "id": "89eacd2e8e02668e",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4561,6 +4608,22 @@
     "location": "Prague, Czechia",
     "remote": false,
     "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4858494101",
+    "tags": [
+      "Quality Assurance 1001154"
+    ],
+    "postedAt": "2026-06-15T17:55:54-04:00",
+    "description": "Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for th",
+    "isNew": false
+  },
+  {
+    "id": "5e66293317c862d4",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior QA Engineer",
+    "company": "Veeam Software",
+    "location": "Warsaw, Poland",
+    "remote": false,
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4858484101",
     "tags": [
       "Quality Assurance 1001154"
     ],
@@ -4983,6 +5046,22 @@
     ],
     "postedAt": "2026-06-08T19:51:59.084+00:00",
     "description": "ABOUT MACH INDUSTRIES\n\nFounded in 2022, Mach Industries is a rapidly growing defense technology company focused on developing next-generation autonomous defense platforms. At the core of our mission is the commitment to delivering scalable, decentralized defense systems that enhance the strategic ca",
+    "isNew": false
+  },
+  {
+    "id": "e7f2425cb547b5ca",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Sr. Supplier Quality Engineer",
+    "company": "Archer",
+    "location": "San Jose, California, United States",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/archer56/jobs/7752134003",
+    "tags": [
+      "Supplier Quality"
+    ],
+    "postedAt": "2026-06-08T17:38:07-04:00",
+    "description": "Archer is an aerospace company based in San Jose, California building an all-electric vertical takeoff and landing aircraft with a mission to advance the benefits of sustainable air mobility. We are designing, manufacturing, and operating an all-electric aircraft that can carry four passengers while",
     "isNew": false
   },
   {
@@ -6164,22 +6243,6 @@
     "isNew": false
   },
   {
-    "id": "7144b942e421f59a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "QA Automation Engineer",
-    "company": "Backblaze External Website",
-    "location": "Remote - Argentina; Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/backblaze/jobs/5205676008",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-05-15T18:56:30-04:00",
-    "description": "*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]&quot; data-turn-id=&quot;request-69c1b6da-fe20-8321-928d-c88bae47f589-9&quot; data-testid=&quot;conversation-turn-182&quot; data-scroll-anchor=&quot;true&quot; data-turn=&quot;assistant&quot;> About Backblaze Ba",
-    "isNew": false
-  },
-  {
     "id": "660b5cf15c0b35bc",
     "source": "lever",
     "vendor": "lever",
@@ -6329,6 +6392,22 @@
     ],
     "postedAt": "2026-05-13T23:20:31.226Z",
     "description": "Job Reference:\nWelocalize is hiring a Croatian Linguistic Tester with native speaker fluency for a One-Off Project on Monday, July 6, 2026.\nThis position is onsite in Portland, OR, and involves 2 hours of work. You will perform user experience tests on a printer under the supervision of a testing le",
+    "isNew": false
+  },
+  {
+    "id": "7144b942e421f59a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "QA Automation Engineer",
+    "company": "Backblaze External Website",
+    "location": "Remote - Argentina; Remote - Colombia ; Remote - Costa Rica ; Remote - Mexico",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/backblaze/jobs/5204291008",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-05-11T16:09:30-04:00",
+    "description": "*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]&quot; data-turn-id=&quot;request-69c1b6da-fe20-8321-928d-c88bae47f589-9&quot; data-testid=&quot;conversation-turn-182&quot; data-scroll-anchor=&quot;true&quot; data-turn=&quot;assistant&quot;> About Backblaze Ba",
     "isNew": false
   },
   {
