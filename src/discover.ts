@@ -17,11 +17,21 @@ export async function discover(
   atsDomains: string[],
   cfg: SearchConfig,
   maxQueries: number,
+  locationTerms: string[] = [],
 ): Promise<DiscoverResult> {
   const queries: string[] = [];
   for (const group of keywordGroups)
     for (const domain of atsDomains)
       queries.push(`${group.join(" ")} site:${domain}`);
+
+  // Location-targeted: one broad query per (domain × term) — all keyword groups
+  // OR'd together plus the location word — to find e.g. Dutch company boards.
+  if (locationTerms.length) {
+    const orClause = keywordGroups.map((g) => `"${g.join(" ")}"`).join(" OR ");
+    for (const domain of atsDomains)
+      for (const term of locationTerms)
+        queries.push(`${orClause} ${term} site:${domain}`);
+  }
 
   const capped = queries.slice(0, Math.max(0, maxQueries));
   const seenBoard = new Set<string>();

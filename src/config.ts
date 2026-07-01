@@ -31,6 +31,7 @@ export const criteria: SearchCriteria = {
       "ukraine", "latam", "latin america",
     ],
   },
+  maxAgeDays: 30, // drop postings older than 30 days (set undefined for no limit)
 };
 
 // ── Direct-ATS discovery ──────────────────────────────────────────
@@ -54,7 +55,10 @@ const searchCfg = searchConfigFromEnv(searchProvider);
 export const discovery = {
   ...searchCfg,
   enabled: searchCfg.enabled && process.env.JOB_RADAR_DISCOVER !== "false",
-  maxQueriesPerRun: 25, // full coverage: keywordGroups × atsDomains
+  maxQueriesPerRun: 30, // 25 global (keywordGroups × atsDomains) + 5 NL-targeted
+  // Extra location-targeted discovery: for each term, one broad query per ATS
+  // domain (keywords OR'd + term) to surface companies hiring in that region.
+  locationTerms: ["netherlands"],
 };
 
 // Optional: pin high-signal company boards directly. These are harvested every
