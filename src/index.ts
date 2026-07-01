@@ -108,7 +108,11 @@ async function main() {
   const matched = dedupe(collected.filter((j) => matchesCriteria(j, criteria)));
   const { all, fresh } = diffNew(matched, knownIds);
 
-  const enriched = all.map((j) => ({ ...j, isNew: fresh.some((f) => f.id === j.id) }));
+  // Drop the description before storing/rendering: the card links straight to the
+  // source posting, so the ad text isn't needed in the frontend. Keeps jobs.json
+  // small and the dashboard a clean, scannable list. (excludeKeywords already ran
+  // on the full description above.)
+  const enriched = all.map((j) => ({ ...j, description: undefined, isNew: fresh.some((f) => f.id === j.id) }));
   enriched.sort((a, b) => Number(b.isNew) - Number(a.isNew) ||
     (b.postedAt ?? "").localeCompare(a.postedAt ?? ""));
 
