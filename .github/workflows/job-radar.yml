@@ -1,0 +1,55 @@
+name: job-radar
+
+on:
+  schedule:
+    - cron: "0 6 * * *"    # 06:00 UTC — full run WITH ATS discovery
+    - cron: "0 18 * * *"   # 18:00 UTC — harvest only (spends no search credits)
+  workflow_dispatch: {}        # manual run button (discovery on)
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm ci || npm install
+      - run: npm run build
+      - name: Collect jobs
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          # Discovery runs on the morning cron + manual runs, but not the evening
+          # cron — keeps Brave usage (~750/mo) inside the free $5 credit.
+          JOB_RADAR_DISCOVER: ${{ github.event.schedule != '0 18 * * *' }}
+          # Direct-ATS discovery (optional). Set BRAVE_API_KEY, or the Google CSE pair.
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: npm start
+      - name: Commit data
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/jobs.json data/index.html data/boards.json
+          git commit -m "data: refresh $(date -u +%FT%TZ)" || echo "no changes"
+          git push
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with: { path: data }
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
