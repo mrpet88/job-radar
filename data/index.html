@@ -5,12 +5,20 @@
   :root{--bg:#f6f7f9;--card:#ffffff;--bd:#e3e6ea;--tx:#1a1d23;--mut:#6b7280;--acc:#2563eb;--new:#16a34a}
   *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);
     font:15px/1.5 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-  header{padding:24px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg)}
+  header{padding:24px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg);z-index:5}
   h1{margin:0;font-size:20px}.sub{color:var(--mut);font-size:13px;margin-top:4px}
   .wrap{max-width:860px;margin:0 auto;padding:20px}
-  input{width:100%;padding:10px 12px;margin-bottom:16px;background:var(--card);
+  input{width:100%;padding:10px 12px;background:var(--card);
     border:1px solid var(--bd);border-radius:8px;color:var(--tx);font-size:14px}
   input:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px rgba(37,99,235,.12)}
+  .controls{margin-bottom:16px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .chip{background:var(--card);border:1px solid var(--bd);color:var(--tx);font-size:13px;
+    padding:6px 12px;border-radius:20px;cursor:pointer}
+  .chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+  select{background:var(--card);border:1px solid var(--bd);color:var(--tx);font-size:13px;
+    padding:6px 10px;border-radius:8px;cursor:pointer}
+  .count{color:var(--mut);font-size:12px;margin-left:auto}
   .card{background:var(--card);border:1px solid var(--bd);border-radius:12px;
     padding:16px;margin-bottom:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
   .card.new{border-color:var(--new);box-shadow:0 0 0 1px var(--new)}
@@ -29,12 +37,336 @@
 </style></head><body>
 <header><div class="wrap" style="padding:0">
   <h1>Job Radar</h1>
-  <div class="sub">182 matched · 0 new · generated 01 Jul 2026, 22:02 CEST</div>
+  <div class="sub">120 matched · 21 new · generated 01 Jul 2026, 22:26 CEST</div>
 </div></header>
 <div class="wrap">
-  <input id="q" placeholder="filter by title, company, location…" oninput="f()">
+  <div class="controls">
+    <input id="q" placeholder="search title, company, location…" oninput="af()">
+    <div class="chips">
+      <button class="chip" id="c-nl" onclick="tog(this)">Netherlands</button>
+      <button class="chip" id="c-remote" onclick="tog(this)">Remote</button>
+      <button class="chip" id="c-new" onclick="tog(this)">New</button>
+      <select id="c-src" onchange="af()"><option value="">All sources</option><option value="adzuna">adzuna</option><option value="ashby">ashby</option><option value="greenhouse">greenhouse</option><option value="lever">lever</option><option value="remotive">remotive</option><option value="workday">workday</option></select>
+      <span id="count" class="count"></span>
+    </div>
+  </div>
   <div id="list">
-    <article class="card">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=RupNJIt18RGt3dtJYsVrNQ&amp;utm_medium=api&amp;utm_source=9b7a3075&amp;v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E" target="_blank" rel="noopener">Quality Assurance Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Morson Edge</strong>
+        <span>Manchester, Greater Manchester</span>
+        <span class="pill">remote</span>
+        <span class="src">adzuna</span>
+        <span class="sal">GBP 66,656–66,656</span>
+      </div>
+      
+      <div class="tags"><span>IT Jobs</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5781675655?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Mobile Test Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>STAFIDE</strong>
+        <span>Amsterdam, Noord-Holland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5781675666?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">AI Governance &amp; Platform Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>STAFIDE</strong>
+        <span>Amsterdam, Noord-Holland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5781241704?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Mobile Test Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>STAFIDE</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5781241714?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">AI Governance &amp; Platform Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>STAFIDE</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5776260402?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Senior QA Quality Engineer GR Expert</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>WR.nl Solliciteren</strong>
+        <span>Paddepoel, Groningen</span>
+        
+        <span class="src">adzuna</span>
+        <span class="sal">EUR 54,000–74,400</span>
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5775876048?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Test Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>WR.nl Solliciteren</strong>
+        <span>Groningen, Provincie Groningen</span>
+        
+        <span class="src">adzuna</span>
+        <span class="sal">EUR 54,000–74,400</span>
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5775856003?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Senior QA Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>WR.nl Solliciteren</strong>
+        <span>Groningen, Provincie Groningen</span>
+        
+        <span class="src">adzuna</span>
+        <span class="sal">EUR 54,000–74,400</span>
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/land/ad/5774747982?se=oiPJIot18RG075onbIWOaw&amp;utm_medium=api&amp;utm_source=9b7a3075&amp;v=E4F3E479FF94767232750D801B2DEB9D6436C2E3" target="_blank" rel="noopener">(Senior) Quality Assurance Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Getinge</strong>
+        <span>Delft, Zuid-Holland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Bouwkunde vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="ashby">
+      <div class="top">
+        <a class="title" href="https://jobs.ashbyhq.com/zip/15fff9a0-f78a-47bf-b37e-cc5da4f0d9ab" target="_blank" rel="noopener">Senior QA Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Zip</strong>
+        <span>San Francisco</span>
+        <span class="pill">remote</span>
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5763126401?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Senior Software Design Quality Engineer - AI</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Philips</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="ashby">
+      <div class="top">
+        <a class="title" href="https://jobs.ashbyhq.com/nightfall-ai/8327b2b6-72d1-45ba-9373-7de1069846f0" target="_blank" rel="noopener">QA Engineer - Endpoint </a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Nightfall Ai</strong>
+        <span>Bengaluru</span>
+        <span class="pill">remote</span>
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>R&amp;D</span><span>Engineering</span><span>FullTime</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5755855247?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Senior Data &amp; AI Assurance Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>CGI</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Creatieve Design vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5754993812?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">AI Governance Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Deeploy</strong>
+        <span>Utrecht, Provincie Utrecht</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5753846240?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">(Senior) Quality Assurance Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>The Frencken Group</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5753820357?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Customer Engineer, AI Governance</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Deeploy</strong>
+        <span>Utrecht, Provincie Utrecht</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5753820023?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">QA Engineer - E-commerce</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Kramp Groep</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Logistieke vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="lever">
+      <div class="top">
+        <a class="title" href="https://jobs.lever.co/dutch/af49df69-1e5c-4c60-bb6a-1b44c1b89528" target="_blank" rel="noopener">QA Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Dutch</strong>
+        <span>Vancouver</span>
+        <span class="pill">remote</span>
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Full Time</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="lever">
+      <div class="top">
+        <a class="title" href="https://jobs.lever.co/dutch/92425046-28ab-4555-94df-7db2a6e0993f" target="_blank" rel="noopener">QA Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Dutch</strong>
+        <span>Vancouver</span>
+        <span class="pill">remote</span>
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Full Time</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-source="adzuna">
+      <div class="top">
+        <a class="title" href="https://www.adzuna.nl/details/5752509951?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Senior QA / Quality Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>YTEC Development BV</strong>
+        <span>Nederland</span>
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-source="workday">
+      <div class="top">
+        <a class="title" href="https://modsquad.wd5.myworkdayjobs.com/ModSquad_Contractor/job/DOM-Remote/Remote-Technical-Customer-Support---QA-and-Game-Dev---6-26_JR101623" target="_blank" rel="noopener">Remote Technical Customer Support - QA and Game Dev - 6/26</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Modsquad</strong>
+        <span>8 Locations</span>
+        <span class="pill">remote</span>
+        <span class="src">workday</span>
+        
+      </div>
+      
+      <div class="tags"></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/celaralabs/df408e28-d420-4214-bc7d-fe3b8fb81605" target="_blank" rel="noopener">QA Automation Engineer SR (QB - QASR - 20260701)</a>
         
@@ -49,7 +381,7 @@
       
       <div class="tags"><span>Celara</span><span>Contract</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/e651f5b6-0777-4f37-9789-71621dec8484" target="_blank" rel="noopener">QA Test Developer</a>
         
@@ -64,7 +396,7 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/b6e27a80-7b7c-48a9-93a4-635b349cd208" target="_blank" rel="noopener">Senior QA Automation Developer</a>
         
@@ -79,7 +411,7 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/junipersquare/c6e6f78c-c206-4ee5-8737-78a329c1f7ac" target="_blank" rel="noopener">Senior QA Automation Engineer</a>
         
@@ -91,12 +423,10 @@
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">ABOUT JUNIPER SQUARE
-
-Private markets are one of the largest, most complex, and most underserved corners of global finance. Our mission at Juniper Square is to unlock their full potential. We’re the Operations Partner trusted by 2,300+ GPs, unifying technology, data, and fund administration services…</p>
+      
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/d92ec006-ca7b-43fa-ae39-3db30efa0cad" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -111,7 +441,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/fe1ae666-c0d1-42d3-b46e-a4be62d18c77" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -126,7 +456,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/3319120f-175a-4a62-b331-9c3e9885aead" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -141,7 +471,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/14249a9d-f6ac-4c10-86e5-5acf974c0dd7" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -156,7 +486,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/34bd5669-fec8-4a48-987b-927941bc723f" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -171,7 +501,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/73737e38-58d8-4b60-a2ca-76cdc52cb2d7" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -186,7 +516,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/0daf4b44-6737-4fd0-835a-55e8464ecf20" target="_blank" rel="noopener">Back-End QA Engineer</a>
         
@@ -201,7 +531,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/7c22eeb4-12cb-47fb-9471-d992817d4b26" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -216,7 +546,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/86b446e6-be9f-4302-af79-16f6366ac3f2" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -231,7 +561,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/fd64bf4b-d5fc-42cf-8963-9b68f5dfb358" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -246,7 +576,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/8a34157b-5dd9-404a-8054-1bc1ce7bb493" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -261,7 +591,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/3cfd5921-e112-42d5-877f-f25f228b4780" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -276,7 +606,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/e2e94a38-46d1-4341-af57-6b0264b454a3" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -291,7 +621,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/b0ff97fd-f895-4c67-8fb3-d44c77f6f391" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
         
@@ -306,7 +636,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/a5dc5825-38f0-4faa-a4bd-8ac2a363d1b2" target="_blank" rel="noopener">Sr QA Analyst and Support Business Analyst</a>
         
@@ -321,7 +651,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>Analyst</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/5d4ec127-de55-4c42-a6b9-cff7d5e9974e" target="_blank" rel="noopener">Analyste QA senior &amp; Analyste d'affaires, support en production</a>
         
@@ -336,7 +666,7 @@ Private markets are one of the largest, most complex, and most underserved corne
       
       <div class="tags"><span>Analyst</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/8dfa1f02-ce00-4906-b616-55ecda5f0cf9" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -348,11 +678,10 @@ Private markets are one of the largest, most complex, and most underserved corne
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/bcace489-ecdf-41e4-bec9-6061d2a82ccd" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -364,11 +693,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/7ff0253f-539c-4121-9d96-9f153060b339" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -380,11 +708,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/50c8c15c-d79b-4348-a075-a6835c02c381" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -396,11 +723,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/afa6e92b-124f-4883-8f2a-d0f5288eafb7" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -412,11 +738,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/a9d90053-a666-4c45-9063-f565042b6973" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -428,11 +753,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/1d59d368-20e2-44f7-9b5e-4130d1148a65" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -444,11 +768,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/187729fa-a6fd-4fba-9534-017e43ab52fe" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -460,11 +783,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/2769bfd9-a0a1-4b7a-9d1d-1781927a8821" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -476,11 +798,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/eb949805-86b2-4cc5-b8bf-75ee1f8b04e4" target="_blank" rel="noopener">Senior QA Automation Engineer – AI Applications</a>
         
@@ -492,11 +813,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.
-You will join a forward-thinking engineering environment focused on ensuring the quality and reliability…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/4b5d033a-85f1-4800-bec0-0af1180ec0d1" target="_blank" rel="noopener">Senior Machine Learning Engineer I, AI Governance</a>
         
@@ -511,7 +831,7 @@ You will join a forward-thinking engineering environment focused on ensuring the
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/00702f96-0a49-4239-9105-3d3892ac7910" target="_blank" rel="noopener">Senior Machine Learning Engineer I, AI Governance</a>
         
@@ -526,7 +846,7 @@ You will join a forward-thinking engineering environment focused on ensuring the
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/navapbc/jobs/4278028009" target="_blank" rel="noopener">Software Engineer (Test Automation) </a>
         
@@ -538,10 +858,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">About Nava Nava is a consultancy and public benefit corporation working to make government services simple and effective. Since 2015, federal, state, and local agencies have trusted Nava to help solve highly scrutinized technology modernization challenges. &amp;nbsp; As a client services company, we gui…</p>
+      
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/d42f5cba-807d-42b1-a4c4-c857a6c9c76f" target="_blank" rel="noopener">Lead QA Engineer</a>
         
@@ -556,7 +876,7 @@ You will join a forward-thinking engineering environment focused on ensuring the
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.eu.greenhouse.io/agency/jobs/4676601101" target="_blank" rel="noopener">AI QA Trainer - LLM Evaluation - Freelance Project</a>
         
@@ -568,10 +888,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">Are you an AI QA expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into enterprise-grade platforms. With rigorous evaluation data, tomorrow’s AI can democratize world-class education, keep pace with cutting-edge research, and streamline workflows f…</p>
+      
       <div class="tags"><span>Language &amp; Linguistics</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/optro/da67948c-a896-40d2-a9eb-89e4e810905e" target="_blank" rel="noopener">Senior Machine Learning Engineer I, AI Governance (Remote USA)</a>
         
@@ -583,12 +903,10 @@ You will join a forward-thinking engineering environment focused on ensuring the
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">Who We Are
-
-Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, risk, ESG, and InfoSec platform on the market. More than 50% of the Fortune 500, including 7 of the Fortune 10, leverage our award-winning technology to move their businesses forward with greater clarity and a…</p>
+      
       <div class="tags"><span>Technology</span><span>App Development</span><span>FullTime</span><span>$160K – $220K • Offers Bonus • 15% Annual Target bonus</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://www.singularity6.com/careers?gh_jid=6099187004" target="_blank" rel="noopener">&lt; intérimaire &gt; Analyste AQ/&lt;Temp&gt; QA Analyst</a>
         
@@ -600,10 +918,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">Français À l&amp;#39;attention des candidats intéressés : Nous avons récemment été informés de plusieurs tentatives d&amp;#39;escroquerie et de fraude provenant d&amp;#39;agences ou de groupes se faisant passer pour des membres de nos équipes RH et de recrutement. Si vous recevez un e-mail suspect, veuillez uti…</p>
+      
       <div class="tags"><span>QA</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://www.singularity6.com/careers?gh_jid=6099182004" target="_blank" rel="noopener">Senior QA Analyst</a>
         
@@ -615,10 +933,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">To Our Interested Applicants: We’ve received several notifications of scams and fraud attempts recently of agencies or groups pretending to be members of our HR and recruiting teams. If you receive any suspicious emails, please use the ‘contact us’ function on this site to let us know. In general, p…</p>
+      
       <div class="tags"><span>QA</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/qualysoft/c7ecf234-02b2-4943-afd5-c7b75af6886b" target="_blank" rel="noopener">Python QA Automation Engineer - Banking</a>
         
@@ -630,14 +948,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">About Qualysoft
- 
-·        25 years of experience in software engineering, established in Vienna, Austria
-·        Active in Romania since 2007, with office in central Bucharest (Bd. Iancu de Hunedoara 54B)
-·        Delivering End to End IT Consulting Services  - From Team Augmentation and Dedicated…</p>
+      
       <div class="tags"><span>Testing &amp; Quality Assurance</span><span>Fixed term</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/qualysoft/1261f5a4-2c07-46e6-bde6-296c13e55319" target="_blank" rel="noopener">Java QA Automation Engineer - Banking</a>
         
@@ -649,14 +963,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">About Qualysoft
- 
-·        25 years of experience in software engineering, established in Vienna, Austria
-·        Active in Romania since 2007, with office in central Bucharest (Bd. Iancu de Hunedoara 54B)
-·        Delivering End to End IT Consulting Services  - From Team Augmentation and Dedicated…</p>
+      
       <div class="tags"><span>Testing &amp; Quality Assurance</span><span>Fixed term</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/firstsanfranciscopartners/jobs/7748360003" target="_blank" rel="noopener">AI Governance Lead</a>
         
@@ -668,10 +978,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">First San Francisco Partners (FSFP) is a leading business advisory and information management consultancy dedicated to helping organizations leverage their data to improve strategic decision-making, reduce risk, create operational efficiencies and fuel unprecedented business success. Our consulting …</p>
+      
       <div class="tags"><span>Consulting</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/cscgeneration-2/9f320601-60ad-479f-8471-25f57cf8829a" target="_blank" rel="noopener">Lead QA Engineer</a>
         
@@ -683,10 +993,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">Adventure is Our Culture. Join a team that celebrates a lifestyle as bold as the terrain we love. At Backcountry, we are rooted in adventure, recognition, and wellbeing — on and off the mountain. We spotlight employee stories, celebrate milestones, and offer exclusive outdoor perks. Whether you are …</p>
+      
       <div class="tags"><span>Engineering</span><span>Full Time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/prompt/86893999-2dea-49e6-be89-9bfaecb6b99f" target="_blank" rel="noopener">QA Analyst</a>
         
@@ -698,13 +1008,10 @@ Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, r
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">Job Title: QA Analyst
-
-About Us:
-At Prompt, we are leading the charge in transforming healthcare with innovative B2B enterprise software solutions tailored for rehab therapy businesses. Our mission is to improve patient outcomes and streamline workflows for rehab therapy teams by harnessing the powe…</p>
+      
       <div class="tags"><span>Product</span><span>Product</span><span>FullTime</span><span>$65K – $85K</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/94bbfe41-b7e7-45cd-ac78-89c25ef9dfb3" target="_blank" rel="noopener">QA/UAT Engineer</a>
         
@@ -719,7 +1026,7 @@ At Prompt, we are leading the charge in transforming healthcare with innovative 
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/vacancies/3309adf7-20ba-4172-a190-d7640a5aa4fc" target="_blank" rel="noopener">Manual QA Engineer (WEB/Admin)</a>
         
@@ -731,10 +1038,10 @@ At Prompt, we are leading the charge in transforming healthcare with innovative 
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">We are looking for a Middle Manual QA Engineer (WEB/Admin). Quality is not a final check for us — it's embedded in every stage of how we build. Our live-streaming platform serves hundreds of thousands of monthly active users across Tier-1 markets, and the web and admin layer is mission-critical infr…</p>
+      
       <div class="tags"><span>QA</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/vacancies/3284a95c-7d83-4429-b570-1bccf180343e" target="_blank" rel="noopener">Automation QA Engineer (Web/Admin)</a>
         
@@ -746,11 +1053,10 @@ At Prompt, we are leading the charge in transforming healthcare with innovative 
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">We are looking for an Automation QA Engineer (Web/Admin) to join our live-streaming platform team.
-Our live-streaming platform connects 400K+ monthly active users through live events, interactive video experiences, and real-time community features. The QA team is at the core of how we ship fast and …</p>
+      
       <div class="tags"><span>QA</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/5beddbac-dc29-4af5-894b-c58ea04d485e" target="_blank" rel="noopener">QA/UAT Engineer</a>
         
@@ -765,7 +1071,7 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/c35ea87e-962d-46bf-bca2-e52ccd57c95d" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -780,7 +1086,7 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/1aaec1b6-61f3-4e03-8ca3-8ed46f46d192" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -795,7 +1101,7 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/eeddc275-45d1-4dfb-a290-5a7cf0227eaf" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -810,7 +1116,7 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/b75ef215-ebb0-4846-8743-fedfe25ff264" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -825,7 +1131,7 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/0ba614d3-7fbf-4bb2-8bb2-5c29a1052ea6" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -837,11 +1143,10 @@ Our live-streaming platform connects 400K+ monthly active users through live eve
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a QA Engineer based in Germany.
-This is an exciting opportunity for a quality-focused professional to play a critical role in ensuring the reliability, performance, and sta…</p>
+      
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/02e68802-b36a-4ef8-b64f-7eb40d923d1a" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -856,7 +1161,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/9873474d-3886-4499-b864-7550f3282f69" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -871,7 +1176,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/8d3f4284-2361-4bac-adfb-73f27305371b" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -886,7 +1191,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/80e905b2-fb9b-4c29-b54e-53e13ab3c45e" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -901,7 +1206,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/7e209a6f-959e-4113-b55c-f86e6f624d48" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -916,7 +1221,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/391a2a46-da71-4380-b7d0-51d42558a297" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -931,7 +1236,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/1e97dbad-8d69-4977-b28f-8bdc2b926630" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -946,7 +1251,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/e2aa2500-138c-4864-b8dd-6b873183b796" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -961,7 +1266,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/eac462f2-3d95-4753-82bc-3ef9f3fd0f6d" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -976,7 +1281,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/jobgether/f7b02348-9a02-4827-b02f-df8ae7875464" target="_blank" rel="noopener">Content Operations QA Analyst</a>
         
@@ -991,37 +1296,7 @@ This is an exciting opportunity for a quality-focused professional to play a cri
       
       <div class="tags"><span>Marketing</span><span>Full-time</span></div>
     </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/jobgether/f6841d2b-5d03-4bf3-a8d4-b108ea2d365c" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>Canada</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>Others</span><span>Full-time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/jobgether/e600087a-96c2-479a-8e2a-13edecb411ff" target="_blank" rel="noopener">Senior Manager, Global QA Operations</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>Others</span><span>Full-time</span></div>
-    </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="0" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/diligentcorporation/jobs/6017677004" target="_blank" rel="noopener">QA Analyst</a>
         
@@ -1033,10 +1308,10 @@ This is an exciting opportunity for a quality-focused professional to play a cri
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">Position Overview:&amp;nbsp; &amp;nbsp; Diligent is looking for a talented QA Analyst to improve the quality&amp;nbsp;of Diligent&amp;nbsp;products.&amp;nbsp;The QA Analyst is part of a cross-functional agile team and involved in every step of the software testing life cycle, from planning to releasing the product.&amp;nbs…</p>
+      
       <div class="tags"><span>Quality Assurance</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/pingidentity/jobs/8573963002" target="_blank" rel="noopener">Senior Software Quality Engineer</a>
         
@@ -1048,10 +1323,10 @@ This is an exciting opportunity for a quality-focused professional to play a cri
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">About Ping Identity:&amp;nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it&amp;#39;s not just something we provide our customers. It&amp;#39;s something that inspires our company. People don&amp;#39;t com…</p>
+      
       <div class="tags"><span>5105 Identity Trust Serv</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/celaralabs/307056c3-3edd-43d6-beed-5cf34b834dc9" target="_blank" rel="noopener">QA Automation Engineer (QB - QA - 20260617)</a>
         
@@ -1063,10 +1338,10 @@ This is an exciting opportunity for a quality-focused professional to play a cri
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">Our technology team is a rapidly growing group of talented and experienced engineers helping to build the leading enterprise software company focused on restaurant technology. We use modern technologies, automation, and AI-assisted engineering practices to build products that power restaurant operat…</p>
+      
       <div class="tags"><span>Celara</span><span>Contract</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/neuroscale/c5340132-e651-4970-b4f0-3f5741aec79f" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -1078,12 +1353,10 @@ This is an exciting opportunity for a quality-focused professional to play a cri
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">About Neuroscale AI
-
-Neuroscale AI is building a next-generation AI recruiting and talent intelligence platform that helps organizations turn hiring into a measurable, repeatable, and intelligent science. Our ARBI platform supports sourcing, screening, evaluation, sequencing, scheduling, recruiter w…</p>
+      
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/vacancies/ee5b1584-33fa-41c8-ab02-01198ba14c08" target="_blank" rel="noopener">Manual QA Engineer (Web, CRM)</a>
         
@@ -1095,10 +1368,10 @@ Neuroscale AI is building a next-generation AI recruiting and talent intelligenc
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">United Tech is a global IT product company shaping the future of real-time social connection. With millions of users across North America, Europe, LATAM, and MENA, we build next-gen mobile and web apps for live-streaming and social networking. Our platforms enable connection at scale fast, interacti…</p>
+      
       <div class="tags"><span>QA</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/ff1a1ba0-6cb9-4163-9ef3-0124e67fbc2d" target="_blank" rel="noopener">QA Automation Engineer | Mid-Senior | Active Growth</a>
         
@@ -1110,14 +1383,10 @@ Neuroscale AI is building a next-generation AI recruiting and talent intelligenc
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.
-
-From product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.
-
-Your i…</p>
+      
       <div class="tags"><span>NordPass</span><span>Engineering</span><span>FullTime</span><span>PLN 14.5K – PLN 26.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/2ec0adc3-5058-4542-bdc9-18a7a25eec43" target="_blank" rel="noopener">QA Automation Engineer | Mid-Senior | Active Growth</a>
         
@@ -1129,14 +1398,10 @@ Your i…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.
-
-From product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.
-
-Your i…</p>
+      
       <div class="tags"><span>NordPass</span><span>Engineering</span><span>FullTime</span><span>€3.3K – €5.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/39046d3e-bd0d-4ec2-90a5-ee6b9e265c11" target="_blank" rel="noopener">QA Automation Engineer | Mid - Senior | Coveron</a>
         
@@ -1148,15 +1413,10 @@ Your i…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AT COVERON, WE’RE BUILDING A COMPLETE IDENTITY THEFT PROTECTION SERVICE.
-
-Join the team behind Nord Security’s latest product—combining dark web monitoring, credit tracking, and identity theft insurance into one powerful platform.
-
-
-YOUR IMPACT? HELPING PEOPLE PROTECT THEIR IDENTITIES, SPOT THREATS …</p>
+      
       <div class="tags"><span>Coveron</span><span>Engineering</span><span>FullTime</span><span>€3.3K – €5.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/videa.ai/a84522a2-6c00-4d43-9608-399dcc315a0f" target="_blank" rel="noopener">Test Automation Engineer</a>
         
@@ -1168,19 +1428,10 @@ YOUR IMPACT? HELPING PEOPLE PROTECT THEIR IDENTITIES, SPOT THREATS …</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">TEST AUTOMATION ENGINEER
-
-Location: Boston, MA
-
-
-LESS COMPLEXITY. MORE DENTISTRY. MORE IMPACT.
-
-At Videa, we help dental clinicians deliver better care to millions of patients through AI.
-
-Oral health is health. Dentists are protectors of societal wellness. We build technology that enhances the mome…</p>
+      
       <div class="tags"><span>Engineering</span><span>Software Engineering</span><span>FullTime</span><span>$115K – $130K • Offers Equity</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/videa.ai/f816162f-483d-4da9-ba2f-0df95300ce36" target="_blank" rel="noopener">Senior Test Automation Engineer</a>
         
@@ -1192,19 +1443,10 @@ Oral health is health. Dentists are protectors of societal wellness. We build te
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">SENIOR TEST AUTOMATION ENGINEER
-
-Location: Boston, MA
-
-
-LESS COMPLEXITY. MORE DENTISTRY. MORE IMPACT.
-
-At Videa, we help dental clinicians deliver better care to millions of patients through AI.
-
-Oral health is health. Dentists are protectors of societal wellness. We build technology that enhances t…</p>
+      
       <div class="tags"><span>Engineering</span><span>Software Engineering</span><span>FullTime</span><span>$130K – $150K • Offers Equity</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/dronedeploy/4b577c25-7a57-41eb-b83e-ec1ad5bc0a7b" target="_blank" rel="noopener">Senior Quality Assurance Engineer (USA)</a>
         
@@ -1216,13 +1458,10 @@ Oral health is health. Dentists are protectors of societal wellness. We build te
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">About DroneDeploy
-DroneDeploy powers field teams with robotics and AI. As the only reality capture platform that combines robotic automation, AI agents, and a truly unified system, DroneDeploy allows critical industries to operate with speed and confidence.
-
-From construction and energy to agricultu…</p>
+      
       <div class="tags"><span>QA</span><span>Full Time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="remotive">
       <div class="top">
         <a class="title" href="https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988" target="_blank" rel="noopener">Quality Assurance Rater - German (Germany)</a>
         
@@ -1234,10 +1473,10 @@ From construction and energy to agricultu…</p>
         <span class="src">remotive</span>
         
       </div>
-      <p class="desc">Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills …</p>
+      
       <div class="tags"><span>social media</span><span>AI/ML</span><span>research</span><span>product development</span><span>digital content</span><span>STEM</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/speechify/jobs/5999795004" target="_blank" rel="noopener">Manual Quality Assurance Engineer, SIMBA Team</a>
         
@@ -1249,10 +1488,10 @@ From construction and energy to agricultu…</p>
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">About SIMBA Voice Agents by Speechify SIMBA lets companies deploy natural, human-sounding AI voice agents in 71+ languages with sub-second latency. We don&amp;#39;t just hand customers a product and wish them luck — every customer gets a Forward Deployed Engineer who builds their agents, joins their Sla…</p>
+      
       <div class="tags"><span>Global</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/9a0f860c-747f-4429-bec8-d1d78e2b00e3" target="_blank" rel="noopener">QA Automation Engineer | Mid-Senior | Saily</a>
         
@@ -1264,12 +1503,10 @@ From construction and energy to agricultu…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.
-
-To b…</p>
+      
       <div class="tags"><span>Saily</span><span>Engineering</span><span>FullTime</span><span>PLN 14.5K – PLN 26.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/Plaud/e0b1ba1a-01c9-494e-b622-cb8eb95aa6ab" target="_blank" rel="noopener">Quality Assurance Engineer (Contractor) - Palo Alto</a>
         
@@ -1281,12 +1518,10 @@ To b…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">About Plaud Inc.
-
-Plaud is building the world's most trusted AI work companion for professionals to elevate productivity and performance through note-taking solutions, loved by over 2,000,000 users worldwide since 2023. With a mission to amplify human intelligence, Plaud is building the next-generat…</p>
+      
       <div class="tags"><span>Global Product R&amp;D Center</span><span>Global Product R&amp;D Center</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/revealtech/e6445513-dce2-4918-b789-49a1e21dce18" target="_blank" rel="noopener">Quality Assurance Engineer</a>
         
@@ -1298,11 +1533,10 @@ Plaud is building the world's most trusted AI work companion for professionals t
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">About Reveal Technology
-Founded in 2019, Reveal is a dynamic startup revolutionizing field operations by delivering software tools and intelligence to operators in remote, disconnected, and extreme environments. Reveal is the Digital Arms Room for the Modern Warrior — providing the tactical intellig…</p>
+      
       <div class="tags"><span>Human Systems</span><span>Full-Time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="greenhouse">
       <div class="top">
         <a class="title" href="https://job-boards.greenhouse.io/540/jobs/7670890003" target="_blank" rel="noopener">Test Automation Engineer (Contract)</a>
         
@@ -1314,10 +1548,10 @@ Founded in 2019, Reveal is a dynamic startup revolutionizing field operations by
         <span class="src">greenhouse</span>
         
       </div>
-      <p class="desc">540 is seeking a Test Automation Engineer to support the DoW in building a next-generation Air Force aircraft maintenance application powered by Angular, Apigee, Kubernetes, and Google Cloud. Test Engineers on this team design and implement automated tests to ensure the platform performs reliably as…</p>
+      
       <div class="tags"><span>RSO CLIN 11</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/89480949-3a54-4c2c-b51c-10dd39ce81da" target="_blank" rel="noopener">Manual QA Engineer I Mid-senior I NordVPN Windows</a>
         
@@ -1329,14 +1563,10 @@ Founded in 2019, Reveal is a dynamic startup revolutionizing field operations by
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">THE WORLD’S MOST ADVANCED VPN, AND A WHOLE LOT MORE.
-
-If you’re a curious problem-solver who carves their own path, join the team behind Threat Protection Pro, the NordLynx protocol, and the fastest VPN on the planet—tools that put privacy, security, and control back in people’s hands.
-
-Your impact?…</p>
+      
       <div class="tags"><span>NordVPN</span><span>Engineering</span><span>FullTime</span><span>€3K – €4.6K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="0" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/deeploy/9b78c07e-9c45-4581-8969-719896f590d9" target="_blank" rel="noopener">AI Governance Engineer</a>
         
@@ -1348,14 +1578,10 @@ Your impact?…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AI GOVERNANCE ENGINEER (HYBRID)
-
-
-
-At Deeploy, we help organizations roll out AI they can trust. As an AI Governance Engineer, you'll own the technical implementation of our AI governance platform across customer environments, from first proof-of-concept to full adoption. No two environments are the…</p>
+      
       <div class="tags"><span>Customer Success</span><span>Customer Success</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/3pillarglobal/13544542-00e8-4f80-b90b-a5450e1955a3" target="_blank" rel="noopener">QA Engineer</a>
         
@@ -1367,12 +1593,10 @@ At Deeploy, we help organizations roll out AI they can trust. As an AI Governanc
         <span class="src">lever</span>
         <span class="sal">CAD 80,000–100,000</span>
       </div>
-      <p class="desc">3PILLAR GLOBAL Company 
- 
-3Pillar is an AI transformation partner on a mission to help enterprises build the AI-native products and intelligent agents that will define the next era of business. With teams across North America, Europe, Latin America, and Asia, we work with the most ambitious companie…</p>
+      
       <div class="tags"><span>Product Delivery</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="1" data-remote="0" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/deeploy/db54be22-c5d7-4fb7-937a-0ff00195dcc8" target="_blank" rel="noopener">Customer Engineer, AI Governance</a>
         
@@ -1384,14 +1608,10 @@ At Deeploy, we help organizations roll out AI they can trust. As an AI Governanc
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">CUSTOMER ENGINEER, AI GOVERNANCE (HYBRID)
-
-
-
-At Deeploy, we help organizations deploy AI they can trust. As an Implementation Engineer, you'll own the technical journey from first proof-of-concept to full platform adoption, turning complex customer environments into working, compliant AI governance …</p>
+      
       <div class="tags"><span>Customer Success</span><span>Customer Success</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/9f2b8c55-93f0-4a9a-871f-f5c49c9b13b7" target="_blank" rel="noopener">Automation QA Engineer | Mid-Senior | Saily</a>
         
@@ -1403,12 +1623,10 @@ At Deeploy, we help organizations deploy AI they can trust. As an Implementation
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.
-
-To b…</p>
+      
       <div class="tags"><span>Saily</span><span>Engineering</span><span>FullTime</span><span>€3.3K – €5.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/c1233135-fcce-4cbc-a7ed-7cc118f774ca" target="_blank" rel="noopener">QA Automation Engineer | Mid-Senior | Saily</a>
         
@@ -1420,12 +1638,10 @@ To b…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.
-
-To b…</p>
+      
       <div class="tags"><span>Saily</span><span>Engineering</span><span>FullTime</span><span>PLN 14.5K – PLN 26.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/f1bb91ee-b418-43ec-8176-fb440c909cf5" target="_blank" rel="noopener">Manual QA engineer | Mid | NordVPN Apple Team</a>
         
@@ -1437,14 +1653,10 @@ To b…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">THE WORLD’S MOST ADVANCED VPN, AND A WHOLE LOT MORE.
-
-If you’re a curious problem-solver who carves their own path, join the team behind Threat Protection Pro, the NordLynx protocol, and the fastest VPN on the planet—tools that put privacy, security, and control back in people’s hands.
-
-Your impact?…</p>
+      
       <div class="tags"><span>NordVPN</span><span>Engineering</span><span>FullTime</span><span>€3K – €3.9K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/d6f052e2-41de-4016-bbe4-d81f13aebc6a" target="_blank" rel="noopener">Automation QA Engineer | Senior | Apps Team</a>
         
@@ -1456,14 +1668,10 @@ Your impact?…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.
-
-From product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.
-
-Your i…</p>
+      
       <div class="tags"><span>NordLayer</span><span>Engineering</span><span>FullTime</span><span>€4.3K – €5.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/nord-security/3e2371f3-5c14-4880-a1dd-c6523b878e80" target="_blank" rel="noopener">Automation QA Engineer | Senior | Apps Team</a>
         
@@ -1475,14 +1683,10 @@ Your i…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.
-
-From product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.
-
-Your i…</p>
+      
       <div class="tags"><span>NordLayer</span><span>Engineering</span><span>FullTime</span><span>PLN 20.7K – PLN 26.8K per month</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/stackone/e8632d34-7a5c-4cdc-994b-6275a4fda308" target="_blank" rel="noopener">Senior Engineer (AI Governance)</a>
         
@@ -1494,12 +1698,10 @@ Your i…</p>
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">About StackOne:
-
-StackOne is the AI Integration Gateway for SaaS products and AI Agents. Backed by GV and Workday Ventures ($24M raised), we help builders of SaaS platforms and AI Agents orchestrate hundreds of scalable, accurate, and enterprise-grade integrations. Our platform combines 25,000 pre-m…</p>
+      
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/filevine/cdefa733-47b0-4cec-a877-cb6fdf4e063c" target="_blank" rel="noopener">QA Analyst - LOIS for Word</a>
         
@@ -1511,12 +1713,10 @@ StackOne is the AI Integration Gateway for SaaS products and AI Agents. Backed b
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">Filevine is a Legal AI company delivering Legal Operating Intelligence for the future of legal work. Grounded in a singular system of truth, Filevine brings together data, documents, workflows, and teams into one unified platform—where modern legal work happens with clarity and consistency.
- 
-Powere…</p>
+      
       <div class="tags"><span>Quality</span><span>Full-time</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="lever">
       <div class="top">
         <a class="title" href="https://jobs.lever.co/oowlish/5301fc7e-1a65-471c-89d5-682b1c8db19f" target="_blank" rel="noopener">QA Automation Engineer (AI-Assisted Quality Engineering)</a>
         
@@ -1528,14 +1728,10 @@ Powere…</p>
         <span class="src">lever</span>
         
       </div>
-      <p class="desc">Join Our Team
-
-Oowlish, one of Latin America's rapidly expanding software development companies, is seeking experienced technology professionals to enhance our diverse and vibrant team.
-
-As a valued member of Oowlish, you will collaborate with premier clients from the United States and Europe, contr…</p>
+      
       <div class="tags"><span>Quality Assurance</span><span>Remote</span></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="ashby">
       <div class="top">
         <a class="title" href="https://jobs.ashbyhq.com/credo.ai/6ff04afe-a887-4f47-bcfa-4561b7af98da" target="_blank" rel="noopener">AI Governance Advisor</a>
         
@@ -1547,1404 +1743,10 @@ As a valued member of Oowlish, you will collaborate with premier clients from th
         <span class="src">ashby</span>
         
       </div>
-      <p class="desc">ABOUT CREDO AI 
-
-Credo AI is a venture-backed company on a mission to empower organizations to responsibly build, adopt, procure and use AI at scale.  Credo AI has built a pioneering platform for context-driven AI governance, AI risk assessment and compliance (to regulations like the EU AI Act and s…</p>
+      
       <div class="tags"><span>Sales</span><span>Sales</span><span>FullTime</span></div>
     </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/saronic/d2330bfb-ea14-4095-b1a5-af751bc95315" target="_blank" rel="noopener">Quality Engineer – Accuracy Control</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Saronic</strong>
-        <span>Franklin, LA</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.
-
-
-
-
-JOB OVERVIEW
-
-We are seeking a detail-oriented and experienced Quality Engineer – Accuracy Contro…</p>
-      <div class="tags"><span>Engineering</span><span>Quality Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/deeploy/accca21d-4475-497c-a65e-9542f059e5db" target="_blank" rel="noopener">Solution Engineer, AI Governance</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Deeploy</strong>
-        <span>Hybrid / Deeploy HQ (Utrecht)</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">SOLUTION ENGINEER, AI GOVERNANCE
-
-
-
-At Deeploy, we help organizations deploy AI they can trust. As a Solution Engineer, you'll own the technical journey from first proof-of-concept to full platform adoption, turning complex customer environments into working, compliant AI governance setups. No two c…</p>
-      <div class="tags"><span>Customer Success</span><span>Customer Success</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/writer/74a6d06e-3f38-44d0-9cb3-ee64fa857d12" target="_blank" rel="noopener">Software quality engineer (US)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Writer</strong>
-        <span>San Francisco, CA</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">🚀 About WRITER
-
-WRITER is where the world's leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence. And we're proving it's possible – through powerful, trustworthy AI that unites IT and business teams together to unlock enterprise-wide tran…</p>
-      <div class="tags"><span>Engineering, product &amp; design</span><span>Engineering</span><span>FullTime</span><span>$132,100 – $258,400 • Offers Equity • Multiple Ranges</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/writer/b69a7c74-861f-4265-a5fa-8bc27f47d0c0" target="_blank" rel="noopener">Software quality engineer (UK)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Writer</strong>
-        <span>London, UK</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">🚀 About WRITER
-
-WRITER is where the world's leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence. And we're proving it's possible – through powerful, trustworthy AI that unites IT and business teams together to unlock enterprise-wide tran…</p>
-      <div class="tags"><span>Engineering, product &amp; design</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/10xteam/38707090-19b7-4de7-b681-ae35f152dd33" target="_blank" rel="noopener">Quality Assurance Manager - AI Trainer - Freelance - 8-20 hrs/week - Remote</a>
-        
-      </div>
-      <div class="meta">
-        <strong>10xteam</strong>
-        <span>Germany</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Updated: 21 June 2026
-
-Freelance | 8–20 hrs/week | Remote (EU/UK)
-
-
-
-Are you an experienced quality assurance professional who instinctively spots gaps in QA reasoning and understands the complex realities of quality management? Do you have 8 to 20 hours per week available alongside your main job or…</p>
-      <div class="tags"><span>Operations</span><span>Operations</span><span>Contract</span><span>€80 – €158 per hour</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/lightspeedhq/b6d73743-ae8a-453b-bb8d-8a21ec80a4ce" target="_blank" rel="noopener">Hardware Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Lightspeedhq</strong>
-        <span>Ottawa</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Hi there! Thanks for stopping by 👋
-
-Are you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!
-
-We are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals…</p>
-      <div class="tags"><span>Technology</span><span>Quality Assurance</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/hiive/37f49b4c-27b9-419d-98f2-64510aaaa83d" target="_blank" rel="noopener">QA Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Hiive</strong>
-        <span>Vancouver, BC (HQ)</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Hiive is redefining how private companies and their shareholders access liquidity. Through its institutional-grade platform, Hiive brings together buyers, sellers, and issuers to facilitate secondary transactions in venture-backed, pre-IPO companies, introducing efficiency, transparency, and standar…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>CA$155K – CA$215K • Offers Equity • Multiple Ranges</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/coder/b192214f-59e0-4fda-9b94-3a29b6fed9ff" target="_blank" rel="noopener">Software Engineer (AI Governance)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Coder</strong>
-        <span>United Kingdom</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">We’re looking for a Software Engineer to help shape AI governance for developer tooling at Coder. This role sits on our AI Governance team, which builds and maintains two enterprise-grade components of Coder's AI governance stack.
-
-AI Gateway is a centralized LLM gateway that sits between coding age…</p>
-      <div class="tags"><span>Research &amp; Development</span><span>AI</span><span>FullTime</span><span>£70K – £95K • Offers Equity • Offers Bonus • Multiple Ranges</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/mdcalc/cf02b1b2-0963-46cd-bde4-022f007ec311" target="_blank" rel="noopener">QA Engineer, AI Products</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Mdcalc</strong>
-        <span>Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">THE OPPORTUNITY
-
-Since 2005, MDCalc has been an essential part of the clinician’s workflow to help achieve better patient outcomes. Actively used by more than 65% of physicians worldwide, MDCalc is the most broadly used medical reference – at the point-of-care – for clinical decision tools and conte…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/teramind/e40c955f-0800-4fe9-ae25-79b4c7c7ac64" target="_blank" rel="noopener">Senior Manual QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Teramind</strong>
-        <span>Romania</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>QA</span><span>Full time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/assured/71ef71b7-8bc5-4c7b-9d52-593e7ebf34d2" target="_blank" rel="noopener">Staff Software Development Engineer in Test (SDET)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Assured</strong>
-        <span>Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Assured is on a mission to modernize insurance. Claims processing (i.e. should we pay this claim?), while often overlooked, is the foundation of the entire industry. It’s currently highly manual, involving phone calls, faxes, and gut instinct, costing tens of billions of dollars a year. We can do be…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>$160K – $190K • Offers Equity</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/openai/fff7b15d-a1a0-441f-90f1-5efcae7f0051" target="_blank" rel="noopener">Quality Engineer - Rack Infrastructure &amp; Site Operations - Stargate</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Openai</strong>
-        <span>San Francisco</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About the Team
-
-OpenAI, in partnership with our capital and technology partners, is building a global network of advanced datacenters to support the most demanding AI workloads. The Industrial Compute team ensures that all datacenter systems are manufactured, delivered, and commissioned to the highe…</p>
-      <div class="tags"><span>Scaling</span><span>Datacenter Design</span><span>FullTime</span><span>$205K – $344K • Offers Equity</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/lightspeedhq/ab0e459b-0dd9-476d-9e05-b76edd80894b" target="_blank" rel="noopener">Hardware Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Lightspeedhq</strong>
-        <span>Toronto</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Hi there! Thanks for stopping by 👋
-
-Are you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!
-
-We are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals…</p>
-      <div class="tags"><span>Technology</span><span>Quality Assurance</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/5ea3218e-cdc5-4b2f-8178-80d452397b1b" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Amsterdam</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/5df8934c-2df5-4c6f-aa06-aca7559b9f5b" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Barcelona</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/62730403-3484-4c55-9807-43089979bf08" target="_blank" rel="noopener">Backend QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Copenhagen</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/ef744046-bd39-434b-83ac-4de60a8d5a86" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Zurich</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/0d1cfbb2-a47d-4246-89e4-a9fbb1c18a0f" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Stockholm</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/a72bb24d-cbe3-4238-9edc-80145c31f34e" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Amsterdam</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/2989188f-d1d6-4bfd-bb89-e9cbb19b9da8" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Barcelona</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/eeaffa65-2a8e-4632-9d10-f19b231af0d8" target="_blank" rel="noopener">Backend QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Barcelona</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/0dc61baa-e49d-4742-88c9-0ab7a6f51d48" target="_blank" rel="noopener">Backend QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Munich</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/f825150b-96af-42a5-9238-2e4e62b41143" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Dublin</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/9e7c6364-bce5-4850-9008-59a1a4b98c3a" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Dublin</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/1e1b2126-3a2f-47f7-b59a-8c8b82c4b483" target="_blank" rel="noopener">Backend QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Amsterdam</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/2bb99a42-7217-48f7-9a0e-fb2218e1555a" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>London Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/6059f002-94cf-45ad-bd3d-b1079eb013e3" target="_blank" rel="noopener">Backend QA Engineer, Rome</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Rome Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/fieldguide/f4f0aea0-826d-451f-bd17-b04772e221cc" target="_blank" rel="noopener">Senior AI Engineer, Quality</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Fieldguide</strong>
-        <span>San Francisco, CA or Remote (USA)</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT US
-
-Fieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners specifically within cybersecurity, privacy, and financial audit. Put simply, we build software for the people who enable…</p>
-      <div class="tags"><span>Engineering, Product, and Design</span><span>Engineering</span><span>FullTime</span><span>$200K – $250K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/lightspeedhq/8d9c11e6-31ad-40fd-b0a4-fab1a194d577" target="_blank" rel="noopener">Hardware Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Lightspeedhq</strong>
-        <span>Montreal</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Hi there! Thanks for stopping by 👋
-
-Are you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!
-
-We are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals…</p>
-      <div class="tags"><span>Technology</span><span>Quality Assurance</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/26fc247a-6b24-469f-90d5-4b48102846bb" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Berlin Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/dedbae38-caec-4525-b7f4-28e0671c1977" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Rome Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/3f2f9559-98e5-4fe8-a9f5-33eb30ed6977" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Paris</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/0cec721e-47de-488a-943f-484081839d44" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Madrid</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€44K – €56K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/4a694b84-78b9-442c-a9f6-cb0b5f4a9dc9" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Rome Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/03e99d2b-edbf-4f99-9e91-7f2e92e863da" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Paris</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/7b75e9fc-bc27-49a7-86a3-47e073db4d01" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Madrid</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/5ad3a417-77f2-42dc-b55c-39d9820f29f6" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>London Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/c8dec4fd-2e26-4dd8-b6b5-d00f9397c7fe" target="_blank" rel="noopener">QA Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Berlin Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT AIR APPS
-
-At Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Quality Assurance</span><span>FullTime</span><span>€47K – €59K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/155e9499-f6f8-4260-84fa-c212dee1d08f" target="_blank" rel="noopener">Backend QA Engineer, Paris</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Paris</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/0cd869e1-71ca-478c-90cc-cb3e112a06fc" target="_blank" rel="noopener">Backend QA Engineer, Madrid</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Madrid</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/6006fdfe-d8ec-473c-9dbd-6de9ce92d5a6" target="_blank" rel="noopener">Backend QA Engineer, London</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>London Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/airapps/a53612d9-0e9f-4645-b39a-2f1a282b2e31" target="_blank" rel="noopener">Backend QA Engineer, Berlin</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Airapps</strong>
-        <span>Berlin Metropolitain Area</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Air Apps
-
-At Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal &amp; Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>€52K – €65K</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/vacancies/146792f2-d42f-4d9d-b122-4d53cf2de34f" target="_blank" rel="noopener">Manual QA Engineer (Backend, Emails)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Vacancies</strong>
-        <span>Kyiv</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">About the company: United Tech is a global IT product company shaping the future of real-time social connection. With millions of users across North America, Europe, LATAM, and MENA, we build next-gen mobile and web apps for live-streaming and social networking. Our platforms enable connection at sc…</p>
-      <div class="tags"><span>QA</span><span>Full-time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/super.com/0c70da0f-3c4f-40b9-abc2-ebe0df8d56a7" target="_blank" rel="noopener">Senior QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Super.Com</strong>
-        <span>Canada</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About Super.com http://Super.com:
-We started Super.com http://Super.com to help maximize lives–both the lives of our customers and the lives of our employees– so that everyone can experience all that life has to offer. For our employees, our promise is that Super.com http://Super.com is more than ju…</p>
-      <div class="tags"><span>Engineering</span><span>Quality</span><span>FullTime</span><span>$100K – $140K • Multiple Ranges</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/insiderone/d3abff37-c9c9-4733-9c59-bbd59fea4105" target="_blank" rel="noopener">Senior Software QA Engineer (Remote)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Insiderone</strong>
-        <span>Istanbul</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.
-
-About us
-
-Insider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Full-Time (Remote)</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/insiderone/8e2f016b-d696-4c33-af8b-d139b7ac54f9" target="_blank" rel="noopener">Software Quality Assurance Engineer (Remote)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Insiderone</strong>
-        <span>Istanbul</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.
-
-About us
-
-Insider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Full-Time (Remote)</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/insiderone/7af7b270-7de3-4da2-8f21-14f605b30a93" target="_blank" rel="noopener">Senior Software Quality Assurance Engineer (Remote)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Insiderone</strong>
-        <span>Istanbul</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.
-
-About us
-
-Insider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Full-Time (Remote)</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/saronic/2573f8c9-71f7-4068-8edf-e2733eeba5ce" target="_blank" rel="noopener">Supplier Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Saronic</strong>
-        <span>Franklin, LA</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.
-
-
-
-
-JOB OVERVIEW
-
-The Supplier Quality Engineer is responsible for ensuring that products and materia…</p>
-      <div class="tags"><span>Supply Chain</span><span>Supply Chain</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/credo.ai/bde8c560-7439-426c-b7a0-c58a7cde8b10" target="_blank" rel="noopener">AI Governance Success Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Credo.Ai</strong>
-        <span>USA Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT CREDO AI 
-
-Credo AI is a venture-backed company on a mission to empower organizations to responsibly build, adopt, procure and use AI at scale.  Credo AI has built a pioneering platform for context-driven AI governance, AI risk assessment and compliance (to regulations like the EU AI Act and s…</p>
-      <div class="tags"><span>Customer Success</span><span>Customer Success</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/weloglobal/915725b3-22df-43ec-9a3e-5924e67d0a86" target="_blank" rel="noopener">Kazakh Localization QA Tester / Proofreader</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Weloglobal</strong>
-        <span>Spain</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">About Welocalize 
-Welocalize, a Welo Global brand, serves localization teams through AI-enabled multilingual content solutions that enable enterprises to operate and scale globally. Welocalize combines AI, automation, and human expertise to support enterprises in more than 300 languages, enabling ac…</p>
-      <div class="tags"><span>Production</span><span>Full Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/block-labs/880857dc-599f-4133-a7e4-6d78a73a833d" target="_blank" rel="noopener">Manual QA Tester</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Block Labs</strong>
-        <span>Tunisia</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">ABOUT BLOCK LABS
-
-Block Labs is a premier technology studio operating at the bleeding edge of Web3, Artificial Intelligence, and iGaming. We don't just ship features; we engineer high-scale, production-grade platforms that power the next generation of digital products.
-
-
-
-We are a collective of seni…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/serverobotics/f33f008c-f29f-433b-99aa-4143cc11b544" target="_blank" rel="noopener">Staff Technical Program Manager - Autonomy </a>
-        
-      </div>
-      <div class="meta">
-        <strong>Serverobotics</strong>
-        <span>US- remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">At Serve Robotics, we’re reimagining how things move in cities. Our personable sidewalk robot is our vision for the future. It’s designed to take deliveries away from congested streets, make deliveries available to more people, and benefit local businesses.
-
-The Serve fleet has been delighting merch…</p>
-      <div class="tags"><span>Program Management &amp; QA</span><span>Program Management</span><span>FullTime</span><span>$200K – $245K • Offers Equity</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/optro/c82ce2d6-d24b-453b-9822-7a3c62a2eac1" target="_blank" rel="noopener">Senior Machine Learning Engineer I, AI Governance (Remote Canada)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Optro</strong>
-        <span>Canada</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Who We Are
-
-Having surpassed $300M ARR and continuing to grow, Optro is the leading audit, risk, ESG, and InfoSec platform on the market. More than 50% of the Fortune 500, including 7 of the Fortune 10, leverage our award-winning technology to move their businesses forward with greater clarity and a…</p>
-      <div class="tags"><span>Technology</span><span>App Development</span><span>FullTime</span><span>CA$140K – CA$180K • Offers Bonus • 15% Annual Target bonus</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/a9151e15-24ab-4fcd-af1e-74beea3063a9" target="_blank" rel="noopener">Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/openai/2c9d0566-69b1-435e-bd8f-4eefc04dd076" target="_blank" rel="noopener">Component and Product Quality Engineer, Interconnects</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Openai</strong>
-        <span>San Francisco</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">About the Team
-
-OpenAI’s Hardware organization develops AI-native silicon and system-level solutions for the unique demands of advanced AI workloads. Building on efforts like Jalapeño, the team is developing future generations of AI-native silicon and tightly integrated systems to power the next gen…</p>
-      <div class="tags"><span>Scaling</span><span>Hardware</span><span>FullTime</span><span>$207K – $365K • Offers Equity</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/19259651-ab8e-4ff4-a7d9-580f2cd2f755" target="_blank" rel="noopener">Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/blockstream/e01609d4-4668-4a1b-b4e4-a040ffcbd02f" target="_blank" rel="noopener">QA Engineering Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Blockstream</strong>
-        <span>Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Blockstream https://blockstream.com/ was founded in 2014 by Dr. Adam Back https://en.wikipedia.org/wiki/Adam_Back and a group of fellow cryptographers and engineers who were passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastru…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/eleks/c51547f4-3078-4aae-8fd0-1f4fd19c1d8b" target="_blank" rel="noopener">(finance) Strong Middle / Senior Automation Test Engineer (Python), TSCM-43120, TSCM-43624, TSCM-43420, JR5, JR264, JR280</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Eleks</strong>
-        <span>Kyiv</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">ELEKS Quality Assurance Office is looking for a Strong Middle / Senior Automation Test Engineer (Python) in Ukraine, Poland, Croatia and Argentina.
- 
-ABOUT PROJECT
- 
-The project is a web-based platform for financial advisors.
-The client portal allows advisors to control the user experience by enabli…</p>
-      <div class="tags"><span>QAO - ATE</span><span>Consultant FT (Fixed Term)</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/caseware/e9eac676-239b-4663-9bf1-d10ed50b8cbe" target="_blank" rel="noopener">Test Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Caseware</strong>
-        <span>Apeldoorn, Netherlands</span>
-        
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Caseware is one of Canada's original Fintech companies, having led the global audit and accounting software industry for over 30 years, with more than 500,000 users across 130 countries and available in 16 different languages. While you might not have heard of us (yet) over 36,000 accounting and aud…</p>
-      <div class="tags"><span>Solutions - QA</span><span>Full Time - 12 Month Contract</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/insiderone/6778b2f8-a110-4e9f-874f-bf66c8ea3b75" target="_blank" rel="noopener">Software QA Engineer - Europe (Turkish Speaker)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Insiderone</strong>
-        <span>Berlin, Germany</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.
-
-About us
-
-Insider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec…</p>
-      <div class="tags"><span>Quality Assurance</span><span>Full-Time (Remote)</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/cscgeneration-2/dc1c9985-49b6-444d-a431-632df72b535a" target="_blank" rel="noopener">Lead QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Cscgeneration 2</strong>
-        <span>Costa Rica</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Adventure is Our Culture. Join a team that celebrates a lifestyle as bold as the terrain we love. At Backcountry, we are rooted in adventure, recognition, and wellbeing — on and off the mountain. We spotlight employee stories, celebrate milestones, and offer exclusive outdoor perks. Whether you are …</p>
-      <div class="tags"><span>Engineering</span><span>Full Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/4c111ff2-811d-45ff-b78a-ce3bcfeb52ab" target="_blank" rel="noopener">Senior Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Canada - Toronto</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/eaf87c62-0945-46ee-b8dc-0abf1af4957d" target="_blank" rel="noopener">Release Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA Specific</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.ashbyhq.com/blockstream/5c28d417-ea14-40b5-a615-5d51c4f0d3a3" target="_blank" rel="noopener">QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Blockstream</strong>
-        <span>Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">ashby</span>
-        
-      </div>
-      <p class="desc">Blockstream https://blockstream.com/ was founded in 2014 by Dr. Adam Back https://en.wikipedia.org/wiki/Adam_Back and a group of fellow cryptographers and engineers who were passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastru…</p>
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/452d7860-6d5f-45e0-bc00-6a2e8852698d" target="_blank" rel="noopener">Associate Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://job-boards.greenhouse.io/adapter/jobs/4422297008" target="_blank" rel="noopener">Test Automation Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Adapter</strong>
-        <span>United States - Remote</span>
-        <span class="pill">remote</span>
-        <span class="src">greenhouse</span>
-        
-      </div>
-      <p class="desc">Our story: The widespread adoption of intelligent technologies powered by automation, AI, ML, and knowledge graphs is accelerating. As these technologies become increasingly accessible, our aim is to make their capabilities empowering, trustworthy, and useful to real people in the real world.&amp;nbsp; …</p>
-      <div class="tags"><span>Engineering</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/a940d8b4-2869-4611-ae8e-8d277d6a17b6" target="_blank" rel="noopener">Associate Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Canada - Toronto</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/8683a486-a11b-44be-8824-d3afdaa37b2d" target="_blank" rel="noopener">Associate Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/weloglobal/abbc9611-1571-43e0-b490-c223ac23dad0" target="_blank" rel="noopener">Indonesian Part-Time Linguistic QA Tester (Remote - US Based)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Weloglobal</strong>
-        <span>United States</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Welocalize is hiring Part-Time Linguistic QA Testers that speak Indonesian at native-level fluency. You will be an important part of the QA Testing process for emerging technology. Depending on the project, you could be testing never before seen apps/technology, e-courses,  marketing materials, or a…</p>
-      <div class="tags"><span>In-House/Lab</span><span>Part-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/79e78774-d044-4a48-9130-d8e18e2d7876" target="_blank" rel="noopener">Associate Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/f4ca2bed-fb08-437a-a109-40a0f371c3e6" target="_blank" rel="noopener">Software Engineering Manager in Test - Infrastructure</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA Specific</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/bee518a4-07b0-4f0d-b1e3-5e5573490287" target="_blank" rel="noopener">Senior Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/fa2bf099-9492-4a61-81fa-1efb4c6cb17e" target="_blank" rel="noopener">Senior Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Canada - Toronto</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/6ebf8c08-882a-42f1-a0cb-131a79526cd8" target="_blank" rel="noopener">Release Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA Specific</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/4921a2b6-f939-4178-b668-aa1ab0077494" target="_blank" rel="noopener">Senior Quality Engineer - Infrastructure</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA Specific</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/c45f9436-6174-4b16-9459-3bebb588b474" target="_blank" rel="noopener">Associate Quality Engineer - Infrastructure</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA Specific</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/aca8cd98-e800-45b9-94bc-cb2c3077b49d" target="_blank" rel="noopener">Associate Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/29e49eb1-5c80-4465-9103-515c8b16771f" target="_blank" rel="noopener">Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/7c2e60d4-4c61-45ed-a185-430378253319" target="_blank" rel="noopener">Senior Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Massachusetts - Boston</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/708938a1-45f5-4a92-8af6-f6f58868dcef" target="_blank" rel="noopener">Senior Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>California - Pleasanton</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
-      <div class="top">
-        <a class="title" href="https://jobs.lever.co/veeva/eea03b21-0e9e-467b-957d-31ba416b4016" target="_blank" rel="noopener">Associate Software Engineer In Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Veeva</strong>
-        <span>Canada - Toronto</span>
-        <span class="pill">remote</span>
-        <span class="src">lever</span>
-        
-      </div>
-      <p class="desc">Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
- 
-At t…</p>
-      <div class="tags"><span>QA &amp; Release Engineering - NA</span><span>Full-Time</span></div>
-    </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://bcbsla.wd1.myworkdayjobs.com/external/job/Remote-LA/Lead-Software-Quality-Assurance-Engineer--Remote---Louisiana-_R11765" target="_blank" rel="noopener">Lead Software Quality Assurance Engineer (Remote - Louisiana)</a>
         
@@ -2959,7 +1761,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://bcbsla.wd1.myworkdayjobs.com/external/job/Remote-LA/Software-Quality-Assurance-Engineer--Remote---Louisiana-Only-_R11771" target="_blank" rel="noopener">Software Quality Assurance Engineer (Remote - Louisiana Only)</a>
         
@@ -2974,7 +1776,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://bcbsla.wd1.myworkdayjobs.com/external/job/Remote-LA/Senior-Software-Quality-Assurance-Engineer--Remote---Louisiana-Only-_R11769" target="_blank" rel="noopener">Senior Software Quality Assurance Engineer (Remote - Louisiana Only)</a>
         
@@ -2989,7 +1791,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/QA-Database-Administrator_40961" target="_blank" rel="noopener">QA Database Administrator</a>
         
@@ -3004,7 +1806,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/QA-Regulatory-Data-SME_40882" target="_blank" rel="noopener">QA Regulatory Data SME</a>
         
@@ -3019,7 +1821,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://vantagedc.wd1.myworkdayjobs.com/vantage/job/Remote---US/Cybersecurity-AI-Risk-and-Governance-Engineer--Global_R21811" target="_blank" rel="noopener">Cybersecurity AI Risk and Governance Engineer, Global</a>
         
@@ -3034,7 +1836,7 @@ At t…</p>
       
       <div class="tags"></div>
     </article>
-    <article class="card">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-source="workday">
       <div class="top">
         <a class="title" href="https://velera.wd5.myworkdayjobs.com/VeleraCareers/job/Remote-USA/AI-Governance-Program-Manager--REMOTE_9390-1" target="_blank" rel="noopener">AI Governance Program Manager -REMOTE</a>
         
@@ -3051,8 +1853,25 @@ At t…</p>
     </article></div>
 </div>
 <script>
-  function f(){const q=document.getElementById('q').value.toLowerCase();
-    for(const c of document.querySelectorAll('.card')){
-      c.style.display=c.textContent.toLowerCase().includes(q)?'':'none';}}
+  function tog(b){b.classList.toggle('on');af();}
+  function af(){
+    var q=document.getElementById('q').value.toLowerCase();
+    var nl=document.getElementById('c-nl').classList.contains('on');
+    var rm=document.getElementById('c-remote').classList.contains('on');
+    var nw=document.getElementById('c-new').classList.contains('on');
+    var src=document.getElementById('c-src').value;
+    var n=0;
+    document.querySelectorAll('.card').forEach(function(c){
+      var show=true;
+      if(q && c.textContent.toLowerCase().indexOf(q)<0) show=false;
+      if(nl && c.dataset.nl!=='1') show=false;
+      if(rm && c.dataset.remote!=='1') show=false;
+      if(nw && c.dataset.new!=='1') show=false;
+      if(src && c.dataset.source!==src) show=false;
+      c.style.display=show?'':'none'; if(show)n++;
+    });
+    document.getElementById('count').textContent=n+' shown';
+  }
+  document.addEventListener('DOMContentLoaded',af);
 </script>
 </body></html>

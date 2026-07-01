@@ -1,5 +1,331 @@
 [
   {
+    "id": "fbb0161fbd9216e3",
+    "source": "adzuna",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "Morson Edge",
+    "location": "Manchester, Greater Manchester",
+    "remote": true,
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=RupNJIt18RGt3dtJYsVrNQ&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
+    "salaryMin": 66656.22,
+    "salaryMax": 66656.22,
+    "currency": "GBP",
+    "tags": [
+      "IT Jobs"
+    ],
+    "postedAt": "2026-07-01T09:37:48Z",
+    "isNew": true
+  },
+  {
+    "id": "0321c980c31048aa",
+    "source": "adzuna",
+    "title": "Mobile Test Automation Engineer",
+    "company": "STAFIDE",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781675655?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-30T04:50:14Z",
+    "isNew": true
+  },
+  {
+    "id": "876ea11c5df8eaaa",
+    "source": "adzuna",
+    "title": "AI Governance & Platform Engineer",
+    "company": "STAFIDE",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781675666?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-30T04:50:14Z",
+    "isNew": true
+  },
+  {
+    "id": "2e29e9f7dc766669",
+    "source": "adzuna",
+    "title": "Mobile Test Automation Engineer",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781241704?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-29T18:42:19Z",
+    "isNew": true
+  },
+  {
+    "id": "608891891263230a",
+    "source": "adzuna",
+    "title": "AI Governance & Platform Engineer",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781241714?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-29T18:42:19Z",
+    "isNew": true
+  },
+  {
+    "id": "0ba45fd45af19270",
+    "source": "adzuna",
+    "title": "Senior QA Quality Engineer GR Expert",
+    "company": "WR.nl Solliciteren",
+    "location": "Paddepoel, Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5776260402?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T15:35:09Z",
+    "isNew": true
+  },
+  {
+    "id": "8c7e0b1f112a042a",
+    "source": "adzuna",
+    "title": "Test Automation Engineer",
+    "company": "WR.nl Solliciteren",
+    "location": "Groningen, Provincie Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5775876048?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T08:47:22Z",
+    "isNew": true
+  },
+  {
+    "id": "672e39c1232b7d28",
+    "source": "adzuna",
+    "title": "Senior QA Engineer",
+    "company": "WR.nl Solliciteren",
+    "location": "Groningen, Provincie Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5775856003?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T08:38:35Z",
+    "isNew": true
+  },
+  {
+    "id": "4292aaba074639ba",
+    "source": "adzuna",
+    "title": "(Senior) Quality Assurance Engineer",
+    "company": "Getinge",
+    "location": "Delft, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774747982?se=oiPJIot18RG075onbIWOaw&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:14:09Z",
+    "isNew": true
+  },
+  {
+    "id": "1b61390327f9e3e0",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Engineer",
+    "company": "Zip",
+    "location": "San Francisco",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/zip/15fff9a0-f78a-47bf-b37e-cc5da4f0d9ab",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-22T15:08:45.322+00:00",
+    "isNew": true
+  },
+  {
+    "id": "e7c031f72aaab80f",
+    "source": "adzuna",
+    "title": "Senior Software Design Quality Engineer - AI",
+    "company": "Philips",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5763126401?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-14T03:53:10Z",
+    "isNew": true
+  },
+  {
+    "id": "773d9a1048bc37ee",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Engineer - Endpoint ",
+    "company": "Nightfall Ai",
+    "location": "Bengaluru",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/nightfall-ai/8327b2b6-72d1-45ba-9373-7de1069846f0",
+    "tags": [
+      "R&D",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-09T11:22:14.682+00:00",
+    "isNew": true
+  },
+  {
+    "id": "e8dd6c2d64246860",
+    "source": "adzuna",
+    "title": "Senior Data & AI Assurance Engineer",
+    "company": "CGI",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5755855247?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Creatieve Design vacatures"
+    ],
+    "postedAt": "2026-06-08T03:31:57Z",
+    "isNew": true
+  },
+  {
+    "id": "a538b2ae9e7ac1ef",
+    "source": "adzuna",
+    "title": "AI Governance Engineer",
+    "company": "Deeploy",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5754993812?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-07T04:12:40Z",
+    "isNew": true
+  },
+  {
+    "id": "c0331caf70043b3f",
+    "source": "adzuna",
+    "title": "(Senior) Quality Assurance Engineer",
+    "company": "The Frencken Group",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753846240?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-06T04:02:34Z",
+    "isNew": true
+  },
+  {
+    "id": "1a3f91b31133f817",
+    "source": "adzuna",
+    "title": "Customer Engineer, AI Governance",
+    "company": "Deeploy",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753820357?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-06T03:34:28Z",
+    "isNew": true
+  },
+  {
+    "id": "bc65be9a67eddb9a",
+    "source": "adzuna",
+    "title": "QA Engineer - E-commerce",
+    "company": "Kramp Groep",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753820023?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Logistieke vacatures"
+    ],
+    "postedAt": "2026-06-06T03:34:20Z",
+    "isNew": true
+  },
+  {
+    "id": "650d4f2c2bc307a6",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Engineer",
+    "company": "Dutch",
+    "location": "Vancouver",
+    "remote": true,
+    "url": "https://jobs.lever.co/dutch/af49df69-1e5c-4c60-bb6a-1b44c1b89528",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-05T18:24:27.889Z",
+    "isNew": true
+  },
+  {
+    "id": "b22022b5f317ffce",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Automation Engineer",
+    "company": "Dutch",
+    "location": "Vancouver",
+    "remote": true,
+    "url": "https://jobs.lever.co/dutch/92425046-28ab-4555-94df-7db2a6e0993f",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-05T18:14:22.055Z",
+    "isNew": true
+  },
+  {
+    "id": "fddac82afd8d07cf",
+    "source": "adzuna",
+    "title": "Senior QA / Quality Engineer",
+    "company": "YTEC Development BV",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5752509951?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-05T00:26:32Z",
+    "isNew": true
+  },
+  {
+    "id": "1f5802b415e03e9d",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Remote Technical Customer Support - QA and Game Dev - 6/26",
+    "company": "Modsquad",
+    "location": "8 Locations",
+    "remote": true,
+    "url": "https://modsquad.wd5.myworkdayjobs.com/ModSquad_Contractor/job/DOM-Remote/Remote-Technical-Customer-Support---QA-and-Game-Dev---6-26_JR101623",
+    "tags": [],
+    "isNew": true
+  },
+  {
     "id": "271d9018f7c2a7f5",
     "source": "lever",
     "vendor": "lever",
@@ -13,7 +339,6 @@
       "Contract"
     ],
     "postedAt": "2026-07-01T17:22:37.883Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -30,7 +355,6 @@
       "Full-time"
     ],
     "postedAt": "2026-07-01T07:34:14.021Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -47,7 +371,6 @@
       "Full-time"
     ],
     "postedAt": "2026-07-01T07:04:10.719Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -65,7 +388,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-30T16:22:41.526+00:00",
-    "description": "ABOUT JUNIPER SQUARE\n\nPrivate markets are one of the largest, most complex, and most underserved corners of global finance. Our mission at Juniper Square is to unlock their full potential. We’re the Operations Partner trusted by 2,300+ GPs, unifying technology, data, and fund administration services",
     "isNew": false
   },
   {
@@ -82,7 +404,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:30:51.861Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -99,7 +420,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:30:26.895Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -116,7 +436,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:30:06.597Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -133,7 +452,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:29:48.783Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -150,7 +468,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:29:26.228Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -167,7 +484,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:29:10.699Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -184,7 +500,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:28:44.021Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -201,7 +516,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:07:51.803Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -218,7 +532,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:07:24.586Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -235,7 +548,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:07:05.697Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -252,7 +564,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:06:48.108Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -269,7 +580,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:06:32.016Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -286,7 +596,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:06:15.889Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -303,7 +612,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T13:05:42.041Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -320,7 +628,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T08:39:04.034Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -337,7 +644,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T08:20:01.210Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -354,7 +660,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:30:09.519Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -371,7 +676,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:29:35.957Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -388,7 +692,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:29:07.041Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -405,7 +708,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:28:35.945Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -422,7 +724,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:28:09.201Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -439,7 +740,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:27:30.453Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -456,7 +756,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:26:41.814Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -473,7 +772,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:26:03.729Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -490,7 +788,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:25:34.971Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -507,7 +804,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T07:24:04.841Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior QA Automation Engineer – AI Applications based in Romania.\nYou will join a forward-thinking engineering environment focused on ensuring the quality and reliability",
     "isNew": false
   },
   {
@@ -524,7 +820,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-30T06:54:48.733Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -541,7 +836,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-29T15:04:44.160Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -557,7 +851,6 @@
       "Engineering"
     ],
     "postedAt": "2026-06-29T09:52:19-04:00",
-    "description": "About Nava Nava is a consultancy and public benefit corporation working to make government services simple and effective. Since 2015, federal, state, and local agencies have trusted Nava to help solve highly scrutinized technology modernization challenges. &nbsp; As a client services company, we gui",
     "isNew": false
   },
   {
@@ -574,7 +867,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-29T09:02:01.794Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -590,7 +882,6 @@
       "Language & Linguistics"
     ],
     "postedAt": "2026-06-26T19:12:48-04:00",
-    "description": "Are you an AI QA expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into enterprise-grade platforms. With rigorous evaluation data, tomorrow’s AI can democratize world-class education, keep pace with cutting-edge research, and streamline workflows f",
     "isNew": false
   },
   {
@@ -609,7 +900,6 @@
       "$160K – $220K • Offers Bonus • 15% Annual Target bonus"
     ],
     "postedAt": "2026-06-26T18:21:07.420+00:00",
-    "description": "Who We Are\n\nHaving surpassed $300M ARR and continuing to grow, Optro is the leading audit, risk, ESG, and InfoSec platform on the market. More than 50% of the Fortune 500, including 7 of the Fortune 10, leverage our award-winning technology to move their businesses forward with greater clarity and a",
     "isNew": false
   },
   {
@@ -625,7 +915,6 @@
       "QA"
     ],
     "postedAt": "2026-06-26T13:00:10-04:00",
-    "description": "Français À l&#39;attention des candidats intéressés : Nous avons récemment été informés de plusieurs tentatives d&#39;escroquerie et de fraude provenant d&#39;agences ou de groupes se faisant passer pour des membres de nos équipes RH et de recrutement. Si vous recevez un e-mail suspect, veuillez uti",
     "isNew": false
   },
   {
@@ -641,7 +930,6 @@
       "QA"
     ],
     "postedAt": "2026-06-26T12:58:40-04:00",
-    "description": "To Our Interested Applicants: We’ve received several notifications of scams and fraud attempts recently of agencies or groups pretending to be members of our HR and recruiting teams. If you receive any suspicious emails, please use the ‘contact us’ function on this site to let us know. In general, p",
     "isNew": false
   },
   {
@@ -658,7 +946,6 @@
       "Fixed term"
     ],
     "postedAt": "2026-06-26T06:48:36.392Z",
-    "description": "About Qualysoft\n \n·        25 years of experience in software engineering, established in Vienna, Austria\n·        Active in Romania since 2007, with office in central Bucharest (Bd. Iancu de Hunedoara 54B)\n·        Delivering End to End IT Consulting Services  - From Team Augmentation and Dedicated",
     "isNew": false
   },
   {
@@ -675,7 +962,6 @@
       "Fixed term"
     ],
     "postedAt": "2026-06-26T06:45:58.617Z",
-    "description": "About Qualysoft\n \n·        25 years of experience in software engineering, established in Vienna, Austria\n·        Active in Romania since 2007, with office in central Bucharest (Bd. Iancu de Hunedoara 54B)\n·        Delivering End to End IT Consulting Services  - From Team Augmentation and Dedicated",
     "isNew": false
   },
   {
@@ -691,7 +977,6 @@
       "Consulting"
     ],
     "postedAt": "2026-06-25T16:54:56-04:00",
-    "description": "First San Francisco Partners (FSFP) is a leading business advisory and information management consultancy dedicated to helping organizations leverage their data to improve strategic decision-making, reduce risk, create operational efficiencies and fuel unprecedented business success. Our consulting ",
     "isNew": false
   },
   {
@@ -708,7 +993,6 @@
       "Full Time"
     ],
     "postedAt": "2026-06-25T14:59:26.773Z",
-    "description": "Adventure is Our Culture. Join a team that celebrates a lifestyle as bold as the terrain we love. At Backcountry, we are rooted in adventure, recognition, and wellbeing — on and off the mountain. We spotlight employee stories, celebrate milestones, and offer exclusive outdoor perks. Whether you are ",
     "isNew": false
   },
   {
@@ -727,7 +1011,6 @@
       "$65K – $85K"
     ],
     "postedAt": "2026-06-25T13:32:54.689+00:00",
-    "description": "Job Title: QA Analyst\n\nAbout Us:\nAt Prompt, we are leading the charge in transforming healthcare with innovative B2B enterprise software solutions tailored for rehab therapy businesses. Our mission is to improve patient outcomes and streamline workflows for rehab therapy teams by harnessing the powe",
     "isNew": false
   },
   {
@@ -744,7 +1027,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T13:08:45.342Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -761,7 +1043,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T12:35:54.893Z",
-    "description": "We are looking for a Middle Manual QA Engineer (WEB/Admin). Quality is not a final check for us — it's embedded in every stage of how we build. Our live-streaming platform serves hundreds of thousands of monthly active users across Tier-1 markets, and the web and admin layer is mission-critical infr",
     "isNew": false
   },
   {
@@ -778,7 +1059,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T12:30:26.381Z",
-    "description": "We are looking for an Automation QA Engineer (Web/Admin) to join our live-streaming platform team.\nOur live-streaming platform connects 400K+ monthly active users through live events, interactive video experiences, and real-time community features. The QA team is at the core of how we ship fast and ",
     "isNew": false
   },
   {
@@ -795,7 +1075,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T07:42:11.949Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -812,7 +1091,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T04:36:29.905Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -829,7 +1107,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T04:36:11.332Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -846,7 +1123,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T04:35:49.851Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -863,7 +1139,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T04:35:31.906Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -880,7 +1155,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T03:35:40.459Z",
-    "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a QA Engineer based in Germany.\nThis is an exciting opportunity for a quality-focused professional to play a critical role in ensuring the reliability, performance, and sta",
     "isNew": false
   },
   {
@@ -897,7 +1171,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:57:35.083Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -914,7 +1187,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:57:12.955Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -931,7 +1203,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:56:53.148Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -948,7 +1219,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:56:33.467Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -965,7 +1235,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:56:14.259Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -982,7 +1251,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:55:55.660Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -999,7 +1267,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:55:35.271Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -1016,7 +1283,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:54:57.348Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -1033,7 +1299,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:54:21.083Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -1050,41 +1315,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-24T23:52:43.141Z",
-    "description": "",
-    "isNew": false
-  },
-  {
-    "id": "e503e0640de7553f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f6841d2b-5d03-4bf3-a8d4-b108ea2d365c",
-    "tags": [
-      "Others",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T01:57:24.638Z",
-    "description": "",
-    "isNew": false
-  },
-  {
-    "id": "590deb20112d7280",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e600087a-96c2-479a-8e2a-13edecb411ff",
-    "tags": [
-      "Others",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T01:55:08.288Z",
-    "description": "",
     "isNew": false
   },
   {
@@ -1100,7 +1330,6 @@
       "Quality Assurance"
     ],
     "postedAt": "2026-06-22T10:04:12-04:00",
-    "description": "Position Overview:&nbsp; &nbsp; Diligent is looking for a talented QA Analyst to improve the quality&nbsp;of Diligent&nbsp;products.&nbsp;The QA Analyst is part of a cross-functional agile team and involved in every step of the software testing life cycle, from planning to releasing the product.&nbs",
     "isNew": false
   },
   {
@@ -1116,7 +1345,6 @@
       "5105 Identity Trust Serv"
     ],
     "postedAt": "2026-06-18T12:51:37-04:00",
-    "description": "About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it&#39;s not just something we provide our customers. It&#39;s something that inspires our company. People don&#39;t com",
     "isNew": false
   },
   {
@@ -1133,7 +1361,6 @@
       "Contract"
     ],
     "postedAt": "2026-06-17T14:14:13.155Z",
-    "description": "Our technology team is a rapidly growing group of talented and experienced engineers helping to build the leading enterprise software company focused on restaurant technology. We use modern technologies, automation, and AI-assisted engineering practices to build products that power restaurant operat",
     "isNew": false
   },
   {
@@ -1151,7 +1378,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-17T05:14:45.278+00:00",
-    "description": "About Neuroscale AI\n\nNeuroscale AI is building a next-generation AI recruiting and talent intelligence platform that helps organizations turn hiring into a measurable, repeatable, and intelligent science. Our ARBI platform supports sourcing, screening, evaluation, sequencing, scheduling, recruiter w",
     "isNew": false
   },
   {
@@ -1168,7 +1394,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-16T14:25:40.573Z",
-    "description": "United Tech is a global IT product company shaping the future of real-time social connection. With millions of users across North America, Europe, LATAM, and MENA, we build next-gen mobile and web apps for live-streaming and social networking. Our platforms enable connection at scale fast, interacti",
     "isNew": false
   },
   {
@@ -1187,7 +1412,6 @@
       "PLN 14.5K – PLN 26.8K per month"
     ],
     "postedAt": "2026-06-16T06:33:34.457+00:00",
-    "description": "AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.\n\nFrom product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.\n\nYour i",
     "isNew": false
   },
   {
@@ -1206,7 +1430,6 @@
       "€3.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-16T06:29:39.728+00:00",
-    "description": "AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.\n\nFrom product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.\n\nYour i",
     "isNew": false
   },
   {
@@ -1225,7 +1448,6 @@
       "€3.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-12T08:27:57.528+00:00",
-    "description": "AT COVERON, WE’RE BUILDING A COMPLETE IDENTITY THEFT PROTECTION SERVICE.\n\nJoin the team behind Nord Security’s latest product—combining dark web monitoring, credit tracking, and identity theft insurance into one powerful platform.\n\n\nYOUR IMPACT? HELPING PEOPLE PROTECT THEIR IDENTITIES, SPOT THREATS ",
     "isNew": false
   },
   {
@@ -1244,7 +1466,6 @@
       "$115K – $130K • Offers Equity"
     ],
     "postedAt": "2026-06-11T19:20:46.232+00:00",
-    "description": "TEST AUTOMATION ENGINEER\n\nLocation: Boston, MA\n\n\nLESS COMPLEXITY. MORE DENTISTRY. MORE IMPACT.\n\nAt Videa, we help dental clinicians deliver better care to millions of patients through AI.\n\nOral health is health. Dentists are protectors of societal wellness. We build technology that enhances the mome",
     "isNew": false
   },
   {
@@ -1263,7 +1484,6 @@
       "$130K – $150K • Offers Equity"
     ],
     "postedAt": "2026-06-11T19:20:43.839+00:00",
-    "description": "SENIOR TEST AUTOMATION ENGINEER\n\nLocation: Boston, MA\n\n\nLESS COMPLEXITY. MORE DENTISTRY. MORE IMPACT.\n\nAt Videa, we help dental clinicians deliver better care to millions of patients through AI.\n\nOral health is health. Dentists are protectors of societal wellness. We build technology that enhances t",
     "isNew": false
   },
   {
@@ -1280,7 +1500,6 @@
       "Full Time"
     ],
     "postedAt": "2026-06-11T16:34:41.379Z",
-    "description": "About DroneDeploy\nDroneDeploy powers field teams with robotics and AI. As the only reality capture platform that combines robotic automation, AI agents, and a truly unified system, DroneDeploy allows critical industries to operate with speed and confidence.\n\nFrom construction and energy to agricultu",
     "isNew": false
   },
   {
@@ -1304,7 +1523,6 @@
       "part_time"
     ],
     "postedAt": "2026-06-11T14:07:01",
-    "description": "Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills ",
     "isNew": false
   },
   {
@@ -1320,7 +1538,6 @@
       "Global"
     ],
     "postedAt": "2026-06-11T01:02:36-04:00",
-    "description": "About SIMBA Voice Agents by Speechify SIMBA lets companies deploy natural, human-sounding AI voice agents in 71+ languages with sub-second latency. We don&#39;t just hand customers a product and wish them luck — every customer gets a Forward Deployed Engineer who builds their agents, joins their Sla",
     "isNew": false
   },
   {
@@ -1339,7 +1556,6 @@
       "PLN 14.5K – PLN 26.8K per month"
     ],
     "postedAt": "2026-06-10T08:06:17.182+00:00",
-    "description": "At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.\n\nTo b",
     "isNew": false
   },
   {
@@ -1357,7 +1573,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-09T21:35:22.240+00:00",
-    "description": "About Plaud Inc.\n\nPlaud is building the world's most trusted AI work companion for professionals to elevate productivity and performance through note-taking solutions, loved by over 2,000,000 users worldwide since 2023. With a mission to amplify human intelligence, Plaud is building the next-generat",
     "isNew": false
   },
   {
@@ -1374,7 +1589,6 @@
       "Full-Time"
     ],
     "postedAt": "2026-06-09T16:49:34.336Z",
-    "description": "About Reveal Technology\nFounded in 2019, Reveal is a dynamic startup revolutionizing field operations by delivering software tools and intelligence to operators in remote, disconnected, and extreme environments. Reveal is the Digital Arms Room for the Modern Warrior — providing the tactical intellig",
     "isNew": false
   },
   {
@@ -1390,7 +1604,6 @@
       "RSO CLIN 11"
     ],
     "postedAt": "2026-06-08T13:55:47-04:00",
-    "description": "540 is seeking a Test Automation Engineer to support the DoW in building a next-generation Air Force aircraft maintenance application powered by Angular, Apigee, Kubernetes, and Google Cloud. Test Engineers on this team design and implement automated tests to ensure the platform performs reliably as",
     "isNew": false
   },
   {
@@ -1409,7 +1622,6 @@
       "€3K – €4.6K per month"
     ],
     "postedAt": "2026-06-05T09:30:44.469+00:00",
-    "description": "THE WORLD’S MOST ADVANCED VPN, AND A WHOLE LOT MORE.\n\nIf you’re a curious problem-solver who carves their own path, join the team behind Threat Protection Pro, the NordLynx protocol, and the fastest VPN on the planet—tools that put privacy, security, and control back in people’s hands.\n\nYour impact?",
     "isNew": false
   },
   {
@@ -1427,7 +1639,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-05T07:55:40.123+00:00",
-    "description": "AI GOVERNANCE ENGINEER (HYBRID)\n\n\n\nAt Deeploy, we help organizations roll out AI they can trust. As an AI Governance Engineer, you'll own the technical implementation of our AI governance platform across customer environments, from first proof-of-concept to full adoption. No two environments are the",
     "isNew": false
   },
   {
@@ -1446,7 +1657,6 @@
       "Product Delivery"
     ],
     "postedAt": "2026-06-04T20:32:41.818Z",
-    "description": "3PILLAR GLOBAL Company \n \n3Pillar is an AI transformation partner on a mission to help enterprises build the AI-native products and intelligent agents that will define the next era of business. With teams across North America, Europe, Latin America, and Asia, we work with the most ambitious companie",
     "isNew": false
   },
   {
@@ -1464,7 +1674,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-04T20:01:59.478+00:00",
-    "description": "CUSTOMER ENGINEER, AI GOVERNANCE (HYBRID)\n\n\n\nAt Deeploy, we help organizations deploy AI they can trust. As an Implementation Engineer, you'll own the technical journey from first proof-of-concept to full platform adoption, turning complex customer environments into working, compliant AI governance ",
     "isNew": false
   },
   {
@@ -1483,7 +1692,6 @@
       "€3.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-04T10:24:25.944+00:00",
-    "description": "At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.\n\nTo b",
     "isNew": false
   },
   {
@@ -1502,7 +1710,6 @@
       "PLN 14.5K – PLN 26.8K per month"
     ],
     "postedAt": "2026-06-04T10:10:18.073+00:00",
-    "description": "At Saily, we’re removing the hassle of staying connected while traveling — no roaming fees, no plastic SIM cards, just lightning-fast, secure mobile data in 200+ destinations. Saily has millions of paying customers and hundreds of thousands travelers browsing through Saily at any given moment.\n\nTo b",
     "isNew": false
   },
   {
@@ -1521,7 +1728,6 @@
       "€3K – €3.9K per month"
     ],
     "postedAt": "2026-06-04T07:19:40.874+00:00",
-    "description": "THE WORLD’S MOST ADVANCED VPN, AND A WHOLE LOT MORE.\n\nIf you’re a curious problem-solver who carves their own path, join the team behind Threat Protection Pro, the NordLynx protocol, and the fastest VPN on the planet—tools that put privacy, security, and control back in people’s hands.\n\nYour impact?",
     "isNew": false
   },
   {
@@ -1540,7 +1746,6 @@
       "€4.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-04T06:44:03.125+00:00",
-    "description": "AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.\n\nFrom product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.\n\nYour i",
     "isNew": false
   },
   {
@@ -1559,7 +1764,6 @@
       "PLN 20.7K – PLN 26.8K per month"
     ],
     "postedAt": "2026-06-04T06:43:37.859+00:00",
-    "description": "AT NORD SECURITY’S B2B TEAM, WE BUILD CYBERSECURITY PRODUCTS THAT ENABLE BUSINESSES TO PROTECT THEMSELVES AND THEIR DATA.\n\nFrom product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.\n\nYour i",
     "isNew": false
   },
   {
@@ -1577,7 +1781,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-02T14:40:47.846+00:00",
-    "description": "About StackOne:\n\nStackOne is the AI Integration Gateway for SaaS products and AI Agents. Backed by GV and Workday Ventures ($24M raised), we help builders of SaaS platforms and AI Agents orchestrate hundreds of scalable, accurate, and enterprise-grade integrations. Our platform combines 25,000 pre-m",
     "isNew": false
   },
   {
@@ -1594,7 +1797,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-01T23:32:00.625Z",
-    "description": "Filevine is a Legal AI company delivering Legal Operating Intelligence for the future of legal work. Grounded in a singular system of truth, Filevine brings together data, documents, workflows, and teams into one unified platform—where modern legal work happens with clarity and consistency.\n \nPowere",
     "isNew": false
   },
   {
@@ -1611,7 +1813,6 @@
       "Remote"
     ],
     "postedAt": "2026-06-01T22:29:52.594Z",
-    "description": "Join Our Team\n\nOowlish, one of Latin America's rapidly expanding software development companies, is seeking experienced technology professionals to enhance our diverse and vibrant team.\n\nAs a valued member of Oowlish, you will collaborate with premier clients from the United States and Europe, contr",
     "isNew": false
   },
   {
@@ -1629,1471 +1830,6 @@
       "FullTime"
     ],
     "postedAt": "2026-06-01T20:42:04.355+00:00",
-    "description": "ABOUT CREDO AI \n\nCredo AI is a venture-backed company on a mission to empower organizations to responsibly build, adopt, procure and use AI at scale.  Credo AI has built a pioneering platform for context-driven AI governance, AI risk assessment and compliance (to regulations like the EU AI Act and s",
-    "isNew": false
-  },
-  {
-    "id": "35204bee038f5ee5",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Quality Engineer – Accuracy Control",
-    "company": "Saronic",
-    "location": "Franklin, LA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/saronic/d2330bfb-ea14-4095-b1a5-af751bc95315",
-    "tags": [
-      "Engineering",
-      "Quality Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-01T19:16:39.059+00:00",
-    "description": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nJOB OVERVIEW\n\nWe are seeking a detail-oriented and experienced Quality Engineer – Accuracy Contro",
-    "isNew": false
-  },
-  {
-    "id": "cf5a04046f709090",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Solution Engineer, AI Governance",
-    "company": "Deeploy",
-    "location": "Hybrid / Deeploy HQ (Utrecht)",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/deeploy/accca21d-4475-497c-a65e-9542f059e5db",
-    "tags": [
-      "Customer Success",
-      "Customer Success",
-      "FullTime"
-    ],
-    "postedAt": "2026-05-29T12:27:29.456+00:00",
-    "description": "SOLUTION ENGINEER, AI GOVERNANCE\n\n\n\nAt Deeploy, we help organizations deploy AI they can trust. As a Solution Engineer, you'll own the technical journey from first proof-of-concept to full platform adoption, turning complex customer environments into working, compliant AI governance setups. No two c",
-    "isNew": false
-  },
-  {
-    "id": "7afa336d3124d068",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Software quality engineer (US)",
-    "company": "Writer",
-    "location": "San Francisco, CA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/writer/74a6d06e-3f38-44d0-9cb3-ee64fa857d12",
-    "tags": [
-      "Engineering, product & design",
-      "Engineering",
-      "FullTime",
-      "$132,100 – $258,400 • Offers Equity • Multiple Ranges"
-    ],
-    "postedAt": "2026-05-28T21:50:42.052+00:00",
-    "description": "🚀 About WRITER\n\nWRITER is where the world's leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence. And we're proving it's possible – through powerful, trustworthy AI that unites IT and business teams together to unlock enterprise-wide tran",
-    "isNew": false
-  },
-  {
-    "id": "1cb6deb2a6fd95f3",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Software quality engineer (UK)",
-    "company": "Writer",
-    "location": "London, UK",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/writer/b69a7c74-861f-4265-a5fa-8bc27f47d0c0",
-    "tags": [
-      "Engineering, product & design",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-05-28T21:50:33.077+00:00",
-    "description": "🚀 About WRITER\n\nWRITER is where the world's leading enterprises orchestrate AI-powered work. Our vision is to expand human capacity through superintelligence. And we're proving it's possible – through powerful, trustworthy AI that unites IT and business teams together to unlock enterprise-wide tran",
-    "isNew": false
-  },
-  {
-    "id": "4ec33db71039bd1e",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Quality Assurance Manager - AI Trainer - Freelance - 8-20 hrs/week - Remote",
-    "company": "10xteam",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/10xteam/38707090-19b7-4de7-b681-ae35f152dd33",
-    "tags": [
-      "Operations",
-      "Operations",
-      "Contract",
-      "€80 – €158 per hour"
-    ],
-    "postedAt": "2026-05-28T08:35:29.727+00:00",
-    "description": "Updated: 21 June 2026\n\nFreelance | 8–20 hrs/week | Remote (EU/UK)\n\n\n\nAre you an experienced quality assurance professional who instinctively spots gaps in QA reasoning and understands the complex realities of quality management? Do you have 8 to 20 hours per week available alongside your main job or",
-    "isNew": false
-  },
-  {
-    "id": "91ee28429a2a77de",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Hardware Quality Engineer",
-    "company": "Lightspeedhq",
-    "location": "Ottawa",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/lightspeedhq/b6d73743-ae8a-453b-bb8d-8a21ec80a4ce",
-    "tags": [
-      "Technology",
-      "Quality Assurance",
-      "FullTime"
-    ],
-    "postedAt": "2026-05-27T14:38:57.864+00:00",
-    "description": "Hi there! Thanks for stopping by 👋\n\nAre you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!\n\nWe are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals",
-    "isNew": false
-  },
-  {
-    "id": "dac25311d477e609",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Manager",
-    "company": "Hiive",
-    "location": "Vancouver, BC (HQ)",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/hiive/37f49b4c-27b9-419d-98f2-64510aaaa83d",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "CA$155K – CA$215K • Offers Equity • Multiple Ranges"
-    ],
-    "postedAt": "2026-05-21T23:48:05.035+00:00",
-    "description": "Hiive is redefining how private companies and their shareholders access liquidity. Through its institutional-grade platform, Hiive brings together buyers, sellers, and issuers to facilitate secondary transactions in venture-backed, pre-IPO companies, introducing efficiency, transparency, and standar",
-    "isNew": false
-  },
-  {
-    "id": "b05183581c4d1b23",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Software Engineer (AI Governance)",
-    "company": "Coder",
-    "location": "United Kingdom",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/coder/b192214f-59e0-4fda-9b94-3a29b6fed9ff",
-    "tags": [
-      "Research & Development",
-      "AI",
-      "FullTime",
-      "£70K – £95K • Offers Equity • Offers Bonus • Multiple Ranges"
-    ],
-    "postedAt": "2026-05-21T02:25:10.089+00:00",
-    "description": "We’re looking for a Software Engineer to help shape AI governance for developer tooling at Coder. This role sits on our AI Governance team, which builds and maintains two enterprise-grade components of Coder's AI governance stack.\n\nAI Gateway is a centralized LLM gateway that sits between coding age",
-    "isNew": false
-  },
-  {
-    "id": "706040d7deffefe9",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer, AI Products",
-    "company": "Mdcalc",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/mdcalc/cf02b1b2-0963-46cd-bde4-022f007ec311",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-05-19T17:56:19.487+00:00",
-    "description": "THE OPPORTUNITY\n\nSince 2005, MDCalc has been an essential part of the clinician’s workflow to help achieve better patient outcomes. Actively used by more than 65% of physicians worldwide, MDCalc is the most broadly used medical reference – at the point-of-care – for clinical decision tools and conte",
-    "isNew": false
-  },
-  {
-    "id": "f21a4d8cd831214b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manual QA Engineer",
-    "company": "Teramind",
-    "location": "Romania",
-    "remote": true,
-    "url": "https://jobs.lever.co/teramind/e40c955f-0800-4fe9-ae25-79b4c7c7ac64",
-    "tags": [
-      "QA",
-      "Full time"
-    ],
-    "postedAt": "2026-05-18T06:55:19.757Z",
-    "description": "",
-    "isNew": false
-  },
-  {
-    "id": "847d861ddf10f3d9",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Staff Software Development Engineer in Test (SDET)",
-    "company": "Assured",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/assured/71ef71b7-8bc5-4c7b-9d52-593e7ebf34d2",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "$160K – $190K • Offers Equity"
-    ],
-    "postedAt": "2026-05-15T13:20:46.133+00:00",
-    "description": "Assured is on a mission to modernize insurance. Claims processing (i.e. should we pay this claim?), while often overlooked, is the foundation of the entire industry. It’s currently highly manual, involving phone calls, faxes, and gut instinct, costing tens of billions of dollars a year. We can do be",
-    "isNew": false
-  },
-  {
-    "id": "76662f510494727c",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Quality Engineer - Rack Infrastructure & Site Operations - Stargate",
-    "company": "Openai",
-    "location": "San Francisco",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/openai/fff7b15d-a1a0-441f-90f1-5efcae7f0051",
-    "tags": [
-      "Scaling",
-      "Datacenter Design",
-      "FullTime",
-      "$205K – $344K • Offers Equity"
-    ],
-    "postedAt": "2026-05-08T22:18:46.518+00:00",
-    "description": "About the Team\n\nOpenAI, in partnership with our capital and technology partners, is building a global network of advanced datacenters to support the most demanding AI workloads. The Industrial Compute team ensures that all datacenter systems are manufactured, delivered, and commissioned to the highe",
-    "isNew": false
-  },
-  {
-    "id": "13ac7f528e7cd286",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Hardware Quality Engineer",
-    "company": "Lightspeedhq",
-    "location": "Toronto",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/lightspeedhq/ab0e459b-0dd9-476d-9e05-b76edd80894b",
-    "tags": [
-      "Technology",
-      "Quality Assurance",
-      "FullTime"
-    ],
-    "postedAt": "2026-05-04T22:03:00.431+00:00",
-    "description": "Hi there! Thanks for stopping by 👋\n\nAre you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!\n\nWe are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals",
-    "isNew": false
-  },
-  {
-    "id": "af045620bbdc9dc7",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Amsterdam",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/5ea3218e-cdc5-4b2f-8178-80d452397b1b",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-28T16:48:27.232+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "e59e0caded4a33f3",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Barcelona",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/5df8934c-2df5-4c6f-aa06-aca7559b9f5b",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-28T16:46:13.767+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "c4778359a51058f7",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer",
-    "company": "Airapps",
-    "location": "Copenhagen",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/62730403-3484-4c55-9807-43089979bf08",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-28T16:39:41.252+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "5477e6cadf367b36",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Zurich",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/ef744046-bd39-434b-83ac-4de60a8d5a86",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-28T13:40:26.942+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "ffa25b7082921c37",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Stockholm",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/0d1cfbb2-a47d-4246-89e4-a9fbb1c18a0f",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-28T13:39:48.718+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "d83c48549accc953",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Amsterdam",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/a72bb24d-cbe3-4238-9edc-80145c31f34e",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-28T10:34:03.032+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "61eb36867aab40b8",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Barcelona",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/2989188f-d1d6-4bfd-bb89-e9cbb19b9da8",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-27T16:23:31.738+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "bc65701ed0ab5e77",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer",
-    "company": "Airapps",
-    "location": "Barcelona",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/eeaffa65-2a8e-4632-9d10-f19b231af0d8",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-27T16:22:45.846+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "cd1908c770079c4b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer",
-    "company": "Airapps",
-    "location": "Munich",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/0dc61baa-e49d-4742-88c9-0ab7a6f51d48",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-27T16:09:51.560+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "a3bb562d137e9ca1",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Dublin",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/f825150b-96af-42a5-9238-2e4e62b41143",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-27T14:58:02.103+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "38509579a534ffc1",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Dublin",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/9e7c6364-bce5-4850-9008-59a1a4b98c3a",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-27T14:53:35.242+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "8823c935c9f7f59a",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer",
-    "company": "Airapps",
-    "location": "Amsterdam",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/1e1b2126-3a2f-47f7-b59a-8c8b82c4b483",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-27T14:42:40.361+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "bf2bf428e3d813b4",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "London Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/2bb99a42-7217-48f7-9a0e-fb2218e1555a",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-24T10:17:26.605+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "15dcf5ea69820112",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer, Rome",
-    "company": "Airapps",
-    "location": "Rome Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/6059f002-94cf-45ad-bd3d-b1079eb013e3",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-24T09:41:30.289+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "b4dcf3cfd5fffb4f",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior AI Engineer, Quality",
-    "company": "Fieldguide",
-    "location": "San Francisco, CA or Remote (USA)",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/fieldguide/f4f0aea0-826d-451f-bd17-b04772e221cc",
-    "tags": [
-      "Engineering, Product, and Design",
-      "Engineering",
-      "FullTime",
-      "$200K – $250K"
-    ],
-    "postedAt": "2026-04-20T20:39:18.923+00:00",
-    "description": "ABOUT US\n\nFieldguide is establishing a new state of trust for global commerce and capital markets through automating and streamlining the work of assurance and audit practitioners specifically within cybersecurity, privacy, and financial audit. Put simply, we build software for the people who enable",
-    "isNew": false
-  },
-  {
-    "id": "e5f3b611c401a9d7",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Hardware Quality Engineer",
-    "company": "Lightspeedhq",
-    "location": "Montreal",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/lightspeedhq/8d9c11e6-31ad-40fd-b0a4-fab1a194d577",
-    "tags": [
-      "Technology",
-      "Quality Assurance",
-      "FullTime"
-    ],
-    "postedAt": "2026-04-17T19:28:06.809+00:00",
-    "description": "Hi there! Thanks for stopping by 👋\n\nAre you actively looking for a new opportunity? Or just checking the market? Well… you might just be in the right place!\n\nWe are looking for a Hardware Quality Engineer to own and build the quality system across Lightspeed’s hardware ecosystem - payment terminals",
-    "isNew": false
-  },
-  {
-    "id": "075e530d96b62539",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Berlin Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/26fc247a-6b24-469f-90d5-4b48102846bb",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-17T14:13:09.654+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "e00157fc0d1189eb",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Rome Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/dedbae38-caec-4525-b7f4-28e0671c1977",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-17T13:31:36.031+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "25b87d18c2a9ed59",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Paris",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/3f2f9559-98e5-4fe8-a9f5-33eb30ed6977",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-17T13:30:55.202+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "8046b6afe8f279ea",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Airapps",
-    "location": "Madrid",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/0cec721e-47de-488a-943f-484081839d44",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€44K – €56K"
-    ],
-    "postedAt": "2026-04-17T13:30:27.302+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "f674f020663bf637",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Rome Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/4a694b84-78b9-442c-a9f6-cb0b5f4a9dc9",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-17T13:29:59.495+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "193ec582d8e1fd50",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Paris",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/03e99d2b-edbf-4f99-9e91-7f2e92e863da",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-17T13:29:24.066+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "815b642c2263e733",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Madrid",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/7b75e9fc-bc27-49a7-86a3-47e073db4d01",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-17T13:11:50.800+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "ec768512bdea4906",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "London Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/5ad3a417-77f2-42dc-b55c-39d9820f29f6",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-16T16:33:22.298+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "b3095b8d5d443c32",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer",
-    "company": "Airapps",
-    "location": "Berlin Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/c8dec4fd-2e26-4dd8-b6b5-d00f9397c7fe",
-    "tags": [
-      "Quality Assurance",
-      "Quality Assurance",
-      "FullTime",
-      "€47K – €59K"
-    ],
-    "postedAt": "2026-04-16T16:32:40.657+00:00",
-    "description": "ABOUT AIR APPS\n\nAt Air Apps, we believe in thinking bigger - and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and liv",
-    "isNew": false
-  },
-  {
-    "id": "fb63495049cebf89",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer, Paris",
-    "company": "Airapps",
-    "location": "Paris",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/155e9499-f6f8-4260-84fa-c212dee1d08f",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-16T15:08:59.691+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "6403d2998082d9c0",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer, Madrid",
-    "company": "Airapps",
-    "location": "Madrid",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/0cd869e1-71ca-478c-90cc-cb3e112a06fc",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-16T15:08:16.313+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "9b7cfc886a8e3fae",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer, London",
-    "company": "Airapps",
-    "location": "London Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/6006fdfe-d8ec-473c-9dbd-6de9ce92d5a6",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-16T15:07:26.060+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "9842e0c6040d5df2",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Backend QA Engineer, Berlin",
-    "company": "Airapps",
-    "location": "Berlin Metropolitain Area",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/airapps/a53612d9-0e9f-4645-b39a-2f1a282b2e31",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€52K – €65K"
-    ],
-    "postedAt": "2026-04-16T15:06:26.260+00:00",
-    "description": "About Air Apps\n\nAt Air Apps, we believe in thinking bigger and moving faster. We’re a family-founded company on a mission to create the world’s first AI-powered Personal & Entrepreneurial Resource Planner (PRP), and we need your passion and ambition to help us change how people plan, work, and live.",
-    "isNew": false
-  },
-  {
-    "id": "fb6a47d38249702b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manual QA Engineer (Backend, Emails)",
-    "company": "Vacancies",
-    "location": "Kyiv",
-    "remote": true,
-    "url": "https://jobs.lever.co/vacancies/146792f2-d42f-4d9d-b122-4d53cf2de34f",
-    "tags": [
-      "QA",
-      "Full-time"
-    ],
-    "postedAt": "2026-04-16T12:49:38.556Z",
-    "description": "About the company: United Tech is a global IT product company shaping the future of real-time social connection. With millions of users across North America, Europe, LATAM, and MENA, we build next-gen mobile and web apps for live-streaming and social networking. Our platforms enable connection at sc",
-    "isNew": false
-  },
-  {
-    "id": "d1af6b32e28d2776",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior QA Engineer",
-    "company": "Super.Com",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/super.com/0c70da0f-3c4f-40b9-abc2-ebe0df8d56a7",
-    "tags": [
-      "Engineering",
-      "Quality",
-      "FullTime",
-      "$100K – $140K • Multiple Ranges"
-    ],
-    "postedAt": "2026-04-15T03:51:49.867+00:00",
-    "description": "About Super.com http://Super.com:\nWe started Super.com http://Super.com to help maximize lives–both the lives of our customers and the lives of our employees– so that everyone can experience all that life has to offer. For our employees, our promise is that Super.com http://Super.com is more than ju",
-    "isNew": false
-  },
-  {
-    "id": "58b1aa78a748075f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software QA Engineer (Remote)",
-    "company": "Insiderone",
-    "location": "Istanbul",
-    "remote": true,
-    "url": "https://jobs.lever.co/insiderone/d3abff37-c9c9-4733-9c59-bbd59fea4105",
-    "tags": [
-      "Quality Assurance",
-      "Full-Time (Remote)"
-    ],
-    "postedAt": "2026-04-14T09:09:35.484Z",
-    "description": "Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.\n\nAbout us\n\nInsider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec",
-    "isNew": false
-  },
-  {
-    "id": "1a714bff6efb54f3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software Quality Assurance Engineer (Remote)",
-    "company": "Insiderone",
-    "location": "Istanbul",
-    "remote": true,
-    "url": "https://jobs.lever.co/insiderone/8e2f016b-d696-4c33-af8b-d139b7ac54f9",
-    "tags": [
-      "Quality Assurance",
-      "Full-Time (Remote)"
-    ],
-    "postedAt": "2026-04-13T14:43:46.491Z",
-    "description": "Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.\n\nAbout us\n\nInsider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec",
-    "isNew": false
-  },
-  {
-    "id": "307e6be1e95fb96a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Assurance Engineer (Remote)",
-    "company": "Insiderone",
-    "location": "Istanbul",
-    "remote": true,
-    "url": "https://jobs.lever.co/insiderone/7af7b270-7de3-4da2-8f21-14f605b30a93",
-    "tags": [
-      "Quality Assurance",
-      "Full-Time (Remote)"
-    ],
-    "postedAt": "2026-04-13T14:36:43.143Z",
-    "description": "Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.\n\nAbout us\n\nInsider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec",
-    "isNew": false
-  },
-  {
-    "id": "ff680fc4e45f98d8",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Supplier Quality Engineer",
-    "company": "Saronic",
-    "location": "Franklin, LA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/saronic/2573f8c9-71f7-4068-8edf-e2733eeba5ce",
-    "tags": [
-      "Supply Chain",
-      "Supply Chain",
-      "FullTime"
-    ],
-    "postedAt": "2026-04-10T15:14:29.914+00:00",
-    "description": "Saronic Technologies is a leader in revolutionizing autonomy at sea, dedicated to developing state-of-the-art solutions that enhance maritime operations through autonomous and intelligent platforms.\n\n\n\n\nJOB OVERVIEW\n\nThe Supplier Quality Engineer is responsible for ensuring that products and materia",
-    "isNew": false
-  },
-  {
-    "id": "3e5cfb069dc3393e",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "AI Governance Success Manager",
-    "company": "Credo.Ai",
-    "location": "USA Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/credo.ai/bde8c560-7439-426c-b7a0-c58a7cde8b10",
-    "tags": [
-      "Customer Success",
-      "Customer Success",
-      "FullTime"
-    ],
-    "postedAt": "2026-04-03T23:47:53.477+00:00",
-    "description": "ABOUT CREDO AI \n\nCredo AI is a venture-backed company on a mission to empower organizations to responsibly build, adopt, procure and use AI at scale.  Credo AI has built a pioneering platform for context-driven AI governance, AI risk assessment and compliance (to regulations like the EU AI Act and s",
-    "isNew": false
-  },
-  {
-    "id": "9ede431229c21df7",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Kazakh Localization QA Tester / Proofreader",
-    "company": "Weloglobal",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/weloglobal/915725b3-22df-43ec-9a3e-5924e67d0a86",
-    "tags": [
-      "Production",
-      "Full Time"
-    ],
-    "postedAt": "2026-04-01T13:34:53.536Z",
-    "description": "About Welocalize \nWelocalize, a Welo Global brand, serves localization teams through AI-enabled multilingual content solutions that enable enterprises to operate and scale globally. Welocalize combines AI, automation, and human expertise to support enterprises in more than 300 languages, enabling ac",
-    "isNew": false
-  },
-  {
-    "id": "c3c401eeff27a48f",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manual QA Tester",
-    "company": "Block Labs",
-    "location": "Tunisia",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/block-labs/880857dc-599f-4133-a7e4-6d78a73a833d",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-03-31T10:01:31.007+00:00",
-    "description": "ABOUT BLOCK LABS\n\nBlock Labs is a premier technology studio operating at the bleeding edge of Web3, Artificial Intelligence, and iGaming. We don't just ship features; we engineer high-scale, production-grade platforms that power the next generation of digital products.\n\n\n\nWe are a collective of seni",
-    "isNew": false
-  },
-  {
-    "id": "a53c895452719bf5",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Staff Technical Program Manager - Autonomy ",
-    "company": "Serverobotics",
-    "location": "US- remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/serverobotics/f33f008c-f29f-433b-99aa-4143cc11b544",
-    "tags": [
-      "Program Management & QA",
-      "Program Management",
-      "FullTime",
-      "$200K – $245K • Offers Equity"
-    ],
-    "postedAt": "2026-03-05T18:36:35.892+00:00",
-    "description": "At Serve Robotics, we’re reimagining how things move in cities. Our personable sidewalk robot is our vision for the future. It’s designed to take deliveries away from congested streets, make deliveries available to more people, and benefit local businesses.\n\nThe Serve fleet has been delighting merch",
-    "isNew": false
-  },
-  {
-    "id": "12b38eeed1329528",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Machine Learning Engineer I, AI Governance (Remote Canada)",
-    "company": "Optro",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/optro/c82ce2d6-d24b-453b-9822-7a3c62a2eac1",
-    "tags": [
-      "Technology",
-      "App Development",
-      "FullTime",
-      "CA$140K – CA$180K • Offers Bonus • 15% Annual Target bonus"
-    ],
-    "postedAt": "2026-03-04T17:30:34.472+00:00",
-    "description": "Who We Are\n\nHaving surpassed $300M ARR and continuing to grow, Optro is the leading audit, risk, ESG, and InfoSec platform on the market. More than 50% of the Fortune 500, including 7 of the Fortune 10, leverage our award-winning technology to move their businesses forward with greater clarity and a",
-    "isNew": false
-  },
-  {
-    "id": "d73873c6de431541",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality Engineer",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/a9151e15-24ab-4fcd-af1e-74beea3063a9",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2026-02-19T18:47:13.253Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "9fb6d0157c85c33d",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Component and Product Quality Engineer, Interconnects",
-    "company": "Openai",
-    "location": "San Francisco",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/openai/2c9d0566-69b1-435e-bd8f-4eefc04dd076",
-    "tags": [
-      "Scaling",
-      "Hardware",
-      "FullTime",
-      "$207K – $365K • Offers Equity"
-    ],
-    "postedAt": "2026-02-12T01:44:47.111+00:00",
-    "description": "About the Team\n\nOpenAI’s Hardware organization develops AI-native silicon and system-level solutions for the unique demands of advanced AI workloads. Building on efforts like Jalapeño, the team is developing future generations of AI-native silicon and tightly integrated systems to power the next gen",
-    "isNew": false
-  },
-  {
-    "id": "772ecdab3678dc87",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality Engineer",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/19259651-ab8e-4ff4-a7d9-580f2cd2f755",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2026-01-26T22:21:02.627Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "537e48cf05407430",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineering Manager",
-    "company": "Blockstream",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/blockstream/e01609d4-4668-4a1b-b4e4-a040ffcbd02f",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-01-23T20:53:42.209+00:00",
-    "description": "Blockstream https://blockstream.com/ was founded in 2014 by Dr. Adam Back https://en.wikipedia.org/wiki/Adam_Back and a group of fellow cryptographers and engineers who were passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastru",
-    "isNew": false
-  },
-  {
-    "id": "8f19a93f564aecc4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "(finance) Strong Middle / Senior Automation Test Engineer (Python), TSCM-43120, TSCM-43624, TSCM-43420, JR5, JR264, JR280",
-    "company": "Eleks",
-    "location": "Kyiv",
-    "remote": true,
-    "url": "https://jobs.lever.co/eleks/c51547f4-3078-4aae-8fd0-1f4fd19c1d8b",
-    "tags": [
-      "QAO - ATE",
-      "Consultant FT (Fixed Term)"
-    ],
-    "postedAt": "2026-01-15T09:59:21.340Z",
-    "description": "ELEKS Quality Assurance Office is looking for a Strong Middle / Senior Automation Test Engineer (Python) in Ukraine, Poland, Croatia and Argentina.\n \nABOUT PROJECT\n \nThe project is a web-based platform for financial advisors.\nThe client portal allows advisors to control the user experience by enabli",
-    "isNew": false
-  },
-  {
-    "id": "26df6367a472bd7f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Test Automation Engineer",
-    "company": "Caseware",
-    "location": "Apeldoorn, Netherlands",
-    "remote": false,
-    "url": "https://jobs.lever.co/caseware/e9eac676-239b-4663-9bf1-d10ed50b8cbe",
-    "tags": [
-      "Solutions - QA",
-      "Full Time - 12 Month Contract"
-    ],
-    "postedAt": "2026-01-14T11:39:04.149Z",
-    "description": "Caseware is one of Canada's original Fintech companies, having led the global audit and accounting software industry for over 30 years, with more than 500,000 users across 130 countries and available in 16 different languages. While you might not have heard of us (yet) over 36,000 accounting and aud",
-    "isNew": false
-  },
-  {
-    "id": "556809f1a6a8c5a5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software QA Engineer - Europe (Turkish Speaker)",
-    "company": "Insiderone",
-    "location": "Berlin, Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/insiderone/6778b2f8-a110-4e9f-874f-bf66c8ea3b75",
-    "tags": [
-      "Quality Assurance",
-      "Full-Time (Remote)"
-    ],
-    "postedAt": "2025-12-05T09:35:06.287Z",
-    "description": "Before jumping into all the information about the role and what you can bring to the table, let us introduce ourselves real quick.\n\nAbout us\n\nInsider One is the #1 platform that brings everything marketing and customer engagement teams need in one place so they can reach their peak potential and bec",
-    "isNew": false
-  },
-  {
-    "id": "c0d3cf469ccd40aa",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Lead QA Engineer",
-    "company": "Cscgeneration 2",
-    "location": "Costa Rica",
-    "remote": true,
-    "url": "https://jobs.lever.co/cscgeneration-2/dc1c9985-49b6-444d-a431-632df72b535a",
-    "tags": [
-      "Engineering",
-      "Full Time"
-    ],
-    "postedAt": "2025-11-26T21:27:07.774Z",
-    "description": "Adventure is Our Culture. Join a team that celebrates a lifestyle as bold as the terrain we love. At Backcountry, we are rooted in adventure, recognition, and wellbeing — on and off the mountain. We spotlight employee stories, celebrate milestones, and offer exclusive outdoor perks. Whether you are ",
-    "isNew": false
-  },
-  {
-    "id": "a5e0eaab89aac7de",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineer in Test",
-    "company": "Veeva",
-    "location": "Canada - Toronto",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/4c111ff2-811d-45ff-b78a-ce3bcfeb52ab",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2025-09-10T13:35:45.517Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "0562734a89e7dc18",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Release Engineer",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/eaf87c62-0945-46ee-b8dc-0abf1af4957d",
-    "tags": [
-      "QA & Release Engineering - NA Specific",
-      "Full-Time"
-    ],
-    "postedAt": "2025-02-25T22:38:15.664Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "1f4778b4842ddfef",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer",
-    "company": "Blockstream",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/blockstream/5c28d417-ea14-40b5-a615-5d51c4f0d3a3",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2025-02-19T15:44:10.394+00:00",
-    "description": "Blockstream https://blockstream.com/ was founded in 2014 by Dr. Adam Back https://en.wikipedia.org/wiki/Adam_Back and a group of fellow cryptographers and engineers who were passionate about Bitcoin and its potential to change the future of finance. Focusing on building fundamental Bitcoin infrastru",
-    "isNew": false
-  },
-  {
-    "id": "df9b2d9e9497e509",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Software Engineer in Test",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/452d7860-6d5f-45e0-bc00-6a2e8852698d",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2025-01-30T18:46:32.397Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "6c4808857d4b5e1f",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Test Automation Engineer",
-    "company": "Adapter",
-    "location": "United States - Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/adapter/jobs/4422297008",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2025-01-09T17:42:25-05:00",
-    "description": "Our story: The widespread adoption of intelligent technologies powered by automation, AI, ML, and knowledge graphs is accelerating. As these technologies become increasingly accessible, our aim is to make their capabilities empowering, trustworthy, and useful to real people in the real world.&nbsp; ",
-    "isNew": false
-  },
-  {
-    "id": "a7c1acff2dd4153d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Quality Engineer",
-    "company": "Veeva",
-    "location": "Canada - Toronto",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/a940d8b4-2869-4611-ae8e-8d277d6a17b6",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2024-06-11T15:40:53.066Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "6265170a686793f3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Software Engineer in Test",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/8683a486-a11b-44be-8824-d3afdaa37b2d",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2024-06-06T18:42:08.375Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "db771398a6b6abc8",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Indonesian Part-Time Linguistic QA Tester (Remote - US Based)",
-    "company": "Weloglobal",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/weloglobal/abbc9611-1571-43e0-b490-c223ac23dad0",
-    "tags": [
-      "In-House/Lab",
-      "Part-Time"
-    ],
-    "postedAt": "2024-05-22T03:27:35.655Z",
-    "description": "Welocalize is hiring Part-Time Linguistic QA Testers that speak Indonesian at native-level fluency. You will be an important part of the QA Testing process for emerging technology. Depending on the project, you could be testing never before seen apps/technology, e-courses,  marketing materials, or a",
-    "isNew": false
-  },
-  {
-    "id": "4eadcd1c93b6990f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Quality Engineer",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/79e78774-d044-4a48-9130-d8e18e2d7876",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2024-03-12T13:20:49.627Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "033f62b94cd5a6a3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software Engineering Manager in Test - Infrastructure",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/f4ca2bed-fb08-437a-a109-40a0f371c3e6",
-    "tags": [
-      "QA & Release Engineering - NA Specific",
-      "Full-Time"
-    ],
-    "postedAt": "2023-12-05T22:40:10.376Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "9a05fc36c954820d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineer in Test",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/bee518a4-07b0-4f0d-b1e3-5e5573490287",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2023-11-16T15:20:22.125Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "5c21b3ca68edb07f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Engineer",
-    "company": "Veeva",
-    "location": "Canada - Toronto",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/fa2bf099-9492-4a61-81fa-1efb4c6cb17e",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2023-05-05T15:44:01.771Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "adaeb4262700b2c2",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Release Engineer",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/6ebf8c08-882a-42f1-a0cb-131a79526cd8",
-    "tags": [
-      "QA & Release Engineering - NA Specific",
-      "Full-Time"
-    ],
-    "postedAt": "2023-04-14T14:08:01.198Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "4f1a8ff57419cd4d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Engineer - Infrastructure",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/4921a2b6-f939-4178-b668-aa1ab0077494",
-    "tags": [
-      "QA & Release Engineering - NA Specific",
-      "Full-Time"
-    ],
-    "postedAt": "2022-11-18T23:40:53.688Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "1a50ed46f6a86054",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Quality Engineer - Infrastructure",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/c45f9436-6174-4b16-9459-3bebb588b474",
-    "tags": [
-      "QA & Release Engineering - NA Specific",
-      "Full-Time"
-    ],
-    "postedAt": "2022-11-18T23:13:23.202Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "5f81b8a60808a1de",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Quality Engineer",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/aca8cd98-e800-45b9-94bc-cb2c3077b49d",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2022-02-24T21:56:29.089Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "9c17d66555c93e85",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software Engineer in Test",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/29e49eb1-5c80-4465-9103-515c8b16771f",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2021-11-04T16:53:49.281Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "969d00906edd0667",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Engineer",
-    "company": "Veeva",
-    "location": "Massachusetts - Boston",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/7c2e60d4-4c61-45ed-a185-430378253319",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2021-10-07T20:58:28.259Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "d0c0875e6b39b42e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Engineer",
-    "company": "Veeva",
-    "location": "California - Pleasanton",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/708938a1-45f5-4a92-8af6-f6f58868dcef",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2021-09-30T14:21:07.452Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
-    "isNew": false
-  },
-  {
-    "id": "6ccb43fda1b626a7",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Associate Software Engineer In Test",
-    "company": "Veeva",
-    "location": "Canada - Toronto",
-    "remote": true,
-    "url": "https://jobs.lever.co/veeva/eea03b21-0e9e-467b-957d-31ba416b4016",
-    "tags": [
-      "QA & Release Engineering - NA",
-      "Full-Time"
-    ],
-    "postedAt": "2019-09-27T17:55:22.520Z",
-    "description": "Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.\n \nAt t",
     "isNew": false
   },
   {
