@@ -47,4 +47,5 @@ export interface SearchCriteria {
   remoteOnly: boolean;
   visaSponsorship?: boolean;   // arbeitnow only
   location?: LocationPolicy;   // geo filter applied to every source
+  maxAgeDays?: number;         // drop postings older than this (undefined = no limit)
 }

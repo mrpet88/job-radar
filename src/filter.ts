@@ -4,11 +4,20 @@ const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 // Match a location string against a list of terms. Short terms (≤3 chars, e.g.
 // "nl", "us") use word boundaries so they don't match inside other words.
-const matchAny = (loc: string, terms: string[]): boolean =>
+export const matchAny = (loc: string, terms: string[]): boolean =>
   terms.some((t) => {
     const term = t.toLowerCase();
     return term.length <= 3 ? new RegExp(`\\b${esc(term)}\\b`).test(loc) : loc.includes(term);
   });
+
+// Keep jobs newer than maxAgeDays. Jobs without a parseable postedAt are kept
+// (many ATS/Workday feeds omit it — dropping them would lose real roles).
+export function isFresh(job: Job, maxAgeDays?: number): boolean {
+  if (!maxAgeDays || !job.postedAt) return true;
+  const t = Date.parse(job.postedAt);
+  if (Number.isNaN(t)) return true;
+  return (Date.now() - t) / 86_400_000 <= maxAgeDays;
+}
 
 // Remote → worldwide, minus explicitly low-pay markets. In-person/hybrid
 // (remote=false) → only the onsite countries.
@@ -29,6 +38,7 @@ export function matchesCriteria(job: Job, c: SearchCriteria): boolean {
   const full = `${job.title} ${job.company} ${job.tags.join(" ")} ${job.description ?? ""}`.toLowerCase();
   if (c.excludeKeywords.some((k) => full.includes(k.toLowerCase()))) return false;
   if (c.remoteOnly && !job.remote) return false;
+  if (!isFresh(job, c.maxAgeDays)) return false;
   if (!locationOk(job, c.location)) return false;
 
   // Keyword match is title+tags only, with word boundaries, so a role must

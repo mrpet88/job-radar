@@ -64,7 +64,10 @@ Edit `src/config.ts`:
   `countries`, `remoteOnly`, `visaSponsorship`.
 - `criteria.location` — geo filter: remote roles are kept worldwide except
   `remoteExclude` markets; in-person/hybrid roles are kept only in `onsiteCountries`.
+- `criteria.maxAgeDays` — drop postings older than N days (undefined = no limit).
 - `atsDomains` — which ATS domains discovery scans.
+- `discovery.locationTerms` — extra location-targeted discovery (e.g. `["netherlands"]`
+  adds one broad query per ATS domain to surface companies hiring there).
 - `discovery.maxQueriesPerRun` — cap search-API usage per run.
 - `seedBoards` — pin specific company boards to harvest directly (e.g. a Workday
   tenant like Honeywell), without waiting for discovery to find them.

@@ -45,7 +45,7 @@ async function main() {
   // ── Discover new ATS boards via the search API ──
   if (discovery.enabled) {
     const { candidates, webJobs, queriesRun } =
-      await discover(criteria.keywordsAny, atsDomains, discovery, discovery.maxQueriesPerRun);
+      await discover(criteria.keywordsAny, atsDomains, discovery, discovery.maxQueriesPerRun, discovery.locationTerms);
     const { merged, added } = mergeBoards(boards, candidates);
     boards = merged;
     collected.push(...webJobs);
@@ -113,7 +113,7 @@ async function main() {
     (b.postedAt ?? "").localeCompare(a.postedAt ?? ""));
 
   await fs.writeFile(STORE, JSON.stringify(enriched, null, 2));
-  await fs.writeFile(path.join(DATA_DIR, "index.html"), renderHtml(enriched));
+  await fs.writeFile(path.join(DATA_DIR, "index.html"), renderHtml(enriched, criteria.location?.onsiteCountries ?? []));
   await saveBoards(boards);
 
   console.log(`\n── Job Radar ──`);
