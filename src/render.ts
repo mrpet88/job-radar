@@ -13,6 +13,12 @@ function salary(j: EJob): string {
 
 export function renderHtml(jobs: EJob[]): string {
   const newCount = jobs.filter((j) => j.isNew).length;
+  // Always show Amsterdam local time (CI runners are UTC); auto-handles CEST/CET.
+  const generated = new Date().toLocaleString("en-GB", {
+    timeZone: "Europe/Amsterdam",
+    day: "2-digit", month: "short", year: "numeric",
+    hour: "2-digit", minute: "2-digit", timeZoneName: "short",
+  });
   const rows = jobs.map((j) => `
     <article class="card${j.isNew ? " new" : ""}">
       <div class="top">
@@ -61,7 +67,7 @@ export function renderHtml(jobs: EJob[]): string {
 </style></head><body>
 <header><div class="wrap" style="padding:0">
   <h1>Job Radar</h1>
-  <div class="sub">${jobs.length} matched · ${newCount} new · generated ${new Date().toLocaleString()}</div>
+  <div class="sub">${jobs.length} matched · ${newCount} new · generated ${generated}</div>
 </div></header>
 <div class="wrap">
   <input id="q" placeholder="filter by title, company, location…" oninput="f()">
