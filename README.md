@@ -72,7 +72,7 @@ Edit `src/config.ts`:
 2. Settings → Secrets → Actions: add `BRAVE_API_KEY` (for discovery) and optionally
    `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`.
 3. Settings → Pages → Source: GitHub Actions.
-4. The workflow runs once daily (06:00 UTC), commits fresh data (`jobs.json`,
+4. The workflow runs once daily (09:30 UTC), commits fresh data (`jobs.json`,
    `index.html`, `boards.json`), and publishes the dashboard to your Pages URL. "NEW"
    detection works because the previous `jobs.json` is committed and diffed each run.
 

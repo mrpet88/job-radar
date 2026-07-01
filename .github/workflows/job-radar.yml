@@ -2,7 +2,7 @@ name: job-radar
 
 on:
   schedule:
-    - cron: "0 6 * * *"    # 06:00 UTC daily — full run with ATS discovery
+    - cron: "30 9 * * *"   # 09:30 UTC daily (~11:30 CEST) — full run with ATS discovery
   workflow_dispatch: {}        # manual run button
 
 permissions:
