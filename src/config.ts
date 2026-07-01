@@ -15,6 +15,22 @@ export const criteria: SearchCriteria = {
   countries: ["nl", "gb", "de"], // Adzuna country codes
   remoteOnly: false,
   visaSponsorship: undefined,    // Arbeitnow: true / false / undefined(=any)
+  location: {
+    // In-person & hybrid roles are kept ONLY if the location matches one of these.
+    onsiteCountries: [
+      "netherlands", "nederland", "holland", "nl", "amsterdam", "rotterdam",
+      "the hague", "den haag", "utrecht", "eindhoven", "groningen", "tilburg",
+      "haarlem", "nijmegen", "almere", "breda", "arnhem", "amersfoort", "leiden", "delft",
+    ],
+    // Remote roles are kept worldwide EXCEPT when restricted to these lower-pay markets.
+    remoteExclude: [
+      "india", "pakistan", "bangladesh", "sri lanka", "philippines", "indonesia",
+      "vietnam", "thailand", "malaysia", "china", "nepal", "brazil", "argentina",
+      "colombia", "mexico", "peru", "chile", "venezuela", "ecuador", "nigeria",
+      "kenya", "ghana", "egypt", "south africa", "morocco", "turkey", "türkiye",
+      "ukraine", "latam", "latin america",
+    ],
+  },
 };
 
 // ── Direct-ATS discovery ──────────────────────────────────────────

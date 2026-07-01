@@ -62,6 +62,8 @@ Without a key, discovery is skipped and only the aggregators run.
 Edit `src/config.ts`:
 - `criteria` — `keywordsAny` (OR across groups, AND within a group), `excludeKeywords`,
   `countries`, `remoteOnly`, `visaSponsorship`.
+- `criteria.location` — geo filter: remote roles are kept worldwide except
+  `remoteExclude` markets; in-person/hybrid roles are kept only in `onsiteCountries`.
 - `atsDomains` — which ATS domains discovery scans.
 - `discovery.maxQueriesPerRun` — cap search-API usage per run.
 - `seedBoards` — pin specific company boards to harvest directly (e.g. a Workday

@@ -31,6 +31,13 @@ export interface Board {
   fails?: number;        // consecutive harvest failures (reset to 0 on success)
 }
 
+// Location policy: remote roles are worldwide (minus low-pay markets); in-person
+// and hybrid roles are restricted to onsiteCountries.
+export interface LocationPolicy {
+  onsiteCountries: string[]; // in-person/hybrid kept only if location matches one
+  remoteExclude: string[];   // remote dropped if location is restricted to one
+}
+
 export interface SearchCriteria {
   // keyword groups: a job matches if ANY group fully matches.
   // within a group, ALL terms must appear (AND). across groups: OR.
@@ -39,4 +46,5 @@ export interface SearchCriteria {
   countries: string[];         // adzuna country codes: ['nl','gb','de']
   remoteOnly: boolean;
   visaSponsorship?: boolean;   // arbeitnow only
+  location?: LocationPolicy;   // geo filter applied to every source
 }
