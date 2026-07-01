@@ -1,12 +1,35 @@
-import type { Job, SearchCriteria } from "./types.js";
+import type { Job, LocationPolicy, SearchCriteria } from "./types.js";
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+// Match a location string against a list of terms. Short terms (≤3 chars, e.g.
+// "nl", "us") use word boundaries so they don't match inside other words.
+const matchAny = (loc: string, terms: string[]): boolean =>
+  terms.some((t) => {
+    const term = t.toLowerCase();
+    return term.length <= 3 ? new RegExp(`\\b${esc(term)}\\b`).test(loc) : loc.includes(term);
+  });
+
+// Remote → worldwide, minus explicitly low-pay markets. In-person/hybrid
+// (remote=false) → only the onsite countries.
+export function locationOk(job: Job, p?: LocationPolicy): boolean {
+  if (!p) return true;
+  const loc = job.location.toLowerCase().trim();
+  const onsite = matchAny(loc, p.onsiteCountries);
+  if (job.remote) {
+    if (onsite) return true;                          // remote, based in NL etc.
+    if (matchAny(loc, p.remoteExclude)) return false; // restricted to a low-pay market
+    return true;                                      // worldwide / competitive / unspecified
+  }
+  return onsite;                                       // in-person/hybrid → onsite set only
+}
 
 export function matchesCriteria(job: Job, c: SearchCriteria): boolean {
   // Excludes scan everything (title/company/tags/description) — cast a wide net.
   const full = `${job.title} ${job.company} ${job.tags.join(" ")} ${job.description ?? ""}`.toLowerCase();
   if (c.excludeKeywords.some((k) => full.includes(k.toLowerCase()))) return false;
   if (c.remoteOnly && !job.remote) return false;
+  if (!locationOk(job, c.location)) return false;
 
   // Keyword match is title+tags only, with word boundaries, so a role must
   // actually *be* about the keyword — not merely mention it in boilerplate.
