@@ -46,9 +46,9 @@ export BRAVE_API_KEY=xxxx
 npm start                 # discovers boards → data/boards.json → harvests them
 ```
 Only discovery spends credits; harvesting known boards is free. A full discovery is
-`keywordGroups × atsDomains` (~25 searches). In CI, discovery runs **once a day**
-(morning cron); the evening run harvests only — so usage stays ~750/mo, inside the
-free credit. Set `JOB_RADAR_DISCOVER=false` to force a harvest-only run yourself.
+`keywordGroups × atsDomains` (~25 searches). CI runs **once a day**, so usage stays
+~750/mo, inside the free credit. Set `JOB_RADAR_DISCOVER=false` to force a harvest-only
+run yourself.
 
 Prefer Google? Set `searchProvider = "google"` in `src/config.ts` and export
 `GOOGLE_API_KEY` + `GOOGLE_CSE_CX` (Programmable Search, 100 queries/day free).
@@ -72,9 +72,9 @@ Edit `src/config.ts`:
 2. Settings → Secrets → Actions: add `BRAVE_API_KEY` (for discovery) and optionally
    `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`.
 3. Settings → Pages → Source: GitHub Actions.
-4. The workflow runs twice daily, commits fresh data (`jobs.json`, `index.html`,
-   `boards.json`), and publishes the dashboard to your Pages URL. "NEW" detection
-   works because the previous `jobs.json` is committed and diffed each run.
+4. The workflow runs once daily (06:00 UTC), commits fresh data (`jobs.json`,
+   `index.html`, `boards.json`), and publishes the dashboard to your Pages URL. "NEW"
+   detection works because the previous `jobs.json` is committed and diffed each run.
 
 ## How "new" detection works
 Each job gets a stable id = `sha1(source|company|title|location)`. On each run the

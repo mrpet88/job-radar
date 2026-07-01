@@ -2,9 +2,8 @@ name: job-radar
 
 on:
   schedule:
-    - cron: "0 6 * * *"    # 06:00 UTC — full run WITH ATS discovery
-    - cron: "0 18 * * *"   # 18:00 UTC — harvest only (spends no search credits)
-  workflow_dispatch: {}        # manual run button (discovery on)
+    - cron: "0 6 * * *"    # 06:00 UTC daily — full run with ATS discovery
+  workflow_dispatch: {}        # manual run button
 
 permissions:
   contents: write
@@ -24,9 +23,6 @@ jobs:
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
-          # Discovery runs on the morning cron + manual runs, but not the evening
-          # cron — keeps Brave usage (~750/mo) inside the free $5 credit.
-          JOB_RADAR_DISCOVER: ${{ github.event.schedule != '0 18 * * *' }}
           # Direct-ATS discovery (optional). Set BRAVE_API_KEY, or the Google CSE pair.
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
