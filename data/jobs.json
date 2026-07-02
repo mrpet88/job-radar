@@ -1,328 +1,192 @@
 [
   {
-    "id": "fbb0161fbd9216e3",
-    "source": "adzuna",
-    "title": "Quality Assurance Automation Engineer",
-    "company": "Morson Edge",
-    "location": "Manchester, Greater Manchester",
-    "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=RupNJIt18RGt3dtJYsVrNQ&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
-    "salaryMin": 66656.22,
-    "salaryMax": 66656.22,
-    "currency": "GBP",
-    "tags": [
-      "IT Jobs"
-    ],
-    "postedAt": "2026-07-01T09:37:48Z",
-    "isNew": true
-  },
-  {
-    "id": "0321c980c31048aa",
-    "source": "adzuna",
-    "title": "Mobile Test Automation Engineer",
-    "company": "STAFIDE",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5781675655?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-30T04:50:14Z",
-    "isNew": true
-  },
-  {
-    "id": "876ea11c5df8eaaa",
-    "source": "adzuna",
-    "title": "AI Governance & Platform Engineer",
-    "company": "STAFIDE",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5781675666?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-30T04:50:14Z",
-    "isNew": true
-  },
-  {
-    "id": "2e29e9f7dc766669",
-    "source": "adzuna",
-    "title": "Mobile Test Automation Engineer",
-    "company": "STAFIDE",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5781241704?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-29T18:42:19Z",
-    "isNew": true
-  },
-  {
-    "id": "608891891263230a",
-    "source": "adzuna",
-    "title": "AI Governance & Platform Engineer",
-    "company": "STAFIDE",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5781241714?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-29T18:42:19Z",
-    "isNew": true
-  },
-  {
-    "id": "0ba45fd45af19270",
-    "source": "adzuna",
-    "title": "Senior QA Quality Engineer GR Expert",
-    "company": "WR.nl Solliciteren",
-    "location": "Paddepoel, Groningen",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5776260402?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 54000,
-    "salaryMax": 74400,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-25T15:35:09Z",
-    "isNew": true
-  },
-  {
-    "id": "8c7e0b1f112a042a",
-    "source": "adzuna",
-    "title": "Test Automation Engineer",
-    "company": "WR.nl Solliciteren",
-    "location": "Groningen, Provincie Groningen",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5775876048?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 54000,
-    "salaryMax": 74400,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-25T08:47:22Z",
-    "isNew": true
-  },
-  {
-    "id": "672e39c1232b7d28",
-    "source": "adzuna",
-    "title": "Senior QA Engineer",
-    "company": "WR.nl Solliciteren",
-    "location": "Groningen, Provincie Groningen",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5775856003?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 54000,
-    "salaryMax": 74400,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-25T08:38:35Z",
-    "isNew": true
-  },
-  {
-    "id": "4292aaba074639ba",
-    "source": "adzuna",
-    "title": "(Senior) Quality Assurance Engineer",
-    "company": "Getinge",
-    "location": "Delft, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774747982?se=oiPJIot18RG075onbIWOaw&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:14:09Z",
-    "isNew": true
-  },
-  {
-    "id": "1b61390327f9e3e0",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior QA Engineer",
-    "company": "Zip",
-    "location": "San Francisco",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/zip/15fff9a0-f78a-47bf-b37e-cc5da4f0d9ab",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-22T15:08:45.322+00:00",
-    "isNew": true
-  },
-  {
-    "id": "e7c031f72aaab80f",
-    "source": "adzuna",
-    "title": "Senior Software Design Quality Engineer - AI",
-    "company": "Philips",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5763126401?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-14T03:53:10Z",
-    "isNew": true
-  },
-  {
-    "id": "773d9a1048bc37ee",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Engineer - Endpoint ",
-    "company": "Nightfall Ai",
-    "location": "Bengaluru",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nightfall-ai/8327b2b6-72d1-45ba-9373-7de1069846f0",
-    "tags": [
-      "R&D",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-09T11:22:14.682+00:00",
-    "isNew": true
-  },
-  {
-    "id": "e8dd6c2d64246860",
-    "source": "adzuna",
-    "title": "Senior Data & AI Assurance Engineer",
-    "company": "CGI",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5755855247?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Creatieve Design vacatures"
-    ],
-    "postedAt": "2026-06-08T03:31:57Z",
-    "isNew": true
-  },
-  {
-    "id": "a538b2ae9e7ac1ef",
-    "source": "adzuna",
-    "title": "AI Governance Engineer",
-    "company": "Deeploy",
-    "location": "Utrecht, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5754993812?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-07T04:12:40Z",
-    "isNew": true
-  },
-  {
-    "id": "c0331caf70043b3f",
-    "source": "adzuna",
-    "title": "(Senior) Quality Assurance Engineer",
-    "company": "The Frencken Group",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5753846240?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-06T04:02:34Z",
-    "isNew": true
-  },
-  {
-    "id": "1a3f91b31133f817",
-    "source": "adzuna",
-    "title": "Customer Engineer, AI Governance",
-    "company": "Deeploy",
-    "location": "Utrecht, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5753820357?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-06T03:34:28Z",
-    "isNew": true
-  },
-  {
-    "id": "bc65be9a67eddb9a",
-    "source": "adzuna",
-    "title": "QA Engineer - E-commerce",
-    "company": "Kramp Groep",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5753820023?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Logistieke vacatures"
-    ],
-    "postedAt": "2026-06-06T03:34:20Z",
-    "isNew": true
-  },
-  {
-    "id": "650d4f2c2bc307a6",
+    "id": "65dc6b4f6265609f",
     "source": "lever",
     "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Dutch",
-    "location": "Vancouver",
+    "title": "QA Release Lead",
+    "company": "Jobgether",
+    "location": "US",
     "remote": true,
-    "url": "https://jobs.lever.co/dutch/af49df69-1e5c-4c60-bb6a-1b44c1b89528",
+    "url": "https://jobs.lever.co/jobgether/be8e209e-dd7f-4a8b-8b75-11ec1c6566fa",
     "tags": [
-      "Engineering",
-      "Full Time"
+      "IT",
+      "Contract"
     ],
-    "postedAt": "2026-06-05T18:24:27.889Z",
+    "postedAt": "2026-07-02T09:53:48.511Z",
     "isNew": true
   },
   {
-    "id": "b22022b5f317ffce",
+    "id": "20a7484ec3b347de",
     "source": "lever",
     "vendor": "lever",
+    "title": "Senior QA Automation Engineer",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/28167489-c0ac-4072-9235-617e1f8144e4",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T09:20:29.029Z",
+    "isNew": true
+  },
+  {
+    "id": "d58516a1ef38f660",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Quality Assurance Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/042c1d46-de19-4ea1-9269-be75de8e9d21",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T05:19:51.128Z",
+    "isNew": true
+  },
+  {
+    "id": "04f74027464e8e19",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Switzerland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1024d473-747a-4a15-a10e-767e5ac10ee7",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T04:51:58.712Z",
+    "isNew": true
+  },
+  {
+    "id": "97f8ceb6ec4d0ccd",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "France",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/05bd4e38-6d8c-4154-b681-9a784feeb240",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T04:51:39.531Z",
+    "isNew": true
+  },
+  {
+    "id": "b2b6fe903c3fd07e",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Spain",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/e37c9ca7-3f1e-4275-8ebc-a6ffd6827f22",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T04:51:23.176Z",
+    "isNew": true
+  },
+  {
+    "id": "5b52aa1605d5d11b",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "UK",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1e4531b6-0f9c-48a0-9897-23ba50ca644d",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T04:51:06.302Z",
+    "isNew": true
+  },
+  {
+    "id": "8d2cf86d27a047bc",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Germany",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/b917d8ad-4db2-43cb-818c-a54f584be062",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T04:08:31.360Z",
+    "isNew": true
+  },
+  {
+    "id": "331763831e879174",
+    "source": "adzuna",
+    "title": "Senior QA Engineer",
+    "company": "Protolabs",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5784736064?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-07-02T04:01:12Z",
+    "isNew": true
+  },
+  {
+    "id": "c73d273f324ddfaf",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Automation Engineer (Python | Selenium | Pytest)",
+    "company": "3pillarglobal",
+    "location": "Costa Rica",
+    "remote": true,
+    "url": "https://jobs.lever.co/3pillarglobal/02aabab8-f53e-4a72-817c-6787377b8460",
+    "tags": [
+      "Product Delivery",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T00:37:43.265Z",
+    "isNew": true
+  },
+  {
+    "id": "e643b045949f3564",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Automation Engineer (Python | Selenium | Pytest)",
+    "company": "3pillarglobal",
+    "location": "Guatemala",
+    "remote": true,
+    "url": "https://jobs.lever.co/3pillarglobal/510fb055-5c68-4588-8fb2-014fade0bdf1",
+    "tags": [
+      "Product Delivery",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T00:24:31.030Z",
+    "isNew": true
+  },
+  {
+    "id": "432a26534a95ed71",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
     "title": "QA Automation Engineer",
-    "company": "Dutch",
-    "location": "Vancouver",
+    "company": "Slingshot Aerospace",
+    "location": "Remote, United States",
     "remote": true,
-    "url": "https://jobs.lever.co/dutch/92425046-28ab-4555-94df-7db2a6e0993f",
+    "url": "https://job-boards.greenhouse.io/slingshotaerospace/jobs/6016469004?gh_jid=6016469004",
     "tags": [
-      "Engineering",
-      "Full Time"
+      "Technology"
     ],
-    "postedAt": "2026-06-05T18:14:22.055Z",
-    "isNew": true
-  },
-  {
-    "id": "fddac82afd8d07cf",
-    "source": "adzuna",
-    "title": "Senior QA / Quality Engineer",
-    "company": "YTEC Development BV",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5752509951?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-05T00:26:32Z",
-    "isNew": true
-  },
-  {
-    "id": "1f5802b415e03e9d",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Remote Technical Customer Support - QA and Game Dev - 6/26",
-    "company": "Modsquad",
-    "location": "8 Locations",
-    "remote": true,
-    "url": "https://modsquad.wd5.myworkdayjobs.com/ModSquad_Contractor/job/DOM-Remote/Remote-Technical-Customer-Support---QA-and-Game-Dev---6-26_JR101623",
-    "tags": [],
+    "postedAt": "2026-06-08T15:49:41-04:00",
     "isNew": true
   },
   {
@@ -339,6 +203,23 @@
       "Contract"
     ],
     "postedAt": "2026-07-01T17:22:37.883Z",
+    "isNew": false
+  },
+  {
+    "id": "fbb0161fbd9216e3",
+    "source": "adzuna",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "Morson Edge",
+    "location": "Manchester, Greater Manchester",
+    "remote": true,
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=YO52Cwd28RGRKOYvYTKPNw&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
+    "salaryMin": 66656.22,
+    "salaryMax": 66656.22,
+    "currency": "GBP",
+    "tags": [
+      "IT Jobs"
+    ],
+    "postedAt": "2026-07-01T09:37:48Z",
     "isNew": false
   },
   {
@@ -823,6 +704,66 @@
     "isNew": false
   },
   {
+    "id": "0321c980c31048aa",
+    "source": "adzuna",
+    "title": "Mobile Test Automation Engineer",
+    "company": "STAFIDE",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781675655?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-30T04:50:14Z",
+    "isNew": false
+  },
+  {
+    "id": "876ea11c5df8eaaa",
+    "source": "adzuna",
+    "title": "AI Governance & Platform Engineer",
+    "company": "STAFIDE",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781675666?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-30T04:50:14Z",
+    "isNew": false
+  },
+  {
+    "id": "2e29e9f7dc766669",
+    "source": "adzuna",
+    "title": "Mobile Test Automation Engineer",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781241704?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-29T18:42:19Z",
+    "isNew": false
+  },
+  {
+    "id": "608891891263230a",
+    "source": "adzuna",
+    "title": "AI Governance & Platform Engineer",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5781241714?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-29T18:42:19Z",
+    "isNew": false
+  },
+  {
     "id": "387bb8e6f907817d",
     "source": "lever",
     "vendor": "lever",
@@ -836,21 +777,6 @@
       "Full-time"
     ],
     "postedAt": "2026-06-29T15:04:44.160Z",
-    "isNew": false
-  },
-  {
-    "id": "0c87762f462cdde3",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Software Engineer (Test Automation) ",
-    "company": "Nava PBC",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/navapbc/jobs/4278028009",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-06-29T09:52:19-04:00",
     "isNew": false
   },
   {
@@ -980,6 +906,23 @@
     "isNew": false
   },
   {
+    "id": "0ba45fd45af19270",
+    "source": "adzuna",
+    "title": "Senior QA Quality Engineer GR Expert",
+    "company": "WR.nl Solliciteren",
+    "location": "Paddepoel, Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5776260402?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T15:35:09Z",
+    "isNew": false
+  },
+  {
     "id": "fff2ac4fa5215f2b",
     "source": "lever",
     "vendor": "lever",
@@ -1059,6 +1002,40 @@
       "Full-time"
     ],
     "postedAt": "2026-06-25T12:30:26.381Z",
+    "isNew": false
+  },
+  {
+    "id": "8c7e0b1f112a042a",
+    "source": "adzuna",
+    "title": "Test Automation Engineer",
+    "company": "WR.nl Solliciteren",
+    "location": "Groningen, Provincie Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5775876048?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T08:47:22Z",
+    "isNew": false
+  },
+  {
+    "id": "672e39c1232b7d28",
+    "source": "adzuna",
+    "title": "Senior QA Engineer",
+    "company": "WR.nl Solliciteren",
+    "location": "Groningen, Provincie Groningen",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5775856003?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 54000,
+    "salaryMax": 74400,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-25T08:38:35Z",
     "isNew": false
   },
   {
@@ -1318,6 +1295,38 @@
     "isNew": false
   },
   {
+    "id": "4292aaba074639ba",
+    "source": "adzuna",
+    "title": "(Senior) Quality Assurance Engineer",
+    "company": "Getinge",
+    "location": "Delft, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774747982?se=7m9pBAd28RGrpvEGaR9kIA&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:14:09Z",
+    "isNew": false
+  },
+  {
+    "id": "1b61390327f9e3e0",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Engineer",
+    "company": "Zip",
+    "location": "San Francisco",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/zip/15fff9a0-f78a-47bf-b37e-cc5da4f0d9ab",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-22T15:08:45.322+00:00",
+    "isNew": false
+  },
+  {
     "id": "2ef4c188a7c99005",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1430,6 +1439,21 @@
       "€3.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-16T06:29:39.728+00:00",
+    "isNew": false
+  },
+  {
+    "id": "e7c031f72aaab80f",
+    "source": "adzuna",
+    "title": "Senior Software Design Quality Engineer - AI",
+    "company": "Philips",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5763126401?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Creatieve Design vacatures"
+    ],
+    "postedAt": "2026-06-14T03:53:10Z",
     "isNew": false
   },
   {
@@ -1592,6 +1616,23 @@
     "isNew": false
   },
   {
+    "id": "773d9a1048bc37ee",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Engineer - Endpoint ",
+    "company": "Nightfall Ai",
+    "location": "Bengaluru",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/nightfall-ai/8327b2b6-72d1-45ba-9373-7de1069846f0",
+    "tags": [
+      "R&D",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-09T11:22:14.682+00:00",
+    "isNew": false
+  },
+  {
     "id": "6005c35955ea9b82",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1604,6 +1645,98 @@
       "RSO CLIN 11"
     ],
     "postedAt": "2026-06-08T13:55:47-04:00",
+    "isNew": false
+  },
+  {
+    "id": "a538b2ae9e7ac1ef",
+    "source": "adzuna",
+    "title": "AI Governance Engineer",
+    "company": "Deeploy",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5754993812?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-07T04:12:40Z",
+    "isNew": false
+  },
+  {
+    "id": "c0331caf70043b3f",
+    "source": "adzuna",
+    "title": "(Senior) Quality Assurance Engineer",
+    "company": "The Frencken Group",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753846240?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-06T04:02:34Z",
+    "isNew": false
+  },
+  {
+    "id": "1a3f91b31133f817",
+    "source": "adzuna",
+    "title": "Customer Engineer, AI Governance",
+    "company": "Deeploy",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753820357?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-06-06T03:34:28Z",
+    "isNew": false
+  },
+  {
+    "id": "bc65be9a67eddb9a",
+    "source": "adzuna",
+    "title": "QA Engineer - E-commerce",
+    "company": "Kramp Groep",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5753820023?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Logistieke vacatures"
+    ],
+    "postedAt": "2026-06-06T03:34:20Z",
+    "isNew": false
+  },
+  {
+    "id": "650d4f2c2bc307a6",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Engineer",
+    "company": "Dutch",
+    "location": "Vancouver",
+    "remote": true,
+    "url": "https://jobs.lever.co/dutch/af49df69-1e5c-4c60-bb6a-1b44c1b89528",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-05T18:24:27.889Z",
+    "isNew": false
+  },
+  {
+    "id": "b22022b5f317ffce",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Automation Engineer",
+    "company": "Dutch",
+    "location": "Vancouver",
+    "remote": true,
+    "url": "https://jobs.lever.co/dutch/92425046-28ab-4555-94df-7db2a6e0993f",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-05T18:14:22.055Z",
     "isNew": false
   },
   {
@@ -1639,6 +1772,21 @@
       "FullTime"
     ],
     "postedAt": "2026-06-05T07:55:40.123+00:00",
+    "isNew": false
+  },
+  {
+    "id": "fddac82afd8d07cf",
+    "source": "adzuna",
+    "title": "Senior QA / Quality Engineer",
+    "company": "YTEC Development BV",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5752509951?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-06-05T00:26:32Z",
     "isNew": false
   },
   {
@@ -1784,55 +1932,6 @@
     "isNew": false
   },
   {
-    "id": "1137b4fe0517dd48",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Analyst - LOIS for Word",
-    "company": "Filevine",
-    "location": "San Francisco",
-    "remote": true,
-    "url": "https://jobs.lever.co/filevine/cdefa733-47b0-4cec-a877-cb6fdf4e063c",
-    "tags": [
-      "Quality",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-01T23:32:00.625Z",
-    "isNew": false
-  },
-  {
-    "id": "a2805dbc39780b15",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Automation Engineer (AI-Assisted Quality Engineering)",
-    "company": "Oowlish",
-    "location": "São Paulo",
-    "remote": true,
-    "url": "https://jobs.lever.co/oowlish/5301fc7e-1a65-471c-89d5-682b1c8db19f",
-    "tags": [
-      "Quality Assurance",
-      "Remote"
-    ],
-    "postedAt": "2026-06-01T22:29:52.594Z",
-    "isNew": false
-  },
-  {
-    "id": "3320a04bb567d5f7",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "AI Governance Advisor",
-    "company": "Credo.Ai",
-    "location": "USA Remote (East Coast Time Zone Preferred)",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/credo.ai/6ff04afe-a887-4f47-bcfa-4561b7af98da",
-    "tags": [
-      "Sales",
-      "Sales",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-01T20:42:04.355+00:00",
-    "isNew": false
-  },
-  {
     "id": "18af5f7188d977cc",
     "source": "workday",
     "vendor": "workday",
@@ -1889,6 +1988,18 @@
     "location": "US - Remote (Any location)",
     "remote": true,
     "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/QA-Regulatory-Data-SME_40882",
+    "tags": [],
+    "isNew": false
+  },
+  {
+    "id": "1f5802b415e03e9d",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Remote Technical Customer Support - QA and Game Dev - 6/26",
+    "company": "Modsquad",
+    "location": "8 Locations",
+    "remote": true,
+    "url": "https://modsquad.wd5.myworkdayjobs.com/ModSquad_Contractor/job/DOM-Remote/Remote-Technical-Customer-Support---QA-and-Game-Dev---6-26_JR101623",
     "tags": [],
     "isNew": false
   },
