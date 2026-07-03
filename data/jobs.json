@@ -1,5 +1,382 @@
 [
   {
+    "id": "21db2a53535ab724",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Test Automation Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/10008141-5597-43e6-ba53-2f6b3d98f59c",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-03T10:16:43.826Z",
+    "isNew": true
+  },
+  {
+    "id": "b1048515e18bf2f9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Quality Assurance Engineer",
+    "company": "3pillarglobal",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/3pillarglobal/0796397a-c1f9-4e18-8967-6d4d9dbbdcd0",
+    "salaryMin": 100000,
+    "salaryMax": 120000,
+    "currency": "USD",
+    "tags": [
+      "Product Development",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T21:45:05.856Z",
+    "isNew": true
+  },
+  {
+    "id": "59308ad6bec2dbad",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Software QA Specialist",
+    "company": "Jobgether",
+    "location": "Ireland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/97dfbd0e-0d27-4161-9494-ea7400069665",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T16:06:23.940Z",
+    "isNew": true
+  },
+  {
+    "id": "568fe6a4e05afa16",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/0656c998-d953-4f3a-af7a-3b23020990fd",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:01:55.425Z",
+    "isNew": true
+  },
+  {
+    "id": "ec6465aa50109bae",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "Ireland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/f7daa6bb-6307-4a70-b112-4f3fedf7f7e7",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:01:35.464Z",
+    "isNew": true
+  },
+  {
+    "id": "4142192697cd7fa5",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "Switzerland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/0375faa7-dee5-4cd2-853b-f0ece5b7c06e",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:01:18.824Z",
+    "isNew": true
+  },
+  {
+    "id": "7dd6d5d2a413a89d",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "France",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/782c6c07-dd6c-4a16-9486-48ec2251feae",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:01:00.978Z",
+    "isNew": true
+  },
+  {
+    "id": "dba9c7f2ca064cc1",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "Germany",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/80f55f5a-8df6-44c7-8819-675b0780f1fa",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:00:36.329Z",
+    "isNew": true
+  },
+  {
+    "id": "52bfa56282916674",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "Spain",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/8735c7b9-d144-4651-ab4e-964bcb2fdb3e",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T15:00:11.204Z",
+    "isNew": true
+  },
+  {
+    "id": "8195a098fb971325",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Tester / QA Engineer",
+    "company": "Jobgether",
+    "location": "UK",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/ec7d69b6-7d95-4a00-be56-9f55a4596ae8",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:58:40.242Z",
+    "isNew": true
+  },
+  {
+    "id": "c9bc13f1c3855d13",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/b6aee797-4383-44ba-a346-9b81e7b98e19",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:46:52.770Z",
+    "isNew": true
+  },
+  {
+    "id": "b094857185cd7b03",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "Ireland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/f7f6321d-4356-42c4-ae55-95a7a2c77529",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:46:21.481Z",
+    "isNew": true
+  },
+  {
+    "id": "1e4a05d93ca3080b",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "Switzerland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/10a51865-9dfe-43c4-9684-4ce16d6d4d92",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:45:57.736Z",
+    "isNew": true
+  },
+  {
+    "id": "72a74bf3167a07fe",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "France",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/11f337a9-50f3-4cf4-b48e-f0fc1f140bf3",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:45:33.344Z",
+    "isNew": true
+  },
+  {
+    "id": "3f12a40a66cbd926",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "Germany",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/c7703af3-008c-4d9c-8539-d0cf0732d636",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:45:10.056Z",
+    "isNew": true
+  },
+  {
+    "id": "e4ed2477b1b3bd3b",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "Spain",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/2598331d-dea6-4a60-bbed-6482932b58de",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:44:52.490Z",
+    "isNew": true
+  },
+  {
+    "id": "0713c9f4a77ee8f5",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer (SaaS)",
+    "company": "Jobgether",
+    "location": "UK",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/9afeb96a-7799-4331-b847-d91c40b4a263",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-02T14:44:34.037Z",
+    "isNew": true
+  },
+  {
+    "id": "9539515b42223763",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Test Developer",
+    "company": "Zayzoon",
+    "location": "Calgary",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/zayzoon/ff98b378-a374-4f15-a1c1-54e4e2e7c7f2",
+    "tags": [
+      "Development",
+      "Development",
+      "FullTime",
+      "CA$95K – CA$116K • CA$15.5K Bonus"
+    ],
+    "postedAt": "2026-06-30T13:46:54.641+00:00",
+    "isNew": true
+  },
+  {
+    "id": "6980a1ed0c270946",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "QA Engineer, Web / Frontend",
+    "company": "Ondo Finance",
+    "location": "Remote (US)",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/ondofinance/jobs/4297398009",
+    "tags": [
+      "Software Engineering"
+    ],
+    "postedAt": "2026-06-29T14:51:37-04:00",
+    "isNew": true
+  },
+  {
+    "id": "24dc28f0c4e9e7ed",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Engineer (Remote)",
+    "company": "Trellis",
+    "location": "Anywhere in the US",
+    "remote": true,
+    "url": "https://jobs.lever.co/trellis/b7d5cb21-a908-4a80-8b64-c2472d6fbc12",
+    "tags": [
+      "Engineering",
+      "Full time"
+    ],
+    "postedAt": "2026-06-19T19:26:44.477Z",
+    "isNew": true
+  },
+  {
+    "id": "5a1cc6177a5141a9",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Quality Engineer",
+    "company": "Clarioclinical",
+    "location": "Canada Remote",
+    "remote": true,
+    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote/Quality-Engineer_R17300",
+    "tags": [],
+    "isNew": true
+  },
+  {
+    "id": "46a8569a6071abaf",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Sr Quality Automation Engineer",
+    "company": "Clarioclinical",
+    "location": "Canada Remote",
+    "remote": true,
+    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote/Sr-Quality-Automation-Engineer_R17024",
+    "tags": [],
+    "isNew": true
+  },
+  {
+    "id": "e1c862bb27b14af2",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Software Quality Engineer (Automation & Testing)",
+    "company": "Clarioclinical",
+    "location": "Costa Rica Remote",
+    "remote": true,
+    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Costa-Rica-Remote/Software-Quality-Engineer--Automation---Testing-_R17775",
+    "tags": [],
+    "isNew": true
+  },
+  {
+    "id": "6a7c00ff45354378",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Customer Engineer, AI Governance",
+    "company": "Deeploy",
+    "location": "Hybrid / Deeploy HQ (Utrecht)",
+    "remote": false,
+    "url": "https://jobs.ashbyhq.com/deeploy/db54be22-c5d7-4fb7-937a-0ff00195dcc8",
+    "tags": [
+      "Customer Success",
+      "Customer Success",
+      "FullTime"
+    ],
+    "postedAt": "2026-07-02T15:51:38.872+00:00",
+    "isNew": false
+  },
+  {
     "id": "65dc6b4f6265609f",
     "source": "lever",
     "vendor": "lever",
@@ -197,7 +574,7 @@
     "company": "Morson Edge",
     "location": "Manchester, Greater Manchester",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=PFhtrAt28RGOcsAa_cB6Dg&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=UPGd58R28RG-cvvra3L-5Q&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
     "salaryMin": 66656.22,
     "salaryMax": 66656.22,
     "currency": "GBP",
@@ -942,22 +1319,6 @@
     "isNew": false
   },
   {
-    "id": "2231114ca379fcc2",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA/UAT Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/94bbfe41-b7e7-45cd-ac78-89c25ef9dfb3",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T13:08:45.342Z",
-    "isNew": false
-  },
-  {
     "id": "bd21f2c44c453e8c",
     "source": "lever",
     "vendor": "lever",
@@ -1024,269 +1385,13 @@
     "isNew": false
   },
   {
-    "id": "7b4a5843e40a8c57",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA/UAT Engineer",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5beddbac-dc29-4af5-894b-c58ea04d485e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T07:42:11.949Z",
-    "isNew": false
-  },
-  {
-    "id": "704906fcc09f5f03",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c35ea87e-962d-46bf-bca2-e52ccd57c95d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T04:36:29.905Z",
-    "isNew": false
-  },
-  {
-    "id": "cb5f7514e2556271",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1aaec1b6-61f3-4e03-8ca3-8ed46f46d192",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T04:36:11.332Z",
-    "isNew": false
-  },
-  {
-    "id": "09f119eb39cf07ff",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/eeddc275-45d1-4dfb-a290-5a7cf0227eaf",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T04:35:49.851Z",
-    "isNew": false
-  },
-  {
-    "id": "aa2fa1b2b14580d7",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b75ef215-ebb0-4846-8743-fedfe25ff264",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T04:35:31.906Z",
-    "isNew": false
-  },
-  {
-    "id": "3568f0410eb5fb9f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0ba614d3-7fbf-4bb2-8bb2-5c29a1052ea6",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-25T03:35:40.459Z",
-    "isNew": false
-  },
-  {
-    "id": "79786feae061e8e5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/02e68802-b36a-4ef8-b64f-7eb40d923d1a",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:57:35.083Z",
-    "isNew": false
-  },
-  {
-    "id": "3bc87dbeb18c9e7e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9873474d-3886-4499-b864-7550f3282f69",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:57:12.955Z",
-    "isNew": false
-  },
-  {
-    "id": "369fa6e02c096489",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8d3f4284-2361-4bac-adfb-73f27305371b",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:56:53.148Z",
-    "isNew": false
-  },
-  {
-    "id": "29d3df3fa2b7efa9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/80e905b2-fb9b-4c29-b54e-53e13ab3c45e",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:56:33.467Z",
-    "isNew": false
-  },
-  {
-    "id": "5c047fb0002e2215",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7e209a6f-959e-4113-b55c-f86e6f624d48",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:56:14.259Z",
-    "isNew": false
-  },
-  {
-    "id": "f555583ec405458d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/391a2a46-da71-4380-b7d0-51d42558a297",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:55:55.660Z",
-    "isNew": false
-  },
-  {
-    "id": "49172f044cdab392",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1e97dbad-8d69-4977-b28f-8bdc2b926630",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:55:35.271Z",
-    "isNew": false
-  },
-  {
-    "id": "956373927b8ca7d8",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Portugal",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e2aa2500-138c-4864-b8dd-6b873183b796",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:54:57.348Z",
-    "isNew": false
-  },
-  {
-    "id": "f12ce5a48a6ff950",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Italy",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/eac462f2-3d95-4753-82bc-3ef9f3fd0f6d",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:54:21.083Z",
-    "isNew": false
-  },
-  {
-    "id": "b8a2dacf109c9531",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Content Operations QA Analyst",
-    "company": "Jobgether",
-    "location": "Romania",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f7b02348-9a02-4827-b02f-df8ae7875464",
-    "tags": [
-      "Marketing",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-24T23:52:43.141Z",
-    "isNew": false
-  },
-  {
     "id": "4292aaba074639ba",
     "source": "adzuna",
     "title": "(Senior) Quality Assurance Engineer",
     "company": "Getinge",
     "location": "Delft, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774747982?se=9JVlqgt28RGOcsAa_cB6Dg&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
+    "url": "https://www.adzuna.nl/land/ad/5774747982?se=_MKy5sR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -1436,7 +1541,7 @@
     "url": "https://www.adzuna.nl/details/5763126401?utm_medium=api&utm_source=9b7a3075",
     "currency": "EUR",
     "tags": [
-      "Creatieve Design vacatures"
+      "IT ICT vacatures"
     ],
     "postedAt": "2026-06-14T03:53:10Z",
     "isNew": false
@@ -1618,21 +1723,6 @@
     "isNew": false
   },
   {
-    "id": "432a26534a95ed71",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "QA Automation Engineer",
-    "company": "Slingshot Aerospace",
-    "location": "Remote, United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/slingshotaerospace/jobs/6016469004?gh_jid=6016469004",
-    "tags": [
-      "Technology"
-    ],
-    "postedAt": "2026-06-08T15:49:41-04:00",
-    "isNew": false
-  },
-  {
     "id": "6005c35955ea9b82",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1808,23 +1898,6 @@
     "isNew": false
   },
   {
-    "id": "6a7c00ff45354378",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Customer Engineer, AI Governance",
-    "company": "Deeploy",
-    "location": "Hybrid / Deeploy HQ (Utrecht)",
-    "remote": false,
-    "url": "https://jobs.ashbyhq.com/deeploy/db54be22-c5d7-4fb7-937a-0ff00195dcc8",
-    "tags": [
-      "Customer Success",
-      "Customer Success",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-04T20:01:59.478+00:00",
-    "isNew": false
-  },
-  {
     "id": "2ae163d02a6c2866",
     "source": "ashby",
     "vendor": "ashby",
@@ -1915,23 +1988,6 @@
     "isNew": false
   },
   {
-    "id": "51f9468793e60626",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Engineer (AI Governance)",
-    "company": "Stackone",
-    "location": "London",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/stackone/e8632d34-7a5c-4cdc-994b-6275a4fda308",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-02T14:40:47.846+00:00",
-    "isNew": false
-  },
-  {
     "id": "18af5f7188d977cc",
     "source": "workday",
     "vendor": "workday",
@@ -1964,30 +2020,6 @@
     "location": "Remote-LA",
     "remote": true,
     "url": "https://bcbsla.wd1.myworkdayjobs.com/external/job/Remote-LA/Senior-Software-Quality-Assurance-Engineer--Remote---Louisiana-Only-_R11769",
-    "tags": [],
-    "isNew": false
-  },
-  {
-    "id": "b0f3b8c5b51e6617",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "QA Database Administrator",
-    "company": "Guidehouse",
-    "location": "US - Remote (Any location)",
-    "remote": true,
-    "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/QA-Database-Administrator_40961",
-    "tags": [],
-    "isNew": false
-  },
-  {
-    "id": "9eb5f2c4c08163d7",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "QA Regulatory Data SME",
-    "company": "Guidehouse",
-    "location": "US - Remote (Any location)",
-    "remote": true,
-    "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/QA-Regulatory-Data-SME_40882",
     "tags": [],
     "isNew": false
   },
