@@ -1,12 +1,532 @@
 [
   {
+    "id": "fee1dfe3b64499d9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Automation Test Lead",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/12df20f7-25ec-4f5b-a320-e51c77ac3473",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-04T10:37:06.924Z",
+    "isNew": true
+  },
+  {
+    "id": "7d508750f0392335",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "UK",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/43a0a015-df83-4457-81da-125a2fb1d068",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:24:17.461Z",
+    "isNew": true
+  },
+  {
+    "id": "a03a13dee5d14f88",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "Spain",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/7ee0049d-0883-4305-84f0-f3171488fa40",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:23:34.735Z",
+    "isNew": true
+  },
+  {
+    "id": "7b8c0bd0566b7457",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "Germany",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/68785538-d801-4131-8637-693b336b5423",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:22:55.952Z",
+    "isNew": true
+  },
+  {
+    "id": "adb575f94749f17a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "France",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1bd1bac1-dbb5-4424-aef1-d541fed221cd",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:22:20.000Z",
+    "isNew": true
+  },
+  {
+    "id": "1f9d76aef960067f",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "Switzerland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/57b2fb13-7d5f-46ec-9dd0-f3c95e102618",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:21:41.167Z",
+    "isNew": true
+  },
+  {
+    "id": "bb3bdd116e503d49",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "Ireland",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/c74bc08e-9050-495f-92c3-ed28126252a9",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:21:05.438Z",
+    "isNew": true
+  },
+  {
+    "id": "f880c28b62b1a96d",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Product QA Tester",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/6e6b24f6-b465-4216-962e-247cc0eb3646",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-07-04T09:20:33.296Z",
+    "isNew": true
+  },
+  {
+    "id": "810368bf7224bc97",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Quality Assurance Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/3ec77df5-b266-4760-b58d-2608b7989724",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-04T09:17:13.688Z",
+    "isNew": true
+  },
+  {
+    "id": "bdca7a899de2d09c",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Intermediate QA Test Developer",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/fb7ce49f-2388-4993-93cd-99e829a48354",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-04T06:48:21.828Z",
+    "isNew": true
+  },
+  {
+    "id": "592373014a4bedac",
+    "source": "jobicy",
+    "title": "QA Engineer",
+    "company": "Workwize",
+    "location": "Europe,  Netherlands",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/147079-qa-engineer-5",
+    "tags": [
+      "QA &amp; Testing",
+      "Full-Time",
+      "Midweight"
+    ],
+    "postedAt": "2026-07-04T05:10:04+00:00",
+    "isNew": true
+  },
+  {
+    "id": "2659c17500020ec7",
+    "source": "adzuna",
+    "title": "Senior QA Engineer",
+    "company": "Ocho",
+    "location": "Belfast, Northern Ireland",
+    "remote": true,
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5787058868?se=6MduJJh38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=2D316F3FB89949573BFECC42B4B0687CB9394BB1",
+    "salaryMin": 75000,
+    "salaryMax": 75000,
+    "currency": "GBP",
+    "tags": [
+      "IT Jobs"
+    ],
+    "postedAt": "2026-07-03T21:21:22Z",
+    "isNew": true
+  },
+  {
+    "id": "9a61486d56cda094",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Intermediate QA Test Developer",
+    "company": "Zayzoon",
+    "location": "Calgary",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/zayzoon/0b441c45-ca32-4952-89ed-386ca0007419",
+    "tags": [
+      "Development",
+      "Development",
+      "FullTime",
+      "CA$83K – CA$99K • CA$10K Bonus"
+    ],
+    "postedAt": "2026-07-03T15:18:18.941+00:00",
+    "isNew": true
+  },
+  {
+    "id": "e96a3d25aafa6ef0",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Software Developer in Test (Dutch speaking)",
+    "company": "Caseware",
+    "location": "Stuttgart, Germany",
+    "remote": true,
+    "url": "https://jobs.lever.co/caseware/4ffb3501-aed6-4f49-b9fe-6c9c93512586",
+    "tags": [
+      "Solutions - QA",
+      "Full Time - Permanent"
+    ],
+    "postedAt": "2026-07-03T12:07:22.833Z",
+    "isNew": true
+  },
+  {
+    "id": "6dfb4f3890e5e01f",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Software Developer in Test (Dutch speaking)",
+    "company": "Caseware",
+    "location": "Odense, Denmark",
+    "remote": true,
+    "url": "https://jobs.lever.co/caseware/a5ccd193-3e98-48e3-a488-ef1e0636fb40",
+    "tags": [
+      "Solutions - QA",
+      "Full Time - Permanent"
+    ],
+    "postedAt": "2026-07-03T12:05:37.949Z",
+    "isNew": true
+  },
+  {
+    "id": "d920a1e4e4eba0a8",
+    "source": "remoteok",
+    "title": "Residential Real Estate Title Search Quality Control",
+    "company": "Pippin Title",
+    "location": "New York, New York, New York, United States",
+    "remote": true,
+    "url": "https://remoteOK.com/remote-jobs/remote-residential-real-estate-title-search-quality-control-pippin-title-1134453",
+    "tags": [
+      "design",
+      "consulting",
+      "exec",
+      "customer support",
+      "testing",
+      "marketing",
+      "web dev",
+      "video",
+      "education",
+      "seo",
+      "content writing",
+      "senior",
+      "ops",
+      "sales",
+      "golang",
+      "medical",
+      "digital nomad",
+      "travel",
+      "finance",
+      "stats",
+      "engineer",
+      "shopify",
+      "speech",
+      "full time",
+      "part time",
+      "hr",
+      "c",
+      "legal",
+      "coordinator",
+      "dev",
+      "cloud",
+      "excel"
+    ],
+    "postedAt": "2026-07-03T06:29:53+00:00",
+    "isNew": true
+  },
+  {
+    "id": "f6e58c055454c100",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Arnhem, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209956?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=3B918CA2CEC1F61E8011ABC023A23DDB2F310A4A",
+    "salaryMin": 33600,
+    "salaryMax": 55200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:31Z",
+    "isNew": true
+  },
+  {
+    "id": "5ebe63281c3df545",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Eindhoven, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209946?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=8CD308C404CA8AA6744AD7677CA342F4C3A2D050",
+    "salaryMin": 33600,
+    "salaryMax": 61200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:30Z",
+    "isNew": true
+  },
+  {
+    "id": "e0df0a6a09f01db7",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Leiden, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209715?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=A22814200ECD3DA52AA4977AE015DC33C4AFD326",
+    "salaryMin": 33600,
+    "salaryMax": 61200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:26Z",
+    "isNew": true
+  },
+  {
+    "id": "f9c1c97aae632b34",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Eindhoven, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209752?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=D2C37466ED2E3AEAE461D22722FE220139DA4285",
+    "salaryMin": 33600,
+    "salaryMax": 49320,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:26Z",
+    "isNew": true
+  },
+  {
+    "id": "ed2fdb95a9ab1753",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Breda, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209641?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=766A7047C43D971DDD0A4838B45BC1927578C3F0",
+    "salaryMin": 33600,
+    "salaryMax": 61800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:25Z",
+    "isNew": true
+  },
+  {
+    "id": "c2405b8b6a21fb47",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Botlek, Rotterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209689?se=JA_yIph38RGgp50uWWYLOA&utm_medium=api&utm_source=9b7a3075&v=32D5B202A28615679CEBCAD80BCCC359D8D4CE7B",
+    "salaryMin": 33600,
+    "salaryMax": 62280,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:25Z",
+    "isNew": true
+  },
+  {
+    "id": "3f128ac0888cd0d9",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Breda, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209625?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=454756CD3181E5A92450CE2CC44BEBE684E3011F",
+    "salaryMin": 33600,
+    "salaryMax": 49800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:25Z",
+    "isNew": true
+  },
+  {
+    "id": "445776286d3b15ab",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Tilburg, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209621?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=5455A4689C9AB4889C73E7C9E7267577A61FD7B6",
+    "salaryMin": 33600,
+    "salaryMax": 49800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:25Z",
+    "isNew": true
+  },
+  {
+    "id": "74b845a3959c24a2",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Nijmegen, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209556?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=32EC95CAD0DB92FD9393672D821368C973597BAF",
+    "salaryMin": 33600,
+    "salaryMax": 49320,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:24Z",
+    "isNew": true
+  },
+  {
+    "id": "e080bc5713c37430",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Dordrecht, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209395?se=JA_yIph38RGgp50uWWYLOA&utm_medium=api&utm_source=9b7a3075&v=D6F065125BCF26598EB86BC6A4D934907C7C14E1",
+    "salaryMin": 33600,
+    "salaryMax": 61680,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:22Z",
+    "isNew": true
+  },
+  {
+    "id": "ddac2b2399d105b8",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Gouda, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209314?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=C62F96DE9BE2561100A0CB2CF256AC6CC1B553CF",
+    "salaryMin": 33600,
+    "salaryMax": 62280,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:21Z",
+    "isNew": true
+  },
+  {
+    "id": "6b44d09391ce69a0",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Principal Software Engineer in Test (SDET)",
+    "company": "D Matrix",
+    "location": "Santa Clara",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/d-Matrix/ed25adca-f928-4564-90e6-ecba87fe78c8",
+    "tags": [
+      "Software Engineering",
+      "Quality Assurance",
+      "FullTime",
+      "$180K – $300K • Offers Equity • Offers Bonus"
+    ],
+    "postedAt": "2026-06-18T20:25:37.775+00:00",
+    "isNew": true
+  },
+  {
+    "id": "e8dd6c2d64246860",
+    "source": "adzuna",
+    "title": "Senior Data & AI Assurance Engineer",
+    "company": "CGI",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5755855247?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Creatieve Design vacatures"
+    ],
+    "postedAt": "2026-06-08T03:31:57Z",
+    "isNew": true
+  },
+  {
+    "id": "53d047e3f53c3fdd",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "QA Analyst",
+    "company": "Hyphensolutions",
+    "location": "Remote - Texas",
+    "remote": true,
+    "url": "https://hyphensolutions.wd5.myworkdayjobs.com/hyphen_solutions/job/Remote---Texas/QA-Analyst_JR100244",
+    "tags": [],
+    "isNew": true
+  },
+  {
     "id": "249103220fa04dc8",
     "source": "adzuna",
     "title": "Quality Engineer",
     "company": "Synsel Techniek",
     "location": "Schiphol, Haarlemmermeer",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5786760386?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=8E5BA3E6A5F4FBF32D5BD33C15D58F659DAD3FC8",
+    "url": "https://www.adzuna.nl/land/ad/5786760386?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=8E5BA3E6A5F4FBF32D5BD33C15D58F659DAD3FC8",
     "salaryMin": 33600,
     "salaryMax": 55200,
     "currency": "EUR",
@@ -14,7 +534,7 @@
       "Vacatures Ander of Algemeen"
     ],
     "postedAt": "2026-07-03T13:19:04Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "230670dac28d9b55",
@@ -30,226 +550,7 @@
       "Full-time"
     ],
     "postedAt": "2026-07-03T10:45:27.349Z",
-    "isNew": true
-  },
-  {
-    "id": "8b550f20d7e236dc",
-    "source": "adzuna",
-    "title": "QA Officer (GMP)",
-    "company": "Checkmark",
-    "location": "Haarlem, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5780189200?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=8347BB4BDF6F9BB089E823CB49240C3BE793C04C",
-    "currency": "EUR",
-    "tags": [
-      "Industriële vacatures"
-    ],
-    "postedAt": "2026-06-28T13:12:42Z",
-    "isNew": true
-  },
-  {
-    "id": "a406609c9f1f118d",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Den Haag, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209707?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=A531CB953886594F74D0C0FA092CDF3323F585EF",
-    "salaryMin": 33600,
-    "salaryMax": 49680,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:26Z",
-    "isNew": true
-  },
-  {
-    "id": "c7b79cea222dd537",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Gouda, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209733?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=CBC127296C3D47B8A066E43D1D92362DAD518A0B",
-    "salaryMin": 33600,
-    "salaryMax": 49320,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:26Z",
-    "isNew": true
-  },
-  {
-    "id": "60fe20c4caff60dc",
-    "source": "adzuna",
-    "title": "Junior QA Officer",
-    "company": "Synsel Techniek",
-    "location": "Leiden, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209692?se=TiE2ntR28RGMmszQJLOorA&utm_medium=api&utm_source=9b7a3075&v=1E12F1CBB4489A0B0D633BB2D8C4D8A090A48531",
-    "salaryMin": 33600,
-    "salaryMax": 49440,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:26Z",
-    "isNew": true
-  },
-  {
-    "id": "15911a01bad8a96c",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Nijmegen, Gelderland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209655?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=9CD8EBE053B54A6341A9CE62754CFFC5C6EF5F91",
-    "salaryMin": 33600,
-    "salaryMax": 61800,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:25Z",
-    "isNew": true
-  },
-  {
-    "id": "5767565330419172",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Arnhem, Gelderland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209657?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=A7EDB32F31CF6303BA20EE60B10A3151D46202A9",
-    "salaryMin": 33600,
-    "salaryMax": 49680,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:25Z",
-    "isNew": true
-  },
-  {
-    "id": "c634898b2fa865e3",
-    "source": "adzuna",
-    "title": "Junior QA Officer",
-    "company": "Synsel Techniek",
-    "location": "Arnhem, Gelderland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209623?se=TiE2ntR28RGMmszQJLOorA&utm_medium=api&utm_source=9b7a3075&v=30D999D1178CBA17122E1A1167A2AEBFAC001B3A",
-    "salaryMin": 33600,
-    "salaryMax": 50280,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:25Z",
-    "isNew": true
-  },
-  {
-    "id": "cc53643594019e78",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Leiden, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209575?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=A16AAEBAC416172AAEE81E85ED8CC06A9A45BB8F",
-    "salaryMin": 33600,
-    "salaryMax": 50160,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:24Z",
-    "isNew": true
-  },
-  {
-    "id": "b4bfe2f0aa385995",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Rotterdam, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209606?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=BB7100CDE72A7A45501BBA8D9A935711B54FDDF2",
-    "salaryMin": 33600,
-    "salaryMax": 49440,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:24Z",
-    "isNew": true
-  },
-  {
-    "id": "96b8fa74513f878b",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Dordrecht, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209595?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=15FCBD1EDA9FC1A420277DD97937217BC2DBB924",
-    "salaryMin": 33600,
-    "salaryMax": 49200,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:24Z",
-    "isNew": true
-  },
-  {
-    "id": "5138bbc4ac791916",
-    "source": "adzuna",
-    "title": "Junior Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Botlek, Rotterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209599?se=iIKbndR28RGw99DSBwaIyw&utm_medium=api&utm_source=9b7a3075&v=241F900CF76AEE4C39A1F6A05AAD7F29BE3DDDB7",
-    "salaryMin": 33600,
-    "salaryMax": 49800,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:24Z",
-    "isNew": true
-  },
-  {
-    "id": "9e08215e03fa777f",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Tilburg, Noord-Brabant",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209436?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=6D84FC0E0B9DE1BA358194B776500242F904748E",
-    "salaryMin": 33600,
-    "salaryMax": 62280,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:22Z",
-    "isNew": true
-  },
-  {
-    "id": "36efca4b4863a6cc",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "Synsel Techniek",
-    "location": "Delft, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209294?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=1EA90B21F779CB589138D5A358F68A351AFF3A9F",
-    "salaryMin": 33600,
-    "salaryMax": 61200,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-06-25T13:13:20Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "21db2a53535ab724",
@@ -672,21 +973,6 @@
     "isNew": false
   },
   {
-    "id": "331763831e879174",
-    "source": "adzuna",
-    "title": "Senior QA Engineer",
-    "company": "Protolabs",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5784736064?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-07-02T04:01:12Z",
-    "isNew": false
-  },
-  {
     "id": "c73d273f324ddfaf",
     "source": "lever",
     "vendor": "lever",
@@ -732,23 +1018,6 @@
       "Contract"
     ],
     "postedAt": "2026-07-01T17:22:37.883Z",
-    "isNew": false
-  },
-  {
-    "id": "fbb0161fbd9216e3",
-    "source": "adzuna",
-    "title": "Quality Assurance Automation Engineer",
-    "company": "Morson Edge",
-    "location": "Manchester, Greater Manchester",
-    "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5783309230?se=qmXvntR28RGMmszQJLOorA&utm_medium=api&utm_source=9b7a3075&v=B26D510C4FF0EE7BACA6EEA3A4AD39847CBD7F7E",
-    "salaryMin": 66656.22,
-    "salaryMax": 66656.22,
-    "currency": "GBP",
-    "tags": [
-      "IT Jobs"
-    ],
-    "postedAt": "2026-07-01T09:37:48Z",
     "isNew": false
   },
   {
@@ -1266,21 +1535,6 @@
     "isNew": false
   },
   {
-    "id": "876ea11c5df8eaaa",
-    "source": "adzuna",
-    "title": "AI Governance & Platform Engineer",
-    "company": "STAFIDE",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5781675666?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-30T04:50:14Z",
-    "isNew": false
-  },
-  {
     "id": "2e29e9f7dc766669",
     "source": "adzuna",
     "title": "Mobile Test Automation Engineer",
@@ -1342,6 +1596,23 @@
     "isNew": false
   },
   {
+    "id": "15911a01bad8a96c",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Nijmegen, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5781099247?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=4473EBC97EE2BD7F90BC93390FA489A4B354B271",
+    "salaryMin": 33600,
+    "salaryMax": 61200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-29T13:14:30Z",
+    "isNew": false
+  },
+  {
     "id": "6b09f67e8ff04a31",
     "source": "lever",
     "vendor": "lever",
@@ -1355,6 +1626,21 @@
       "Full-time"
     ],
     "postedAt": "2026-06-29T09:02:01.794Z",
+    "isNew": false
+  },
+  {
+    "id": "8b550f20d7e236dc",
+    "source": "adzuna",
+    "title": "QA Officer (GMP)",
+    "company": "Checkmark",
+    "location": "Haarlem, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5780189200?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=8347BB4BDF6F9BB089E823CB49240C3BE793C04C",
+    "currency": "EUR",
+    "tags": [
+      "Industriële vacatures"
+    ],
+    "postedAt": "2026-06-28T13:12:42Z",
     "isNew": false
   },
   {
@@ -1502,6 +1788,159 @@
     "isNew": false
   },
   {
+    "id": "a406609c9f1f118d",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Den Haag, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209707?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=A531CB953886594F74D0C0FA092CDF3323F585EF",
+    "salaryMin": 33600,
+    "salaryMax": 49680,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:26Z",
+    "isNew": false
+  },
+  {
+    "id": "c7b79cea222dd537",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Gouda, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209733?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=CBC127296C3D47B8A066E43D1D92362DAD518A0B",
+    "salaryMin": 33600,
+    "salaryMax": 49320,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:26Z",
+    "isNew": false
+  },
+  {
+    "id": "5767565330419172",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Arnhem, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209657?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=A7EDB32F31CF6303BA20EE60B10A3151D46202A9",
+    "salaryMin": 33600,
+    "salaryMax": 49680,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:25Z",
+    "isNew": false
+  },
+  {
+    "id": "cc53643594019e78",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Leiden, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209575?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=A16AAEBAC416172AAEE81E85ED8CC06A9A45BB8F",
+    "salaryMin": 33600,
+    "salaryMax": 50160,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:24Z",
+    "isNew": false
+  },
+  {
+    "id": "b4bfe2f0aa385995",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Rotterdam, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209606?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=BB7100CDE72A7A45501BBA8D9A935711B54FDDF2",
+    "salaryMin": 33600,
+    "salaryMax": 49440,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:24Z",
+    "isNew": false
+  },
+  {
+    "id": "96b8fa74513f878b",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Dordrecht, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209595?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=15FCBD1EDA9FC1A420277DD97937217BC2DBB924",
+    "salaryMin": 33600,
+    "salaryMax": 49200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:24Z",
+    "isNew": false
+  },
+  {
+    "id": "5138bbc4ac791916",
+    "source": "adzuna",
+    "title": "Junior Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Botlek, Rotterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209599?se=Ct_RI5h38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=241F900CF76AEE4C39A1F6A05AAD7F29BE3DDDB7",
+    "salaryMin": 33600,
+    "salaryMax": 49800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:24Z",
+    "isNew": false
+  },
+  {
+    "id": "9e08215e03fa777f",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Tilburg, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209436?se=JA_yIph38RGgp50uWWYLOA&utm_medium=api&utm_source=9b7a3075&v=6D84FC0E0B9DE1BA358194B776500242F904748E",
+    "salaryMin": 33600,
+    "salaryMax": 62280,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:22Z",
+    "isNew": false
+  },
+  {
+    "id": "36efca4b4863a6cc",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Delft, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5776209294?se=kGEvIph38RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=1EA90B21F779CB589138D5A358F68A351AFF3A9F",
+    "salaryMin": 33600,
+    "salaryMax": 61200,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-06-25T13:13:20Z",
+    "isNew": false
+  },
+  {
     "id": "bd21f2c44c453e8c",
     "source": "lever",
     "vendor": "lever",
@@ -1548,38 +1987,6 @@
       "Unknown"
     ],
     "postedAt": "2026-06-25T08:47:22Z",
-    "isNew": false
-  },
-  {
-    "id": "672e39c1232b7d28",
-    "source": "adzuna",
-    "title": "Senior QA Engineer",
-    "company": "WR.nl Solliciteren",
-    "location": "Groningen, Provincie Groningen",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5775856003?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 54000,
-    "salaryMax": 74400,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-25T08:38:35Z",
-    "isNew": false
-  },
-  {
-    "id": "4292aaba074639ba",
-    "source": "adzuna",
-    "title": "(Senior) Quality Assurance Engineer",
-    "company": "Getinge",
-    "location": "Delft, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774747982?se=NukEndR28RG-2tHAxNAnZQ&utm_medium=api&utm_source=9b7a3075&v=E4F3E479FF94767232750D801B2DEB9D6436C2E3",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:14:09Z",
     "isNew": false
   },
   {
@@ -1728,21 +2135,6 @@
       "€3.3K – €5.8K per month"
     ],
     "postedAt": "2026-06-16T06:29:39.728+00:00",
-    "isNew": false
-  },
-  {
-    "id": "e7c031f72aaab80f",
-    "source": "adzuna",
-    "title": "Senior Software Design Quality Engineer - AI",
-    "company": "Philips",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5763126401?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-06-14T03:53:10Z",
     "isNew": false
   },
   {
@@ -1937,36 +2329,6 @@
     "isNew": false
   },
   {
-    "id": "a538b2ae9e7ac1ef",
-    "source": "adzuna",
-    "title": "AI Governance Engineer",
-    "company": "Deeploy",
-    "location": "Utrecht, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5754993812?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-07T04:12:40Z",
-    "isNew": false
-  },
-  {
-    "id": "c0331caf70043b3f",
-    "source": "adzuna",
-    "title": "(Senior) Quality Assurance Engineer",
-    "company": "The Frencken Group",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5753846240?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-06-06T04:02:34Z",
-    "isNew": false
-  },
-  {
     "id": "650d4f2c2bc307a6",
     "source": "lever",
     "vendor": "lever",
@@ -2067,96 +2429,6 @@
     "isNew": false
   },
   {
-    "id": "2ae163d02a6c2866",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Automation QA Engineer | Mid-Senior | Saily",
-    "company": "Nord Security",
-    "location": "Vilnius",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nord-security/9f2b8c55-93f0-4a9a-871f-f5c49c9b13b7",
-    "tags": [
-      "Saily",
-      "Engineering",
-      "FullTime",
-      "€3.3K – €5.8K per month"
-    ],
-    "postedAt": "2026-06-04T10:24:25.944+00:00",
-    "isNew": false
-  },
-  {
-    "id": "9a773383cb556cd2",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Automation Engineer | Mid-Senior | Saily",
-    "company": "Nord Security",
-    "location": "Warsaw",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nord-security/c1233135-fcce-4cbc-a7ed-7cc118f774ca",
-    "tags": [
-      "Saily",
-      "Engineering",
-      "FullTime",
-      "PLN 14.5K – PLN 26.8K per month"
-    ],
-    "postedAt": "2026-06-04T10:10:18.073+00:00",
-    "isNew": false
-  },
-  {
-    "id": "164d2d51022e0d8d",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manual QA engineer | Mid | NordVPN Apple Team",
-    "company": "Nord Security",
-    "location": "Vilnius",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nord-security/f1bb91ee-b418-43ec-8176-fb440c909cf5",
-    "tags": [
-      "NordVPN",
-      "Engineering",
-      "FullTime",
-      "€3K – €3.9K per month"
-    ],
-    "postedAt": "2026-06-04T07:19:40.874+00:00",
-    "isNew": false
-  },
-  {
-    "id": "b603c6603b7b9338",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Automation QA Engineer | Senior | Apps Team",
-    "company": "Nord Security",
-    "location": "Vilnius",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nord-security/d6f052e2-41de-4016-bbe4-d81f13aebc6a",
-    "tags": [
-      "NordLayer",
-      "Engineering",
-      "FullTime",
-      "€4.3K – €5.8K per month"
-    ],
-    "postedAt": "2026-06-04T06:44:03.125+00:00",
-    "isNew": false
-  },
-  {
-    "id": "95afd7401ac1ac51",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Automation QA Engineer | Senior | Apps Team",
-    "company": "Nord Security",
-    "location": "Warsaw",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/nord-security/3e2371f3-5c14-4880-a1dd-c6523b878e80",
-    "tags": [
-      "NordLayer",
-      "Engineering",
-      "FullTime",
-      "PLN 20.7K – PLN 26.8K per month"
-    ],
-    "postedAt": "2026-06-04T06:43:37.859+00:00",
-    "isNew": false
-  },
-  {
     "id": "18af5f7188d977cc",
     "source": "workday",
     "vendor": "workday",
@@ -2189,18 +2461,6 @@
     "location": "Remote-LA",
     "remote": true,
     "url": "https://bcbsla.wd1.myworkdayjobs.com/external/job/Remote-LA/Senior-Software-Quality-Assurance-Engineer--Remote---Louisiana-Only-_R11769",
-    "tags": [],
-    "isNew": false
-  },
-  {
-    "id": "5a1cc6177a5141a9",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Quality Engineer",
-    "company": "Clarioclinical",
-    "location": "Canada Remote",
-    "remote": true,
-    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote/Quality-Engineer_R17300",
     "tags": [],
     "isNew": false
   },
