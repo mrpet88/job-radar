@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import type { Job } from "./types.js";
+import type { Board, Job } from "./types.js";
 import { criteria, sources, atsDomains, discovery, seedBoards } from "./config.js";
 import { fetchArbeitnow } from "./sources/arbeitnow.js";
 import { fetchAdzuna } from "./sources/adzuna.js";
@@ -10,7 +10,7 @@ import { fetchJobicy } from "./sources/jobicy.js";
 import { fetchJooble } from "./sources/jooble.js";
 import { fetchBoard } from "./sources/ats/index.js";
 import { discover } from "./discover.js";
-import { loadBoards, saveBoards, mergeBoards } from "./boards.js";
+import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead } from "./boards.js";
 import { matchesCriteria, dedupe, diffNew } from "./filter.js";
 import { renderHtml } from "./render.js";
 import { pool } from "./util/http.js";
@@ -36,6 +36,9 @@ async function main() {
   const knownIds = await loadKnownIds();
   const collected: Job[] = [];
 
+  // Denylist of gone (404) boards; expired entries drop so revived boards return.
+  const dead = pruneExpiredDead(await loadDead());
+
   // ── Registry: start from saved boards + config seed boards ──
   let boards = mergeBoards(
     await loadBoards(),
@@ -46,7 +49,7 @@ async function main() {
   if (discovery.enabled) {
     const { candidates, webJobs, queriesRun } =
       await discover(criteria.keywordsAny, atsDomains, discovery, discovery.maxQueriesPerRun, discovery.locationTerms);
-    const { merged, added } = mergeBoards(boards, candidates);
+    const { merged, added } = mergeBoards(boards, candidates, dead);
     boards = merged;
     collected.push(...webJobs);
     console.log(`[discover] ${queriesRun} queries → ${added.length} new boards, ${webJobs.length} web hits`);
@@ -59,25 +62,31 @@ async function main() {
   // ── Harvest every known board directly (no key, no quota) ──
   if (boards.length) {
     const now = new Date().toISOString();
+    const gone = new Set<string>();   // returned 404/410 → the board is gone
+    let flaky = 0;                    // transient errors (429/5xx/timeout)
     const harvested = await pool(boards, 5, async (b) => {
       try { const jobs = await fetchBoard(b); b.lastOk = now; b.fails = 0; return jobs; }
       catch (e) {
         b.fails = (b.fails ?? 0) + 1;
-        console.warn(`[${b.vendor}:${b.token}] failed (${b.fails}×):`, (e as Error).message);
+        if (/HTTP 4(04|10)/.test((e as Error).message)) gone.add(boardKey(b));
+        else flaky++;
         return [];
       }
     });
     let n = 0;
     for (const r of harvested) { collected.push(...r); n += r.length; }
     console.log(`[ats] harvested ${boards.length} boards → ${n} jobs`);
-  }
+    if (gone.size || flaky) console.log(`[ats] ${gone.size} gone (404), ${flaky} transient`);
 
-  // Drop boards that have failed MAX_FAILS runs in a row (dead/moved tokens) so
-  // the registry stays clean and we stop wasting requests on them.
-  const MAX_FAILS = 3;
-  const dropped = boards.filter((b) => (b.fails ?? 0) >= MAX_FAILS);
-  boards = boards.filter((b) => (b.fails ?? 0) < MAX_FAILS);
-  if (dropped.length) console.log(`[ats] pruned ${dropped.length} dead boards`);
+    // Prune boards that failed MAX_FAILS runs in a row, and gone (404) boards
+    // after 2 strikes — then denylist the gone ones so discovery stops re-adding.
+    const MAX_FAILS = 3;
+    const isDead = (b: Board) => (b.fails ?? 0) >= MAX_FAILS || (gone.has(boardKey(b)) && (b.fails ?? 0) >= 2);
+    const dropped = boards.filter(isDead);
+    boards = boards.filter((b) => !isDead(b));
+    for (const b of dropped) if (gone.has(boardKey(b))) dead[boardKey(b)] = now;
+    if (dropped.length) console.log(`[ats] pruned ${dropped.length} boards (${Object.keys(dead).length} denylisted)`);
+  }
 
   // ── Aggregators ──
   if (sources.arbeitnow.enabled)
@@ -119,6 +128,7 @@ async function main() {
   await fs.writeFile(STORE, JSON.stringify(enriched, null, 2));
   await fs.writeFile(path.join(DATA_DIR, "index.html"), renderHtml(enriched, criteria.location?.onsiteCountries ?? []));
   await saveBoards(boards);
+  await saveDead(dead);
 
   console.log(`\n── Job Radar ──`);
   console.log(`known boards:     ${boards.length}`);
