@@ -1,5 +1,220 @@
 [
   {
+    "id": "6fb2c05dd27cdd73",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Technical Account Manager",
+    "company": "Veeam Software",
+    "location": "Remote, Italy",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744598101",
+    "tags": [
+      "Professional Services Engineering - Global 1009486"
+    ],
+    "postedAt": "2026-07-08T03:43:49-04:00",
+    "isNew": true
+  },
+  {
+    "id": "2d80f01a7c3add60",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Automation Engineer (Remote, Full-Time) [HR189]",
+    "company": "Smart Working Solutions",
+    "location": "Delhi",
+    "remote": true,
+    "url": "https://jobs.lever.co/smart-working-solutions/884b0cac-2ff6-4161-bacc-0cb94e98013c",
+    "tags": [
+      "Engineering",
+      "Full-Time | Remote"
+    ],
+    "postedAt": "2026-07-08T03:06:36.615Z",
+    "isNew": true
+  },
+  {
+    "id": "274368ac0183b9f0",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Engineer - E-commerce",
+    "company": "Truelogic",
+    "location": "Santo Domingo",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/truelogic/3e85ae02-17dc-40a7-b030-eeb579553dc7",
+    "tags": [
+      "Operations",
+      "Delivery",
+      "FullTime"
+    ],
+    "postedAt": "2026-07-07T21:00:49.509+00:00",
+    "isNew": true
+  },
+  {
+    "id": "ed6bfff22d043a00",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Engineer - E-commerce",
+    "company": "Truelogic",
+    "location": "Bogota",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/truelogic/f4fc3773-0b51-465c-8d69-b6d645e9ea5b",
+    "tags": [
+      "Operations",
+      "Delivery",
+      "FullTime"
+    ],
+    "postedAt": "2026-07-07T21:00:44.902+00:00",
+    "isNew": true
+  },
+  {
+    "id": "766e01dc73848c1a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Sr. Technical Account Manager - Automation Test Engineer (541)",
+    "company": "Ubiminds",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.lever.co/Ubiminds/53000b53-8f65-4295-8175-7de51514569c",
+    "tags": [
+      "AP",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-07T16:53:02.709Z",
+    "isNew": true
+  },
+  {
+    "id": "046120e29e5acb5e",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Web/App Test Engineer",
+    "company": "Binance",
+    "location": "Hong Kong",
+    "remote": true,
+    "url": "https://jobs.lever.co/binance/da981b97-477a-4cd6-af88-797c6a7c0ea3",
+    "tags": [
+      "QA",
+      "Full-time: Remote"
+    ],
+    "postedAt": "2026-07-06T04:04:10.234Z",
+    "isNew": true
+  },
+  {
+    "id": "c87346ebf2428dcd",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Engineering Manager (Android+Web)",
+    "company": "Spoton",
+    "location": "Kraków, Lesser Poland Voivodeship, Poland",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/spoton/86959a56-27e9-4b2d-ae2e-90d81121b0dd",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-25T09:36:45.637+00:00",
+    "isNew": true
+  },
+  {
+    "id": "eef86a59482ef483",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager",
+    "company": "Spoton",
+    "location": "Kraków, Lesser Poland Voivodeship, Poland",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/spoton/26d977a4-8dd8-4491-a8ec-45f817001a91",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-06-22T09:32:25.516+00:00",
+    "isNew": true
+  },
+  {
+    "id": "08ec9f95d63d5d85",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Common Operating System Software Engineering Manager (Virtual)",
+    "company": "Boeing",
+    "location": "United States - Remote",
+    "remote": true,
+    "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/United-States---Remote/Common-Operating-System-Software-Engineering-Manager--Virtual-_JR2026517992",
+    "tags": [],
+    "isNew": true
+  },
+  {
+    "id": "41d23fa256e7c2a9",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Engineering Manager, ASCII (Artifacts, Source & CI Infrastructure)",
+    "company": "Netflix",
+    "location": "USA - Remote",
+    "remote": true,
+    "url": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Engineering-Manager--ASCII--Artifacts--Source---CI-Infrastructure-_JR40611",
+    "tags": [],
+    "isNew": true
+  },
+  {
+    "id": "ffeb120c3fe7020a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Enterprise Security Engineering",
+    "company": "Anduril Industries",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5159139007?gh_jid=5159139007",
+    "tags": [
+      "Corporate Technology : Information Security : Security Engineering"
+    ],
+    "postedAt": "2026-07-08T07:05:46-04:00",
+    "isNew": false
+  },
+  {
+    "id": "1beff0f1c7fa263a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Product Manager, Clinical Genomics",
+    "company": "Natera",
+    "location": "US Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/natera/jobs/5811068004",
+    "tags": [
+      "Engineering Lab Genomics"
+    ],
+    "postedAt": "2026-07-07T21:28:52-04:00",
+    "isNew": false
+  },
+  {
+    "id": "3f8b0fcec6870f64",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Sr Product Manager, Oncology Japan",
+    "company": "Natera",
+    "location": "US Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/natera/jobs/5983667004",
+    "tags": [
+      "Engineering UX Product"
+    ],
+    "postedAt": "2026-07-07T21:28:52-04:00",
+    "isNew": false
+  },
+  {
+    "id": "ceb070fed778f6a0",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Search Platform (Remote)",
+    "company": "ezCater, Inc",
+    "location": "Boston, MA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/ezcaterinc/jobs/5180479007",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-07-07T15:04:57-04:00",
+    "isNew": false
+  },
+  {
     "id": "b80f04d249487fe5",
     "source": "ashby",
     "vendor": "ashby",
@@ -14,7 +229,7 @@
       "FullTime"
     ],
     "postedAt": "2026-07-07T10:31:58.777+00:00",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1435dddf886486d0",
@@ -31,7 +246,7 @@
       "FullTime"
     ],
     "postedAt": "2026-07-07T10:31:56.512+00:00",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1516b514ac3faf1b",
@@ -48,103 +263,7 @@
       "FullTime"
     ],
     "postedAt": "2026-07-07T10:31:12.944+00:00",
-    "isNew": true
-  },
-  {
-    "id": "b74ec4e8aed736e4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "AI Automation Engineer V",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/155e9e82-a9fd-45bd-9f46-c2999840770d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T10:06:44.740Z",
-    "isNew": true
-  },
-  {
-    "id": "aa307d7a65c13414",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Security Automation Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4ee9fcdd-b8bd-47b4-bfcb-2974fa6ce00d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T09:50:04.450Z",
-    "isNew": true
-  },
-  {
-    "id": "299f42dac463ab26",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Hardware Engineering Manager",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5acadd6c-7379-43d0-903e-84c436b66990",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T08:36:37.157Z",
-    "isNew": true
-  },
-  {
-    "id": "8c19f521a873d084",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c502bda1-2c4f-4733-b983-a01143998712",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T07:02:57.672Z",
-    "isNew": true
-  },
-  {
-    "id": "3ccce8b705f898bf",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Data Engineering",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/bb1b33f1-1147-4d56-94ac-11094dd0b91a",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T06:17:44.157Z",
-    "isNew": true
-  },
-  {
-    "id": "68079df1c88dbaca",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/ebb6b713-4050-44ef-baca-872d21d9a797",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-07T06:14:01.565Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b2aef2510de2c2d5",
@@ -162,23 +281,7 @@
       "$251K – $335K • Offers Equity"
     ],
     "postedAt": "2026-07-06T21:47:05.473+00:00",
-    "isNew": true
-  },
-  {
-    "id": "82e83ec475d6dffb",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/37a032ba-734e-4098-95fa-e51fd6442d52",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T17:54:01.750Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f8fa675c47de6c28",
@@ -195,7 +298,7 @@
       "Senior"
     ],
     "postedAt": "2026-07-06T16:15:06+00:00",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8f30aa71523488e2",
@@ -212,7 +315,7 @@
       "Senior"
     ],
     "postedAt": "2026-07-06T16:10:04+00:00",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b577c51c406bcc39",
@@ -228,7 +331,7 @@
       "Midweight"
     ],
     "postedAt": "2026-07-06T16:05:03+00:00",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "bdf14ebebee7900f",
@@ -243,323 +346,6 @@
       "Engineering"
     ],
     "postedAt": "2026-07-06T15:32:01.815Z",
-    "isNew": true
-  },
-  {
-    "id": "ceb070fed778f6a0",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Search Platform (Remote)",
-    "company": "ezCater, Inc",
-    "location": "Boston, MA",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/ezcaterinc/jobs/5180479007",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-07-06T14:01:52-04:00",
-    "isNew": true
-  },
-  {
-    "id": "248f67171634ea40",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Data Cloud",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/6c375a21-7581-4d16-9b7a-c9964f2c7690",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T11:12:24.053Z",
-    "isNew": true
-  },
-  {
-    "id": "ce344710814af2c4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Australia",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1350c306-f883-4558-ac4b-dbcfb64a20c9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:54:19.812Z",
-    "isNew": true
-  },
-  {
-    "id": "2ef3132e0a5dc92c",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Romania",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9eef63bf-a5db-4b22-9dd8-740638240b20",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:53:22.053Z",
-    "isNew": true
-  },
-  {
-    "id": "610d2bf7b99f69ad",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Portugal",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/525c45b2-8be6-4dde-9b9d-015e3ad05b29",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:52:33.300Z",
-    "isNew": true
-  },
-  {
-    "id": "2616e602311a6c36",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/11849f5f-b30b-42fc-aa8d-0a0f83cbf733",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:52:13.445Z",
-    "isNew": true
-  },
-  {
-    "id": "6495389619cb7434",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c3451441-d518-45a7-9a55-abbd695791eb",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:51:57.298Z",
-    "isNew": true
-  },
-  {
-    "id": "e0ac8f9f141df2ca",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c89da007-a17a-43e5-96e5-3fd3f7ea3e0b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:46:29.740Z",
-    "isNew": true
-  },
-  {
-    "id": "f3dd41e5ae552fb0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b85ac107-8e50-42d0-916c-6e8f10b3910d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:45:56.287Z",
-    "isNew": true
-  },
-  {
-    "id": "e23f21537f92661b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Product Manager, Patient Experience (Remote)",
-    "company": "Maximustribe",
-    "location": "United States (Remote)",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/maximustribe/04908971-0aa6-466c-a42d-0493f0ff1a2c",
-    "tags": [
-      "Engineering, Product, Design",
-      "Engineering, Product, Design",
-      "FullTime",
-      "$130K – $160K • 0.1% – 0.5%"
-    ],
-    "postedAt": "2026-07-03T20:41:24.582+00:00",
-    "isNew": true
-  },
-  {
-    "id": "f94c50867cfece3b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Product Manager (Mid / Senior)",
-    "company": "Imprint",
-    "location": "New York City",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/imprint/66c679ce-5b9b-4fbc-b791-a086e9305a44",
-    "tags": [
-      "Engineering",
-      "Product & Design",
-      "FullTime",
-      "$160K – $190K • Offers Equity"
-    ],
-    "postedAt": "2026-07-02T16:24:41.700+00:00",
-    "isNew": true
-  },
-  {
-    "id": "e4e0292b6c2764bf",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Engineer, Full Stack",
-    "company": "Bellese",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/bellese/06dfb48e-c88d-4a63-a08a-e4dd695b4c18",
-    "salaryMin": 128700,
-    "salaryMax": 153400,
-    "currency": "USD",
-    "tags": [
-      "(QMARS) Quality Management & Review System",
-      "Full Time"
-    ],
-    "postedAt": "2026-06-30T14:42:04.589Z",
-    "isNew": true
-  },
-  {
-    "id": "ce0dcdd26a981aea",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager",
-    "company": "Bellese",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/bellese/dd48cd80-4f5a-4746-acf3-4677be728648",
-    "salaryMin": 138600,
-    "salaryMax": 163300,
-    "currency": "USD",
-    "tags": [
-      "(UCM) Unified Case Management System",
-      "Full Time"
-    ],
-    "postedAt": "2026-06-16T16:04:36.428Z",
-    "isNew": true
-  },
-  {
-    "id": "a07a730457d70a95",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Engineering Manager",
-    "company": "Bellese",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/bellese/5a509e78-2344-4042-83bd-5a139002ac35",
-    "salaryMin": 154900,
-    "salaryMax": 179600,
-    "currency": "USD",
-    "tags": [
-      "(HQR) Hospital Quality Reporting",
-      "Full Time"
-    ],
-    "postedAt": "2026-06-15T22:27:11.010Z",
-    "isNew": true
-  },
-  {
-    "id": "1bd88113b3dc78f0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineer II, Data",
-    "company": "Bellese",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/bellese/d24ba5a5-a60e-4ccc-8989-c46f4790a2e2",
-    "salaryMin": 108700,
-    "salaryMax": 125300,
-    "currency": "USD",
-    "tags": [
-      "(HQR) Hospital Quality Reporting",
-      "Full Time"
-    ],
-    "postedAt": "2026-06-11T16:39:33.921Z",
-    "isNew": true
-  },
-  {
-    "id": "1871d83b5d24fa57",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineer II, FHIR",
-    "company": "Bellese",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/bellese/bb8d3a17-6509-40d4-a8be-a429a47fbbb5",
-    "salaryMin": 108700,
-    "salaryMax": 125300,
-    "currency": "USD",
-    "tags": [
-      "(HQR) Hospital Quality Reporting",
-      "Full Time"
-    ],
-    "postedAt": "2026-06-08T20:24:32.647Z",
-    "isNew": true
-  },
-  {
-    "id": "b3d2da6ff6f89ee2",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "QA Automation Engineer",
-    "company": "Volarisgroup",
-    "location": "United States - Remote",
-    "remote": true,
-    "url": "https://volarisgroup.wd3.myworkdayjobs.com/assetworks/job/United-States---Remote/QA-Automation-Engineer_R67864",
-    "tags": [],
-    "isNew": true
-  },
-  {
-    "id": "ffeb120c3fe7020a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Enterprise Security Engineering",
-    "company": "Anduril Industries",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5159139007?gh_jid=5159139007",
-    "tags": [
-      "Corporate Technology : Information Security : Security Engineering"
-    ],
-    "postedAt": "2026-07-06T22:01:58-04:00",
-    "isNew": false
-  },
-  {
-    "id": "b2b6fe903c3fd07e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7e789193-1ab2-4603-af68-b5b27d6f1082",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T10:47:57.373Z",
     "isNew": false
   },
   {
@@ -608,214 +394,6 @@
     "isNew": false
   },
   {
-    "id": "a64683d4d1f38111",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "SR QA Automation",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/45f3aa21-0a84-4657-ba08-45fe789b1e43",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-06T02:24:06.284Z",
-    "isNew": false
-  },
-  {
-    "id": "2ae5e0aaeebfc074",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Enterprise Solutions Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8c3e8bd6-e17e-483a-89f3-4cd727f5c840",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-05T20:43:50.137Z",
-    "isNew": false
-  },
-  {
-    "id": "b4a3dd47d7a21e7c",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Enterprise Solutions Engineering Manager",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9cf9f0d7-58d8-45aa-bb57-f81700191c58",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-05T20:43:26.437Z",
-    "isNew": false
-  },
-  {
-    "id": "fee1dfe3b64499d9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Automation Test Lead",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/12df20f7-25ec-4f5b-a320-e51c77ac3473",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T10:37:06.924Z",
-    "isNew": false
-  },
-  {
-    "id": "810368bf7224bc97",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality Assurance Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3ec77df5-b266-4760-b58d-2608b7989724",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T09:17:13.688Z",
-    "isNew": false
-  },
-  {
-    "id": "01db8ed0ba5dbb3d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "DevOps Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/44ba08a4-9e46-405b-bfc6-550ffd04206a",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T09:05:57.751Z",
-    "isNew": false
-  },
-  {
-    "id": "e7c716b913812469",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Intelligent Automation Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/cef5ee20-f731-4f73-9510-5faab3dcccf4",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:31:54.937Z",
-    "isNew": false
-  },
-  {
-    "id": "44cec90f9f898be8",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f8583ba7-8930-4794-8a47-781326c4cc11",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:24:50.970Z",
-    "isNew": false
-  },
-  {
-    "id": "26ad0cb55ba00865",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f986e72d-0977-42a3-8553-77b76c5c478c",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:23:52.266Z",
-    "isNew": false
-  },
-  {
-    "id": "a3b037463b14778e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a7e3333e-df6b-4b77-afc2-cbfadbf2d537",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:23:07.170Z",
-    "isNew": false
-  },
-  {
-    "id": "cd33fab900822182",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1b1bd0b5-2dec-4cf9-ab8c-0cb97d5a2246",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:22:44.299Z",
-    "isNew": false
-  },
-  {
-    "id": "c45e768bb89081fb",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9c9585e2-9e81-4d4e-9cf0-ab90d60d55a9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:22:18.726Z",
-    "isNew": false
-  },
-  {
-    "id": "59c0db3229db7bce",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/197fec70-94c4-4573-b80f-da5d5e5aac66",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:21:55.917Z",
-    "isNew": false
-  },
-  {
     "id": "d41c3b25bf24cfdc",
     "source": "remoteok",
     "title": "Administrative Data Entry File Clerk",
@@ -853,269 +431,13 @@
     "isNew": false
   },
   {
-    "id": "18932c604a2121b4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/bae79f4c-f17a-4fbb-9eb5-14e3181bd92d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:03:15.457Z",
-    "isNew": false
-  },
-  {
-    "id": "5fb234b8d69f6c09",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7ffa2759-3c26-4312-95b6-94d3612157c0",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:02:52.520Z",
-    "isNew": false
-  },
-  {
-    "id": "510d704b0a146cd1",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/970342c2-5cff-451c-91ac-72649b219787",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:02:29.202Z",
-    "isNew": false
-  },
-  {
-    "id": "88cb6083e6cc0aed",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Portugal",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9336f2fd-34d9-4c2d-9bdd-b68237e2e21b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:02:06.658Z",
-    "isNew": false
-  },
-  {
-    "id": "2b14fe0837546d1b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Italy",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b81056d5-b7cc-432b-8401-c39c0b53e130",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:01:42.034Z",
-    "isNew": false
-  },
-  {
-    "id": "ae0d210c00780153",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Romania",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/6a9ae52b-8f72-42fe-a972-6d533c879dba",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:01:16.841Z",
-    "isNew": false
-  },
-  {
-    "id": "8f46ee6f468c2dd0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Australia",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1057b5f1-867f-4475-a925-be94e1007871",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T08:00:00.833Z",
-    "isNew": false
-  },
-  {
-    "id": "9b199ae24671d685",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "United Arab Emirates",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/be379eba-3f0d-45aa-b5ef-adee098ed559",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:59:11.665Z",
-    "isNew": false
-  },
-  {
-    "id": "14b2091fe275e4d3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Belgium",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/096f7c11-85f6-4ad7-907c-b134acf10904",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:58:47.366Z",
-    "isNew": false
-  },
-  {
-    "id": "93d4cdb9d780a984",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Saudi Arabia",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/404f0bdc-a710-45e8-a30b-602f4c15dbe9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:58:21.051Z",
-    "isNew": false
-  },
-  {
-    "id": "4b5114cd2ba98923",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Israel",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d8a36bb7-67e6-41ef-aca4-33b00efeed65",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:57:56.848Z",
-    "isNew": false
-  },
-  {
-    "id": "7f33d0dc47e9146e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Sweden",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1cf3e227-1f89-4908-a053-61b35c31e8de",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:57:26.537Z",
-    "isNew": false
-  },
-  {
-    "id": "8944ca4a24f82e09",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Austria",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/912ef864-3370-4494-8ae4-cdb51f0a7ddb",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:56:59.569Z",
-    "isNew": false
-  },
-  {
-    "id": "6a0225d3117d4b41",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Jobgether",
-    "location": "Poland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/39e34e1f-a8d1-48bc-8dc1-792a506e014c",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T07:56:31.978Z",
-    "isNew": false
-  },
-  {
-    "id": "a849227c10b9f7ab",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Mid-Market Solutions Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e7e4701c-8727-47df-9bbb-17d8774222a6",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T06:50:18.398Z",
-    "isNew": false
-  },
-  {
-    "id": "55ab9a7ffaa326b3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Mid-Market Solutions Engineering Manager",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4c935ca1-94b8-4858-b547-c0a96fed96f6",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-04T06:49:55.611Z",
-    "isNew": false
-  },
-  {
     "id": "2659c17500020ec7",
     "source": "adzuna",
     "title": "Senior QA Engineer",
     "company": "Ocho",
     "location": "Belfast, Northern Ireland",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5787058868?se=Wg1pg_158RGeHY1Elccfvg&utm_medium=api&utm_source=9b7a3075&v=2D316F3FB89949573BFECC42B4B0687CB9394BB1",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5787058868?se=4Lu7Zr968RGH29UPGrFd6w&utm_medium=api&utm_source=9b7a3075&v=2D316F3FB89949573BFECC42B4B0687CB9394BB1",
     "salaryMin": 75000,
     "salaryMax": 75000,
     "currency": "GBP",
@@ -1123,6 +445,24 @@
       "IT Jobs"
     ],
     "postedAt": "2026-07-03T21:21:22Z",
+    "isNew": false
+  },
+  {
+    "id": "e23f21537f92661b",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior Product Manager, Patient Experience (Remote)",
+    "company": "Maximustribe",
+    "location": "United States (Remote)",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/maximustribe/04908971-0aa6-466c-a42d-0493f0ff1a2c",
+    "tags": [
+      "Engineering, Product, Design",
+      "Engineering, Product, Design",
+      "FullTime",
+      "$130K – $160K • 0.1% – 0.5%"
+    ],
+    "postedAt": "2026-07-03T20:41:24.582+00:00",
     "isNew": false
   },
   {
@@ -1160,269 +500,13 @@
     "isNew": false
   },
   {
-    "id": "bc243724377c9dff",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Engineering Manager, Database",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/76063d1b-7b64-43d4-9095-82f3d48d13b7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:36:34.939Z",
-    "isNew": false
-  },
-  {
-    "id": "1c3dfd37316e7c16",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2a696620-65b2-4d00-a4de-280b449ab46e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:32:22.667Z",
-    "isNew": false
-  },
-  {
-    "id": "c61ed48ae561ea80",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d538fe24-33a1-4409-a17f-760471c48f84",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:31:47.199Z",
-    "isNew": false
-  },
-  {
-    "id": "10197c0a9b8d4818",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2d64030c-2da0-4dbd-b1fd-e698afa20c84",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:31:30.676Z",
-    "isNew": false
-  },
-  {
-    "id": "3617805c7d8361a0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0d79eacc-ee21-4c9d-89ff-f0c4af70f065",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:31:12.836Z",
-    "isNew": false
-  },
-  {
-    "id": "5b61eac757a3ca1a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/61e51b71-6c68-4117-8c24-6545ca0e028b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:30:52.408Z",
-    "isNew": false
-  },
-  {
-    "id": "bb0f84b969922fbf",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/833be328-9398-41a2-8b63-3ed78384af84",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:30:35.170Z",
-    "isNew": false
-  },
-  {
-    "id": "75b7a3518c93e6d3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Salesforce/NetSuite Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4a33c560-f07d-4665-991b-e6f2b7c79d94",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:29:44.059Z",
-    "isNew": false
-  },
-  {
-    "id": "7d6e4a4cf1b27f1e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/30493c03-ec87-4f04-9e7d-fd9b2a9814d0",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:24:34.866Z",
-    "isNew": false
-  },
-  {
-    "id": "f5e04e165d9b9d29",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c435df26-e42b-4fed-bd88-396070ed6cf9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:24:16.799Z",
-    "isNew": false
-  },
-  {
-    "id": "b0e01afce5cc65e7",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c157b326-d1a6-4af3-8f25-f98ea3aa8d34",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:23:58.876Z",
-    "isNew": false
-  },
-  {
-    "id": "4343bc9368dc33bb",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/419a4692-4275-41f3-b61c-98c6efd4c1e9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:23:41.188Z",
-    "isNew": false
-  },
-  {
-    "id": "6251b66e160b1e56",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a4e354c1-2043-401a-ac45-d771681777a5",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:23:14.335Z",
-    "isNew": false
-  },
-  {
-    "id": "efaa2abc18079806",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/92875185-a8e4-4244-a002-0c1fe9b437fc",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:22:52.993Z",
-    "isNew": false
-  },
-  {
-    "id": "5029792569d91262",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Public Cloud, Python, Golang",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/120df835-033c-48ef-b2f4-6cd1d1f525d3",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:22:23.093Z",
-    "isNew": false
-  },
-  {
-    "id": "422bd37bc4cf555d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Solutions Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4c9332eb-1893-4804-879f-5605f836e2dc",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T15:20:36.773Z",
-    "isNew": false
-  },
-  {
     "id": "249103220fa04dc8",
     "source": "adzuna",
     "title": "Quality Engineer",
     "company": "Synsel Techniek",
     "location": "Schiphol, Haarlemmermeer",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5786760386?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=8E5BA3E6A5F4FBF32D5BD33C15D58F659DAD3FC8",
+    "url": "https://www.adzuna.nl/land/ad/5786760386?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=8E5BA3E6A5F4FBF32D5BD33C15D58F659DAD3FC8",
     "salaryMin": 33600,
     "salaryMax": 55200,
     "currency": "EUR",
@@ -1430,70 +514,6 @@
       "Vacatures Ander of Algemeen"
     ],
     "postedAt": "2026-07-03T13:19:04Z",
-    "isNew": false
-  },
-  {
-    "id": "6019740340d11d95",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/747ed228-925d-437a-807d-865a99450ecb",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T12:41:55.546Z",
-    "isNew": false
-  },
-  {
-    "id": "ca93885ed1a432d6",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/072aa182-ad03-40f4-90e3-a651581f1103",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T12:41:21.837Z",
-    "isNew": false
-  },
-  {
-    "id": "a306eb4dd78f3feb",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/397b075e-da6d-4888-b751-e9a3f179857f",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T12:40:51.344Z",
-    "isNew": false
-  },
-  {
-    "id": "ce218abb0c25cf6d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Commercial Systems",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3f61e86f-440f-46bd-b864-17f55ba35324",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T12:40:22.476Z",
     "isNew": false
   },
   {
@@ -1524,102 +544,6 @@
       "Engineering"
     ],
     "postedAt": "2026-07-03T11:19:43-04:00",
-    "isNew": false
-  },
-  {
-    "id": "b0c92d10e5658753",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager Engineering 2",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/95976c64-91ad-4985-b541-26840a045412",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T11:13:22.408Z",
-    "isNew": false
-  },
-  {
-    "id": "21db2a53535ab724",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Test Automation Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/10008141-5597-43e6-ba53-2f6b3d98f59c",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T10:16:43.826Z",
-    "isNew": false
-  },
-  {
-    "id": "3e553988143d3e33",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Platform Automation Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a2558d92-d6ba-4a94-be5e-1419b812b1f1",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T09:58:48.492Z",
-    "isNew": false
-  },
-  {
-    "id": "34cef393faff8f88",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Forward Deployed Engineering",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8cc913f8-394e-4387-b2c9-c9e8e7054a89",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T07:49:22.154Z",
-    "isNew": false
-  },
-  {
-    "id": "216563a40e916f98",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Principal Product Manager, Engineering Intelligence & Insights",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3420f450-fd90-4baa-b5e6-e08f69147f46",
-    "tags": [
-      "Product",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T07:24:40.955Z",
-    "isNew": false
-  },
-  {
-    "id": "1d83826c2478a772",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Principal Product Manager, Engineering Intelligence & Insights",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2359434b-29b0-45a7-bbf5-c5a78b068355",
-    "tags": [
-      "Product",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-03T07:23:56.741Z",
     "isNew": false
   },
   {
@@ -1702,323 +626,21 @@
     "isNew": false
   },
   {
-    "id": "568fe6a4e05afa16",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "f94c50867cfece3b",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Product Manager (Mid / Senior)",
+    "company": "Imprint",
+    "location": "New York City",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0656c998-d953-4f3a-af7a-3b23020990fd",
+    "url": "https://jobs.ashbyhq.com/imprint/66c679ce-5b9b-4fbc-b791-a086e9305a44",
     "tags": [
-      "IT",
-      "Full-time"
+      "Engineering",
+      "Product & Design",
+      "FullTime",
+      "$130K – $190K • Offers Equity"
     ],
-    "postedAt": "2026-07-02T15:01:55.425Z",
-    "isNew": false
-  },
-  {
-    "id": "ec6465aa50109bae",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f7daa6bb-6307-4a70-b112-4f3fedf7f7e7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T15:01:35.464Z",
-    "isNew": false
-  },
-  {
-    "id": "4142192697cd7fa5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0375faa7-dee5-4cd2-853b-f0ece5b7c06e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T15:01:18.824Z",
-    "isNew": false
-  },
-  {
-    "id": "7dd6d5d2a413a89d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/782c6c07-dd6c-4a16-9486-48ec2251feae",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T15:01:00.978Z",
-    "isNew": false
-  },
-  {
-    "id": "dba9c7f2ca064cc1",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/80f55f5a-8df6-44c7-8819-675b0780f1fa",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T15:00:36.329Z",
-    "isNew": false
-  },
-  {
-    "id": "52bfa56282916674",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8735c7b9-d144-4651-ab4e-964bcb2fdb3e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T15:00:11.204Z",
-    "isNew": false
-  },
-  {
-    "id": "8195a098fb971325",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Tester / QA Engineer",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/ec7d69b6-7d95-4a00-be56-9f55a4596ae8",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:58:40.242Z",
-    "isNew": false
-  },
-  {
-    "id": "c9bc13f1c3855d13",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b6aee797-4383-44ba-a346-9b81e7b98e19",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:46:52.770Z",
-    "isNew": false
-  },
-  {
-    "id": "b094857185cd7b03",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f7f6321d-4356-42c4-ae55-95a7a2c77529",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:46:21.481Z",
-    "isNew": false
-  },
-  {
-    "id": "1e4a05d93ca3080b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/10a51865-9dfe-43c4-9684-4ce16d6d4d92",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:45:57.736Z",
-    "isNew": false
-  },
-  {
-    "id": "72a74bf3167a07fe",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/11f337a9-50f3-4cf4-b48e-f0fc1f140bf3",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:45:33.344Z",
-    "isNew": false
-  },
-  {
-    "id": "3f12a40a66cbd926",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c7703af3-008c-4d9c-8539-d0cf0732d636",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:45:10.056Z",
-    "isNew": false
-  },
-  {
-    "id": "e4ed2477b1b3bd3b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2598331d-dea6-4a60-bbed-6482932b58de",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:44:52.490Z",
-    "isNew": false
-  },
-  {
-    "id": "0713c9f4a77ee8f5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Quality Engineer (SaaS)",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9afeb96a-7799-4331-b847-d91c40b4a263",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T14:44:34.037Z",
-    "isNew": false
-  },
-  {
-    "id": "ead5b6afcd9ebb9e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Analytics Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/dccc04cb-861b-4869-924a-b286f204bd67",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T13:13:41.722Z",
-    "isNew": false
-  },
-  {
-    "id": "250e5f08d0d4efa5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Frontend Engineer (AI Automation Platform)",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5673a17b-7fa1-4330-91d6-29ceb5dd76dc",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T13:08:58.945Z",
-    "isNew": false
-  },
-  {
-    "id": "7845ff608e710380",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Technical Program Manager (Engineering)",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/74d39520-4cb4-42b0-87d4-0229a5748a06",
-    "tags": [
-      "Project Management",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T12:51:03.142Z",
-    "isNew": false
-  },
-  {
-    "id": "3302b62415552691",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Shared Services",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/cc19fda1-6a24-4436-ad33-cafdfa357692",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T11:59:51.347Z",
-    "isNew": false
-  },
-  {
-    "id": "e7952628f2ddd744",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Customer Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/43a636ce-589f-4976-bd20-48fc11b3c194",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T11:06:29.711Z",
-    "isNew": false
-  },
-  {
-    "id": "65dc6b4f6265609f",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Release Lead",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/be8e209e-dd7f-4a8b-8b75-11ec1c6566fa",
-    "tags": [
-      "IT",
-      "Contract"
-    ],
-    "postedAt": "2026-07-02T09:53:48.511Z",
+    "postedAt": "2026-07-02T16:24:41.700+00:00",
     "isNew": false
   },
   {
@@ -2039,86 +661,6 @@
     "isNew": false
   },
   {
-    "id": "20a7484ec3b347de",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/28167489-c0ac-4072-9235-617e1f8144e4",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T09:20:29.029Z",
-    "isNew": false
-  },
-  {
-    "id": "510104bd1b396f01",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Analytics Engineering",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/beaba1a4-b7eb-4978-8b46-9a5e9f18c5a6",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T08:50:43.311Z",
-    "isNew": false
-  },
-  {
-    "id": "e43d86594e060405",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Engineering Manager, Bank",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2cfd60f0-9bc0-4e77-9bec-8280d8bdc38a",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T07:05:14.012Z",
-    "isNew": false
-  },
-  {
-    "id": "8a52d22ddda0d175",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager (Core UI)",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/6def775e-0eae-4344-9db7-4b73f1348703",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T06:44:28.836Z",
-    "isNew": false
-  },
-  {
-    "id": "43fbfacc858be571",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, GTM Systems Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8b5d5c9b-e01b-40c7-aafc-621a7868e6b7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T06:34:51.182Z",
-    "isNew": false
-  },
-  {
     "id": "12b7ad757b679e0e",
     "source": "ashby",
     "vendor": "ashby",
@@ -2133,86 +675,6 @@
       "FullTime"
     ],
     "postedAt": "2026-07-02T05:48:19.731+00:00",
-    "isNew": false
-  },
-  {
-    "id": "d58516a1ef38f660",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Assurance Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/042c1d46-de19-4ea1-9269-be75de8e9d21",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T05:19:51.128Z",
-    "isNew": false
-  },
-  {
-    "id": "04f74027464e8e19",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1024d473-747a-4a15-a10e-767e5ac10ee7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T04:51:58.712Z",
-    "isNew": false
-  },
-  {
-    "id": "97f8ceb6ec4d0ccd",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/05bd4e38-6d8c-4154-b681-9a784feeb240",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T04:51:39.531Z",
-    "isNew": false
-  },
-  {
-    "id": "5b52aa1605d5d11b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1e4531b6-0f9c-48a0-9897-23ba50ca644d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T04:51:06.302Z",
-    "isNew": false
-  },
-  {
-    "id": "8d2cf86d27a047bc",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b917d8ad-4db2-43cb-818c-a54f584be062",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T04:08:31.360Z",
     "isNew": false
   },
   {
@@ -2282,22 +744,6 @@
     "isNew": false
   },
   {
-    "id": "7723fa591a0fb4c4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Staff Engineering Manager, Cloud Security",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/39418ea1-f741-4154-b9d0-37e792e4cf44",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-01T14:23:26.916Z",
-    "isNew": false
-  },
-  {
     "id": "7d4b03c2627c0ae5",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2343,22 +789,6 @@
     "isNew": false
   },
   {
-    "id": "f352b9d54dc11477",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Developer",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b6e27a80-7b7c-48a9-93a4-635b349cd208",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-01T07:04:10.719Z",
-    "isNew": false
-  },
-  {
     "id": "2ba0105417a5eaa3",
     "source": "ashby",
     "vendor": "ashby",
@@ -2394,390 +824,6 @@
     "isNew": false
   },
   {
-    "id": "e91abdbdd9d67606",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Project Manager - Facility Engineering Support",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0ac06d8e-35bb-4dbf-afe6-4788471c7ac9",
-    "tags": [
-      "Project Management",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T14:12:56.926Z",
-    "isNew": false
-  },
-  {
-    "id": "d97374744108d712",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d92ec006-ca7b-43fa-ae39-3db30efa0cad",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:30:51.861Z",
-    "isNew": false
-  },
-  {
-    "id": "78ef43daf78dd528",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/fe1ae666-c0d1-42d3-b46e-a4be62d18c77",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:30:26.895Z",
-    "isNew": false
-  },
-  {
-    "id": "53dc2cbc7d95f8fe",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3319120f-175a-4a62-b331-9c3e9885aead",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:30:06.597Z",
-    "isNew": false
-  },
-  {
-    "id": "8a8d4609fc1b982b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/14249a9d-f6ac-4c10-86e5-5acf974c0dd7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:29:48.783Z",
-    "isNew": false
-  },
-  {
-    "id": "0adc53604c1d5422",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/34bd5669-fec8-4a48-987b-927941bc723f",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:29:26.228Z",
-    "isNew": false
-  },
-  {
-    "id": "448d72745a8d48c1",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/73737e38-58d8-4b60-a2ca-76cdc52cb2d7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:29:10.699Z",
-    "isNew": false
-  },
-  {
-    "id": "cc15d0f2cdf27429",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Back-End QA Engineer",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/0daf4b44-6737-4fd0-835a-55e8464ecf20",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:28:44.021Z",
-    "isNew": false
-  },
-  {
-    "id": "d382d0e327458117",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7c22eeb4-12cb-47fb-9471-d992817d4b26",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:07:51.803Z",
-    "isNew": false
-  },
-  {
-    "id": "43c4ead4fb648909",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/86b446e6-be9f-4302-af79-16f6366ac3f2",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:07:24.586Z",
-    "isNew": false
-  },
-  {
-    "id": "d999712a9f55bc5a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/fd64bf4b-d5fc-42cf-8963-9b68f5dfb358",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:07:05.697Z",
-    "isNew": false
-  },
-  {
-    "id": "a963a96eb0a20cb6",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8a34157b-5dd9-404a-8054-1bc1ce7bb493",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:06:48.108Z",
-    "isNew": false
-  },
-  {
-    "id": "731c5b918d4fbac8",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3cfd5921-e112-42d5-877f-f25f228b4780",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:06:32.016Z",
-    "isNew": false
-  },
-  {
-    "id": "7e01e020a430ef10",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e2e94a38-46d1-4341-af57-6b0264b454a3",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:06:15.889Z",
-    "isNew": false
-  },
-  {
-    "id": "2fa922017ba8d11e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Global QA Operations",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/b0ff97fd-f895-4c67-8fb3-d44c77f6f391",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T13:05:42.041Z",
-    "isNew": false
-  },
-  {
-    "id": "d751d71013b6a5c2",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Sr. Manager- Software Engineering- Healthcare IT",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2dc3ab57-099a-49a8-a4df-7d983ae59554",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T12:22:44.730Z",
-    "isNew": false
-  },
-  {
-    "id": "24da0d1e2ccb5518",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "UK",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8dfa1f02-ce00-4906-b616-55ecda5f0cf9",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:30:09.519Z",
-    "isNew": false
-  },
-  {
-    "id": "d2b707435113b6f1",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Spain",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/bcace489-ecdf-41e4-bec9-6061d2a82ccd",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:29:35.957Z",
-    "isNew": false
-  },
-  {
-    "id": "7615879db0ecb136",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Germany",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7ff0253f-539c-4121-9d96-9f153060b339",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:29:07.041Z",
-    "isNew": false
-  },
-  {
-    "id": "6f70541f614e31e6",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "France",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/50c8c15c-d79b-4348-a075-a6835c02c381",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:28:35.945Z",
-    "isNew": false
-  },
-  {
-    "id": "8bf58dda88a73048",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Switzerland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/afa6e92b-124f-4883-8f2a-d0f5288eafb7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:28:09.201Z",
-    "isNew": false
-  },
-  {
-    "id": "30e3aafe19714916",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Ireland",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a9d90053-a666-4c45-9063-f565042b6973",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:27:30.453Z",
-    "isNew": false
-  },
-  {
-    "id": "b17f87b67dc9f3b0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1d59d368-20e2-44f7-9b5e-4130d1148a65",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:26:41.814Z",
-    "isNew": false
-  },
-  {
-    "id": "d0a5f48859b64cac",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer – AI Applications",
-    "company": "Jobgether",
-    "location": "Romania",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/eb949805-86b2-4cc5-b8bf-75ee1f8b04e4",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T07:24:04.841Z",
-    "isNew": false
-  },
-  {
     "id": "28c7bd74ad276b01",
     "source": "lever",
     "vendor": "lever",
@@ -2794,22 +840,6 @@
       "Contingent Worker"
     ],
     "postedAt": "2026-06-30T07:15:08.443Z",
-    "isNew": false
-  },
-  {
-    "id": "c562ef97efaae611",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Partnerships",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3398ba05-af74-458c-a07b-ec2d0636cb6d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-06-30T06:57:05.347Z",
     "isNew": false
   },
   {
@@ -2882,7 +912,7 @@
     "company": "Synsel Techniek",
     "location": "Nijmegen, Gelderland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5781099247?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=4473EBC97EE2BD7F90BC93390FA489A4B354B271",
+    "url": "https://www.adzuna.nl/land/ad/5781099247?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=4473EBC97EE2BD7F90BC93390FA489A4B354B271",
     "salaryMin": 33600,
     "salaryMax": 61200,
     "currency": "EUR",
@@ -2981,7 +1011,8 @@
     "tags": [
       "Engineering",
       "Core Infrastructure",
-      "FullTime"
+      "FullTime",
+      "$42K – $48K • Offers Equity • Offers Bonus"
     ],
     "postedAt": "2026-06-26T13:47:20.771+00:00",
     "isNew": false
@@ -3087,7 +1118,7 @@
     "company": "Synsel Techniek",
     "location": "Arnhem, Gelderland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209956?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=3B918CA2CEC1F61E8011ABC023A23DDB2F310A4A",
+    "url": "https://www.adzuna.nl/land/ad/5776209956?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=3B918CA2CEC1F61E8011ABC023A23DDB2F310A4A",
     "salaryMin": 33600,
     "salaryMax": 55200,
     "currency": "EUR",
@@ -3104,7 +1135,7 @@
     "company": "Synsel Techniek",
     "location": "Delft, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209922?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=829C64CE45BB1D57E8914BD9777F3BF91F7606E8",
+    "url": "https://www.adzuna.nl/land/ad/5776209922?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=829C64CE45BB1D57E8914BD9777F3BF91F7606E8",
     "salaryMin": 33600,
     "salaryMax": 61920,
     "currency": "EUR",
@@ -3121,7 +1152,7 @@
     "company": "Synsel Techniek",
     "location": "Leiden, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209715?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=A22814200ECD3DA52AA4977AE015DC33C4AFD326",
+    "url": "https://www.adzuna.nl/land/ad/5776209715?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=A22814200ECD3DA52AA4977AE015DC33C4AFD326",
     "salaryMin": 33600,
     "salaryMax": 61200,
     "currency": "EUR",
@@ -3138,7 +1169,7 @@
     "company": "Synsel Techniek",
     "location": "Breda, Noord-Brabant",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209641?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=766A7047C43D971DDD0A4838B45BC1927578C3F0",
+    "url": "https://www.adzuna.nl/land/ad/5776209641?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=766A7047C43D971DDD0A4838B45BC1927578C3F0",
     "salaryMin": 33600,
     "salaryMax": 61800,
     "currency": "EUR",
@@ -3155,7 +1186,7 @@
     "company": "Synsel Techniek",
     "location": "Botlek, Rotterdam",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209689?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=32D5B202A28615679CEBCAD80BCCC359D8D4CE7B",
+    "url": "https://www.adzuna.nl/land/ad/5776209689?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=32D5B202A28615679CEBCAD80BCCC359D8D4CE7B",
     "salaryMin": 33600,
     "salaryMax": 62280,
     "currency": "EUR",
@@ -3172,7 +1203,7 @@
     "company": "Synsel Techniek",
     "location": "Eindhoven, Noord-Brabant",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209412?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=9F560ABF2256AA8CC1F2D40C8761B1CEAF95AD38",
+    "url": "https://www.adzuna.nl/land/ad/5776209412?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=9F560ABF2256AA8CC1F2D40C8761B1CEAF95AD38",
     "salaryMin": 33600,
     "salaryMax": 55200,
     "currency": "EUR",
@@ -3189,7 +1220,7 @@
     "company": "Synsel Techniek",
     "location": "Tilburg, Noord-Brabant",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209436?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=6D84FC0E0B9DE1BA358194B776500242F904748E",
+    "url": "https://www.adzuna.nl/land/ad/5776209436?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=6D84FC0E0B9DE1BA358194B776500242F904748E",
     "salaryMin": 33600,
     "salaryMax": 62280,
     "currency": "EUR",
@@ -3206,7 +1237,7 @@
     "company": "Synsel Techniek",
     "location": "Dordrecht, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209395?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=D6F065125BCF26598EB86BC6A4D934907C7C14E1",
+    "url": "https://www.adzuna.nl/land/ad/5776209395?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=D6F065125BCF26598EB86BC6A4D934907C7C14E1",
     "salaryMin": 33600,
     "salaryMax": 61680,
     "currency": "EUR",
@@ -3223,7 +1254,7 @@
     "company": "Synsel Techniek",
     "location": "Gouda, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5776209314?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=C62F96DE9BE2561100A0CB2CF256AC6CC1B553CF",
+    "url": "https://www.adzuna.nl/land/ad/5776209314?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=C62F96DE9BE2561100A0CB2CF256AC6CC1B553CF",
     "salaryMin": 33600,
     "salaryMax": 62280,
     "currency": "EUR",
@@ -3366,30 +1397,13 @@
     "isNew": false
   },
   {
-    "id": "46d8b49ab7df8ef2",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "AI Automation Engineer",
-    "company": "Plaud",
-    "location": "San Francisco, CA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/Plaud/c4b99f9b-1436-458b-809f-fdfe3fa1bd14",
-    "tags": [
-      "IT & Digitalization Center",
-      "IT & Digitalization Center",
-      "FullTime"
-    ],
-    "postedAt": "2026-06-24T17:35:58.894+00:00",
-    "isNew": false
-  },
-  {
     "id": "17a654cf099ee7f2",
     "source": "adzuna",
     "title": "Logistic Engineering Manager",
     "company": "MCO-Health",
     "location": "Huizen, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746530?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=1426801F6C969669B4AF0CC5A38B790125B1E235",
+    "url": "https://www.adzuna.nl/land/ad/5774746530?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=1426801F6C969669B4AF0CC5A38B790125B1E235",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3404,7 +1418,7 @@
     "company": "MCO-Health",
     "location": "Amsterdam, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746531?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=348C50DA469789622A2813EAB1B3B9CF2BE4A3A6",
+    "url": "https://www.adzuna.nl/land/ad/5774746531?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=348C50DA469789622A2813EAB1B3B9CF2BE4A3A6",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3419,22 +1433,7 @@
     "company": "MCO-Health",
     "location": "Muiden, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746508?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=80CD8D8979F3E9A81725A26037D7619A8E575D9D",
-    "currency": "EUR",
-    "tags": [
-      "Logistieke vacatures"
-    ],
-    "postedAt": "2026-06-24T13:11:02Z",
-    "isNew": false
-  },
-  {
-    "id": "5f2ff067a629640b",
-    "source": "adzuna",
-    "title": "Logistic Engineering Manager",
-    "company": "MCO-Health",
-    "location": "Naarden, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746515?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=240B6F7963FA13B614E7F3ED5EA8C44901BC515D",
+    "url": "https://www.adzuna.nl/land/ad/5774746508?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=80CD8D8979F3E9A81725A26037D7619A8E575D9D",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3449,7 +1448,22 @@
     "company": "MCO-Health",
     "location": "Utrecht, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746478?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=6BE512ADF2DD1F94B950420FFE994B8D9137CFAF",
+    "url": "https://www.adzuna.nl/land/ad/5774746478?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=6BE512ADF2DD1F94B950420FFE994B8D9137CFAF",
+    "currency": "EUR",
+    "tags": [
+      "Logistieke vacatures"
+    ],
+    "postedAt": "2026-06-24T13:11:02Z",
+    "isNew": false
+  },
+  {
+    "id": "5f2ff067a629640b",
+    "source": "adzuna",
+    "title": "Logistic Engineering Manager",
+    "company": "MCO-Health",
+    "location": "Naarden, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774746515?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=240B6F7963FA13B614E7F3ED5EA8C44901BC515D",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3464,7 +1478,7 @@
     "company": "MCO-Health",
     "location": "Bussum, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746496?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=2BAD9C460CC3097B2657E9321986AE94C2E15A48",
+    "url": "https://www.adzuna.nl/land/ad/5774746496?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=2BAD9C460CC3097B2657E9321986AE94C2E15A48",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3479,7 +1493,7 @@
     "company": "MCO-Health",
     "location": "Amersfoort, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746498?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=1306A759335645C270B0575E0E2935A6C916E25C",
+    "url": "https://www.adzuna.nl/land/ad/5774746498?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=1306A759335645C270B0575E0E2935A6C916E25C",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3494,67 +1508,7 @@
     "company": "MCO-Health",
     "location": "Muiden, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746479?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=A637E05804CE1F178EF883BDD7F000C090C754E7",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:11:02Z",
-    "isNew": false
-  },
-  {
-    "id": "dfb59ec455785fe8",
-    "source": "adzuna",
-    "title": "Digital and E&A Engineering Manager",
-    "company": "MCO-Health",
-    "location": "Amersfoort, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746510?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=D5ACEFBD01764797FF14927189190066DB16E74F",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:11:02Z",
-    "isNew": false
-  },
-  {
-    "id": "314c607c58db94bf",
-    "source": "adzuna",
-    "title": "Digital and E&A Engineering Manager",
-    "company": "MCO-Health",
-    "location": "Utrecht, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746514?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=457A3913424CB4C8663F882A0C725845B9C5C66A",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:11:02Z",
-    "isNew": false
-  },
-  {
-    "id": "64c31f7bc90bc3dd",
-    "source": "adzuna",
-    "title": "Digital and E&A Engineering Manager",
-    "company": "MCO-Health",
-    "location": "Hilversum, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746527?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=AE9FD81462079B47EE20023B8B41434803A4A12C",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-06-24T13:11:02Z",
-    "isNew": false
-  },
-  {
-    "id": "0f8d1c7e66d6a2c2",
-    "source": "adzuna",
-    "title": "Digital and E&A Engineering Manager",
-    "company": "MCO-Health",
-    "location": "Almere, Flevoland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746524?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=0B23D47CE837DC4E6C4C6775DD5FFE4057A143E2",
+    "url": "https://www.adzuna.nl/land/ad/5774746479?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=A637E05804CE1F178EF883BDD7F000C090C754E7",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3569,7 +1523,7 @@
     "company": "MCO-Health",
     "location": "Huizen, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746526?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=9253B965B6358DFBCC1C9CD6DB107BB791143F14",
+    "url": "https://www.adzuna.nl/land/ad/5774746526?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=9253B965B6358DFBCC1C9CD6DB107BB791143F14",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3584,7 +1538,67 @@
     "company": "MCO-Health",
     "location": "Bussum, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746502?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=6F25BE3D47AA47B936EF4587854CDEDC9C84570D",
+    "url": "https://www.adzuna.nl/land/ad/5774746502?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=6F25BE3D47AA47B936EF4587854CDEDC9C84570D",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:11:02Z",
+    "isNew": false
+  },
+  {
+    "id": "dfb59ec455785fe8",
+    "source": "adzuna",
+    "title": "Digital and E&A Engineering Manager",
+    "company": "MCO-Health",
+    "location": "Amersfoort, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774746510?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=D5ACEFBD01764797FF14927189190066DB16E74F",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:11:02Z",
+    "isNew": false
+  },
+  {
+    "id": "314c607c58db94bf",
+    "source": "adzuna",
+    "title": "Digital and E&A Engineering Manager",
+    "company": "MCO-Health",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774746514?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=457A3913424CB4C8663F882A0C725845B9C5C66A",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:11:02Z",
+    "isNew": false
+  },
+  {
+    "id": "64c31f7bc90bc3dd",
+    "source": "adzuna",
+    "title": "Digital and E&A Engineering Manager",
+    "company": "MCO-Health",
+    "location": "Hilversum, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774746527?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=AE9FD81462079B47EE20023B8B41434803A4A12C",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-06-24T13:11:02Z",
+    "isNew": false
+  },
+  {
+    "id": "0f8d1c7e66d6a2c2",
+    "source": "adzuna",
+    "title": "Digital and E&A Engineering Manager",
+    "company": "MCO-Health",
+    "location": "Almere, Flevoland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5774746524?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=0B23D47CE837DC4E6C4C6775DD5FFE4057A143E2",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3599,7 +1613,7 @@
     "company": "MCO-Health",
     "location": "Baarn, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746522?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=8DCFF3566560FB5AC98B7F4536A9714544A89436",
+    "url": "https://www.adzuna.nl/land/ad/5774746522?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=8DCFF3566560FB5AC98B7F4536A9714544A89436",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3614,7 +1628,7 @@
     "company": "MCO-Health",
     "location": "Hilversum, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746409?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=1A33FD7B86B03813840D65890B0E8462965CAF33",
+    "url": "https://www.adzuna.nl/land/ad/5774746409?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=1A33FD7B86B03813840D65890B0E8462965CAF33",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3629,7 +1643,7 @@
     "company": "MCO-Health",
     "location": "Amsterdam, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746427?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=7138A683FD71CB7F442AA1CA41846B734A08209B",
+    "url": "https://www.adzuna.nl/land/ad/5774746427?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=7138A683FD71CB7F442AA1CA41846B734A08209B",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3644,7 +1658,7 @@
     "company": "MCO-Health",
     "location": "Almere, Flevoland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746448?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=A4052AEDE2AF3DD3F83CC2F8A67921C54900DFFD",
+    "url": "https://www.adzuna.nl/land/ad/5774746448?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=A4052AEDE2AF3DD3F83CC2F8A67921C54900DFFD",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3659,7 +1673,7 @@
     "company": "MCO-Health",
     "location": "Baarn, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746418?se=kvkTff158RGAuYJA5HfeDg&utm_medium=api&utm_source=9b7a3075&v=83751A69A448E2DBE44385E7E55A0383AD431C48",
+    "url": "https://www.adzuna.nl/land/ad/5774746418?se=FPkaZL968RGvQ_PaPknH1g&utm_medium=api&utm_source=9b7a3075&v=83751A69A448E2DBE44385E7E55A0383AD431C48",
     "currency": "EUR",
     "tags": [
       "Logistieke vacatures"
@@ -3674,7 +1688,7 @@
     "company": "MCO-Health",
     "location": "Naarden, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5774746446?se=sHupfv158RGZup9PKbkKVA&utm_medium=api&utm_source=9b7a3075&v=52458DDCF8DA2268B1FE957AAB5819F9D1BDCE8F",
+    "url": "https://www.adzuna.nl/land/ad/5774746446?se=JsGkZL968RGQ3ei2eSKTnQ&utm_medium=api&utm_source=9b7a3075&v=52458DDCF8DA2268B1FE957AAB5819F9D1BDCE8F",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -3995,21 +2009,6 @@
     "isNew": false
   },
   {
-    "id": "3f8b0fcec6870f64",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr Product Manager, Oncology Japan",
-    "company": "Natera",
-    "location": "US Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/natera/jobs/5983667004",
-    "tags": [
-      "Engineering UX Product"
-    ],
-    "postedAt": "2026-06-22T13:48:18-04:00",
-    "isNew": false
-  },
-  {
     "id": "491bb4c3d93e96ff",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4215,21 +2214,6 @@
     "isNew": false
   },
   {
-    "id": "0d2d9b2851504d10",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Software Engineering (Developer Environments)",
-    "company": "Affirm",
-    "location": "Remote US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7730668003",
-    "tags": [
-      "Infrastructure Platform Eng"
-    ],
-    "postedAt": "2026-06-18T11:27:47-04:00",
-    "isNew": false
-  },
-  {
     "id": "872e0f9bfc189b0d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4238,6 +2222,21 @@
     "location": "Remote Canada",
     "remote": true,
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7730670003",
+    "tags": [
+      "Infrastructure Platform Eng"
+    ],
+    "postedAt": "2026-06-18T11:27:47-04:00",
+    "isNew": false
+  },
+  {
+    "id": "0d2d9b2851504d10",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Software Engineering (Developer Environments)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7730668003",
     "tags": [
       "Infrastructure Platform Eng"
     ],
@@ -4305,21 +2304,6 @@
     "isNew": false
   },
   {
-    "id": "0e8af10e9c4b245f",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Manager, Software Engineering (Online Storage)",
-    "company": "Affirm",
-    "location": "Remote US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7550573003",
-    "tags": [
-      "Infrastructure Platform Eng"
-    ],
-    "postedAt": "2026-06-18T11:27:47-04:00",
-    "isNew": false
-  },
-  {
     "id": "9d383b30d3c490d4",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4328,6 +2312,21 @@
     "location": "Remote Canada",
     "remote": true,
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7550575003",
+    "tags": [
+      "Infrastructure Platform Eng"
+    ],
+    "postedAt": "2026-06-18T11:27:47-04:00",
+    "isNew": false
+  },
+  {
+    "id": "0e8af10e9c4b245f",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Software Engineering (Online Storage)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7550573003",
     "tags": [
       "Infrastructure Platform Eng"
     ],
@@ -4423,6 +2422,25 @@
     "isNew": false
   },
   {
+    "id": "ce0dcdd26a981aea",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager",
+    "company": "Bellese",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/bellese/dd48cd80-4f5a-4746-acf3-4677be728648",
+    "salaryMin": 138600,
+    "salaryMax": 163300,
+    "currency": "USD",
+    "tags": [
+      "(UCM) Unified Case Management System",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-16T16:04:36.428Z",
+    "isNew": false
+  },
+  {
     "id": "2b0c2ba54d6e1ff9",
     "source": "ashby",
     "vendor": "ashby",
@@ -4508,18 +2526,22 @@
     "isNew": false
   },
   {
-    "id": "69ea09857bdf0525",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Technical Account Manager, Nordics",
-    "company": "Veeam Software",
-    "location": "Remote, Sweden",
+    "id": "a07a730457d70a95",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Engineering Manager",
+    "company": "Bellese",
+    "location": "United States",
     "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4815727101",
+    "url": "https://jobs.lever.co/bellese/5a509e78-2344-4042-83bd-5a139002ac35",
+    "salaryMin": 154900,
+    "salaryMax": 179600,
+    "currency": "USD",
     "tags": [
-      "Professional Services Engineering - Global 1009486"
+      "(HQR) Hospital Quality Reporting",
+      "Full Time"
     ],
-    "postedAt": "2026-06-15T17:55:47-04:00",
+    "postedAt": "2026-06-15T22:27:11.010Z",
     "isNew": false
   },
   {
@@ -4531,6 +2553,21 @@
     "location": "Remote, Denmark",
     "remote": true,
     "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4704728101",
+    "tags": [
+      "Professional Services Engineering - Global 1009486"
+    ],
+    "postedAt": "2026-06-15T17:55:47-04:00",
+    "isNew": false
+  },
+  {
+    "id": "69ea09857bdf0525",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Technical Account Manager, Nordics",
+    "company": "Veeam Software",
+    "location": "Remote, Sweden",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4815727101",
     "tags": [
       "Professional Services Engineering - Global 1009486"
     ],
@@ -4677,6 +2714,25 @@
     "isNew": false
   },
   {
+    "id": "1bd88113b3dc78f0",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineer II, Data",
+    "company": "Bellese",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/bellese/d24ba5a5-a60e-4ccc-8989-c46f4790a2e2",
+    "salaryMin": 108700,
+    "salaryMax": 125300,
+    "currency": "USD",
+    "tags": [
+      "(HQR) Hospital Quality Reporting",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-11T16:39:33.921Z",
+    "isNew": false
+  },
+  {
     "id": "e550d3ad6d7f6e71",
     "source": "lever",
     "vendor": "lever",
@@ -4807,21 +2863,6 @@
     "isNew": false
   },
   {
-    "id": "1beff0f1c7fa263a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager, Clinical Genomics",
-    "company": "Natera",
-    "location": "US Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/natera/jobs/5811068004",
-    "tags": [
-      "Engineering Lab Genomics"
-    ],
-    "postedAt": "2026-06-09T15:25:19-04:00",
-    "isNew": false
-  },
-  {
     "id": "15a2ae68d5170158",
     "source": "ashby",
     "vendor": "ashby",
@@ -4853,6 +2894,25 @@
       "FullTime"
     ],
     "postedAt": "2026-06-09T11:22:14.682+00:00",
+    "isNew": false
+  },
+  {
+    "id": "1871d83b5d24fa57",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineer II, FHIR",
+    "company": "Bellese",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/bellese/bb8d3a17-6509-40d4-a8be-a429a47fbbb5",
+    "salaryMin": 108700,
+    "salaryMax": 125300,
+    "currency": "USD",
+    "tags": [
+      "(HQR) Hospital Quality Reporting",
+      "Full Time"
+    ],
+    "postedAt": "2026-06-08T20:24:32.647Z",
     "isNew": false
   },
   {
@@ -4996,6 +3056,18 @@
     "location": "Remote, United States",
     "remote": true,
     "url": "https://sands.wd1.myworkdayjobs.com/sands_careers/job/Remote-United-States/Sr-Software-Development-Engineer-in-Test---AI-First-Development_R26_0142",
+    "tags": [],
+    "isNew": false
+  },
+  {
+    "id": "b3d2da6ff6f89ee2",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "QA Automation Engineer",
+    "company": "Volarisgroup",
+    "location": "United States - Remote",
+    "remote": true,
+    "url": "https://volarisgroup.wd3.myworkdayjobs.com/assetworks/job/United-States---Remote/QA-Automation-Engineer_R67864",
     "tags": [],
     "isNew": false
   },
