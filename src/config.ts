@@ -4,19 +4,55 @@ import { searchConfigFromEnv, type SearchProvider } from "./sources/search.js";
 export const criteria: SearchCriteria = {
   // A job matches if ANY inner group matches; within a group ALL terms required.
   keywordsAny: [
-    ["qa", "engineer"],
-    ["qa", "automation"],
+    // --- Target tier: lead / manager ---
     ["qa", "lead"],
     ["qa", "manager"],
+    ["test", "lead"],
+    ["test", "manager"],
+    ["testmanager"],              // Dutch postings run it as one word
+    ["quality", "lead"],
+    ["quality", "manager"],
+    ["quality", "engineering", "manager"],
+    ["head", "of", "quality"],
+    ["head", "of", "qa"],
+    ["qa", "director"],
+    ["engineering", "manager"],
+    ["team", "lead", "test"],
+    ["teamlead", "qa"],
+    ["testcoordinator"],          // real NL title, lead-adjacent
+    ["test", "architect"],        // Polteq-style, routes into lead work
+    ["quality", "coach"],
+    ["test", "consultant"],       // consultancy lead track
+
+    // --- Adjacent: platform / ops ---
+    ["platform", "product", "manager"],
+    ["quality", "product", "manager"],
+    ["engineering", "operations"],
+
+    // --- Kept, but demote in scoring ---
+    ["sdet"],
+    ["software", "engineer", "test"],
+    ["qa", "automation"],
     ["test", "automation"],
     ["quality", "engineer"],
     ["automation", "engineer"],
-    ["sdet"],
-    ["software", "engineer", "test"],
-    ["head", "of", "quality"],
-    ["engineering", "manager"],
+    ["qa", "engineer"],
   ],
-  excludeKeywords: ["intern", "stagiair", "werkstudent", "praktikum", "junior"],
+  excludeKeywords: [
+  // seniority
+  "intern", "stagiair", "stage", "werkstudent", "praktikum",
+  "junior", "medior", "traineeship", "afstudeer",
+
+  // wrong QA domain (pharma / food / medical device)
+  "qa officer", "quality officer", "qhse", "hse",
+  "gmp", "gxp", "iso 13485", "haccp", "farmaceut", "pharmaceutical",
+  "clinical", "laborant", "laboratorium", "microbiolog",
+
+  // manufacturing / physical quality
+  "quality control", "qc engineer", "kwaliteitscontrole",
+  "weld", "lasser", "cnc", "hvac", "mechanical", "werktuigbouw",
+  "supplier quality", "incoming inspection", "calibration",
+],
   countries: ["nl", "gb", "de"], // Adzuna country codes
   remoteOnly: false,
   visaSponsorship: undefined,    // Arbeitnow: true / false / undefined(=any)
