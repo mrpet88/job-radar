@@ -8,16 +8,20 @@ export interface DiscoverResult {
   candidates: Candidate[];   // ATS boards to add to the registry
   webJobs: Job[];            // link-only hits on non-ATS-vendor domains
   queriesRun: number;
+  nextOffset: number;        // where the rotating window should resume next run
 }
 
 // Turn keyword groups × ATS domains into `terms site:domain` queries, run them
 // through the search API, and parse the result URLs into board candidates.
+// Only `maxQueries` run per call, taken as a window starting at `offset` and
+// wrapping around, so the whole list is covered over several runs (see nextOffset).
 export async function discover(
   keywordGroups: string[][],
   atsDomains: string[],
   cfg: SearchConfig,
   maxQueries: number,
   locationTerms: string[] = [],
+  offset = 0,
 ): Promise<DiscoverResult> {
   const queries: string[] = [];
   for (const group of keywordGroups)
@@ -33,7 +37,14 @@ export async function discover(
         queries.push(`${orClause} ${term} site:${domain}`);
   }
 
-  const capped = queries.slice(0, Math.max(0, maxQueries));
+  // Rotating window: take up to maxQueries starting at offset, wrapping around.
+  const total = queries.length;
+  const take = Math.min(Math.max(0, maxQueries), total);
+  const start = total ? ((offset % total) + total) % total : 0;
+  const capped: string[] = [];
+  for (let i = 0; i < take; i++) capped.push(queries[(start + i) % total]);
+  const nextOffset = total ? (start + take) % total : 0;
+
   const seenBoard = new Set<string>();
   const seenUrl = new Set<string>();
   const candidates: Candidate[] = [];
@@ -52,7 +63,7 @@ export async function discover(
     }
   }
 
-  return { candidates, webJobs, queriesRun: capped.length };
+  return { candidates, webJobs, queriesRun: capped.length, nextOffset };
 }
 
 // Extract (vendor, token[, site, dc]) from an ATS posting URL. Returns null for
