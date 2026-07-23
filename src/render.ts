@@ -14,6 +14,9 @@ function salary(j: EJob): string {
 
 export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
   const newCount = jobs.filter((j) => j.isNew).length;
+  const tierCount = (name: string) => jobs.filter((j) => j.tier === name).length;
+  const tierSummary = ["lead", "adjacent", "ic"]
+    .map((t) => `${tierCount(t)} ${t}`).join(" · ");
   // Always show Amsterdam local time (CI runners are UTC); auto-handles CEST/CET.
   const generated = new Date().toLocaleString("en-GB", {
     timeZone: "Europe/Amsterdam",
@@ -26,16 +29,20 @@ export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
 
   const rows = jobs.map((j) => {
     const nl = matchAny((j.location || "").toLowerCase(), nlTerms);
+    const tier = j.tier || "";
     return `
-    <article class="card${j.isNew ? " new" : ""}" data-nl="${nl ? 1 : 0}" data-remote="${j.remote ? 1 : 0}" data-new="${j.isNew ? 1 : 0}" data-source="${esc(j.source)}">
+    <article class="card${j.isNew ? " new" : ""}" data-nl="${nl ? 1 : 0}" data-remote="${j.remote ? 1 : 0}" data-new="${j.isNew ? 1 : 0}" data-tier="${esc(tier)}" data-source="${esc(j.source)}">
       <div class="top">
+        ${tier ? `<span class="tier ${esc(tier)}">${esc(tier)}</span>` : ""}
         <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
         ${j.isNew ? '<span class="badge">NEW</span>' : ""}
       </div>
       <div class="meta">
         <strong>${esc(j.company)}</strong>
         <span>${esc(j.location || "—")}</span>
+        ${j.otherLocations ? `<span class="pill locs">+${j.otherLocations} other locations</span>` : ""}
         ${j.remote ? '<span class="pill">remote</span>' : ""}
+        ${j.languageRequirement ? `<span class="lang">${esc(j.languageRequirement)}</span>` : ""}
         <span class="src">${esc(j.source)}</span>
         ${salary(j) ? `<span class="sal">${esc(salary(j))}</span>` : ""}
       </div>
@@ -73,6 +80,14 @@ export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
   .title:hover{text-decoration:underline}
   .badge{background:var(--new);color:#fff;font-size:10px;font-weight:700;
     padding:2px 6px;border-radius:4px;letter-spacing:.04em}
+  .tier{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+    padding:2px 7px;border-radius:4px;border:1px solid transparent;flex:none}
+  .tier.lead{background:#dcfce7;color:#166534;border-color:#bbf7d0}
+  .tier.adjacent{background:#fef3c7;color:#92400e;border-color:#fde68a}
+  .tier.ic{background:#eef1f5;color:#6b7280;border-color:#e3e6ea}
+  .lang{border:1px solid #fbcfe8;background:#fdf2f8;color:#9d174d;padding:1px 7px;
+    border-radius:20px;font-size:11px}
+  .pill.locs{border-color:#c7d2fe;background:#eef2ff;color:#3730a3}
   .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:var(--mut);
     font-size:13px;margin-top:6px}
   .pill,.src,.sal{border:1px solid var(--bd);padding:1px 7px;border-radius:20px;font-size:11px}
@@ -83,7 +98,7 @@ export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
 </style></head><body>
 <header><div class="wrap" style="padding:0">
   <h1>Job Radar</h1>
-  <div class="sub">${jobs.length} matched · ${newCount} new · generated ${generated}</div>
+  <div class="sub">${jobs.length} matched · ${tierSummary} · ${newCount} new · generated ${generated}</div>
 </div></header>
 <div class="wrap">
   <div class="controls">

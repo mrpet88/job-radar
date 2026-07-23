@@ -5,6 +5,7 @@ import type { Board } from "./types.js";
 const DATA_DIR = path.resolve("data");
 const STORE = path.join(DATA_DIR, "boards.json");
 const DEAD = path.join(DATA_DIR, "dead.json");
+const STATE = path.join(DATA_DIR, "discovery-state.json");
 
 export const boardKey = (b: Pick<Board, "vendor" | "token" | "site">) =>
   `${b.vendor}:${b.token.toLowerCase()}:${(b.site ?? "").toLowerCase()}`;
@@ -33,6 +34,20 @@ export async function loadDead(): Promise<DeadList> {
 
 export async function saveDead(dead: DeadList): Promise<void> {
   await fs.writeFile(DEAD, JSON.stringify(dead, null, 2));
+}
+
+// Rotating discovery window: only maxQueriesPerRun queries run per day, so we
+// persist where the window ended and resume there next run. This walks the whole
+// (lead-tier) query list over several days instead of forever re-running the head.
+export async function loadDiscoveryOffset(): Promise<number> {
+  try {
+    const { offset } = JSON.parse(await fs.readFile(STATE, "utf8")) as { offset?: number };
+    return Number.isFinite(offset) ? Math.max(0, Math.floor(offset as number)) : 0;
+  } catch { return 0; }
+}
+
+export async function saveDiscoveryOffset(offset: number): Promise<void> {
+  await fs.writeFile(STATE, JSON.stringify({ offset }, null, 2));
 }
 
 // Drop denylist entries older than ttlDays so revived boards can be re-found.
