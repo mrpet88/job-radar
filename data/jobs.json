@@ -18,7 +18,7 @@
     "postedAt": "2026-07-31T20:45:16.372Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4ee432d032639646",
@@ -36,7 +36,7 @@
     "postedAt": "2026-07-31T17:42:04.263Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f3d2c56802ff6449",
@@ -113,26 +113,6 @@
     "isNew": false
   },
   {
-    "id": "b8415b6a6c8c0204",
-    "source": "remoteok",
-    "title": "test",
-    "company": "UztexGroup",
-    "location": "Ð Ð°Ð·Ð²ÑÐ·ÐºÐ° Ð¢Ð°ÑÐºÐµÐ½Ñ-ÐÐ¶Ð¸Ð·Ð°Ðº, ",
-    "remote": true,
-    "url": "https://remoteOK.com/remote-jobs/remote-test-uztexgroup-1135624",
-    "tags": [
-      "project manager",
-      "exec",
-      "pascal",
-      "cassandra",
-      "testing"
-    ],
-    "postedAt": "2026-07-29T07:07:44+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "0a81f2fc27155489",
     "source": "lever",
     "vendor": "lever",
@@ -165,7 +145,7 @@
     "postedAt": "2026-07-28T18:53:43-04:00",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "acd2f01181dbd95b",
@@ -652,61 +632,6 @@
     "isNew": false
   },
   {
-    "id": "db1f87f9e5d5445a",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Team Lead, Enrollment Quality Assurance",
-    "company": "Thyme Care",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/thyme-care/3dee73f9-bf5c-4a65-b3fc-ec9327851a55",
-    "tags": [
-      "Member Experience",
-      "Member Experience - Enrollment QTE",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-02T17:17:59.247+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "30aef4bcf9ea5482",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Quality Manager, Projects",
-    "company": "Giga Energy",
-    "location": "Houston, TX. Remote, USA. Long Term Travel / Short Term Relocation",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5207934008",
-    "tags": [
-      "Quality"
-    ],
-    "postedAt": "2026-07-02T12:26:58-04:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "2d8604ea4f880402",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "CSV Engineering Lead",
-    "company": "Neko Health",
-    "location": "London",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/neko-health/b4e0d82f-617d-448e-9996-6386fd435b5f",
-    "tags": [
-      "Engineering",
-      "Quality Assurance",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-02T12:10:13.781+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "18af5f7188d977cc",
     "source": "workday",
     "vendor": "workday",
@@ -816,7 +741,7 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9245c0198840c1bc",
@@ -835,7 +760,7 @@
     "postedAt": "2026-07-31T20:42:47.143+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ce79ffec3169ef45",
@@ -923,7 +848,7 @@
     "postedAt": "2026-07-31T13:57:46.475+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "59e8ce6cebd22f9d",
@@ -940,7 +865,7 @@
     "postedAt": "2026-07-31T12:29:39-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "01973246f2a1467a",
@@ -957,7 +882,7 @@
     "postedAt": "2026-07-31T09:28:00-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6b09f67e8ff04a31",
@@ -1012,7 +937,7 @@
     "postedAt": "2026-07-31T08:01:39-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b974c6a3ae685675",
@@ -1032,6 +957,24 @@
     "isNew": false
   },
   {
+    "id": "6fb2c05dd27cdd73",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Technical Account Manager",
+    "company": "Veeam Software",
+    "location": "Remote, Italy",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744598101",
+    "tags": [
+      "Professional Services Engineering - Global 1009486"
+    ],
+    "postedAt": "2026-07-31T06:17:03-04:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "4f2a207a64fefcc5",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1047,24 +990,6 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
-  },
-  {
-    "id": "41983433670ec849",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Technical Account Manager",
-    "company": "Veeam Software",
-    "location": "Remote, United States",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744030101",
-    "tags": [
-      "Professional Services Engineering - Global 1009486"
-    ],
-    "postedAt": "2026-07-31T06:12:40-04:00",
-    "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
   },
   {
     "id": "6de241720639823a",
@@ -1160,6 +1085,40 @@
     "isNew": false
   },
   {
+    "id": "1a0ffd0667f41c7f",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Growth",
+    "company": "Fleetio",
+    "location": "Remote - USA, CAN, MEX",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/fleetio/jobs/5200093007",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-07-30T18:05:12-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "4b5d8cdd53720a62",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Payments",
+    "company": "Fleetio",
+    "location": "Remote - USA, CAN, MEX",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/fleetio/jobs/5200077007",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-07-30T17:52:52-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "833b331b4c6306da",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1175,7 +1134,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7bb12afb6ae05e3b",
@@ -1999,6 +1958,23 @@
     "isNew": false
   },
   {
+    "id": "6e4b064435fc9801",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Technical Project Manager, Engineering",
+    "company": "Fleetio",
+    "location": "Remote - USA, CAN, MEX",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/fleetio/jobs/5193645007",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-07-27T14:18:52-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "2678b3803e2c7675",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2032,7 +2008,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "57b53a670c56a462",
@@ -2577,7 +2553,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b89aa19544cb8090",
@@ -2732,7 +2708,7 @@
     "company": "Kier Group",
     "location": "Broadgate, Central London",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5811608053?se=4KleqZeN8RGNzO_fQd9OLg&utm_medium=api&utm_source=9b7a3075&v=0EEDE8706ECB427A181CB7874B01D498079EE4EA",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5811608053?se=wjv7CmGO8RG8JMyxbRrc7Q&utm_medium=api&utm_source=9b7a3075&v=0EEDE8706ECB427A181CB7874B01D498079EE4EA",
     "salaryMin": 65906.98,
     "salaryMax": 65906.98,
     "currency": "GBP",
@@ -2742,7 +2718,7 @@
     "postedAt": "2026-07-23T01:54:53Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "44f6e7c8e0407635",
@@ -2934,7 +2910,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0b066d7092f0f3bb",
@@ -3154,7 +3130,7 @@
     "postedAt": "2026-07-20T22:20:17.003+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "90980bc5eafde158",
@@ -3171,6 +3147,24 @@
       "FullTime"
     ],
     "postedAt": "2026-07-20T21:58:44.650+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "0c5a811bd94b1645",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager",
+    "company": "Moniepoint",
+    "location": "Remote, Bangalore",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4792180101",
+    "tags": [
+      "Pool: Engineering"
+    ],
+    "postedAt": "2026-07-20T05:42:55-04:00",
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": true
@@ -3700,7 +3694,7 @@
     "tier": "adjacent",
     "score": 5,
     "languageRequirement": "C1",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b5f0cab5b97ef328",
@@ -4100,7 +4094,7 @@
     "postedAt": "2026-07-09T17:35:28.733+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2f47d27c1ec10e88",
@@ -4157,24 +4151,6 @@
       "$152K – $190K • Offers Equity • Offers Bonus • 10% Annual Bonus"
     ],
     "postedAt": "2026-07-09T05:30:01.149+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "119ccab919689896",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager",
-    "company": "Moniepoint",
-    "location": "Remote, Poland",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4923034101",
-    "tags": [
-      "Pool: Engineering"
-    ],
-    "postedAt": "2026-07-08T16:46:35-04:00",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -4367,40 +4343,6 @@
     "isNew": false
   },
   {
-    "id": "2977d747add8db37",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Principal Product Manager, Engineering Intelligence & Insights",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597813002",
-    "tags": [
-      "Core DevOps"
-    ],
-    "postedAt": "2026-07-02T15:35:00-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "9a914b69e0567601",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Database (Hybrid remote)",
-    "company": "Auctane ",
-    "location": "Zielona Gora, PL",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/auctane/jobs/7768197003",
-    "tags": [
-      "Research & Development"
-    ],
-    "postedAt": "2026-07-02T12:30:42-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "5d3eeb3824550314",
     "source": "workday",
     "vendor": "workday",
@@ -4412,7 +4354,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fa47695492c130e1",
@@ -4482,7 +4424,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fe5556039fe6e5d5",
@@ -4538,7 +4480,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cfb7d17d242d3da2",
@@ -4552,7 +4494,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "19f119dbc89b8eca",
@@ -4890,24 +4832,6 @@
     "isNew": false
   },
   {
-    "id": "7db902133ed4e301",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineering Manager, Managed Gateways SREs",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/05a79929-7f74-4fa7-9f78-47994fb73b70",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-27T07:16:24.436Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
     "id": "699ebe003ce85aac",
     "source": "lever",
     "vendor": "lever",
@@ -4939,7 +4863,7 @@
       "Full-time"
     ],
     "postedAt": "2026-07-27T02:34:54.681Z",
-    "otherLocations": 6,
+    "otherLocations": 4,
     "tier": "adjacent",
     "score": 2.5,
     "isNew": false
@@ -4962,7 +4886,7 @@
     "postedAt": "2026-07-31T22:49:50.983+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f3e50441db59dd3a",
@@ -5002,7 +4926,7 @@
     "postedAt": "2026-07-31T16:45:54.449+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cf89c6fbdb8f033f",
@@ -5022,7 +4946,7 @@
     "postedAt": "2026-07-31T16:22:15.210+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "10f2a97377f118d3",
@@ -5042,7 +4966,7 @@
     "postedAt": "2026-07-31T13:20:09.567+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "bc117f5d3516b5b8",
@@ -5981,7 +5905,7 @@
     "company": "Schiphol",
     "location": "Schiphol, Haarlemmermeer",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5802872559?se=xLR2p5eN8RG8JMyxbRrc7Q&utm_medium=api&utm_source=9b7a3075&v=12CFDD7ECD55E0878A08ABEB40B4127155E1B660",
+    "url": "https://www.adzuna.nl/land/ad/5802872559?se=JvO_B2GO8RGNzO_fQd9OLg&utm_medium=api&utm_source=9b7a3075&v=12CFDD7ECD55E0878A08ABEB40B4127155E1B660",
     "currency": "EUR",
     "tags": [
       "Unknown"
@@ -6330,7 +6254,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3e5a77fcb7b5e4dc",
@@ -6471,27 +6395,6 @@
     "isNew": false
   },
   {
-    "id": "b1048515e18bf2f9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Quality Assurance Engineer",
-    "company": "3pillarglobal",
-    "location": "United States",
-    "remote": true,
-    "url": "https://jobs.lever.co/3pillarglobal/0796397a-c1f9-4e18-8967-6d4d9dbbdcd0",
-    "salaryMin": 100000,
-    "salaryMax": 120000,
-    "currency": "USD",
-    "tags": [
-      "Product Development",
-      "Full-time"
-    ],
-    "postedAt": "2026-07-02T21:45:05.856Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "4fda884d1fd0533d",
     "source": "workday",
     "vendor": "workday",
@@ -6545,7 +6448,7 @@
     "tags": [],
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "16265391f6463163",
