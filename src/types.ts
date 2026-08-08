@@ -1,8 +1,8 @@
 // One normalized shape every source maps into.
 export type Vendor =
   | "greenhouse" | "lever" | "ashby" | "workday"
-  // EU/NL-heavy vendors: Recruitee (NL), Workable, SmartRecruiters.
-  | "recruitee" | "workable" | "smartrecruiters"
+  // EU/NL-heavy vendors: Recruitee (NL), Workable, SmartRecruiters, Teamtailor.
+  | "recruitee" | "workable" | "smartrecruiters" | "teamtailor"
   | "web";
 
 export interface Job {

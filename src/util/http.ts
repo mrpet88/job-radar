@@ -38,6 +38,66 @@ export async function getJson<T>(url: string | URL, opts: FetchOpts = {}): Promi
   throw lastErr;
 }
 
+// Cap on a text response. Feeds are hand-sized, but one real Teamtailor board
+// (anicuraglobal) returns ~9.5 MB, so "it'll be small" is not a safe assumption
+// and an unbounded read is a memory hazard on a shared CI runner.
+const MAX_TEXT_BYTES = 20 * 1024 * 1024;
+
+// Fetch text (RSS/XML) with a timeout and one retry — getJson's contract, minus
+// the JSON parse, plus a size guard. The default timeout is longer because these
+// payloads are megabytes rather than kilobytes.
+export async function getText(url: string | URL, opts: FetchOpts = {}): Promise<string> {
+  const { method = "GET", headers = {}, body, timeoutMs = 30000, retries = 1 } = opts;
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        method,
+        body,
+        headers: { "user-agent": UA, accept: "application/rss+xml, application/xml, text/xml, */*", ...headers },
+        signal: AbortSignal.timeout(timeoutMs),
+      });
+      if (res.status === 429 || res.status >= 500) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        if (attempt < retries) { await sleep(500 * (attempt + 1)); continue; }
+        throw lastErr;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await readCapped(res, MAX_TEXT_BYTES);
+    } catch (e) {
+      lastErr = e;
+      if (attempt < retries) { await sleep(500 * (attempt + 1)); continue; }
+      throw lastErr;
+    }
+  }
+  throw lastErr as Error;
+}
+
+// Read a body while counting bytes, aborting once the cap is passed. Streaming is
+// the load-bearing check: content-length (when sent at all) describes the
+// compressed payload, so only the decoded stream reveals the true size.
+async function readCapped(res: Response, max: number): Promise<string> {
+  const declared = Number(res.headers.get("content-length"));
+  if (Number.isFinite(declared) && declared > max)
+    throw new Error(`response too large: content-length ${declared} > ${max} bytes`);
+  if (!res.body) return res.text();
+
+  const reader = res.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > max) {
+      await reader.cancel();
+      throw new Error(`response too large: exceeded ${max} bytes`);
+    }
+    chunks.push(value);
+  }
+  return new TextDecoder("utf-8").decode(Buffer.concat(chunks));
+}
+
 // Defence-in-depth for URLs built by interpolating a board token: re-parse the
 // finished URL and confirm it still points where we think it does. Tokens reach
 // the registry from search-result URLs (attacker-influenced), so a token carrying

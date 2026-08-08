@@ -102,6 +102,11 @@ export function parseBoard(raw: string): Candidate | null {
   const rt = host.match(/^([^.]+)\.recruitee\.com$/);
   if (rt && rt[1] !== "www") return mk("recruitee", rt[1]);
 
+  // {slug}.teamtailor.com/jobs/{id}. Same shape as Recruitee: require a real
+  // subdomain so the vendor's own marketing site never becomes a board.
+  const tt = host.match(/^([^.]+)\.teamtailor\.com$/);
+  if (tt && tt[1] !== "www") return mk("teamtailor", tt[1]);
+
   if (host === "apply.workable.com") {
     // apply.workable.com/{account} is a board; /j/{shortcode} is a single posting
     // and /api/... is the widget endpoint — neither yields an account slug.
