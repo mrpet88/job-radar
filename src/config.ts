@@ -66,6 +66,10 @@ export const criteria: SearchCriteria = {
   "qa officer", "quality officer", "qhse",
   "gmp", "gxp", "iso 13485", "haccp", "pharmaceutical", "farmaceut",
   "clinical", "laborant", "laboratorium", "microbiolog",
+  // Recruitee's own category code, carried into tags by the recruitee source.
+  // Catches lab/pharma QA at CROs (e.g. Cerba Research) whose 300-char snippet
+  // never happens to contain one of the words above.
+  "biotech_pharma",
 
   // manufacturing / physical quality
   "quality control", "qc engineer", "kwaliteitscontrole",
