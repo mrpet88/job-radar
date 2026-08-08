@@ -66,6 +66,16 @@ export async function discover(
   return { candidates, webJobs, queriesRun: capped.length, nextOffset };
 }
 
+// Board tokens are interpolated straight into ATS API URLs, and they arrive from
+// search-result URLs we don't control (the Greenhouse `for=` query param is fully
+// attacker-supplied). Restrict them to the character set real ATS slugs use, so a
+// token can never carry "/" (path traversal inside the vendor's API), "@", ":" or
+// "." (host takeover once interpolated). Vendors' own fetchers assert the final
+// host as a second layer — see assertHost in util/http.ts.
+export const SLUG_RE = /^[A-Za-z0-9._-]+$/;
+// Workday coordinates are stricter still: tenant/dc/site never contain a dot.
+const WD_RE = /^[A-Za-z0-9_-]+$/;
+
 // Extract (vendor, token[, site, dc]) from an ATS posting URL. Returns null for
 // URLs we can't map to a direct-fetch vendor.
 export function parseBoard(raw: string): Candidate | null {
@@ -110,14 +120,19 @@ export function parseBoard(raw: string): Candidate | null {
   if (wd) {
     const [, token, dc] = wd;
     // path: [locale?]/{site}/job/... — pick first non-locale, non-"job" segment.
-    const site = seg.find((s) => !/^[a-z]{2}-[a-z]{2}$/i.test(s) && s !== "job" && s !== "details");
-    return { vendor: "workday", token, dc, site: site ?? "External" };
+    const site = (seg.find((s) => !/^[a-z]{2}-[a-z]{2}$/i.test(s) && s !== "job" && s !== "details")
+      ?? "External").replace(/[?#].*$/, "");
+    if (!WD_RE.test(token) || !WD_RE.test(dc) || !WD_RE.test(site)) return null;
+    return { vendor: "workday", token, dc, site };
   }
   return null;
 }
 
-function mk(vendor: Exclude<Vendor, "web" | "workday">, token: string): Candidate {
-  return { vendor, token: token.replace(/[?#].*$/, "") };
+// Returns null for a token that isn't a plausible ATS slug, so parseBoard rejects
+// the whole URL rather than admitting a poisoned token into the registry.
+function mk(vendor: Exclude<Vendor, "web" | "workday">, token: string): Candidate | null {
+  const clean = token.replace(/[?#].*$/, "");
+  return SLUG_RE.test(clean) ? { vendor, token: clean } : null;
 }
 
 function toWebJob(hit: { title: string; url: string; snippet?: string }): Job {

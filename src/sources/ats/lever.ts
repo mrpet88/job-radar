@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://github.com/lever/postings-api
@@ -16,7 +16,9 @@ interface LeverJob {
 
 export async function fetchLever(board: Board): Promise<Job[]> {
   const company = board.name ?? prettify(board.token);
-  const jobs = await getJson<LeverJob[]>(`https://api.lever.co/v0/postings/${board.token}?mode=json`);
+  const url = `https://api.lever.co/v0/postings/${board.token}?mode=json`;
+  assertHost(url, "api.lever.co");
+  const jobs = await getJson<LeverJob[]>(url);
   return jobs.map((j) => {
     const location = j.categories?.location ?? "";
     return {

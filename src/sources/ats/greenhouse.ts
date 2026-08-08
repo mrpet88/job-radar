@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, stripHtml, isRemoteText, prettify } from "../../util/http.js";
+import { getJson, stripHtml, isRemoteText, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://developers.greenhouse.io/job-board.html
@@ -15,6 +15,7 @@ interface GhJob {
 
 export async function fetchGreenhouse(board: Board): Promise<Job[]> {
   const base = `https://boards-api.greenhouse.io/v1/boards/${board.token}`;
+  assertHost(base, "boards-api.greenhouse.io");
 
   // Resolve a nice company name once (cheap, best-effort).
   let company = board.name ?? prettify(board.token);

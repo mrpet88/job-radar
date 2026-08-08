@@ -38,6 +38,19 @@ export async function getJson<T>(url: string | URL, opts: FetchOpts = {}): Promi
   throw lastErr;
 }
 
+// Defence-in-depth for URLs built by interpolating a board token: re-parse the
+// finished URL and confirm it still points where we think it does. Tokens reach
+// the registry from search-result URLs (attacker-influenced), so a token carrying
+// "/", "@" or "." could otherwise redirect the request to another host — most
+// dangerously on Recruitee, where the token sits in the host position.
+export function assertHost(url: string, expected: string): void {
+  let host: string;
+  try { host = new URL(url).hostname.toLowerCase(); }
+  catch { throw new Error(`unparseable URL for host ${expected}`); }
+  // Hostnames are case-insensitive; URL already lower-cases the parsed side.
+  if (host !== expected.toLowerCase()) throw new Error(`host mismatch: ${host} !== ${expected}`);
+}
+
 // Run `fn` over `items` with at most `n` in flight. Preserves input order.
 export async function pool<T, R>(items: T[], n: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const out: R[] = new Array(items.length);

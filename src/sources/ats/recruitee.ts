@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, stripHtml, prettify } from "../../util/http.js";
+import { getJson, isRemoteText, stripHtml, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://<token>.recruitee.com/api/offers/ — public, no auth.
@@ -38,6 +38,8 @@ function toIso(raw?: string): string | undefined {
 
 export async function fetchRecruitee(board: Board): Promise<Job[]> {
   const url = `https://${board.token}.recruitee.com/api/offers/`;
+  // The token IS the host here, so the host assertion matters most on this vendor.
+  assertHost(url, `${board.token}.recruitee.com`);
   const { offers = [] } = await getJson<{ offers?: RecruiteeOffer[] }>(url);
 
   return offers.map((o) => {

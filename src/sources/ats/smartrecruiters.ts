@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://api.smartrecruiters.com/v1/companies/<token>/postings — public, no auth.
@@ -34,6 +34,7 @@ const MAX_PAGES = 5;   // 500 postings is far beyond any board we track
 
 export async function fetchSmartRecruiters(board: Board): Promise<Job[]> {
   const base = `https://api.smartrecruiters.com/v1/companies/${board.token}/postings`;
+  assertHost(base, "api.smartrecruiters.com");
   const postings: SrPosting[] = [];
 
   for (let page = 0; page < MAX_PAGES; page++) {
