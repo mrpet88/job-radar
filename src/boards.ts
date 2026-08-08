@@ -2,12 +2,14 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import type { Board } from "./types.js";
 import type { ProbeState } from "./probe.js";
+import type { SeenHistory } from "./filter.js";
 
 const DATA_DIR = path.resolve("data");
 const STORE = path.join(DATA_DIR, "boards.json");
 const DEAD = path.join(DATA_DIR, "dead.json");
 const STATE = path.join(DATA_DIR, "discovery-state.json");
 const PROBE = path.join(DATA_DIR, "probe-state.json");
+const HISTORY = path.join(DATA_DIR, "seen-history.json");
 
 export const boardKey = (b: Pick<Board, "vendor" | "token" | "site">) =>
   `${b.vendor}:${b.token.toLowerCase()}:${(b.site ?? "").toLowerCase()}`;
@@ -64,6 +66,19 @@ export async function loadProbeState(): Promise<ProbeState> {
 export async function saveProbeState(state: ProbeState): Promise<void> {
   const sorted = Object.fromEntries(Object.entries(state).sort(([a], [b]) => a.localeCompare(b)));
   await fs.writeFile(PROBE, JSON.stringify(sorted, null, 2));
+}
+
+// Sighting dates per role, used to spot listings that get recycled rather than
+// filled. See trackReposts() in src/filter.ts.
+export async function loadSeenHistory(): Promise<SeenHistory> {
+  try {
+    return JSON.parse(await fs.readFile(HISTORY, "utf8")) as SeenHistory;
+  } catch { return {}; }
+}
+
+export async function saveSeenHistory(history: SeenHistory): Promise<void> {
+  const sorted = Object.fromEntries(Object.entries(history).sort(([a], [b]) => a.localeCompare(b)));
+  await fs.writeFile(HISTORY, JSON.stringify(sorted, null, 2));
 }
 
 // Drop denylist entries older than ttlDays so revived boards can be re-found.

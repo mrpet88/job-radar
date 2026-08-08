@@ -95,17 +95,22 @@ export function scoreJob(
 // countries. Fold them to one row per (normalised title + company), preferring an
 // NL or remote-EU variant, and record how many other locations were merged away.
 const EU_HINT = /\b(eu|europe|european|emea|eea)\b/;
-const normTitle = (t: string) =>
+export const normTitle = (t: string) =>
   t.toLowerCase()
     .replace(/\(.*?\)/g, " ")                       // drop "(m/f/d)", "(remote)", …
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\b(remote|hybrid|onsite|on site|fulltime|full time|parttime|part time)\b/g, " ")
     .trim().replace(/\s+/g, " ");
 
+// Identity of a role independent of where and when it was listed. Shared by the
+// cross-posting collapse (same role, many locations, one run) and repost tracking
+// (same role, one location, many runs) so both agree on what "the same job" means.
+export const roleKey = (j: Job) => `${normTitle(j.title)}::${j.company.toLowerCase().trim()}`;
+
 export function collapseCrossPosting(jobs: Job[], nlTerms: string[] = []): Job[] {
   const groups = new Map<string, Job[]>();
   for (const j of jobs) {
-    const key = `${normTitle(j.title)}::${j.company.toLowerCase().trim()}`;
+    const key = roleKey(j);
     const g = groups.get(key);
     if (g) g.push(j); else groups.set(key, [j]);
   }
@@ -135,6 +140,57 @@ export function detectLanguageRequirement(desc?: string): string | undefined {
   const d = desc.toLowerCase();
   for (const [re, label] of LANG_PATTERNS) if (re.test(d)) return label;
   return undefined;
+}
+
+// Repost detection. NL consultancies (Polteq, Sogeti and similar) recycle the
+// same listing over and over, which reads as a steady stream of openings but is
+// often one role being re-advertised. data/seen-history.json keeps the sighting
+// dates per roleKey so that pattern is visible on the card.
+//
+// Like languageRequirement, this is captured for visibility only and never
+// filtered on — a repost is a signal about the employer, not a reason to hide a
+// role that might still be worth applying to.
+export type SeenHistory = Record<string, string[]>;   // roleKey → ISO dates (YYYY-MM-DD)
+
+const SIGHTING_GAP_DAYS = 14;   // a role must vanish this long before it re-counts
+const HISTORY_TTL_DAYS = 90;    // sightings older than this stop being evidence
+
+// Record this run's roles and return the updated history plus a repost count per
+// roleKey. A new sighting is appended only when the newest one is more than
+// SIGHTING_GAP_DAYS old: a role that simply stays listed is one continuous
+// posting, and counting it every run would mark every long-open role a repost.
+export function trackReposts(
+  jobs: Job[],
+  history: SeenHistory,
+  now = new Date(),
+): { history: SeenHistory; counts: Map<string, number> } {
+  const today = now.toISOString().slice(0, 10);
+  const ttl = now.getTime() - HISTORY_TTL_DAYS * 86_400_000;
+  const gap = now.getTime() - SIGHTING_GAP_DAYS * 86_400_000;
+
+  // Prune first, so a role last seen beyond the TTL starts over as a fresh
+  // listing instead of pairing with a sighting that no longer means anything.
+  const next: SeenHistory = {};
+  for (const [key, dates] of Object.entries(history)) {
+    const kept = dates.filter((d) => {
+      const t = Date.parse(d);
+      return !Number.isNaN(t) && t >= ttl;
+    }).sort();
+    if (kept.length) next[key] = kept;
+  }
+
+  for (const j of jobs) {
+    const key = roleKey(j);
+    const dates = next[key];
+    if (!dates?.length) { next[key] = [today]; continue; }
+    const newest = Date.parse(dates[dates.length - 1]);
+    if (Number.isNaN(newest) || newest < gap) dates.push(today);
+  }
+
+  const counts = new Map<string, number>();
+  for (const [key, dates] of Object.entries(next))
+    if (dates.length >= 2) counts.set(key, dates.length);
+  return { history: next, counts };
 }
 
 export function dedupe(jobs: Job[]): Job[] {

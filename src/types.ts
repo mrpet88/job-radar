@@ -24,6 +24,7 @@ export interface Job {
   score?: number;        // tier weight, after promotion/demotion adjustments
   otherLocations?: number; // cross-posting collapse: N further locations folded in
   languageRequirement?: string; // detected language demand (e.g. "C2", "native Dutch")
+  repostCount?: number;  // times this role has been re-listed (>=2 sightings); annotation only
 }
 
 // A company career board we know how to harvest directly.

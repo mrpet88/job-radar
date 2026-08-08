@@ -11,8 +11,8 @@ import { fetchJooble } from "./sources/jooble.js";
 import { fetchBoard } from "./sources/ats/index.js";
 import { discover } from "./discover.js";
 import { probe } from "./probe.js";
-import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState } from "./boards.js";
-import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny } from "./filter.js";
+import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState, loadSeenHistory, saveSeenHistory } from "./boards.js";
+import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny, trackReposts, roleKey } from "./filter.js";
 import { renderHtml } from "./render.js";
 import { pool } from "./util/http.js";
 
@@ -141,10 +141,18 @@ async function main() {
   const gated = dedupe(collected.filter((j) => matchesCriteria(j, criteria)));
   // Collapse cross-posted duplicates (same role across many countries) to one row.
   const collapsed = collapseCrossPosting(gated, nlTerms);
+  // Repost tracking: record this run's roles and pick up how often each has been
+  // re-listed. Annotation only — nothing is dropped on the strength of it.
+  const { history, counts } = trackReposts(collapsed, await loadSeenHistory());
+  await saveSeenHistory(history);
   // Score + detect language while the description is still present (both need it).
   const scored = collapsed.map((j) => {
     const { tier, score } = scoreJob(j, criteria, demoteCompanies);
-    return { ...j, tier, score, languageRequirement: detectLanguageRequirement(j.description) };
+    return {
+      ...j, tier, score,
+      languageRequirement: detectLanguageRequirement(j.description),
+      repostCount: counts.get(roleKey(j)),
+    };
   });
   const { all, fresh } = diffNew(scored, knownIds);
   const freshIds = new Set(fresh.map((f) => f.id));
