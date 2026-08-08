@@ -6,6 +6,7 @@ import { fetchWorkday } from "./workday.js";
 import { fetchRecruitee } from "./recruitee.js";
 import { fetchWorkable } from "./workable.js";
 import { fetchSmartRecruiters } from "./smartrecruiters.js";
+import { fetchTeamtailor } from "./teamtailor.js";
 
 // Route a registry board to its vendor fetcher.
 export function fetchBoard(board: Board): Promise<Job[]> {
@@ -17,5 +18,6 @@ export function fetchBoard(board: Board): Promise<Job[]> {
     case "recruitee":       return fetchRecruitee(board);
     case "workable":        return fetchWorkable(board);
     case "smartrecruiters": return fetchSmartRecruiters(board);
+    case "teamtailor":      return fetchTeamtailor(board);
   }
 }

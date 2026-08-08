@@ -115,6 +115,7 @@ export const atsDomains = [
   "recruitee.com",
   "apply.workable.com",
   "jobs.smartrecruiters.com",
+  "teamtailor.com",
 ];
 // ── EDIT THIS to probe specific employers for a careers board. No key needed. ──
 // Search-based discovery costs Brave credits and only covers ~20 queries a run, so
