@@ -87,6 +87,25 @@ export function parseBoard(raw: string): Candidate | null {
   if (host.endsWith("ashbyhq.com")) {
     return seg[0] ? mk("ashby", seg[0]) : null;
   }
+  // {slug}.recruitee.com/o/{job}. Require a real subdomain so recruitee.com and
+  // www.recruitee.com (the vendor's own marketing site) never become a board.
+  const rt = host.match(/^([^.]+)\.recruitee\.com$/);
+  if (rt && rt[1] !== "www") return mk("recruitee", rt[1]);
+
+  if (host === "apply.workable.com") {
+    // apply.workable.com/{account} is a board; /j/{shortcode} is a single posting
+    // and /api/... is the widget endpoint — neither yields an account slug.
+    const first = seg[0];
+    return first && first !== "j" && first !== "api" ? mk("workable", first) : null;
+  }
+
+  if (host.endsWith("smartrecruiters.com")) {
+    // jobs./careers.smartrecruiters.com/{Company}[/{postingId}]. The identifier is
+    // case-sensitive in the API ("WAES", "Eurofins"), so it is stored verbatim.
+    const first = seg[0];
+    return first && !/^\d+$/.test(first) ? mk("smartrecruiters", first) : null;
+  }
+
   const wd = host.match(/^([^.]+)\.(wd\d+)\.myworkdayjobs\.com$/);
   if (wd) {
     const [, token, dc] = wd;
