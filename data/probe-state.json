@@ -1,0 +1,78 @@
+{
+  "Adyen": {
+    "resolved": {
+      "vendor": "greenhouse",
+      "token": "adyen"
+    },
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Albert Heijn": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "ASML": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Backbase": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Bol": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Booking.com": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Coolblue": {
+    "resolved": {
+      "vendor": "smartrecruiters",
+      "token": "coolblue"
+    },
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "ING": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Just Eat Takeaway": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Mollie": {
+    "resolved": {
+      "vendor": "ashby",
+      "token": "mollie"
+    },
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Optiver": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Picnic": {
+    "resolved": {
+      "vendor": "smartrecruiters",
+      "token": "picnic"
+    },
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "Rabobank": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "TomTom": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  },
+  "WeTransfer": {
+    "lastTried": "2026-08-08T12:05:06.960Z",
+    "attempts": 1
+  }
+}
