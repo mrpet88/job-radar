@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, stripHtml, prettify } from "../../util/http.js";
+import { getJson, isRemoteText, stripHtml, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://apply.workable.com/api/v1/widget/accounts/<token>?details=true
@@ -24,6 +24,7 @@ interface WorkableJob {
 
 export async function fetchWorkable(board: Board): Promise<Job[]> {
   const url = `https://apply.workable.com/api/v1/widget/accounts/${board.token}?details=true`;
+  assertHost(url, "apply.workable.com");
   const res = await getJson<{ name?: string; jobs?: WorkableJob[] }>(url);
   const company = res.name ?? board.name ?? prettify(board.token);
 

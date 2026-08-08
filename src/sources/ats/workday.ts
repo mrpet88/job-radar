@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // Workday "CxS" public feed: POST /wday/cxs/{tenant}/{site}/jobs
@@ -20,6 +20,9 @@ export async function fetchWorkday(board: Board): Promise<Job[]> {
   const company = board.name ?? prettify(board.token);
   const origin = `https://${board.token}.${dc}.myworkdayjobs.com`;
   const api = `${origin}/wday/cxs/${board.token}/${site}/jobs`;
+  // Tenant and dc are in the host; a token carrying "/" or "@" would move the
+  // request off myworkdayjobs.com, and the built host would then stop matching.
+  assertHost(api, `${board.token}.${dc}.myworkdayjobs.com`);
 
   const out: Job[] = [];
   for (let page = 0; page < MAX_PAGES; page++) {
