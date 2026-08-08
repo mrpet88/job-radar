@@ -43,6 +43,7 @@ export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
         ${j.otherLocations ? `<span class="pill locs">+${j.otherLocations} other locations</span>` : ""}
         ${j.remote ? '<span class="pill">remote</span>' : ""}
         ${j.languageRequirement ? `<span class="lang">${esc(j.languageRequirement)}</span>` : ""}
+        ${j.repostCount ? `<span class="repost" title="seen in ${j.repostCount} separate listings — this role gets re-advertised">reposted ×${j.repostCount}</span>` : ""}
         <span class="src">${esc(j.source)}</span>
         ${salary(j) ? `<span class="sal">${esc(salary(j))}</span>` : ""}
       </div>
@@ -86,6 +87,8 @@ export function renderHtml(jobs: EJob[], nlTerms: string[] = []): string {
   .tier.adjacent{background:#fef3c7;color:#92400e;border-color:#fde68a}
   .tier.ic{background:#eef1f5;color:#6b7280;border-color:#e3e6ea}
   .lang{border:1px solid #fbcfe8;background:#fdf2f8;color:#9d174d;padding:1px 7px;
+    border-radius:20px;font-size:11px}
+  .repost{border:1px solid #fed7aa;background:#fff7ed;color:#9a3412;padding:1px 7px;
     border-radius:20px;font-size:11px}
   .pill.locs{border-color:#c7d2fe;background:#eef2ff;color:#3730a3}
   .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:var(--mut);
