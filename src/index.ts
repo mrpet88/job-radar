@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { Board, Job } from "./types.js";
-import { criteria, sources, atsDomains, discovery, seedBoards, demoteCompanies } from "./config.js";
+import { criteria, sources, atsDomains, discovery, seedBoards, demoteCompanies, probeCompanies, probing } from "./config.js";
 import { fetchArbeitnow } from "./sources/arbeitnow.js";
 import { fetchAdzuna } from "./sources/adzuna.js";
 import { fetchRemoteOk } from "./sources/remoteok.js";
@@ -10,7 +10,8 @@ import { fetchJobicy } from "./sources/jobicy.js";
 import { fetchJooble } from "./sources/jooble.js";
 import { fetchBoard } from "./sources/ats/index.js";
 import { discover } from "./discover.js";
-import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset } from "./boards.js";
+import { probe } from "./probe.js";
+import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState } from "./boards.js";
 import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny } from "./filter.js";
 import { renderHtml } from "./render.js";
 import { pool } from "./util/http.js";
@@ -63,6 +64,19 @@ async function main() {
     console.log("[discover] skipped (JOB_RADAR_DISCOVER=false — harvest-only run)");
   } else {
     console.log("[discover] skipped (no search API key — set BRAVE_API_KEY or GOOGLE_API_KEY+GOOGLE_CSE_CX)");
+  }
+
+  // ── Probe named employers for a careers board (free, no search credits) ──
+  // Runs before the harvest so anything resolved this run is picked up immediately.
+  if (probing.enabled && probeCompanies.length) {
+    const state = await loadProbeState();
+    const r = await probe(probeCompanies, state);
+    await saveProbeState(r.state);
+    const { merged, added } = mergeBoards(boards, r.candidates, dead);
+    boards = merged;
+    console.log(`[probe] ${r.tried} probed, ${r.skipped} skipped (resolved/cooling) → ${r.resolved} resolved, ${added.length} new boards`);
+  } else if (!probing.enabled) {
+    console.log("[probe] skipped (JOB_RADAR_PROBE=false)");
   }
 
   // ── Harvest every known board directly (no key, no quota) ──

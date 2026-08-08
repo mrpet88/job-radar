@@ -116,6 +116,24 @@ export const atsDomains = [
   "apply.workable.com",
   "jobs.smartrecruiters.com",
 ];
+// ── EDIT THIS to probe specific employers for a careers board. No key needed. ──
+// Search-based discovery costs Brave credits and only covers ~20 queries a run, so
+// a company you actually care about can take weeks to surface — or never, if it
+// never ranks. Probing guesses the ATS slug from the name (see slugVariants in
+// src/probe.ts) and asks each vendor directly, which is free. A company resolves
+// when a vendor answers with at least one job; the board then joins boards.json and
+// is harvested like any other. Add or remove names freely — results are cached in
+// data/probe-state.json, resolved companies are never re-probed, and misses are
+// retried after 30 days. Workday is not probed (it needs a tenant + data centre +
+// site, none of which follow from a company name).
+export const probeCompanies: string[] = [
+  "Adyen", "Mollie", "Booking.com", "Picnic", "Coolblue",
+  "Bol", "Backbase", "TomTom", "WeTransfer", "Optiver",
+  "ASML", "Rabobank", "ING", "Just Eat Takeaway", "Albert Heijn",
+];
+// Probing is free, so it runs by default. Set JOB_RADAR_PROBE=false to skip it
+// (e.g. a quick manual run where you only want the harvest).
+export const probing = { enabled: process.env.JOB_RADAR_PROBE !== "false" };
 // Provider for discovery: "brave" (BRAVE_API_KEY) or "google"
 // (GOOGLE_API_KEY + GOOGLE_CSE_CX). Discovery auto-disables if keys are unset.
 // NB: Google's Custom Search JSON API is closed to new Cloud projects — a fresh
