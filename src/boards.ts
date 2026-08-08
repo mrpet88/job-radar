@@ -1,11 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { Board } from "./types.js";
+import type { ProbeState } from "./probe.js";
 
 const DATA_DIR = path.resolve("data");
 const STORE = path.join(DATA_DIR, "boards.json");
 const DEAD = path.join(DATA_DIR, "dead.json");
 const STATE = path.join(DATA_DIR, "discovery-state.json");
+const PROBE = path.join(DATA_DIR, "probe-state.json");
 
 export const boardKey = (b: Pick<Board, "vendor" | "token" | "site">) =>
   `${b.vendor}:${b.token.toLowerCase()}:${(b.site ?? "").toLowerCase()}`;
@@ -48,6 +50,20 @@ export async function loadDiscoveryOffset(): Promise<number> {
 
 export async function saveDiscoveryOffset(offset: number): Promise<void> {
   await fs.writeFile(STATE, JSON.stringify({ offset }, null, 2));
+}
+
+// Per-company slug-probing state: which config.probeCompanies resolved to a
+// board, and when each was last attempted (so misses are retried on a TTL rather
+// than every run). See src/probe.ts.
+export async function loadProbeState(): Promise<ProbeState> {
+  try {
+    return JSON.parse(await fs.readFile(PROBE, "utf8")) as ProbeState;
+  } catch { return {}; }
+}
+
+export async function saveProbeState(state: ProbeState): Promise<void> {
+  const sorted = Object.fromEntries(Object.entries(state).sort(([a], [b]) => a.localeCompare(b)));
+  await fs.writeFile(PROBE, JSON.stringify(sorted, null, 2));
 }
 
 // Drop denylist entries older than ttlDays so revived boards can be re-found.
