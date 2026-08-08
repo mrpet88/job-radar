@@ -10,7 +10,7 @@ import { pool } from "./util/http.js";
 // Workday is deliberately not probed: it needs tenant + data centre + site, and a
 // company name yields at most the first, so guesses would be almost all misses.
 const VENDORS = [
-  "greenhouse", "lever", "ashby", "recruitee", "workable", "smartrecruiters",
+  "greenhouse", "lever", "ashby", "recruitee", "workable", "smartrecruiters", "teamtailor",
 ] as const;
 export type ProbeVendor = (typeof VENDORS)[number];
 
