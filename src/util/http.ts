@@ -2,12 +2,23 @@
 
 const UA = "job-radar/1.0 (+https://github.com/) personal-job-tracker";
 
-interface FetchOpts {
+export interface FetchOpts {
   method?: "GET" | "POST";
   headers?: Record<string, string>;
   body?: string;
   timeoutMs?: number;
   retries?: number;
+}
+
+// Carries the status code so a caller can tell "this board does not exist" from
+// "the request did not complete". Probing depends on that distinction: a 404 is a
+// definitive answer worth remembering, while a timeout or 5xx means we simply do
+// not know yet and must not be recorded as a miss.
+export class HttpError extends Error {
+  constructor(readonly status: number) {
+    super(`HTTP ${status}`);
+    this.name = "HttpError";
+  }
 }
 
 // Fetch JSON with a timeout and one retry on 429/5xx / network error.
@@ -23,11 +34,11 @@ export async function getJson<T>(url: string | URL, opts: FetchOpts = {}): Promi
         signal: AbortSignal.timeout(timeoutMs),
       });
       if (res.status === 429 || res.status >= 500) {
-        lastErr = new Error(`HTTP ${res.status}`);
+        lastErr = new HttpError(res.status);
         if (attempt < retries) { await sleep(500 * (attempt + 1)); continue; }
         throw lastErr;
       }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new HttpError(res.status);
       return (await res.json()) as T;
     } catch (e) {
       lastErr = e;
@@ -58,11 +69,11 @@ export async function getText(url: string | URL, opts: FetchOpts = {}): Promise<
         signal: AbortSignal.timeout(timeoutMs),
       });
       if (res.status === 429 || res.status >= 500) {
-        lastErr = new Error(`HTTP ${res.status}`);
+        lastErr = new HttpError(res.status);
         if (attempt < retries) { await sleep(500 * (attempt + 1)); continue; }
         throw lastErr;
       }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw new HttpError(res.status);
       return await readCapped(res, MAX_TEXT_BYTES);
     } catch (e) {
       lastErr = e;

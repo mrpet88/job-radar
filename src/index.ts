@@ -74,7 +74,9 @@ async function main() {
     await saveProbeState(r.state);
     const { merged, added } = mergeBoards(boards, r.candidates, dead);
     boards = merged;
-    console.log(`[probe] ${r.tried} probed, ${r.skipped} skipped (resolved/cooling) → ${r.resolved} resolved, ${added.length} new boards`);
+    console.log(`[probe] ${r.tried} probed, ${r.skipped} skipped (resolved/cooling) → ${r.resolved} resolved, ${added.length} new boards` +
+      (r.mismatched ? `, ${r.mismatched} rejected on name mismatch` : "") +
+      (r.inconclusive ? `, ${r.inconclusive} inconclusive (will retry next run)` : ""));
   } else if (!probing.enabled) {
     console.log("[probe] skipped (JOB_RADAR_PROBE=false)");
   }

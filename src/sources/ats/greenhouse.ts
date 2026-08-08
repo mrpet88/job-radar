@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, stripHtml, isRemoteText, prettify, assertHost } from "../../util/http.js";
+import { getJson, stripHtml, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://developers.greenhouse.io/job-board.html
@@ -13,18 +13,18 @@ interface GhJob {
   departments?: { name: string }[];
 }
 
-export async function fetchGreenhouse(board: Board): Promise<Job[]> {
+export async function fetchGreenhouse(board: Board, opts?: FetchOpts): Promise<Job[]> {
   const base = `https://boards-api.greenhouse.io/v1/boards/${board.token}`;
   assertHost(base, "boards-api.greenhouse.io");
 
   // Resolve a nice company name once (cheap, best-effort).
   let company = board.name ?? prettify(board.token);
   try {
-    const meta = await getJson<{ name?: string }>(base);
+    const meta = await getJson<{ name?: string }>(base, opts);
     if (meta.name) company = meta.name;
   } catch { /* keep fallback */ }
 
-  const { jobs = [] } = await getJson<{ jobs?: GhJob[] }>(`${base}/jobs?content=true`);
+  const { jobs = [] } = await getJson<{ jobs?: GhJob[] }>(`${base}/jobs?content=true`, opts);
   return jobs.map((j) => {
     const location = j.location?.name ?? "";
     const desc = stripHtml(j.content?.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&"));

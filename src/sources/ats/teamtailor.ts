@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getText, stripHtml, isRemoteText, prettify, assertHost } from "../../util/http.js";
+import { getText, stripHtml, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://<slug>.teamtailor.com/jobs.rss — public RSS, no auth, no key.
@@ -38,11 +38,11 @@ const safeChar = (code: number): string =>
 const decodeXml = (s: string): string =>
   unescape(s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1"));
 
-export async function fetchTeamtailor(board: Board): Promise<Job[]> {
+export async function fetchTeamtailor(board: Board, opts?: FetchOpts): Promise<Job[]> {
   const url = `https://${board.token}.teamtailor.com/jobs.rss`;
   // The token is the host here, as on Recruitee — assert before the request.
   assertHost(url, `${board.token}.teamtailor.com`);
-  return parseRss(await getText(url), board.name ?? prettify(board.token));
+  return parseRss(await getText(url, opts), board.name ?? prettify(board.token));
 }
 
 // Kept separate from the fetch so the parse can be exercised on a fixture — live

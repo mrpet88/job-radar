@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, stripHtml, prettify, assertHost } from "../../util/http.js";
+import { getJson, isRemoteText, stripHtml, prettify, assertHost , type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://<token>.recruitee.com/api/offers/ — public, no auth.
@@ -36,11 +36,11 @@ function toIso(raw?: string): string | undefined {
   return Number.isNaN(t) ? undefined : new Date(t).toISOString();
 }
 
-export async function fetchRecruitee(board: Board): Promise<Job[]> {
+export async function fetchRecruitee(board: Board, opts?: FetchOpts): Promise<Job[]> {
   const url = `https://${board.token}.recruitee.com/api/offers/`;
   // The token IS the host here, so the host assertion matters most on this vendor.
   assertHost(url, `${board.token}.recruitee.com`);
-  const { offers = [] } = await getJson<{ offers?: RecruiteeOffer[] }>(url);
+  const { offers = [] } = await getJson<{ offers?: RecruiteeOffer[] }>(url, opts);
 
   return offers.map((o) => {
     const company = o.company_name ?? board.name ?? prettify(board.token);
