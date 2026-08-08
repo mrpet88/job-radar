@@ -105,6 +105,12 @@ export const atsDomains = [
   "jobs.lever.co",
   "jobs.ashbyhq.com",
   "myworkdayjobs.com",
+  // EU/NL-heavy vendors. The four above are the US startup stack; Dutch employers
+  // (especially SMEs and mid-market) run largely on Recruitee, with Workable and
+  // SmartRecruiters close behind — roles there were previously invisible.
+  "recruitee.com",
+  "apply.workable.com",
+  "jobs.smartrecruiters.com",
 ];
 // Provider for discovery: "brave" (BRAVE_API_KEY) or "google"
 // (GOOGLE_API_KEY + GOOGLE_CSE_CX). Discovery auto-disables if keys are unset.

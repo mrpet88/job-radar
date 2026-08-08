@@ -1,5 +1,9 @@
 // One normalized shape every source maps into.
-export type Vendor = "greenhouse" | "lever" | "ashby" | "workday" | "web";
+export type Vendor =
+  | "greenhouse" | "lever" | "ashby" | "workday"
+  // EU/NL-heavy vendors: Recruitee (NL), Workable, SmartRecruiters.
+  | "recruitee" | "workable" | "smartrecruiters"
+  | "web";
 
 export interface Job {
   id: string;            // stable hash: source+company+title+location
