@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify, assertHost } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // Workday "CxS" public feed: POST /wday/cxs/{tenant}/{site}/jobs
@@ -14,7 +14,7 @@ interface WdPosting {
 const MAX_PAGES = 5;             // 20/page → up to 100 per board
 const LIMIT = 20;
 
-export async function fetchWorkday(board: Board): Promise<Job[]> {
+export async function fetchWorkday(board: Board, opts?: FetchOpts): Promise<Job[]> {
   const dc = board.dc ?? "wd1";
   const site = board.site ?? "External";
   const company = board.name ?? prettify(board.token);
@@ -28,6 +28,7 @@ export async function fetchWorkday(board: Board): Promise<Job[]> {
   for (let page = 0; page < MAX_PAGES; page++) {
     const offset = page * LIMIT;
     const data = await getJson<{ total?: number; jobPostings?: WdPosting[] }>(api, {
+      ...opts,
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ limit: LIMIT, offset, searchText: "", appliedFacets: {} }),
