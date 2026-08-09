@@ -112,12 +112,40 @@ Edit `src/config.ts`:
 ## Scheduled + hosted (GitHub Actions)
 1. Push this repo to GitHub.
 2. Settings → Secrets → Actions: add `BRAVE_API_KEY` (for discovery) and optionally
-   `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`.
+   `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`, plus the mail secrets below
+   if you want the digest.
 3. Settings → Pages → Source: GitHub Actions.
-4. The workflow runs once daily (09:30 UTC), commits everything under `data/`, and
-   publishes the dashboard to your Pages URL. "NEW" detection works because the
-   previous `jobs.json` is committed and diffed each run — same for the board registry,
-   probe results and repost history.
+4. The workflow runs once daily (09:30 UTC), commits everything under `data/`, emails
+   the new roles, and publishes the dashboard to your Pages URL. "NEW" detection works
+   because the previous `jobs.json` is committed and diffed each run — same for the
+   board registry, probe results and repost history.
+
+## Email digest (optional)
+Every run writes `digest.html` — the new roles in dashboard order (best-scoring
+first, capped at 20) — and CI mails it to you. **No new roles → no file → no mail**,
+so a quiet day is silent rather than an empty email.
+
+Nothing is sent until you add the secrets. Gmail needs an **app password** (Google
+Account → Security → 2-Step Verification → App passwords); your normal password won't
+work over SMTP. Settings → Secrets → Actions:
+
+| Secret | Value |
+| --- | --- |
+| `MAIL_USERNAME` | the Gmail address that sends (also the `From:`) |
+| `MAIL_PASSWORD` | the 16-character app password |
+| `MAIL_TO` | where the digest lands — can be the same address |
+
+With `MAIL_USERNAME` unset the mail step is skipped and the run is unaffected. Sending
+goes through [`dawidd6/action-send-mail`](https://github.com/dawidd6/action-send-mail)
+over Gmail SMTP; the app password never leaves Actions secrets. To change how much the
+email carries, edit `MAX_ROWS` in [`src/digest.ts`](src/digest.ts).
+
+**Testing it** — waiting for a run to happen to find something is a poor way to learn
+your SMTP settings are wrong. Actions → job-radar → *Run workflow* has a **force digest**
+checkbox: it mails the current top 20 even on a quiet run, subject-prefixed `[test]` and
+banner-marked so it can't be mistaken for real finds. Locally that's
+`JOB_RADAR_DIGEST_FORCE=true npm start`, which writes `digest.html` for you to open —
+local runs never send mail.
 
 ## How "new" detection works
 Each job gets a stable id = `sha1(source|company|title|location)`. On each run the
@@ -150,6 +178,9 @@ applying to.
 | `seen-history.json` | Sighting dates per role, for repost detection |
 
 All are committed by CI each run — the history *is* the state.
+
+`digest.html` is the one exception: it's written to the **repo root**, gitignored, and
+consumed by the mail step in the same run. It's per-run output, not state.
 
 ## Roadmap (next phases)
 - **Supabase**: replace the JSON files with Postgres for `first_seen` history,

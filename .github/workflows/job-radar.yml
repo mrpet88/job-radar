@@ -3,7 +3,12 @@ name: job-radar
 on:
   schedule:
     - cron: "30 9 * * *"   # 09:30 UTC daily (~11:30 CEST) — full run with ATS discovery
-  workflow_dispatch: {}        # manual run button
+  workflow_dispatch:           # manual run button
+    inputs:
+      force_digest:
+        description: "Email the current top 20 even if nothing is new (tests the mail path)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,6 +23,10 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # Job-level so the mail step's `if` can see it — the secrets context isn't
+    # available in a step condition, but env is.
+    env:
+      MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -25,6 +34,7 @@ jobs:
       - run: npm ci || npm install
       - run: npm run build
       - name: Collect jobs
+        id: collect
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
@@ -33,7 +43,25 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
           JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+          JOB_RADAR_DIGEST_FORCE: ${{ inputs.force_digest }}
         run: npm start
+      # Digest email — only when the run found something new (steps.collect.outputs.send).
+      # Needs MAIL_USERNAME (the Gmail address) + MAIL_PASSWORD (a Gmail *app password*,
+      # not the account password) and MAIL_TO in repo secrets; skipped when unset.
+      - name: Email new jobs
+        if: steps.collect.outputs.send == 'true' && env.MAIL_USERNAME != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Job Radar <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ steps.collect.outputs.subject }}
+          html_body: file://digest.html
+          convert_markdown: false
       - name: Commit data
         run: |
           git config user.name "job-radar-bot"
