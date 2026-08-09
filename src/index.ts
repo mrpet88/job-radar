@@ -14,10 +14,13 @@ import { probe } from "./probe.js";
 import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState, loadSeenHistory, saveSeenHistory } from "./boards.js";
 import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny, trackReposts, roleKey } from "./filter.js";
 import { renderHtml } from "./render.js";
+import { writeDigest } from "./digest.js";
 import { pool } from "./util/http.js";
 
 const DATA_DIR = path.resolve("data");
 const STORE = path.join(DATA_DIR, "jobs.json");
+// Email body for the run, written outside data/ so it's neither committed nor published.
+const DIGEST = path.resolve("digest.html");
 
 async function loadKnownIds(): Promise<Set<string>> {
   try {
@@ -173,6 +176,18 @@ async function main() {
   await saveBoards(boards);
   await saveDead(dead);
 
+  // Email digest: the new roles in dashboard order (best first). Written only when
+  // there's something to report — the CI mail step keys off the file existing.
+  const repo = process.env.GITHUB_REPOSITORY;   // "owner/name" on Actions
+  const dashboardUrl = process.env.JOB_RADAR_DASHBOARD_URL ||
+    (repo ? `https://${repo.split("/")[0]}.github.io/${repo.split("/")[1]}/` : undefined);
+  // JOB_RADAR_DIGEST_FORCE=true mails the current top 20 even on a quiet run, so the
+  // email path can be exercised on demand instead of waiting for a run to find something.
+  const forced = process.env.JOB_RADAR_DIGEST_FORCE === "true";
+  const newJobs = enriched.filter((j) => j.isNew);
+  const digestJobs = newJobs.length ? newJobs : forced ? enriched.slice(0, 20) : [];
+  const mailed = await writeDigest(DIGEST, digestJobs, nlTerms, dashboardUrl, forced && !newJobs.length);
+
   const tierCount = (name: string) => enriched.filter((j) => j.tier === name).length;
   const collapsedAway = enriched.reduce((n, j) => n + (j.otherLocations ?? 0), 0);
   const leadNl = enriched.filter((j) =>
@@ -189,6 +204,7 @@ async function main() {
   console.log(`lead NL/remote-EU: ${leadNl.length}`);
   console.log(`NEW this run:     ${fresh.length}`);
   console.log(`→ data/jobs.json + data/index.html + data/boards.json written`);
+  console.log(mailed ? `→ digest.html written (email will go out in CI)` : `→ no digest (nothing new to email)`);
   if (leadNl.length) {
     console.log(`\nLead-tier NL / remote-EU:`);
     for (const j of leadNl.slice(0, 25))
