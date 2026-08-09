@@ -53,7 +53,7 @@
     "postedAt": "2026-08-06T18:47:21.885Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8c63bd4a2e6aaa19",
@@ -646,6 +646,25 @@
     "isNew": false
   },
   {
+    "id": "a4ca8eb02a6fab22",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Quality Manager - Rail Products",
+    "company": "Wabtec",
+    "location": "Rydalmere, NS, Australia",
+    "remote": false,
+    "url": "https://jobs.smartrecruiters.com/Wabtec/3743990014188306",
+    "tags": [
+      "Other",
+      "Full-time",
+      "Railroad Manufacture"
+    ],
+    "postedAt": "2026-07-21T05:48:27.123Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "030dd4175c707c59",
     "source": "ashby",
     "vendor": "ashby",
@@ -698,7 +717,7 @@
     "postedAt": "2026-07-20",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5da633ff5146a113",
@@ -718,6 +737,46 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "801be8bae2910696",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Quality Assurance Manager",
+    "company": "Biomapas",
+    "location": "Lithuania",
+    "remote": true,
+    "url": "https://apply.workable.com/j/543DC1FA5E",
+    "tags": [
+      "Quality Assurance (QA)",
+      "Health Care Provider",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-17",
+    "otherLocations": 5,
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "83870c43178a34ee",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "QA Manager",
+    "company": "CoverGo",
+    "location": "Warsaw, Masovian Voivodeship, Poland",
+    "remote": true,
+    "url": "https://apply.workable.com/j/B34EAFF2B8",
+    "tags": [
+      "Technology",
+      "Quality Assurance",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-17",
+    "otherLocations": 12,
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "57aaab4bf127418c",
@@ -811,6 +870,25 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "71777970b20bfb2f",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Quality Assurance Manager",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://optics11.recruitee.com/o/quality-assurance-manager",
+    "tags": [
+      "Staff",
+      "fulltime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-07-13T08:13:22.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "c9990ea626673997",
@@ -950,6 +1028,40 @@
     "isNew": false
   },
   {
+    "id": "d85a9b4be8904fcf",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Sr Machine Learning Engineering Manager - AI Quality and Governance",
+    "company": "Workiva",
+    "location": "USA - Remote",
+    "remote": true,
+    "url": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Sr-Machine-Learning-Engineering-Manager---AI-Quality-and-Governance_R12156-1",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "5d91c38dd1271f89",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager, DevOps",
+    "company": "Maven Agi",
+    "location": "Boston",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/maven-agi/745da0f9-6cab-4daa-94b9-8e6781c5105b",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime",
+      "$180K – $225K • Offers Equity • Offers Bonus"
+    ],
+    "postedAt": "2026-08-08T20:14:07.666+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "f5450e768b9b6877",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1032,7 +1144,7 @@
     "postedAt": "2026-08-07T16:01:40-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8f746ddca73b4b63",
@@ -1051,7 +1163,7 @@
     "postedAt": "2026-08-07T15:40:29.235+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7baff8bf505cbe71",
@@ -1119,7 +1231,7 @@
     "postedAt": "2026-08-07T13:36:26-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d79a5585167764da",
@@ -1153,7 +1265,7 @@
     "postedAt": "2026-08-07T11:34:15-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "50ac1138dce07e69",
@@ -1296,7 +1408,7 @@
     "postedAt": "2026-08-06T23:36:32.044Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f191f40fe4be9dea",
@@ -1621,7 +1733,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "02ab69daca6229e0",
@@ -1639,7 +1751,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b55a4f2ddd7d0f16",
@@ -2014,7 +2126,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e8f5b46ae7ed03d9",
@@ -2607,6 +2719,46 @@
     "isNew": false
   },
   {
+    "id": "15074e3c017229d8",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Engineering Manager",
+    "company": "Worth AI",
+    "location": "Orlando, Florida, United States",
+    "remote": true,
+    "url": "https://apply.workable.com/j/226A195E62",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-03",
+    "otherLocations": 3,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "387f24613b05f9e7",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Solutions Engineer (Senior)",
+    "company": "Worth AI",
+    "location": "Orlando, Florida, United States",
+    "remote": true,
+    "url": "https://apply.workable.com/j/69A99E48C7",
+    "tags": [
+      "Operations",
+      "Engineering",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-03",
+    "otherLocations": 3,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "9245c0198840c1bc",
     "source": "ashby",
     "vendor": "ashby",
@@ -3164,7 +3316,7 @@
     "postedAt": "2026-07-29T07:54:27.914+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "289769b172cb47ef",
@@ -3181,7 +3333,7 @@
     "postedAt": "2026-07-29T05:34:49-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7a447fc9dbf0e27f",
@@ -3531,7 +3683,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e55cb9be69ce31fe",
@@ -3797,6 +3949,25 @@
     "isNew": false
   },
   {
+    "id": "68a0979dc97bdefb",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager, API/Product",
+    "company": "Convex Dev",
+    "location": "San Francisco",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/convex-dev/25c60b55-9184-43de-b7fc-9fb085d07fb1",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-07-24T17:28:48.636+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "37e0be57506175a4",
     "source": "ashby",
     "vendor": "ashby",
@@ -4002,6 +4173,25 @@
     "isNew": false
   },
   {
+    "id": "21151fd5fa3d9ccb",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Regional Sales Manager UK",
+    "company": "SYNTEGON",
+    "location": "Derby, , United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/SYNTEGON/744000139260170",
+    "tags": [
+      "Sales",
+      "Full-time",
+      "Mechanical Or Industrial Engineering"
+    ],
+    "postedAt": "2026-07-23T11:24:45.449Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "44f6e7c8e0407635",
     "source": "ashby",
     "vendor": "ashby",
@@ -4192,7 +4382,7 @@
     "postedAt": "2026-07-22T11:58:36.177+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0b066d7092f0f3bb",
@@ -4230,6 +4420,25 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "5c0a9216d9ae48b7",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager, Infra/Systems",
+    "company": "Convex Dev",
+    "location": "San Francisco",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/convex-dev/d82f63c9-490f-43d1-b30a-91fece4d39da",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-07-21T21:25:19.596+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "2f9e512e21997d8c",
@@ -4374,7 +4583,7 @@
     "postedAt": "2026-07-21T09:31:24.995+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c033b4bb037d1a78",
@@ -4507,7 +4716,7 @@
     "postedAt": "2026-07-20T05:42:55-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8610760c89876c3c",
@@ -4657,7 +4866,7 @@
     "postedAt": "2026-07-17T09:59:24.506Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "228aa3dcd340e4f6",
@@ -5095,7 +5304,7 @@
     "postedAt": "2026-07-13T12:23:15.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "76da83528031fd8e",
@@ -5272,101 +5481,6 @@
     "isNew": false
   },
   {
-    "id": "789c54691a1ed6ff",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manager, Software Engineering, Fintech New Bets",
-    "company": "Jobber",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/jobber/dd39b15d-929b-4b52-b947-248c7b8f2a5f",
-    "tags": [
-      "Product Engineering",
-      "Product Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-09T21:59:31.615+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "61231e57ae5c1b12",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Core Tech Project Manager",
-    "company": "Skydance",
-    "location": "Santa Monica, Los Angeles",
-    "remote": true,
-    "url": "https://jobs.lever.co/skydance/88b76c6f-5bb6-41fc-9840-876024a7eb00",
-    "tags": [
-      "Interactive Engineering",
-      "Full Time"
-    ],
-    "postedAt": "2026-07-09T20:08:32.666Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "efc45d2f2e2842ea",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager, Data (LATAM)",
-    "company": "Trm Labs",
-    "location": "South America",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/trm-labs/50a9254d-2861-471a-9c83-51adf2124eef",
-    "tags": [
-      "R&D",
-      "Data Science",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-09T17:35:28.733+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2f47d27c1ec10e88",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manager, Solutions Engineering - Digital Natives",
-    "company": "Openai",
-    "location": "Dublin, Ireland",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/openai/f273d9ee-d64a-44b0-875b-10b0cbdde310",
-    "tags": [
-      "Go To Market",
-      "Technical Success",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-09T17:16:43.524+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "04cfaabab45ab2bb",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Product Manager, GRC Platform",
-    "company": "Vanta",
-    "location": "Remote U.S.",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/vanta/7816b5fe-e916-43b8-9200-d0d45298ba9f",
-    "tags": [
-      "Product Management",
-      "Product Management",
-      "FullTime",
-      "$207K – $244K • Offers Equity • This role is also eligible for medical benefits, 401(k) plan, and other company perk programs."
-    ],
-    "postedAt": "2026-07-09T16:50:42.665+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "e68b29725bb2cf54",
     "source": "workday",
     "vendor": "workday",
@@ -5420,7 +5534,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fe5556039fe6e5d5",
@@ -5507,6 +5621,20 @@
     "isNew": false
   },
   {
+    "id": "07b92ce24499154c",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Engineering Manager - Data",
+    "company": "Workiva",
+    "location": "USA - Remote",
+    "remote": true,
+    "url": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Senior-Engineering-Manager---Data_R12059",
+    "tags": [],
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "87676d247dec0ec0",
     "source": "lever",
     "vendor": "lever",
@@ -5523,7 +5651,7 @@
     "otherLocations": 7,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3ecb93a170660ad9",
@@ -5726,7 +5854,7 @@
     "postedAt": "2026-08-07T21:23:12.175+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "caa9d9ac8425ab47",
@@ -5763,7 +5891,7 @@
     "postedAt": "2026-08-07T14:35:04.667+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2a269a663d5f964c",
@@ -5780,7 +5908,7 @@
     "postedAt": "2026-08-07T13:58:04-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2cba4b6b9e5678cd",
@@ -5799,25 +5927,7 @@
     "postedAt": "2026-08-07T12:34:16Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "dc7f70d284d961c2",
-    "source": "arbeitnow",
-    "title": "Senior Infrastructure Automation Engineer",
-    "company": "OPSinnovate",
-    "location": "Hamburg",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/opsinnovate/senior-infrastructure-automation-engineer-hamburg-278494",
-    "tags": [
-      "Remote",
-      "Automation Engineering",
-      "professional / experienced"
-    ],
-    "postedAt": "2026-08-07T11:30:32.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d26bbce61deeb6dd",
@@ -5835,7 +5945,7 @@
     "postedAt": "2026-08-07T09:50:07.061Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cf7b2c3cccc53e55",
@@ -6090,6 +6200,25 @@
     "postedAt": "2026-08-04T14:01:21.621Z",
     "tier": "ic",
     "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "00ab1713c0b0f27c",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://optics11.recruitee.com/o/software-test-engineer",
+    "tags": [
+      "R&D",
+      "fulltime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-08-04T13:09:55.000Z",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -6285,7 +6414,7 @@
     "postedAt": "2026-07-31T15:09:41.706Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "10f2a97377f118d3",
@@ -6397,7 +6526,7 @@
     "postedAt": "2026-07-29T15:09:23.714Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3debd672d83f754c",
@@ -6464,7 +6593,7 @@
     "company": "Key Partnership Recruitment Limited",
     "location": "Bath, Bath & N E Somerset",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5819158992?se=0kUo4CGT8RG9ks23jnlnsA&utm_medium=api&utm_source=9b7a3075&v=E12FB4CCA08597A02FC9792521216DEA7F8B16AF",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5819158992?se=mBJs2LuT8RG9ks23jnlnsA&utm_medium=api&utm_source=9b7a3075&v=E12FB4CCA08597A02FC9792521216DEA7F8B16AF",
     "salaryMin": 50000,
     "salaryMax": 55000,
     "currency": "GBP",
@@ -6474,7 +6603,7 @@
     "postedAt": "2026-07-29T02:51:39Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ba395d83070e363b",
@@ -6858,6 +6987,26 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "d402447185b2b243",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Software Development Engineer in Test (SDET)",
+    "company": "Worth AI",
+    "location": "Orlando, Florida, United States",
+    "remote": true,
+    "url": "https://apply.workable.com/j/6A7395BE19",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-22",
+    "otherLocations": 3,
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "7549d6ea9234fa86",
@@ -7260,26 +7409,6 @@
     "isNew": false
   },
   {
-    "id": "06718639ce6052ee",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Linux & Automation Engineer (DevOps / Platform)",
-    "company": "Trimetis Services",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://trimetis.recruitee.com/o/linux-automation-engineer-devops-platform",
-    "tags": [
-      "Application Services Poland",
-      "fulltime_permanent",
-      "information_technology",
-      "Frequentis NIS"
-    ],
-    "postedAt": "2026-07-10T09:59:58.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "429ef89e71527625",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -7295,7 +7424,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5a1cc6177a5141a9",
@@ -7407,7 +7536,7 @@
     "tags": [],
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "16265391f6463163",
@@ -7467,7 +7596,7 @@
     "postedAt": "2026-08-07T13:48:59.497Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4ab73bc05f8b90f4",
