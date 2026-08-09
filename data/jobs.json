@@ -91,22 +91,22 @@
     "isNew": false
   },
   {
-    "id": "9430ad7236dd2b15",
+    "id": "1b55fb2715afca4a",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Product Manager, Ads Quality",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8077512",
+    "url": "https://instacart.careers/job/?gh_jid=8077510",
     "tags": [
       "Product Management"
     ],
-    "postedAt": "2026-08-05T16:40:44-04:00",
+    "postedAt": "2026-08-05T16:40:43-04:00",
     "otherLocations": 1,
     "tier": "lead",
     "score": 10,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "887aad2b35c53dc6",
@@ -590,6 +590,25 @@
     "isNew": false
   },
   {
+    "id": "855a30b119175988",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Market Access, Reimbursement & Health Economics Manager",
+    "company": "SkinVision",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://careers.skinvision.com/o/market-access-reimbursement-health-economics-manager",
+    "tags": [
+      "QA/RA & Legal",
+      "fulltime_permanent",
+      "healthcare"
+    ],
+    "postedAt": "2026-07-22T09:09:23.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "8d13cb3a3f32b36b",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -662,7 +681,7 @@
     "postedAt": "2026-07-21T05:48:27.123Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "030dd4175c707c59",
@@ -756,7 +775,7 @@
     "otherLocations": 5,
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "83870c43178a34ee",
@@ -776,7 +795,7 @@
     "otherLocations": 12,
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "57aaab4bf127418c",
@@ -888,7 +907,7 @@
     "postedAt": "2026-07-13T08:13:22.000Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c9990ea626673997",
@@ -1039,7 +1058,7 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5d91c38dd1271f89",
@@ -1059,7 +1078,7 @@
     "postedAt": "2026-08-08T20:14:07.666+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f5450e768b9b6877",
@@ -1431,14 +1450,14 @@
     "isNew": false
   },
   {
-    "id": "2ecb0d32509eb1da",
+    "id": "049b8f8a0bac378b",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Product Manager, Core Products & Platform",
     "company": "Fundraise Up",
-    "location": "Poland - Remote",
+    "location": "Spain - Remote",
     "remote": true,
-    "url": "https://fundraiseup.com/careers/4715413005/?gh_jid=4715413005",
+    "url": "https://fundraiseup.com/careers/4715416005/?gh_jid=4715416005",
     "tags": [
       "Product Management"
     ],
@@ -1447,7 +1466,7 @@
     "tier": "adjacent",
     "score": 5,
     "languageRequirement": "C1",
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "e75f4674af46e6ef",
@@ -1610,6 +1629,25 @@
     "isNew": false
   },
   {
+    "id": "3f5ce14b7f3ab455",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Engineering Manager, Language Security (TuxCare)",
+    "company": "Cloudlinux",
+    "location": "Warsaw, Masovian Voivodeship, Poland",
+    "remote": true,
+    "url": "https://apply.workable.com/j/61D7023BA4",
+    "tags": [
+      "Endless Lifecycle Support",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-06",
+    "otherLocations": 5,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "8004c653d0caf5d3",
     "source": "ashby",
     "vendor": "ashby",
@@ -1718,14 +1756,14 @@
     "isNew": false
   },
   {
-    "id": "f0857c2c4dceb00f",
+    "id": "e0b272b8a59b522a",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Product Manager, Retailer Platform",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8014062",
+    "url": "https://instacart.careers/job/?gh_jid=8014060",
     "tags": [
       "Product Management"
     ],
@@ -1733,17 +1771,17 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "02ab69daca6229e0",
+    "id": "0a1cb2e799d89cc0",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Engineering Manager, Service Platform",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=7960988",
+    "url": "https://instacart.careers/job/?gh_jid=7960958",
     "tags": [
       "Leadership (Engineering)"
     ],
@@ -1751,7 +1789,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "b55a4f2ddd7d0f16",
@@ -1872,6 +1910,25 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "1917329caa08513b",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Area Service Delivery Manager",
+    "company": "Jobs for Humanity",
+    "location": "Swindon, England, United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/JobsForHumanity/744000141693539",
+    "tags": [
+      "Engineering",
+      "Full-time",
+      "Facilities Services"
+    ],
+    "postedAt": "2026-08-05T10:59:26.046Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "bc2cb8f07711eb29",
@@ -2736,7 +2793,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "387f24613b05f9e7",
@@ -2756,7 +2813,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9245c0198840c1bc",
@@ -3668,40 +3725,40 @@
     "isNew": false
   },
   {
-    "id": "2678b3803e2c7675",
+    "id": "3d13123fe240359f",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Engineering Manager, Machine Learning Platform",
     "company": "Affirm",
-    "location": "Remote Canada",
+    "location": "Remote US",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7817808003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7817804003",
     "tags": [
       "Checkout"
     ],
-    "postedAt": "2026-07-27T12:28:39-04:00",
+    "postedAt": "2026-07-27T12:27:14-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "e55cb9be69ce31fe",
+    "id": "a5e03e3e5e7e0c3d",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Engineering Manager, Machine Learning Platform",
     "company": "Affirm",
-    "location": "Remote Canada",
+    "location": "Remote US",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7705035003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7705033003",
     "tags": [
       "Checkout"
     ],
-    "postedAt": "2026-07-27T12:24:17-04:00",
+    "postedAt": "2026-07-27T12:23:28-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "2d2da036101f3ca7",
@@ -3965,7 +4022,7 @@
     "postedAt": "2026-07-24T17:28:48.636+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "37e0be57506175a4",
@@ -4187,6 +4244,25 @@
       "Mechanical Or Industrial Engineering"
     ],
     "postedAt": "2026-07-23T11:24:45.449Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "e95fdc6619a45419",
+    "source": "adzuna",
+    "title": "Engineering Manager",
+    "company": "Kier Group",
+    "location": "Broadgate, Central London",
+    "remote": true,
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5811608053?se=sqh25tmT8RGlDuOngCclFw&utm_medium=api&utm_source=9b7a3075&v=0EEDE8706ECB427A181CB7874B01D498079EE4EA",
+    "salaryMin": 65906.98,
+    "salaryMax": 65906.98,
+    "currency": "GBP",
+    "tags": [
+      "Engineering Jobs"
+    ],
+    "postedAt": "2026-07-23T01:54:53Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": true
@@ -4438,7 +4514,7 @@
     "postedAt": "2026-07-21T21:25:19.596+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2f9e512e21997d8c",
@@ -5462,25 +5538,6 @@
     "isNew": false
   },
   {
-    "id": "32891e96ce57c82b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Engineering Manager, Systems",
-    "company": "Noda Ai",
-    "location": "Austin",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/noda-ai/fd693b8e-c15f-43c4-87f9-2568da38ab6f",
-    "tags": [
-      "Engineering",
-      "Core Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-10T10:02:01.696+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "e68b29725bb2cf54",
     "source": "workday",
     "vendor": "workday",
@@ -5632,7 +5689,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "87676d247dec0ec0",
@@ -5855,6 +5912,23 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "bb7f176c1a4cf772",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff QA Automation Engineer",
+    "company": "Empower Pharmacy",
+    "location": "US Remote",
+    "remote": true,
+    "url": "https://careers.empowerpharmacy.com/jobs/?gh_jid=4329120009",
+    "tags": [
+      "IT"
+    ],
+    "postedAt": "2026-08-07T18:54:51-04:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "caa9d9ac8425ab47",
@@ -6219,7 +6293,7 @@
     "postedAt": "2026-08-04T13:09:55.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6b04c4cc017189aa",
@@ -6593,7 +6667,7 @@
     "company": "Key Partnership Recruitment Limited",
     "location": "Bath, Bath & N E Somerset",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5819158992?se=mBJs2LuT8RG9ks23jnlnsA&utm_medium=api&utm_source=9b7a3075&v=E12FB4CCA08597A02FC9792521216DEA7F8B16AF",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5819158992?se=sqh25tmT8RGlDuOngCclFw&utm_medium=api&utm_source=9b7a3075&v=E12FB4CCA08597A02FC9792521216DEA7F8B16AF",
     "salaryMin": 50000,
     "salaryMax": 55000,
     "currency": "GBP",
@@ -6814,7 +6888,6 @@
       "Pleased Tech"
     ],
     "postedAt": "2026-07-27T05:41:35-04:00",
-    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -7006,7 +7079,7 @@
     "otherLocations": 3,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7549d6ea9234fa86",
@@ -7321,14 +7394,14 @@
     "isNew": false
   },
   {
-    "id": "b5d7e2d6193f2f4d",
+    "id": "4730c2f4124f6dc4",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Software Engineer, Backend (Test Enablers)",
     "company": "Affirm",
-    "location": "Remote Poland",
+    "location": "Remote Spain",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7731646003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7731648003",
     "tags": [
       "Financial Platforms - Engineering"
     ],
@@ -7336,7 +7409,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "6c4808857d4b5e1f",
@@ -7409,22 +7482,22 @@
     "isNew": false
   },
   {
-    "id": "429ef89e71527625",
+    "id": "62a2379d8bde4cb1",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Software Engineer II, Backend (Test Infra)",
     "company": "Affirm",
-    "location": "Remote US",
+    "location": "Remote Canada",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
     "tags": [
       "Infrastructure Platform Eng"
     ],
-    "postedAt": "2026-07-10T09:25:07-04:00",
+    "postedAt": "2026-07-10T09:25:08-04:00",
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "5a1cc6177a5141a9",
