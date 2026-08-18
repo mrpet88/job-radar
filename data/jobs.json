@@ -1,12 +1,144 @@
 [
   {
+    "id": "32cb5cfe6f1d21fe",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Technical Project Manager ",
+    "company": "Platform.sh",
+    "location": "Remote • Canada",
+    "remote": true,
+    "url": "https://platform.sh/company/careers/job?gh_jid=8720346002",
+    "tags": [
+      "Product & Engineering"
+    ],
+    "postedAt": "2026-08-18T03:51:46-04:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "887aad2b35c53dc6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Cloud Release Quality Manager ",
+    "company": "Legion",
+    "location": "Remote, United States ",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/legion/jobs/7801711003",
+    "tags": [
+      "Platform & Services"
+    ],
+    "postedAt": "2026-08-17T22:35:00-04:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": false
+  },
+  {
+    "id": "c7c036d2cbfa415d",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior Design Manager - Land Development",
+    "company": "Rowan",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/rowan/ef64afd9-8e12-4ed9-a0df-6ac6004c9844",
+    "tags": [
+      "ECO",
+      "Engineering",
+      "FullTime",
+      "$150K – $185K • Offers Bonus"
+    ],
+    "postedAt": "2026-08-17T18:44:47.574+00:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "b9e4219788f389ff",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Regional Quality & Continuous Improvement Manager",
+    "company": "Cornerstone Building Brands",
+    "location": "Cary, NC, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990014628906",
+    "tags": [
+      "Quality Assurance",
+      "Full-time",
+      "Building Materials"
+    ],
+    "postedAt": "2026-08-17T17:54:06.856Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "0d94703fbdfaa1ae",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Regional Quality Assurance Manager",
+    "company": "Cornerstone Building Brands",
+    "location": "Cary, NC, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990014628865",
+    "tags": [
+      "Quality Assurance",
+      "Full-time",
+      "Building Materials"
+    ],
+    "postedAt": "2026-08-17T17:53:23.738Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "4531ca9f429b6d72",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Food & Health and Safety Manager- West London & South East",
+    "company": "Greene King",
+    "location": "Chichester, , United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/GreeneKing/744000143876460",
+    "tags": [
+      "Quality Assurance",
+      "Full-time",
+      "Hospitality"
+    ],
+    "postedAt": "2026-08-17T16:05:52.145Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "b6ea48d0fba36e8f",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Product Manager II",
+    "company": "Bellese",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/bellese/b9cc887e-0a7e-43b9-a617-80dd22214f6b",
+    "salaryMin": 121300,
+    "salaryMax": 140800,
+    "currency": "USD",
+    "tags": [
+      "(HQR) Hospital Quality Reporting",
+      "Full Time"
+    ],
+    "postedAt": "2026-08-17T14:57:56.517Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "d7b02639bde3b259",
     "source": "adzuna",
     "title": "Testmanager ict",
     "company": "NLwerkt",
     "location": "Nederland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5843013151?se=ACyplyOa8RGpTryJ8e3q1A&utm_medium=api&utm_source=9b7a3075&v=4149D5AD882EC222ABB9D639139B5CCEEBE53D45",
+    "url": "https://www.adzuna.nl/land/ad/5843013151?se=jq4jheua8RGyIdVC-Du-Yg&utm_medium=api&utm_source=9b7a3075&v=4149D5AD882EC222ABB9D639139B5CCEEBE53D45",
     "salaryMin": 80148,
     "salaryMax": 80148,
     "currency": "EUR",
@@ -236,25 +368,6 @@
     "isNew": false
   },
   {
-    "id": "0251ff249aa392f6",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Risk Manager - West London & South East",
-    "company": "Greene King",
-    "location": "Chichester, , United Kingdom",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/GreeneKing/744000142583319",
-    "tags": [
-      "Quality Assurance",
-      "Full-time",
-      "Hospitality"
-    ],
-    "postedAt": "2026-08-10T08:32:33.830Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "a0e09daf828a5029",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -339,23 +452,6 @@
     ],
     "postedAt": "2026-08-05T16:40:44-04:00",
     "otherLocations": 1,
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "887aad2b35c53dc6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Cloud Release Quality Manager ",
-    "company": "Legion",
-    "location": "Remote, United States ",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/legion/jobs/7801711003",
-    "tags": [
-      "Platform & Services"
-    ],
-    "postedAt": "2026-08-05T10:25:46-04:00",
     "tier": "lead",
     "score": 10,
     "isNew": false
@@ -602,6 +698,24 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "17fbf53e9adaf9d5",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Automation QA Engineer (Lead)",
+    "company": "AlgaeCal",
+    "location": "Dominican Republic",
+    "remote": true,
+    "url": "https://apply.workable.com/j/4EB3C10CBA",
+    "tags": [
+      "Web Development",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-29",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "9fa4f35e7c5b6f43",
@@ -930,6 +1044,20 @@
     "isNew": false
   },
   {
+    "id": "8f006df84b4e12ba",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Engineering Manager - Quality and Delivery",
+    "company": "Tbc",
+    "location": "Remote - US",
+    "remote": true,
+    "url": "https://tbc.wd12.myworkdayjobs.com/lyriccareers/job/Remote---US/Engineering-Manager---Quality-and-Delivery_JR889-1",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "isNew": false
+  },
+  {
     "id": "0bd020c4a8383868",
     "source": "workday",
     "vendor": "workday",
@@ -958,17 +1086,290 @@
     "isNew": false
   },
   {
-    "id": "8f006df84b4e12ba",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Engineering Manager - Quality and Delivery",
-    "company": "Tbc",
-    "location": "Remote - US",
+    "id": "9136aa3671ef9771",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Director, Quality Analytical Technical Lead, Small Molecule",
+    "company": "Jobgether",
+    "location": "US",
     "remote": true,
-    "url": "https://tbc.wd12.myworkdayjobs.com/lyriccareers/job/Remote---US/Engineering-Manager---Quality-and-Delivery_JR889-1",
-    "tags": [],
+    "url": "https://jobs.lever.co/jobgether/6ae9213d-3082-4d2c-bbeb-2bcabc22bf75",
+    "tags": [
+      "Others",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T07:25:13.656Z",
     "tier": "lead",
-    "score": 10,
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "8aa5609511c1af5a",
+    "source": "jobicy",
+    "title": "Engineering Manager",
+    "company": "QuinStreet",
+    "location": "USA",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/146925-engineering-manager-4",
+    "currency": "USD",
+    "tags": [
+      "Product &amp; Operations",
+      "Full-Time",
+      "Midweight"
+    ],
+    "postedAt": "2026-08-18T02:50:06+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "bdc57b6cb7dcf57f",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Manager, Engineering Support",
+    "company": "Bestow",
+    "location": "Remote, US",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bestow/fa507d4a-8542-4dd1-b01f-dbbe7ae7266b",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime",
+      "$137K – $172K • Offers Equity • Offers Bonus"
+    ],
+    "postedAt": "2026-08-17T22:17:25.752+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "1e21264c9b3a4c59",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Staff Technical Program Manager, Search Signals",
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494636",
+    "tags": [
+      "Oversight Engineering"
+    ],
+    "postedAt": "2026-08-17T21:33:34-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "be70a7ef658e6706",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Sales Engineering - Majors, Mid-Atlantic ",
+    "company": "Zscaler",
+    "location": "Remote - Delaware, USA; Remote - Maryland, USA; Remote - Pennsylvania, USA; Remote - Virginia, USA; Remote - West Virginia, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198912007",
+    "tags": [
+      "WW GTM Sales Other"
+    ],
+    "postedAt": "2026-08-17T20:22:47-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "3a65b17fe8e8e335",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": " Senior Staff Software Engineer - AI/ML - Veza",
+    "company": "ServiceNow",
+    "location": "Minneapolis, Minnesota, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143922779",
+    "tags": [
+      "Engineering, Infrastructure and Operations",
+      "Engineering",
+      "Full-time",
+      "Information Technology And Services"
+    ],
+    "postedAt": "2026-08-17T20:09:43.341Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "d58d213ffea7a376",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Sales Engineering - Majors, NY/NJ ",
+    "company": "Zscaler",
+    "location": "Remote - Connecticut, USA; Remote - New Jersey, USA; Remote - New York, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198910007",
+    "tags": [
+      "WW GTM Sales Other"
+    ],
+    "postedAt": "2026-08-17T20:02:09-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "e0b72c3d0e003c9e",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Sales Engineering - Majors, New England",
+    "company": "Zscaler",
+    "location": "Remote - Maine, USA; Remote - Massachusetts, USA; Remote - New Hampshire, USA; Remote - Rhode Island, USA; Remote - Vermont, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198908007",
+    "tags": [
+      "WW GTM Sales Other"
+    ],
+    "postedAt": "2026-08-17T19:55:09-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "00b4b268371e967d",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Staff Outbound Product Manager - EmployeeWorks GTM",
+    "company": "ServiceNow",
+    "location": "Santa Clara, California, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143912179",
+    "tags": [
+      "Product",
+      "Engineering",
+      "Full-time",
+      "Information Technology And Services"
+    ],
+    "postedAt": "2026-08-17T19:06:57.886Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "bd64c803afcb8bea",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff Technical Program Manager, Identity and Product Safety",
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8049832",
+    "tags": [
+      "Oversight Engineering"
+    ],
+    "postedAt": "2026-08-17T15:57:08-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "9118a38ffe91883b",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engagement Manager, Life Sciences",
+    "company": "Domino Data Lab",
+    "location": "Remote US, New York City preferred",
+    "remote": true,
+    "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/8077693?gh_jid=8077693",
+    "tags": [
+      "Solutions Engineering"
+    ],
+    "postedAt": "2026-08-17T15:37:23-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "9339a5c9b367db93",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Data Engineering Manager",
+    "company": "Imprint",
+    "location": "New York City",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/imprint/70c37d70-444d-453d-ad31-623f8ebf75bb",
+    "tags": [
+      "Engineering",
+      "Data & Analytics",
+      "FullTime",
+      "$170K – $200K • Offers Equity"
+    ],
+    "postedAt": "2026-08-17T13:43:23.377+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "f4cb8440c4b9fd3a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager",
+    "company": "OPSWAT",
+    "location": "AMER - Remote",
+    "remote": true,
+    "url": "https://www.opswat.com/jobs/4718914005?gh_jid=4718914005",
+    "tags": [
+      "Product Engineering"
+    ],
+    "postedAt": "2026-08-17T12:10:12-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "b49a05d4958228cf",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager (m/f/d)",
+    "company": "AutoScout24",
+    "location": "Amsterdam (Netherlands); Berlin (Germany); Düsseldorf (Germany); Munich (Germany)",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7815145003",
+    "tags": [
+      "Technology"
+    ],
+    "postedAt": "2026-08-17T11:55:28-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "b6d5bce5ca51dd7d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Technical Project Manager, Data Center Infrastructure",
+    "company": "Giga Energy",
+    "location": "Houston, TX or Remote, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5278652008",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-17T10:40:05-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "5fdf184c5d8d9697",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Technical Project Manager, Data Center Infrastructure",
+    "company": "Giga Energy",
+    "location": "Houston, TX or Remote, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5278691008",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-17T10:39:48-04:00",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
   },
   {
@@ -987,7 +1388,7 @@
     "postedAt": "2026-08-17T10:36:51.204Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5e038fa15cb449f7",
@@ -1001,8 +1402,25 @@
     "tags": [
       "Product Management"
     ],
-    "postedAt": "2026-08-17T05:49:55-04:00",
+    "postedAt": "2026-08-17T07:07:43-04:00",
     "otherLocations": 2,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "15af09c2373a02d6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Deputy Director, Connected Warfare Europe",
+    "company": "Anduril Industries",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100657007?gh_jid=5100657007",
+    "tags": [
+      "Connected Warfare : Mission Command Engineering : Mission Operations"
+    ],
+    "postedAt": "2026-08-17T06:27:53-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -1024,24 +1442,6 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
-  },
-  {
-    "id": "0755b2853d1c225f",
-    "source": "jobicy",
-    "title": "Manager, Applications - ADF/ETL/AI",
-    "company": "Molina Healthcare",
-    "location": "USA",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/146611-manager-applications-adf-etl-ai",
-    "tags": [
-      "Software Engineering",
-      "Full-Time",
-      "Midweight"
-    ],
-    "postedAt": "2026-08-17T05:40:10+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
   },
   {
     "id": "ffc1e5bb253a0cfb",
@@ -1075,7 +1475,7 @@
     "postedAt": "2026-08-17T05:00:25-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d1215287d2a6488c",
@@ -1094,62 +1494,25 @@
     "postedAt": "2026-08-17T04:48:36.588+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "5cf2257892000fc3",
-    "source": "jobicy",
-    "title": "Manager, Software Engineering - Platform",
-    "company": "NetDocuments",
-    "location": "USA",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/150850-manager-software-engineering-platform",
-    "currency": "USD",
-    "tags": [
-      "Software Engineering",
-      "Full-Time",
-      "Director"
-    ],
-    "postedAt": "2026-08-16T14:52:01+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "79b06aa6903125fe",
-    "source": "jobicy",
-    "title": "Manager, Software Engineering - AI Assistant",
-    "company": "NetDocuments",
-    "location": "USA",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/150849-manager-software-engineering-ai-assistant",
-    "currency": "USD",
-    "tags": [
-      "Software Engineering",
-      "Full-Time",
-      "Senior"
-    ],
-    "postedAt": "2026-08-16T14:51:59+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "15af09c2373a02d6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Deputy Director, Connected Warfare Europe",
-    "company": "Anduril Industries",
-    "location": "Amsterdam, North Holland, Netherlands",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100657007?gh_jid=5100657007",
-    "tags": [
-      "Connected Warfare : Mission Command Engineering : Mission Operations"
-    ],
-    "postedAt": "2026-08-16T06:35:58-04:00",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
+  },
+  {
+    "id": "837c2477754d9d1e",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "4503 Manager Business Analytics",
+    "company": "Innovaccer Analytics",
+    "location": "United States",
+    "remote": true,
+    "url": "https://apply.workable.com/j/25952E2026",
+    "tags": [
+      "Engineering And Analytics",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-17",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "50ac1138dce07e69",
@@ -1295,26 +1658,6 @@
     "isNew": false
   },
   {
-    "id": "983e2df8a6e98117",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Principal Product Excellence Manager, Core Business Transformation Products ",
-    "company": "ServiceNow",
-    "location": "Orlando, Florida, United States",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143583182",
-    "tags": [
-      "Customer Outcomes",
-      "Engineering",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-08-14T18:36:02.070Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "84e06efd56fd7403",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -1422,14 +1765,14 @@
     "isNew": false
   },
   {
-    "id": "24556a95f20425c9",
+    "id": "625dbe7dc206d48f",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Product Manager, Core Products & Platform",
     "company": "Fundraise Up",
-    "location": "Armenia - Remote",
+    "location": "Georgia - Remote",
     "remote": true,
-    "url": "https://fundraiseup.com/careers/4715412005/?gh_jid=4715412005",
+    "url": "https://fundraiseup.com/careers/4715418005/?gh_jid=4715418005",
     "tags": [
       "Product Management"
     ],
@@ -1438,24 +1781,7 @@
     "tier": "adjacent",
     "score": 5,
     "languageRequirement": "C1",
-    "isNew": false
-  },
-  {
-    "id": "9118a38ffe91883b",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engagement Manager, Life Sciences",
-    "company": "Domino Data Lab",
-    "location": "Remote US, New York City preferred",
-    "remote": true,
-    "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/8077693?gh_jid=8077693",
-    "tags": [
-      "Solutions Engineering"
-    ],
-    "postedAt": "2026-08-14T12:50:52-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "51cd91ed2b3bb790",
@@ -1633,22 +1959,22 @@
     "isNew": false
   },
   {
-    "id": "b03f1054816b8078",
+    "id": "eebb542cc60cc5a1",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Manager, Customer Success Engineering",
     "company": "Veeam Software",
-    "location": "Remote, Germany",
+    "location": "Remote, Spain",
     "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4871558101",
+    "url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4950922101",
     "tags": [
       "WW Customer Success 1009886"
     ],
-    "postedAt": "2026-08-14T05:44:41-04:00",
+    "postedAt": "2026-08-14T05:44:25-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "6fad74c5f0e7c580",
@@ -1997,7 +2323,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "86652d2f76114636",
@@ -2012,26 +2338,6 @@
       "710 Tech"
     ],
     "postedAt": "2026-08-13T13:49:27-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "e63633b015749bc5",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "IT Program Manager (highly regulated industries)",
-    "company": "Nagarro",
-    "location": "Remote, , Austria",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/Nagarro1/744000143300434",
-    "tags": [
-      "Engineering",
-      "Information Technology",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-08-13T12:25:42.315Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -2109,22 +2415,22 @@
     "isNew": false
   },
   {
-    "id": "305fd131c30fe299",
+    "id": "5d85ebb7ababbf60",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Manager, Solutions Engineering",
     "company": "Wiz, Inc.",
-    "location": "Remote - Australia",
+    "location": "Remote - South Korea",
     "remote": true,
-    "url": "https://www.wiz.io/careers/job/4627167006/:title?gh_jid=4627167006",
+    "url": "https://www.wiz.io/careers/job/4671793006/:title?gh_jid=4671793006",
     "tags": [
       "SE"
     ],
-    "postedAt": "2026-08-13T06:26:20-04:00",
+    "postedAt": "2026-08-13T06:37:07-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "07c93ca16bff31d2",
@@ -2160,23 +2466,6 @@
       "$347K – $405K • Offers Equity"
     ],
     "postedAt": "2026-08-13T03:32:28.784+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "b49a05d4958228cf",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager (m/f/d)",
-    "company": "AutoScout24",
-    "location": "Amsterdam (Netherlands); Berlin (Germany); Düsseldorf (Germany); Munich (Germany)",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/autoscout24/jobs/7815145003",
-    "tags": [
-      "Technology"
-    ],
-    "postedAt": "2026-08-13T02:46:37-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -2277,26 +2566,6 @@
     "isNew": false
   },
   {
-    "id": "de2a342a60d58fec",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manager, Partner Applied AI Engineering (AWS)",
-    "company": "Openai",
-    "location": "San Francisco",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/openai/140a4a88-1d0f-4d30-abae-a35a19618fe6",
-    "tags": [
-      "Go To Market",
-      "Technical Success",
-      "FullTime",
-      "$251K – $335K • Offers Equity"
-    ],
-    "postedAt": "2026-08-12T15:23:47.237+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "35f3e876046721c0",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2315,22 +2584,22 @@
     "isNew": false
   },
   {
-    "id": "ff4116c87287b383",
+    "id": "0d2d9b2851504d10",
     "source": "greenhouse",
     "vendor": "greenhouse",
-    "title": "Manager, Software Engineering (Account Management)",
+    "title": "Manager, Software Engineering (Developer Environments)",
     "company": "Affirm",
-    "location": "Remote Canada",
+    "location": "Remote US",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7758888003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7730668003",
     "tags": [
-      "Checkout"
+      "Infrastructure Platform Eng"
     ],
     "postedAt": "2026-08-12T15:12:11-04:00",
-    "otherLocations": 6,
+    "otherLocations": 5,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "19a22b1ea4799ba8",
@@ -2400,24 +2669,6 @@
       "Full-time"
     ],
     "postedAt": "2026-08-12T10:33:18.602Z",
-    "tier": "lead",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "7c32900dfda10f3b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality of Earnings Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/483cf6e0-fce6-4a41-aeae-80a4f705b7e3",
-    "tags": [
-      "Finance",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-12T10:24:36.587Z",
     "tier": "lead",
     "score": 5,
     "isNew": false
@@ -2493,23 +2744,6 @@
       "FullTime"
     ],
     "postedAt": "2026-08-11T17:54:57.392+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "d13e63544d5a86e7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Staff Technical Program Manager ",
-    "company": "Pinterest",
-    "location": "San Francisco, CA, US; Remote, US",
-    "remote": true,
-    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494636",
-    "tags": [
-      "Oversight Engineering"
-    ],
-    "postedAt": "2026-08-11T16:58:53-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -3240,24 +3474,6 @@
     "isNew": false
   },
   {
-    "id": "b72c72ec672fe0c3",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Lead, Data Quality/Integrity",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a9747e68-0f9b-4319-8d56-b22021a93d1c",
-    "tags": [
-      "Analyst",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T09:25:21.527Z",
-    "tier": "lead",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "8b3b1c469f7056c5",
     "source": "ashby",
     "vendor": "ashby",
@@ -3631,23 +3847,6 @@
     "isNew": false
   },
   {
-    "id": "f4cb8440c4b9fd3a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager",
-    "company": "OPSWAT",
-    "location": "AMER - Remote",
-    "remote": true,
-    "url": "https://www.opswat.com/jobs/4718914005?gh_jid=4718914005",
-    "tags": [
-      "Product Engineering"
-    ],
-    "postedAt": "2026-08-06T09:13:50-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "3f5ce14b7f3ab455",
     "source": "workable",
     "vendor": "workable",
@@ -3741,14 +3940,14 @@
     "isNew": false
   },
   {
-    "id": "e0b272b8a59b522a",
+    "id": "f0857c2c4dceb00f",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Product Manager, Retailer Platform",
     "company": "Instacart",
-    "location": "United States - Remote",
+    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8014060",
+    "url": "https://instacart.careers/job/?gh_jid=8014062",
     "tags": [
       "Product Management"
     ],
@@ -3756,7 +3955,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "0a1cb2e799d89cc0",
@@ -3838,23 +4037,6 @@
     "url": "https://job-boards.greenhouse.io/zscaler/jobs/5193221007",
     "tags": [
       "IT Operations"
-    ],
-    "postedAt": "2026-08-05T11:15:31-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "a65618c266e96858",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Sales Engineering - Federal",
-    "company": "Zscaler",
-    "location": "Remote - D.C., USA",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5186981007",
-    "tags": [
-      "Public Sector Field Sales"
     ],
     "postedAt": "2026-08-05T11:15:31-04:00",
     "tier": "adjacent",
@@ -4085,26 +4267,6 @@
     "isNew": false
   },
   {
-    "id": "7fbf44029594622e",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manager, Software Development Engineering - Front-end Platform Experience",
-    "company": "Delinea",
-    "location": "U.S. Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/delinea/3f0ec196-f1b9-4359-a03f-23e3927d0b77",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "$145K – $180K • Offers Equity • Offers Bonus"
-    ],
-    "postedAt": "2026-08-04T13:10:35.029+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "fecb577e89fa8dd7",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4324,23 +4486,6 @@
     "isNew": false
   },
   {
-    "id": "0c781b5566dc3c3c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Platform Product Manager",
-    "company": "Cresta",
-    "location": "United States (Remote)",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/cresta/jobs/5114374008",
-    "tags": [
-      "Product"
-    ],
-    "postedAt": "2026-08-03T16:39:33-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "2df1299079e0db19",
     "source": "ashby",
     "vendor": "ashby",
@@ -4357,7 +4502,7 @@
     "postedAt": "2026-08-03T16:04:46.053+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e46981769e7ff21a",
@@ -4605,23 +4750,6 @@
     "isNew": false
   },
   {
-    "id": "3b0d318ae40f159b",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager - Build Engineering Reviews ",
-    "company": "CoLab Software",
-    "location": "North America, Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/colabsoftware/jobs/5230623008",
-    "tags": [
-      "Product"
-    ],
-    "postedAt": "2026-07-31T08:01:39-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "b974c6a3ae685675",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4744,6 +4872,34 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "893eb03e9e4f007e",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Data Engineering Manager",
+    "company": "Metyis AG",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://metyisag.recruitee.com/o/data-engineering-manager-4",
+    "tags": [
+      "Data & Analytics",
+      "fulltime_fixed_term",
+      "management",
+      "CE_Metyis",
+      "D_data_analytics",
+      "Data Engineering ManagerML4AmsterdamMetyis",
+      "ML_4",
+      "Mid",
+      "RL1_Netherlands",
+      "RL2_Amsterdam",
+      "WD_on_site",
+      "sd_data_engineering"
+    ],
+    "postedAt": "2026-07-30T12:16:11.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "1fca0e997b955d87",
@@ -4878,40 +5034,6 @@
     "isNew": false
   },
   {
-    "id": "214480bcc0683047",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Technical Project Manager, Data Center Infrastructure",
-    "company": "Giga Energy",
-    "location": "Houston, TX or Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5278652008",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-07-29T11:57:42-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2a4f1b6ada76af75",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Technical Project Manager, Data Center Infrastructure",
-    "company": "Giga Energy",
-    "location": "Houston, TX or Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gigaenergy/jobs/5278691008",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-07-29T09:26:13-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "6ded4042bc5af582",
     "source": "ashby",
     "vendor": "ashby",
@@ -5024,26 +5146,6 @@
     ],
     "postedAt": "2026-07-28T20:02:34.209Z",
     "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "d7f462a8b52c61a0",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Senior Staff Product Manager, AI Platform",
-    "company": "ServiceNow",
-    "location": "Santa Clara, California, United States",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000140326719",
-    "tags": [
-      "Product",
-      "Engineering",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-07-28T19:31:49.552Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -5426,6 +5528,23 @@
     "isNew": false
   },
   {
+    "id": "ed8c2b8088a45a10",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Compliance Program Manager - Dora",
+    "company": "OpenFX",
+    "location": "Netherlands, London",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/openfx/jobs/5366582008",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-07-24T02:54:53-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "15097f5b81522e62",
     "source": "ashby",
     "vendor": "ashby",
@@ -5574,25 +5693,6 @@
     ],
     "postedAt": "2026-07-23T07:27:31.420Z",
     "otherLocations": 4,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "e95fdc6619a45419",
-    "source": "adzuna",
-    "title": "Engineering Manager",
-    "company": "Kier Group",
-    "location": "Broadgate, Central London",
-    "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5811608053?se=riQomiOa8RGymaituqWy4Q&utm_medium=api&utm_source=9b7a3075&v=0EEDE8706ECB427A181CB7874B01D498079EE4EA",
-    "salaryMin": 65906.98,
-    "salaryMax": 65906.98,
-    "currency": "GBP",
-    "tags": [
-      "Engineering Jobs"
-    ],
-    "postedAt": "2026-07-23T01:54:53Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -5788,7 +5888,7 @@
     "postedAt": "2026-07-22T12:00:12-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "34dee91be9a7e691",
@@ -6184,10 +6284,10 @@
     "isNew": false
   },
   {
-    "id": "bd7e2508500cef00",
+    "id": "c1c289b9ada9ac94",
     "source": "workday",
     "vendor": "workday",
-    "title": "Manager, Network Engineering - Transport (Remote)",
+    "title": "Network Engineering Manager - Backbone and Cloud  (Remote)",
     "company": "Crowdstrike",
     "location": "USA - Remote",
     "remote": true,
@@ -6195,7 +6295,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "05bfbd78a0e54c22",
@@ -6254,6 +6354,34 @@
     "isNew": false
   },
   {
+    "id": "0dcdd654d32b0ad7",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "ECH Field Engineering Manager - West Coast Region",
+    "company": "Motorolasolutions",
+    "location": "Texas Remote Work, More...",
+    "remote": true,
+    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Texas-Remote-Work/ECH-Field-Engineering-Manager---West-Coast-Region_R66942",
+    "tags": [],
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "05f7c76b040e9e3e",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "AI Product Manager, Content Platform Operations and Publishing",
+    "company": "Netflix",
+    "location": "USA - Remote",
+    "remote": true,
+    "url": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/AI-Product-Manager--Content-Platform-Operations-and-Publishing_JR41271",
+    "tags": [],
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "45ab209e12b141c9",
     "source": "workday",
     "vendor": "workday",
@@ -6296,6 +6424,61 @@
     "isNew": false
   },
   {
+    "id": "abc4c9999085e4ed",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Group Product Manager - Platform Experience",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/f8e8a5d7-44f3-418d-8d1e-6de66b943bac",
+    "tags": [
+      "Product",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T05:50:29.843Z",
+    "otherLocations": 9,
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
+    "id": "6de227cf6c27e8bd",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Sr Manager, Cybersecurity Engineering",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/313888a5-0cb8-41ec-a9eb-ae22f9ecdf6e",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T05:05:34.641Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
+    "id": "2968539dd7fcf897",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Engineering Manager, Platform",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/dbc7c654-8e5c-4776-a17d-e3efa4af83c3",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T03:26:48.059Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
     "id": "b76177bfbc71d315",
     "source": "lever",
     "vendor": "lever",
@@ -6311,7 +6494,7 @@
     "postedAt": "2026-08-17T09:24:20.292Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c66c70212c6dbf93",
@@ -6435,24 +6618,6 @@
       "Full-time"
     ],
     "postedAt": "2026-08-12T08:08:10.960Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "c62ed95735664806",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Product Manager, Salesforce Platform",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f9d883c4-d2fc-455d-a916-ab0019352074",
-    "tags": [
-      "Product",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-12T05:03:47.700Z",
     "tier": "adjacent",
     "score": 2.5,
     "isNew": false
@@ -6584,96 +6749,38 @@
     "isNew": false
   },
   {
-    "id": "2c62f2667c41d046",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Software Engineering (Authentication)",
-    "company": "Jobgether",
-    "location": "US",
+    "id": "2a269a663d5f964c",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Associate Data QA Engineer",
+    "company": "Abacus Insights",
+    "location": "Remote US",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/04f833dd-148f-4021-86f9-2154fe3c1021",
+    "url": "https://boards.greenhouse.io/abacusinsights/jobs/8679857002?gh_jid=8679857002",
     "tags": [
-      "IT",
-      "Full-time"
+      "TechOps"
     ],
-    "postedAt": "2026-08-10T11:52:55.347Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "c1ffa3bc11feecd5",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Security Engineering",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e7085d82-a6ca-4f00-b62a-9001678a24e1",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T08:48:18.875Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "03f24e9a9f72dc75",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Data Science & Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/42e55ca1-b44a-4372-b89a-ea4faccebeda",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T08:01:30.950Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "377ed66b85975d4b",
-    "source": "arbeitnow",
-    "title": "QA Engineer",
-    "company": "ScholarshipOwl",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/scholarshipowl/remote-qa-engineer-berlin-144177",
-    "tags": [
-      "Development",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-08-15T02:30:10.000Z",
+    "postedAt": "2026-08-17T20:14:31-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "577371fd66aba26d",
-    "source": "arbeitnow",
-    "title": "QA Engineer Mobile",
-    "company": "ScholarshipOwl",
-    "location": "Remote job",
+    "id": "8a5f42985f225894",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineer, Test Automation",
+    "company": "Care Access",
+    "location": "USA Remote",
     "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/scholarshipowl/remote-qa-engineer-mobile-berlin-235915",
+    "url": "https://job-boards.greenhouse.io/careaccess/jobs/4309006009",
     "tags": [
-      "Development",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
+      "Technology"
     ],
-    "postedAt": "2026-08-15T02:30:10.000Z",
+    "postedAt": "2026-08-17T15:43:01-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "412ad74f031b55bd",
@@ -6872,6 +6979,24 @@
     "isNew": false
   },
   {
+    "id": "9d2617ce555b6fd2",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Pioneer Services",
+    "location": "Global",
+    "remote": true,
+    "url": "https://jobs.lever.co/pioneer-services/56052d8f-db73-4973-b0e7-a3f9f6b5fe58",
+    "tags": [
+      "Tech",
+      "Full-Time"
+    ],
+    "postedAt": "2026-08-13T15:54:39.719Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "4e3ec3ab38da2e97",
     "source": "ashby",
     "vendor": "ashby",
@@ -6961,24 +7086,6 @@
     ],
     "postedAt": "2026-08-12T15:12:11-04:00",
     "otherLocations": 1,
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "26c3df8fbfe398b9",
-    "source": "workable",
-    "vendor": "workable",
-    "title": "QA Automation Test Engineer",
-    "company": "Aretum",
-    "location": "McLean, Virginia, United States",
-    "remote": true,
-    "url": "https://apply.workable.com/j/C0D519396E",
-    "tags": [
-      "Fed/Civ",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-12",
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -7094,35 +7201,6 @@
       "Technology "
     ],
     "postedAt": "2026-08-11T09:27:22-04:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "cddfde445c3dfbcf",
-    "source": "remoteok",
-    "title": "Senior Software QA Engineer",
-    "company": "CoverGo",
-    "location": "",
-    "remote": true,
-    "url": "https://remoteOK.com/remote-jobs/remote-senior-software-qa-engineer-covergo-1136378",
-    "tags": [
-      "dev",
-      "customer support",
-      "testing",
-      "quality assurance",
-      "video",
-      "finance",
-      "c",
-      "api",
-      "exec",
-      "content writing",
-      "senior",
-      "medical",
-      "engineer",
-      "digital nomad"
-    ],
-    "postedAt": "2026-08-11T08:00:19+00:00",
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -7443,6 +7521,24 @@
     "isNew": false
   },
   {
+    "id": "9971bad4b0572ab7",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer (Playwright/TypeScript)",
+    "company": "VPteam",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://vpteam.recruitee.com/o/senior-qa-automation-engineer-playwrighttypescript",
+    "tags": [
+      "fulltime_permanent",
+      "administrative"
+    ],
+    "postedAt": "2026-08-05T09:40:37.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "a971a377d35981d8",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -7491,27 +7587,6 @@
       "other"
     ],
     "postedAt": "2026-08-04T13:09:55.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "6b04c4cc017189aa",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Automation Engineer",
-    "company": "Skywarditsolutions",
-    "location": "Maryland",
-    "remote": true,
-    "url": "https://jobs.lever.co/skywarditsolutions/752aac54-d33c-4131-87fe-bfc00547f4bc",
-    "salaryMin": 86000,
-    "salaryMax": 95000,
-    "currency": "USD",
-    "tags": [
-      "DHS",
-      "Full-Time"
-    ],
-    "postedAt": "2026-08-04T01:02:49.608Z",
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -7837,23 +7912,6 @@
     "isNew": false
   },
   {
-    "id": "87ec6f05860c98b6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Contract: Senior QA Engineer",
-    "company": "Lifted",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/lifted/jobs/7790973003",
-    "tags": [
-      "HWS Enterprise Engineering"
-    ],
-    "postedAt": "2026-07-28T14:48:20-04:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "13a4f31067f91af8",
     "source": "ashby",
     "vendor": "ashby",
@@ -8022,6 +8080,24 @@
     "isNew": false
   },
   {
+    "id": "06723fbe010ed747",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Development Engineer in Test (SDET)",
+    "company": "Filevine",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.lever.co/filevine/584d7c80-5117-4f49-8c32-49d303b5df23",
+    "tags": [
+      "Quality",
+      "Full-time"
+    ],
+    "postedAt": "2026-07-23T19:53:41.791Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "269315c8a8ec7cce",
     "source": "ashby",
     "vendor": "ashby",
@@ -8117,6 +8193,25 @@
     "isNew": false
   },
   {
+    "id": "96cf09a997e123d6",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "QA Engineer",
+    "company": "Miaplaza",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://miaplaza.recruitee.com/o/qa-engineer",
+    "tags": [
+      "Product Development",
+      "fulltime_permanent",
+      "technical"
+    ],
+    "postedAt": "2026-07-22T12:07:07.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "d402447185b2b243",
     "source": "workable",
     "vendor": "workable",
@@ -8173,18 +8268,15 @@
     "isNew": false
   },
   {
-    "id": "3a1cff93e8836b1a",
-    "source": "workable",
-    "vendor": "workable",
-    "title": "Senior AI Backend Engineer - Agent Evaluation & Quality",
-    "company": "Salla",
-    "location": "Makkah, Makkah Province, Saudi Arabia",
+    "id": "5a1cc6177a5141a9",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Quality Engineer",
+    "company": "Clarioclinical",
+    "location": "Canada Remote",
     "remote": true,
-    "url": "https://apply.workable.com/j/9BEE421DB2",
-    "tags": [
-      "Technology"
-    ],
-    "postedAt": "2026-07-19",
+    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote/Quality-Engineer_R17194-1",
+    "tags": [],
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -8198,20 +8290,6 @@
     "location": "Canada Remote - Consultant use only",
     "remote": true,
     "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote---Consultant-use-only/Sr-Software-Quality-Engineer_R18077",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "5a1cc6177a5141a9",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Quality Engineer",
-    "company": "Clarioclinical",
-    "location": "Canada Remote",
-    "remote": true,
-    "url": "https://clarioclinical.wd1.myworkdayjobs.com/clarioclinical_careers/job/Canada-Remote/Quality-Engineer_R17194-1",
     "tags": [],
     "tier": "ic",
     "score": 1,
@@ -8246,6 +8324,20 @@
     "isNew": false
   },
   {
+    "id": "db4e4503b2c034d4",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Staff SW Quality Design Engineer",
+    "company": "Dexcom",
+    "location": "Remote - United States",
+    "remote": true,
+    "url": "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Remote---United-States/Staff-SW-Quality-Design-Engineer_JR120615",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "4d1e2e2d1a81e955",
     "source": "workday",
     "vendor": "workday",
@@ -8274,6 +8366,20 @@
     "isNew": false
   },
   {
+    "id": "3baa317c6db8af87",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Project Automation Engineer IREF",
+    "company": "Jci",
+    "location": "Gorinchem-South Holland-Netherlands",
+    "remote": false,
+    "url": "https://jci.wd5.myworkdayjobs.com/JCI/job/Gorinchem-South-Holland-Netherlands/IREF-Project-Engineer-Automation_WD30270404",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "16265391f6463163",
     "source": "workday",
     "vendor": "workday",
@@ -8296,20 +8402,6 @@
     "location": "Remote - Canada",
     "remote": true,
     "url": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada/job/Remote---Canada/QA-Engineer_R51665",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "dc18d5c64f0467fa",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Mid-level QA Engineer - GCCA Remote",
-    "company": "Transunion",
-    "location": "Cape Town",
-    "remote": true,
-    "url": "https://transunion.wd5.myworkdayjobs.com/TransUnion/job/Cape-Town/Mid-level-QA-Engineer---GCCA-Remote_19040154",
     "tags": [],
     "tier": "ic",
     "score": 1,
@@ -8344,6 +8436,60 @@
     "isNew": false
   },
   {
+    "id": "6fbe9bd299eab35a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Automation Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/50a0c979-7f53-404f-b654-96c7d3be53b7",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T05:47:32.071Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "dd9682dc82ab2115",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Automation Analyst",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/b2d84ed5-fe66-4541-97ef-85b388d9ae83",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-18T04:35:45.868Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "559611fe5e08c547",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Process Automation Controls Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/5eb0390d-a81c-43e3-b50a-c99e5626fd47",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-17T12:26:57.448Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
     "id": "db37d7295546c600",
     "source": "lever",
     "vendor": "lever",
@@ -8359,7 +8505,7 @@
     "postedAt": "2026-08-17T08:20:56.546Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8a0b663d31f22a73",
@@ -8377,7 +8523,7 @@
     "postedAt": "2026-08-17T07:51:42.924Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9df595150e61a8c7",
@@ -8395,7 +8541,7 @@
     "postedAt": "2026-08-17T07:30:10.761Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9d9ee8aec722a294",
@@ -8477,7 +8623,7 @@
     "company": "Synsel Techniek",
     "location": "Nijmegen, Gelderland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5836940837?se=eA0FlyOa8RGqM9tlrK2FfQ&utm_medium=api&utm_source=9b7a3075&v=CD8A57757EDF6FC191D99BA7F047A241A5F6CA0E",
+    "url": "https://www.adzuna.nl/land/ad/5836940837?se=EnZlhOua8RGyIdVC-Du-Yg&utm_medium=api&utm_source=9b7a3075&v=CD8A57757EDF6FC191D99BA7F047A241A5F6CA0E",
     "salaryMin": 33600,
     "salaryMax": 61800,
     "currency": "EUR",
@@ -8526,96 +8672,22 @@
     "isNew": false
   },
   {
-    "id": "ce344710814af2c4",
+    "id": "f3dd41e5ae552fb0",
     "source": "lever",
     "vendor": "lever",
     "title": "Senior QA Engineer",
     "company": "Jobgether",
-    "location": "Australia",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5b6de4d1-8873-40bc-ba1f-5bbda83282ec",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T13:56:56.875Z",
-    "otherLocations": 2,
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "0108d37455c410a2",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Platform and Automation Engineer",
-    "company": "Jobgether",
     "location": "Canada",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/14df15e4-f8c8-4b93-ac44-83373081cf69",
+    "url": "https://jobs.lever.co/jobgether/631f56c2-0792-4971-badf-2ace7f8bb44e",
     "tags": [
       "IT",
       "Full-time"
     ],
-    "postedAt": "2026-08-10T12:38:59.259Z",
+    "postedAt": "2026-08-11T05:23:45.732Z",
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "1c6d15c63819bd49",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e47d586e-4f1e-4716-8a55-71723490c47f",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T10:00:14.517Z",
-    "otherLocations": 24,
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "eeba1b50992d18fa",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Test Engineer (Manual and Automation)",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c4a553a7-b2ea-467f-b3c6-d25da5baa32f",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T06:18:21.769Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "21db2a53535ab724",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Test Automation Engineer",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5c89a024-6ada-4557-82d5-dc83af834f69",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-10T06:05:48.974Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
+    "isNew": true
   }
 ]
