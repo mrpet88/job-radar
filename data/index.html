@@ -47,7 +47,7 @@
 </style></head><body>
 <header><div class="wrap" style="padding:0">
   <h1>Job Radar</h1>
-  <div class="sub">480 matched · 65 lead · 313 adjacent · 102 ic · 50 new · generated 20 Aug 2026, 12:00 CEST</div>
+  <div class="sub">500 matched · 60 lead · 331 adjacent · 109 ic · 54 new · generated 21 Aug 2026, 12:01 CEST</div>
 </div></header>
 <div class="wrap">
   <div class="controls">
@@ -56,16 +56,92 @@
       <button class="chip" id="c-nl" onclick="tog(this)">Netherlands</button>
       <button class="chip" id="c-remote" onclick="tog(this)">Remote</button>
       <button class="chip" id="c-new" onclick="tog(this)">New</button>
-      <select id="c-src" onchange="af()"><option value="">All sources</option><option value="ashby">ashby</option><option value="greenhouse">greenhouse</option><option value="jobicy">jobicy</option><option value="lever">lever</option><option value="recruitee">recruitee</option><option value="remoteok">remoteok</option><option value="smartrecruiters">smartrecruiters</option><option value="workable">workable</option><option value="workday">workday</option></select>
+      <select id="c-src" onchange="af()"><option value="">All sources</option><option value="adzuna">adzuna</option><option value="ashby">ashby</option><option value="greenhouse">greenhouse</option><option value="jobicy">jobicy</option><option value="lever">lever</option><option value="recruitee">recruitee</option><option value="remoteok">remoteok</option><option value="smartrecruiters">smartrecruiters</option><option value="workable">workable</option><option value="workday">workday</option></select>
       <span id="count" class="count"></span>
     </div>
   </div>
   <div id="list">
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="greenhouse">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="lever">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://jobs.lever.co/veeva/11da1739-2bc0-4b0e-99b6-b127b93c8035" target="_blank" rel="noopener">Practice Manager - EHS</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Veeva</strong>
+        <span>New York - New York City</span>
+        <span class="pill locs">+2 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>Quality Cloud Services - NA</span><span>Full-Time</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://job-boards.greenhouse.io/oura/jobs/4304368009" target="_blank" rel="noopener">Senior Manager, IT Systems / Platform Engineering </a>
+        
+      </div>
+      <div class="meta">
+        <strong>Ōura</strong>
+        <span>Remote - New York, New York</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://job-boards.greenhouse.io/oura/jobs/4231323009" target="_blank" rel="noopener">Mobile Engineering Manager - Sensing Discovery</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Ōura</strong>
+        <span>Remote - United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Software Engineering </span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="lead" data-source="greenhouse">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://acadia.com/en-us/careers/job-board/8654521002?gh_jid=8654521002" target="_blank" rel="noopener">Sr. Manager, Quality Assurance</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Acadia Pharmaceuticals Inc.</strong>
+        <span>Amsterdam, North Holland, Netherlands</span>
+        
+        
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Quality Assurance</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
       <div class="top">
         <span class="tier lead">lead</span>
         <a class="title" href="https://job-boards.greenhouse.io/mntn/jobs/8142083" target="_blank" rel="noopener">Senior Project Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>MNTN</strong>
@@ -80,11 +156,11 @@
       
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="smartrecruiters">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="smartrecruiters">
       <div class="top">
         <span class="tier lead">lead</span>
         <a class="title" href="https://jobs.smartrecruiters.com/AECOM2/744000144405299" target="_blank" rel="noopener">Civil OSP Project Manager - QA/QC Lead</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>AECOM</strong>
@@ -98,25 +174,6 @@
       </div>
       
       <div class="tags"><span>Consulting</span><span>Full-time</span><span>Construction</span></div>
-    </article>
-    <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://acadia.com/en-us/careers/job-board/8654521002?gh_jid=8654521002" target="_blank" rel="noopener">Sr. Manager, Quality Assurance</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Acadia Pharmaceuticals Inc.</strong>
-        <span>Netherlands - Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Quality Assurance</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
       <div class="top">
@@ -140,12 +197,12 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="greenhouse">
       <div class="top">
         <span class="tier lead">lead</span>
-        <a class="title" href="https://instacart.careers/job/?gh_jid=8077512" target="_blank" rel="noopener">Senior Product Manager, Ads Quality</a>
+        <a class="title" href="https://instacart.careers/job/?gh_jid=8077510" target="_blank" rel="noopener">Senior Product Manager, Ads Quality</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Instacart</strong>
-        <span>Canada - Remote (ON, AB, BC, or NS Only)</span>
+        <span>United States - Remote</span>
         <span class="pill locs">+1 other locations</span>
         <span class="pill">remote</span>
         
@@ -289,6 +346,25 @@
       
       <div class="tags"><span>(HQR) Hospital Quality Reporting</span><span>Full Time</span></div>
     </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="lead" data-source="adzuna">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://www.adzuna.nl/land/ad/5842147321?se=wv8fN0ed8RGss7Zy9rLcVA&amp;utm_medium=api&amp;utm_source=9b7a3075&amp;v=231CFC7D2771DCA1B8CBC224664F13974A42109A" target="_blank" rel="noopener">Testmanager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Ministerie van Defensie</strong>
+        <span>Nederland</span>
+        
+        
+        
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Unknown</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
       <div class="top">
         <span class="tier lead">lead</span>
@@ -307,25 +383,6 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://job-boards.eu.greenhouse.io/growetalents/jobs/4936260101" target="_blank" rel="noopener">CRM Manager Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Growe Talents</strong>
-        <span>Anywhere</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Growe Partners Brand Group</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
       <div class="top">
@@ -406,25 +463,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
       <div class="top">
         <span class="tier lead">lead</span>
-        <a class="title" href="https://job-boards.greenhouse.io/pingidentity/jobs/8696542002" target="_blank" rel="noopener">Senior Manager, SaaS Quality Engineering (AI-First SDLC)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Ping Identity</strong>
-        <span>USA - Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>5102 PD MT SaaS</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
-      <div class="top">
-        <span class="tier lead">lead</span>
         <a class="title" href="https://job-boards.eu.greenhouse.io/sportygroup/jobs/4951687101" target="_blank" rel="noopener">Lead Hybrid QA Engineer </a>
         
       </div>
@@ -441,11 +479,11 @@
       
       <div class="tags"><span>CRM</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
       <div class="top">
         <span class="tier lead">lead</span>
         <a class="title" href="https://jobs.ashbyhq.com/serverobotics/50b38a54-0979-4595-9b9a-e1fdd50c1f0d" target="_blank" rel="noopener">Sr. Technical Program Manager, Hardware/Software Integration</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Serverobotics</strong>
@@ -479,25 +517,6 @@
       
       <div class="tags"><span>Service Tech Ops</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="lead" data-source="recruitee">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://jobs.hightechgenesis.com/o/lead-ai-test-automation-architect" target="_blank" rel="noopener">Lead AI Test Automation Architect</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>High Tech Genesis</strong>
-        <span>Remote job</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">recruitee</span>
-        
-      </div>
-      
-      <div class="tags"><span>contract</span><span>other</span><span>Apexon</span><span>HM: Kris Soman</span><span>John Campbell</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
       <div class="top">
         <span class="tier lead">lead</span>
@@ -516,44 +535,6 @@
       </div>
       
       <div class="tags"><span>Backend </span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://job-boards.greenhouse.io/oura/jobs/4231323009" target="_blank" rel="noopener">Mobile Engineering Manager - Sensing Discovery</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Ōura</strong>
-        <span>Remote - United States</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Software Engineering </span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://job-boards.greenhouse.io/oura/jobs/4304368009" target="_blank" rel="noopener">Senior Manager, IT Systems / Platform Engineering </a>
-        
-      </div>
-      <div class="meta">
-        <strong>Ōura</strong>
-        <span>Remote - New York, New York</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>IT</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
       <div class="top">
@@ -802,6 +783,25 @@
       
       <div class="tags"><span>East Central - Construction Materials Testing - GN</span></div>
     </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="lead" data-source="adzuna">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://www.adzuna.nl/details/5822062982?utm_medium=api&amp;utm_source=9b7a3075" target="_blank" rel="noopener">Lead QA Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>ChannelEngine</strong>
+        <span>Leiden, Zuid-Holland</span>
+        
+        
+        
+        
+        <span class="src">adzuna</span>
+        
+      </div>
+      
+      <div class="tags"><span>Bouwkunde vacatures</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="lever">
       <div class="top">
         <span class="tier lead">lead</span>
@@ -973,25 +973,6 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="ashby">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://jobs.ashbyhq.com/hinge-health/a7b88af8-ea6a-4a54-b5cf-4bd35205ab99" target="_blank" rel="noopener">Quality Assurance Associate Manager, Growth Marketing Operations</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Hinge Health</strong>
-        <span>San Francisco-HQ</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>RnD</span><span>Growth</span><span>FullTime</span><span>$121K – $167K • Offers Equity</span></div>
-    </article>
     <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="lead" data-source="workday">
       <div class="top">
         <span class="tier lead">lead</span>
@@ -1020,25 +1001,6 @@
       <div class="meta">
         <strong>Clarioclinical</strong>
         <span>United States Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">workday</span>
-        
-      </div>
-      
-      <div class="tags"></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="workday">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/QA-Compliance-Lead-Auditor--Host--North-Carolina---US-Remote-Based_264215" target="_blank" rel="noopener">QA Compliance Lead Auditor (Host) North Carolina / US Remote Based</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Fortrea</strong>
-        <span>2 Locations</span>
         
         <span class="pill">remote</span>
         
@@ -1166,8 +1128,825 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/binance/6386b7fe-ebfb-40cf-8686-6ea0c179b69b" target="_blank" rel="noopener">Binance Accelerator Program - AI &amp; Platform Product Manager</a>
+        <a class="title" href="https://jobs.lever.co/xsolla/63efc53d-ecee-45e4-8f64-f1c4ed7e0a92" target="_blank" rel="noopener">Senior Technical Product Manager, Ad Platform</a>
         <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Xsolla</strong>
+        <span>Remote USA</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        <span class="sal">USD 150,000–225,000</span>
+      </div>
+      
+      <div class="tags"><span>Xsolla Ads</span><span>Full time</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/1password/9c8f1dda-e951-4e15-a9e1-0f254736e0a3" target="_blank" rel="noopener">Manager, Solutions Engineering, MM</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>1password</strong>
+        <span>Remote (United States | Canada)</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>GTM</span><span>Sales Engineering</span><span>FullTime</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/oneapp/112a76f5-3ee4-4425-92ec-339a3e15411e" target="_blank" rel="noopener">Analytics Engineering Manager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Oneapp</strong>
+        <span>United States (Remote)</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Platform &amp; Data Engineering</span><span>FullTime</span><span>$220K – $260K • Offers Equity</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8067933" target="_blank" rel="noopener">Staff Technical Program Manager, Data Science</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8051472" target="_blank" rel="noopener">Engineering Manager II, Media Rendering</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Data Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8049832" target="_blank" rel="noopener">Staff Technical Program Manager, Identity and Product Safety</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, CA, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8015504" target="_blank" rel="noopener">Sr. Manager, Machine Learning Engineering-Applied Research</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>ATG</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7909000" target="_blank" rel="noopener">Manager II, Trends Engineering</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Monetization</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7895567" target="_blank" rel="noopener">Manager II, Engineering - Connections</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Core Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7782569" target="_blank" rel="noopener">Sr. Engineering Manager, Programmatic Ad Tech, tvScientific</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>tvScientific</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494686" target="_blank" rel="noopener">Staff Technical Program Manager, Monetization Data Science</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494652" target="_blank" rel="noopener">Sr. Staff Technical Program Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494650" target="_blank" rel="noopener">Staff Technical Program Manager, Security</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494636" target="_blank" rel="noopener">Senior Staff Technical Program Manager, Search Signals</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494634" target="_blank" rel="noopener">Staff Technical Program Manager, Compute Infrastructure</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Pinterest</strong>
+        <span>San Francisco, CA, US; Remote, US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Oversight Engineering</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/hims-and-hers/ab2d532c-3b8c-4212-ad7b-9abb4eed4cfc" target="_blank" rel="noopener">Staff Technical Program Manager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Hims And Hers</strong>
+        <span>US Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>ENGINEERING</span><span>Technical Program Management</span><span>FullTime</span><span>$175K – $215K • Offers Equity</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://databricks.com/company/careers/open-positions/job?gh_jid=8732052002" target="_blank" rel="noopener">Sr. Manager, Field Engineering</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Databricks</strong>
+        <span>Chicago, Illinois; Connecticut; New Jersey; Remote - New York; Remote - Washington D.C.; San Francisco, California</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Field Engineering - FE Direct Emerging</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="jobicy">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobicy.com/jobs/151261-senior-product-marketing-manager-cloud-platform-drupal" target="_blank" rel="noopener">Senior Product Marketing Manager, Cloud Platform &amp; Drupal</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Acquia, Inc.</strong>
+        <span>USA</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">jobicy</span>
+        
+      </div>
+      
+      <div class="tags"><span>Marketing &amp;amp; Sales</span><span>Full-Time</span><span>Director</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="jobicy">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobicy.com/jobs/151257-engineering-manager-2" target="_blank" rel="noopener">Engineering Manager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>ClickUp</strong>
+        <span>USA</span>
+        <span class="pill locs">+1 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">jobicy</span>
+        
+      </div>
+      
+      <div class="tags"><span>Software Engineering</span><span>Full-Time</span><span>Senior</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="jobicy">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobicy.com/jobs/151251-engineering-manager-maps-search-us" target="_blank" rel="noopener">Engineering Manager, Maps &amp; Search - US</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Luxury Presence</strong>
+        <span>USA</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">jobicy</span>
+        
+      </div>
+      
+      <div class="tags"><span>Software Engineering</span><span>Full-Time</span><span>Director</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="jobicy">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobicy.com/jobs/151246-engineering-manager-maps-search-canada" target="_blank" rel="noopener">Engineering Manager, Maps &amp; Search - CANADA</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Luxury Presence</strong>
+        <span>Canada</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">jobicy</span>
+        
+      </div>
+      
+      <div class="tags"><span>Software Engineering</span><span>Full-Time</span><span>Director</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/zscaler/jobs/5198898007" target="_blank" rel="noopener">Senior Manager, Sales Engineering - Majors, West</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Zscaler</strong>
+        <span>Remote - California, USA; Remote - Washington, USA</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>WW GTM Sales Other</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/gitlab/jobs/8722934002" target="_blank" rel="noopener">Senior Manager, Product Security Engineering (Security Posture and Supply Chain)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>GitLab</strong>
+        <span>Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product Security</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.wiz.io/careers/job/4627167006/:title?gh_jid=4627167006" target="_blank" rel="noopener">Manager, Solutions Engineering</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Wiz, Inc.</strong>
+        <span>Remote - Australia</span>
+        <span class="pill locs">+1 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>SE</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/amplify/f20fa73f-3647-4948-ade2-402653f70f78" target="_blank" rel="noopener">Senior Project Manager, Platform</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Amplify</strong>
+        <span>Remote - United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product</span><span>Platform</span><span>FullTime</span><span>$130K – $140K</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/coder/c726c69e-f0cd-45c3-b962-fb74cb207c0e" target="_blank" rel="noopener">Technical Project Manager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Coder</strong>
+        <span>NAMER + EMEA</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Research &amp; Development</span><span>Enterprise Engineering</span><span>FullTime</span><span>$142K – $237K • Offers Equity • Offers Bonus • Multiple Ranges</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.smartrecruiters.com/ServiceNow/744000144584408" target="_blank" rel="noopener">Principal Product Manager, Voice AI</a>
+        
+      </div>
+      <div class="meta">
+        <strong>ServiceNow</strong>
+        <span>Santa Clara, California, United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">smartrecruiters</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product</span><span>Engineering</span><span>Full-time</span><span>Information Technology And Services</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/tlatechinc/jobs/4317373009" target="_blank" rel="noopener">Senior Technical Program Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>TLA Tech </strong>
+        <span>Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.samsara.com/company/careers/roles/8112836?gh_jid=8112836" target="_blank" rel="noopener">Senior Product Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Samsara</strong>
+        <span>Remote - US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Platform</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.samsara.com/company/careers/roles/7801077?gh_jid=7801077" target="_blank" rel="noopener">Engineering Manager II - Platform Firmware</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Samsara</strong>
+        <span>Remote - US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Hardware Engineering</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://www.samsara.com/company/careers/roles/7558150?gh_jid=7558150" target="_blank" rel="noopener">Manager, Operations Program Management</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Samsara</strong>
+        <span>Remote - US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Global Ops Engineering</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.smartrecruiters.com/ServiceNow/744000144573740" target="_blank" rel="noopener">Senior Staff Outbound Product Manager</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>ServiceNow</strong>
+        <span>Denver, Colorado, United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">smartrecruiters</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product</span><span>Engineering</span><span>Full-time</span><span>Information Technology And Services</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/skylo/c21a308a-1fcc-4870-b292-b96893ef42bc" target="_blank" rel="noopener">Technical Program Manager - Core Network Delivery &amp; MNO Onboarding</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Skylo</strong>
+        <span>Mountain View, US Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Sales</span><span>Sales Engineering</span><span>FullTime</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/gitlab/jobs/8707385002" target="_blank" rel="noopener">Manager, Support Engineering, US Government</a>
+        
+      </div>
+      <div class="meta">
+        <strong>GitLab</strong>
+        <span>Remote, United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Customer Success - PubSec</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="adjacent" data-source="recruitee">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://rocketsourcers.recruitee.com/o/technical-product-manager-battery-chargers-and-dc-distribution" target="_blank" rel="noopener">Technical Product Manager Battery Chargers and DC Distribution</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>RocketSourcers B.V.</strong>
+        <span>Eindhoven, Noord-Brabant, Netherlands</span>
+        
+        
+        
+        
+        <span class="src">recruitee</span>
+        
+      </div>
+      
+      <div class="tags"><span>Victron Energy</span><span>fulltime_fixed_term</span><span>engineering</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/pingidentity/jobs/8696542002" target="_blank" rel="noopener">Senior Manager, SaaS Engineering (Tools &amp; AI)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Ping Identity</strong>
+        <span>USA - Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>5102 PD MT SaaS</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.smartrecruiters.com/Blend360/744000144550379" target="_blank" rel="noopener">Data Engineering Manager (Databricks)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Blend360</strong>
+        <span>Montevideo, Montevideo Department, Uruguay</span>
+        <span class="pill locs">+1 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">smartrecruiters</span>
+        
+      </div>
+      
+      <div class="tags"><span>Marketing</span><span>Full-time</span><span>Marketing And Advertising</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/relayfi/8c2d7759-8ea8-4752-aba9-89029be9c8f3" target="_blank" rel="noopener">Engineering Manager, Accounts</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Relayfi</strong>
+        <span>Toronto, ON</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Software Engineering</span><span>FullTime</span></div>
+    </article>
+    <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/7953778" target="_blank" rel="noopener">Forward Deployed Engineering Team Lead - Operations </a>
+        
+      </div>
+      <div class="meta">
+        <strong>Adyen</strong>
+        <span>Amsterdam</span>
+        
+        
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Infrastructure</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/7862254" target="_blank" rel="noopener">Group Product Manager - Commercial Risk &amp; Platform Fraud</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Adyen</strong>
+        <span>Amsterdam</span>
+        
+        
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product Management</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/7721510" target="_blank" rel="noopener">Engineering Manager, Optimize Interfaces</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Adyen</strong>
+        <span>Amsterdam</span>
+        
+        
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Development</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/7454792" target="_blank" rel="noopener">Global Partner Engineering Manager, Payments</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Adyen</strong>
+        <span>Amsterdam</span>
+        
+        
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Payments Partnership</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744142101" target="_blank" rel="noopener">Sr Manager, Salesforce Platform Engineering</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Veeam Software</strong>
+        <span>Remote, United States</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Corp Tech, Enterprise Applications 1009142</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.lever.co/binance/6386b7fe-ebfb-40cf-8686-6ea0c179b69b" target="_blank" rel="noopener">Binance Accelerator Program - AI &amp; Platform Product Manager</a>
+        
       </div>
       <div class="meta">
         <strong>Binance</strong>
@@ -1182,11 +1961,11 @@
       
       <div class="tags"><span>Product</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/bjakcareer/635f3e5a-9408-487d-8574-1f36b6634f58" target="_blank" rel="noopener">Engineering Manager - Korea</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Bjakcareer</strong>
@@ -1201,11 +1980,11 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/bjakcareer/e7db932a-188c-477b-b9bf-e3ea7f167058" target="_blank" rel="noopener">Engineering Manager - United States</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Bjakcareer</strong>
@@ -1220,11 +1999,11 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/harvey/302a0914-2763-4e16-b044-b54de4367808" target="_blank" rel="noopener">Legal Engineering Manager, APAC</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Harvey</strong>
@@ -1239,11 +2018,11 @@
       
       <div class="tags"><span>Go to Market</span><span>Go to Market</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/xero/8adc7f0c-e098-440a-ac29-273ee16e41eb" target="_blank" rel="noopener">Engineering Manager - Machine Learning (AI Products)</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Xero</strong>
@@ -1258,11 +2037,11 @@
       
       <div class="tags"><span>Data, AI &amp; Machine Learning</span><span>Data, AI &amp; Machine Learning</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="lead" data-source="lever">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="lead" data-source="lever">
       <div class="top">
         <span class="tier lead">lead</span>
         <a class="title" href="https://jobs.lever.co/jobgether/fffb9afb-8700-4a52-8f89-9a935417f7d4" target="_blank" rel="noopener">Test Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -1277,30 +2056,30 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="jobicy">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="workable">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobicy.com/jobs/143808-area-schedule-lead-data-center-design-engineering-and-construction-3" target="_blank" rel="noopener">Area Schedule Lead - Data Center Design, Engineering and Construction</a>
+        <a class="title" href="https://apply.workable.com/j/6434735FE0" target="_blank" rel="noopener">Engineering Manager, Applied AI &amp; Machine Learning Engineering</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
-        <strong>Meta</strong>
-        <span>USA</span>
-        
+        <strong>SPD Technology</strong>
+        <span>Poland</span>
+        <span class="pill locs">+4 other locations</span>
         <span class="pill">remote</span>
         
         
-        <span class="src">jobicy</span>
+        <span class="src">workable</span>
         
       </div>
       
-      <div class="tags"><span>Product &amp;amp; Operations</span><span>Full-Time</span><span>Senior</span></div>
+      <div class="tags"><span>PitchBook</span><span>Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/prokeep/f359ceb6-0300-4697-8698-5a281d875a54" target="_blank" rel="noopener">Engineering Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Prokeep</strong>
@@ -1315,11 +2094,11 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$145K – $155K • Offers Equity</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.smartrecruiters.com/ServiceNow/744000144399109" target="_blank" rel="noopener">Chercheur(euse) Scientifique Appliqué(e) Senior</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>ServiceNow</strong>
@@ -1334,11 +2113,11 @@
       
       <div class="tags"><span>Engineering, Infrastructure and Operations</span><span>Engineering</span><span>Full-time</span><span>Information Technology And Services</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.smartrecruiters.com/ServiceNow/744000144382549" target="_blank" rel="noopener">Product Success Technical Director</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>ServiceNow</strong>
@@ -1486,11 +2265,11 @@
       
       <div class="tags"><span>WW GTM Sales Other</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://job-boards.greenhouse.io/zscaler/jobs/5198904007" target="_blank" rel="noopener">Senior Manager, Sales Engineering - Majors, Southeast</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Zscaler</strong>
@@ -1505,11 +2284,11 @@
       
       <div class="tags"><span>WW GTM Sales Other</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://job-boards.greenhouse.io/zscaler/jobs/5198914007" target="_blank" rel="noopener">Senior Manager, Sales Engineering - Majors, TOLA</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Zscaler</strong>
@@ -1524,30 +2303,11 @@
       
       <div class="tags"><span>WW GTM Sales Other</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/zscaler/jobs/5198898007" target="_blank" rel="noopener">Senior Manager, Sales Engineering - Majors, West</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Zscaler</strong>
-        <span>Remote - California, USA; Remote - Washington, USA</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>WW GTM Sales Other</span></div>
-    </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/owner/d74be412-5b98-48fb-95b0-3f0539cd9fa1" target="_blank" rel="noopener">Principal Product Manager, AI Restaurant Experience</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Owner</strong>
@@ -1562,11 +2322,11 @@
       
       <div class="tags"><span>Engineering, Product, and Design</span><span>Product</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.smartrecruiters.com/AECOM2/744000144362097" target="_blank" rel="noopener">Senior ITS/Traffic Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>AECOM</strong>
@@ -1580,44 +2340,6 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Full-time</span><span>Construction</span></div>
-    </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8067933" target="_blank" rel="noopener">Staff Technical Program Manager, Data Science</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.smartrecruiters.com/Blend360/744000144358939" target="_blank" rel="noopener">Data Engineering Manager</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>Blend360</strong>
-        <span>Montevideo, Montevideo Department, Uruguay</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">smartrecruiters</span>
-        
-      </div>
-      
-      <div class="tags"><span>Marketing</span><span>Full-time</span><span>Marketing And Advertising</span></div>
     </article>
     <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
@@ -1638,11 +2360,11 @@
       
       <div class="tags"><span>Professional Services Operations</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.smartrecruiters.com/Nagarro1/744000144324421" target="_blank" rel="noopener">SAP Project Manager (m/f/d)</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Nagarro</strong>
@@ -1657,11 +2379,11 @@
       
       <div class="tags"><span>Engineering</span><span>Information Technology</span><span>Full-time</span><span>Information Technology And Services</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/Stepful/f8643e4d-6dd5-49db-bd55-e0cc41010c46" target="_blank" rel="noopener">Senior Engineering Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Stepful</strong>
@@ -1675,25 +2397,6 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$172K – $253K • Offers Equity • Multiple Ranges</span></div>
-    </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.samsara.com/company/careers/roles/7801077?gh_jid=7801077" target="_blank" rel="noopener">Engineering Manager II - Platform Firmware</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>Samsara</strong>
-        <span>Remote - US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Hardware Engineering</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
@@ -1714,11 +2417,11 @@
       
       <div class="tags"><span>Product Management</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://job-boards.greenhouse.io/gitlab/jobs/8586667002" target="_blank" rel="noopener">Engineering Manager, Build </a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>GitLab</strong>
@@ -1945,25 +2648,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/gitlab/jobs/8707385002" target="_blank" rel="noopener">Manager, Support Engineering, US Government</a>
-        
-      </div>
-      <div class="meta">
-        <strong>GitLab</strong>
-        <span>Remote, United States</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Customer Success - PubSec</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://databricks.com/company/careers/open-positions/job?gh_jid=8585019002" target="_blank" rel="noopener">Manager, Forward Deployed Engineering - CMEG</a>
         
       </div>
@@ -2075,11 +2759,11 @@
       
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://instacart.careers/job/?gh_jid=8137846" target="_blank" rel="noopener">Engineering Manager, Fraud &amp; Identity Platform</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Instacart</strong>
@@ -2097,12 +2781,12 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://instacart.careers/job/?gh_jid=7960958" target="_blank" rel="noopener">Engineering Manager, Service Platform</a>
+        <a class="title" href="https://instacart.careers/job/?gh_jid=7960988" target="_blank" rel="noopener">Engineering Manager, Service Platform</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Instacart</strong>
-        <span>United States - Remote</span>
+        <span>Canada - Remote (ON, AB, BC, or NS Only)</span>
         <span class="pill locs">+1 other locations</span>
         <span class="pill">remote</span>
         
@@ -2264,6 +2948,25 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Technical Program Manager</span><span>FullTime</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="smartrecruiters">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.smartrecruiters.com/FinanzennetGmbH/744000144068649" target="_blank" rel="noopener">Engineering Manager (m/w/d)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>finanzen.net GmbH</strong>
+        <span>Karlsruhe, BW, Germany</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">smartrecruiters</span>
+        
+      </div>
+      
+      <div class="tags"><span>Information Technology</span><span>Full-time</span><span>Internet</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
@@ -2436,25 +3139,6 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$137K – $172K • Offers Equity • Offers Bonus</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494636" target="_blank" rel="noopener">Senior Staff Technical Program Manager, Search Signals</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -2477,25 +3161,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8049832" target="_blank" rel="noopener">Staff Technical Program Manager, Identity and Product Safety</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, CA, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://app.careerpuck.com/job-board/domino-data-lab/job/8077693?gh_jid=8077693" target="_blank" rel="noopener">Engagement Manager, Life Sciences</a>
         
       </div>
@@ -2512,11 +3177,11 @@
       
       <div class="tags"><span>Solutions Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/imprint/70c37d70-444d-453d-ad31-623f8ebf75bb" target="_blank" rel="noopener">Data Engineering Senior Manager</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Imprint</strong>
@@ -2644,6 +3309,25 @@
       </div>
       
       <div class="tags"><span>Engineering</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/auctanepoland/jobs/7863513003" target="_blank" rel="noopener">Engineering Manager (HYBRID REMOTE)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Auctane Poland Careers</strong>
+        <span>Wrocław, PL</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Research &amp; Development</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
@@ -2930,44 +3614,6 @@
       
       <div class="tags"><span>Data</span><span>Engineering</span><span>Full-time</span><span>Information Technology And Services</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.samsara.com/company/careers/roles/8112836?gh_jid=8112836" target="_blank" rel="noopener">Senior Product Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Samsara</strong>
-        <span>Remote - US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Platform</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.samsara.com/company/careers/roles/7558150?gh_jid=7558150" target="_blank" rel="noopener">Manager, Operations Program Management</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Samsara</strong>
-        <span>Remote - US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Global Ops Engineering</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="remoteok">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -3085,12 +3731,12 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4950922101" target="_blank" rel="noopener">Senior Manager, Customer Success Engineering</a>
+        <a class="title" href="https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4871558101" target="_blank" rel="noopener">Senior Manager, Customer Success Engineering</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Veeam Software</strong>
-        <span>Remote, Spain</span>
+        <span>Remote, Germany</span>
         <span class="pill locs">+1 other locations</span>
         <span class="pill">remote</span>
         
@@ -3158,11 +3804,11 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/bjakcareer/0eafddab-a9e4-44fd-b85c-0775337de216" target="_blank" rel="noopener">Engineering Manager - AI Payments App</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Bjakcareer</strong>
@@ -3367,6 +4013,25 @@
       
       <div class="tags"><span>710 Tech</span></div>
     </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/gomotive/jobs/8604495002" target="_blank" rel="noopener">Staff Product Manager, Telematics Platform</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Motive</strong>
+        <span>Canada - Remote</span>
+        <span class="pill locs">+1 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -3405,11 +4070,11 @@
       
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://job-boards.greenhouse.io/twilio/jobs/8067500" target="_blank" rel="noopener">Senior Engineering Manager V&amp;V Media</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Twilio</strong>
@@ -3462,63 +4127,6 @@
       
       <div class="tags"><span>Support</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/gomotive/jobs/8303849002" target="_blank" rel="noopener">Staff Product Manager, Telematics Platform</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Motive</strong>
-        <span>United States - Remote</span>
-        <span class="pill locs">+1 other locations</span>
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Product</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="lever">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/ebaeb694-7bba-4e9f-83fe-f36e26915e4a" target="_blank" rel="noopener">Lead Analytics Engineer - Data Modeling &amp; Quality</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>IT</span><span>Full-time</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="lever">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/d13698c6-69d1-4e11-85c9-ed530187ee79" target="_blank" rel="noopener">Manager, Quality Management</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>Project Management</span><span>Full-time</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -3537,44 +4145,6 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Information Technology</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.wiz.io/careers/job/4627167006/:title?gh_jid=4627167006" target="_blank" rel="noopener">Manager, Solutions Engineering</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Wiz, Inc.</strong>
-        <span>Remote - Australia</span>
-        <span class="pill locs">+1 other locations</span>
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>SE</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="lever">
-      <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/6fa313ca-ef1f-4054-a8ac-0afff284b275" target="_blank" rel="noopener">Senior Compliance Manager, Governance &amp; Quality Assurance</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>Others</span><span>Full-time</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
@@ -3633,34 +4203,15 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7909000" target="_blank" rel="noopener">Manager II, Trends Engineering</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Monetization</span></div>
-    </article>
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/affirm/jobs/7710180003" target="_blank" rel="noopener">Manager, Machine Learning Engineering (Fraud)</a>
+        <a class="title" href="https://job-boards.greenhouse.io/affirm/jobs/7710178003" target="_blank" rel="noopener">Manager, Machine Learning Engineering (Fraud)</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Affirm</strong>
-        <span>Remote Canada</span>
+        <span>Remote US</span>
         <span class="pill locs">+2 other locations</span>
         <span class="pill">remote</span>
         
@@ -3671,16 +4222,16 @@
       
       <div class="tags"><span>Checkout</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/affirm/jobs/7730668003" target="_blank" rel="noopener">Manager, Software Engineering (Developer Environments)</a>
-        
+        <a class="title" href="https://job-boards.greenhouse.io/affirm/jobs/7730670003" target="_blank" rel="noopener">Manager, Software Engineering (Developer Environments)</a>
+        <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Affirm</strong>
-        <span>Remote US</span>
-        <span class="pill locs">+4 other locations</span>
+        <span>Remote Canada</span>
+        <span class="pill locs">+5 other locations</span>
         <span class="pill">remote</span>
         
         
@@ -3727,6 +4278,25 @@
       </div>
       
       <div class="tags"><span>Product Management</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.ashbyhq.com/delinea/15f7a57b-1c72-4d6f-8ec7-56730a986e40" target="_blank" rel="noopener">Senior Product Manager - Platform</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Delinea</strong>
+        <span>U.S. Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">ashby</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product Management</span><span>Product Management</span><span>FullTime</span><span>$130K – $162K • Offers Equity • Offers Bonus</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
@@ -4263,25 +4833,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494650" target="_blank" rel="noopener">Staff Technical Program Manager, Security</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://job-boards.greenhouse.io/tekmetric/jobs/5026480004" target="_blank" rel="noopener">Engineering Manager</a>
         
       </div>
@@ -4373,6 +4924,25 @@
       </div>
       
       <div class="tags"><span>PitchBook</span><span>Engineering</span><span>Full-time</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="adjacent" data-source="workable">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://apply.workable.com/j/F829FC4942" target="_blank" rel="noopener">Senior Product Manager, Salesforce Platform (Netherlands)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Flosum</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+9 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workable</span>
+        
+      </div>
+      
+      <div class="tags"><span>Senior Product Manager, Salesforce Platform</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
@@ -4659,6 +5229,25 @@
       
       <div class="tags"><span>Product &amp; Engineering</span><span>fulltime_permanent</span><span>engineering</span></div>
     </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.lever.co/eleks/fb55cd17-5153-4c05-95a7-239a0a35c2ff" target="_blank" rel="noopener">(PDF reader) Middle Test Engineer, JR641, JR651, JR652</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Eleks</strong>
+        <span>Kyiv</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>QAO - TE</span><span>Consultant</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="workable">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -4696,25 +5285,6 @@
       </div>
       
       <div class="tags"><span>Go To Market</span><span>Technical Success</span><span>FullTime</span><span>€224K – €248K • Offers Equity</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/delinea/b565f518-fcd8-4742-9712-07ad2f118e08" target="_blank" rel="noopener">Senior Product Manager - Platform</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Delinea</strong>
-        <span>U.S. Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Product Management</span><span>Product Management</span><span>FullTime</span><span>$130K – $162K • Offers Equity • Offers Bonus</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
@@ -4887,25 +5457,6 @@
       
       <div class="tags"><span>Software Development</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8015504" target="_blank" rel="noopener">Sr. Manager, Machine Learning Engineering-Applied Research</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>ATG</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -5077,63 +5628,6 @@
       
       <div class="tags"><span>Legal</span><span>Legal</span><span>FullTime</span><span>$150K – $250K • Offers Equity</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=8051472" target="_blank" rel="noopener">Engineering Manager II, Media Rendering</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Data Engineering</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7782569" target="_blank" rel="noopener">Sr. Engineering Manager, Programmatic Ad Tech, tvScientific</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>tvScientific</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494686" target="_blank" rel="noopener">Staff Technical Program Manager, Monetization Data Science</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -5229,11 +5723,11 @@
       
       <div class="tags"><span>QAO - ATE</span><span>Consultant</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/leovegasgroup/66407dfa-55c2-4cf8-8aa5-a99a38dbd188" target="_blank" rel="noopener">Engineering Manager - Payments</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Leovegasgroup</strong>
@@ -5647,25 +6141,6 @@
       
       <div class="tags"><span>Data Center Business</span><span>Core Cloud</span><span>FullTime</span><span>$297K – $440K • Multiple Ranges</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/tlatechinc/jobs/4317373009" target="_blank" rel="noopener">Senior Technical Program Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>TLA Tech </strong>
-        <span>Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -5723,25 +6198,6 @@
       
       <div class="tags"><span>Engineering</span><span>Application</span><span>FullTime</span></div>
     </article>
-    <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/7953778" target="_blank" rel="noopener">Forward Deployed Engineering Team Lead - Operations </a>
-        
-      </div>
-      <div class="meta">
-        <strong>Adyen</strong>
-        <span>Amsterdam</span>
-        
-        
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Infrastructure</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -5779,25 +6235,6 @@
       </div>
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$144K – $181K • Offers Equity • Offers Bonus</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.smartrecruiters.com/ServiceNow/744000140334419" target="_blank" rel="noopener">Principal Product Manager, Voice AI</a>
-        
-      </div>
-      <div class="meta">
-        <strong>ServiceNow</strong>
-        <span>Santa Clara, California, United States</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">smartrecruiters</span>
-        
-      </div>
-      
-      <div class="tags"><span>Product</span><span>Engineering</span><span>Full-time</span><span>Information Technology And Services</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="smartrecruiters">
       <div class="top">
@@ -5855,63 +6292,6 @@
       </div>
       
       <div class="tags"><span>EPDD</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7895567" target="_blank" rel="noopener">Manager II, Engineering - Connections</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Core Engineering</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494652" target="_blank" rel="noopener">Sr. Staff Technical Program Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://www.pinterestcareers.com/jobs/?gh_jid=7494634" target="_blank" rel="noopener">Staff Technical Program Manager, Compute Infrastructure</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Pinterest</strong>
-        <span>San Francisco, CA, US; Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Oversight Engineering</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
@@ -6505,25 +6885,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/openai/679cc2c7-e153-480b-8b9f-ecb69a19975a" target="_blank" rel="noopener">Manager, Forward Deployed Engineer (FDE), Life Sciences</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Openai</strong>
-        <span>New York City</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Forward Deployed Engineering</span><span>Forward Deployed Engineering</span><span>FullTime</span><span>$252K – $335K • Offers Equity</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.ashbyhq.com/ledger/a81b4e34-fbc5-4546-9ef7-6afdf5a35178" target="_blank" rel="noopener">Engineering Manager - Cloud Wallet</a>
         
       </div>
@@ -6615,120 +6976,6 @@
       </div>
       
       <div class="tags"><span>Product Data Platform</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/harvey/fae2f3df-b785-4aaa-b11d-2bc328a47a48" target="_blank" rel="noopener">Engineering Manager, Model Infrastructure</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Harvey</strong>
-        <span>San Francisco</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$260K – $340K • Offers Equity • Offers Bonus</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/convex-dev/d82f63c9-490f-43d1-b30a-91fece4d39da" target="_blank" rel="noopener">Engineering Manager, Infra/Systems</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Convex Dev</strong>
-        <span>San Francisco</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/cohere/10306789-4fd5-4f1d-90aa-8132c2df2848" target="_blank" rel="noopener">Technical Program Manager, AI Delivery for Public Sector &amp; Defence, UK</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Cohere</strong>
-        <span>London</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Product Management &amp; Program Management</span><span>Engineering Program Management</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/filigran/06f2a2e8-6570-48df-a27c-d6a0ca50b360" target="_blank" rel="noopener">Technology Partnership Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Filigran</strong>
-        <span>United States</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Revenue</span><span>Solution Engineering</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/revenuecat/1586c46c-4782-45dd-8262-dba01288b9ed" target="_blank" rel="noopener">Engineering Manager, RC Capital</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Revenuecat</strong>
-        <span>Americas</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span><span>$230K • Offers Equity</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://careers.toasttab.com/jobs?gh_jid=8054004" target="_blank" rel="noopener">Principal Technical Program Manager, Toast IQ</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Toast</strong>
-        <span>Remote, US </span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>R &amp; D : Product : Customer Experience Platform</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="workday">
       <div class="top">
@@ -6847,27 +7094,8 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="workday">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://netflix.wd108.myworkdayjobs.com/Netflix/job/California---Remote/Engineering-Manager--Cloud-Network-Engineering_JR38079" target="_blank" rel="noopener">Engineering Manager</a>
+        <a class="title" href="https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Product-Manager--L5---Privacy---Data-Protection-Engineering_JR41373" target="_blank" rel="noopener">Product Manager (L5), Privacy &amp; Data Protection Engineering</a>
         <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>Netflix</strong>
-        <span>California - Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">workday</span>
-        
-      </div>
-      
-      <div class="tags"></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="workday">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/AI-Product-Manager--Content-Platform-Operations-and-Publishing_JR41271" target="_blank" rel="noopener">AI Product Manager, Content Platform Operations and Publishing</a>
-        
       </div>
       <div class="meta">
         <strong>Netflix</strong>
@@ -6904,6 +7132,25 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="workday">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://netflix.wd108.myworkdayjobs.com/Netflix/job/California---Remote/Engineering-Manager--Cloud-Network-Engineering_JR38079" target="_blank" rel="noopener">Engineering Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Netflix</strong>
+        <span>California - Remote</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workday</span>
+        
+      </div>
+      
+      <div class="tags"></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="workday">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://walkerdunlop.wd1.myworkdayjobs.com/wd/job/Remote---USA/Engineering-Manager_Req-1925-1" target="_blank" rel="noopener">Engineering Manager</a>
         
       </div>
@@ -6920,16 +7167,16 @@
       
       <div class="tags"></div>
     </article>
-    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/98a9ce7e-c8da-4b24-b270-05b043619604" target="_blank" rel="noopener">Principal Engineering Manager</a>
+        <a class="title" href="https://jobs.lever.co/jobgether/b42beccb-da54-44a8-a220-b036cff51bce" target="_blank" rel="noopener">Senior Engineering Manager, Enterprise AI Product</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
-        <span>Netherlands</span>
-        <span class="pill locs">+6 other locations</span>
+        <span>US</span>
+        
         <span class="pill">remote</span>
         
         
@@ -6937,31 +7184,12 @@
         
       </div>
       
-      <div class="tags"><span>IT</span><span>Full-time</span></div>
-    </article>
-    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/3b65cb7c-fa49-4b3c-9d70-59c11e646f3e" target="_blank" rel="noopener">Engineering Manager</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>Netherlands</span>
-        <span class="pill locs">+9 other locations</span>
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>IT</span><span>Full-time</span></div>
+      <div class="tags"><span>Product</span><span>Full-time</span></div>
     </article>
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/c28e059d-e51e-4331-bf13-43e1a7cf7d3a" target="_blank" rel="noopener">Mobile Application Engineering Manager</a>
+        <a class="title" href="https://jobs.lever.co/jobgether/4fa48b5a-b5aa-42cf-a265-59815d131575" target="_blank" rel="noopener">Senior Manager Identity Governance Administration Engineering</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
@@ -6977,11 +7205,68 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/98a9ce7e-c8da-4b24-b270-05b043619604" target="_blank" rel="noopener">Principal Engineering Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+6 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/3b65cb7c-fa49-4b3c-9d70-59c11e646f3e" target="_blank" rel="noopener">Engineering Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+9 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/c28e059d-e51e-4331-bf13-43e1a7cf7d3a" target="_blank" rel="noopener">Mobile Application Engineering Manager</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.lever.co/jobgether/394036a6-85b2-44e9-b225-1343b4439f9e" target="_blank" rel="noopener">Senior Engineering Manager, Fortary Platform</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -6996,11 +7281,11 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.lever.co/jobgether/6a212edc-1fad-4388-9bef-48d5de811e37" target="_blank" rel="noopener">Gestionnaire senior des données/Senior Manager, Data Engineering</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -7015,11 +7300,11 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.lever.co/jobgether/23f9b732-7f1b-47f1-bf9a-3d6dead3d3b9" target="_blank" rel="noopener">Engineering Manager, Fraud &amp; Identity Platform</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -7034,11 +7319,11 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
         <a class="title" href="https://jobs.lever.co/jobgether/d63bb437-83ce-4eec-9055-b63a367519c7" target="_blank" rel="noopener">Engineering Manager, Frontend Experience</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -7205,49 +7490,87 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="ic" data-source="recruitee">
       <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/17e956cb-2285-44bd-befb-3782f2cb941e" target="_blank" rel="noopener">Data Platform Product Manager</a>
-        
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://aquablu.recruitee.com/o/supply-chain-quality-engineer" target="_blank" rel="noopener">Supply Chain Quality Engineer</a>
+        <span class="badge">NEW</span>
       </div>
       <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        
-        <span class="pill">remote</span>
+        <strong>Aquablu B.V</strong>
+        <span>Amsterdam, Noord-Holland, Netherlands</span>
         
         
-        <span class="src">lever</span>
+        
+        
+        <span class="src">recruitee</span>
         
       </div>
       
-      <div class="tags"><span>Product</span><span>Full-time</span></div>
+      <div class="tags"><span>Operations</span><span>fulltime_permanent</span><span>other</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/1a00ab1d-788c-445f-a175-0866cb4251bf" target="_blank" rel="noopener">Senior Product Manager, Data Platform</a>
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://job-boards.greenhouse.io/tlatechinc/jobs/4318583009" target="_blank" rel="noopener">Staff QA Engineer</a>
         
       </div>
       <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
+        <strong>TLA Tech </strong>
+        <span>Remote</span>
         
         <span class="pill">remote</span>
         
         
-        <span class="src">lever</span>
+        <span class="src">greenhouse</span>
         
       </div>
       
-      <div class="tags"><span>Product</span><span>Full-time</span></div>
+      <div class="tags"><span>Engineering</span></div>
     </article>
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="greenhouse">
       <div class="top">
         <span class="tier ic">ic</span>
-        <a class="title" href="https://job-boards.greenhouse.io/terrapowerllc/jobs/4194957009" target="_blank" rel="noopener">Quality Assurance Engineer</a>
+        <a class="title" href="https://job-boards.eu.greenhouse.io/moniepoint/jobs/4941088101" target="_blank" rel="noopener">Senior Quality Assurance Engineer</a>
         <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Moniepoint</strong>
+        <span>Remote, Bangalore</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Moniepoint Inc.</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="workable">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://apply.workable.com/j/5BB74B3A02" target="_blank" rel="noopener">Senior SDET (Software Development Engineer in Test)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>SPD Technology</strong>
+        <span>Spain</span>
+        <span class="pill locs">+3 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workable</span>
+        
+      </div>
+      
+      <div class="tags"><span>Nimble</span><span>Engineering</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://job-boards.greenhouse.io/terrapowerllc/jobs/4194957009" target="_blank" rel="noopener">Quality Assurance Engineer</a>
+        
       </div>
       <div class="meta">
         <strong>TerraPower LLC.</strong>
@@ -7262,11 +7585,11 @@
       
       <div class="tags"><span>Nuclear Quality &amp; Continuous Improvement</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://jobs.lever.co/truezerotech/8659da7b-c793-4a7c-bcc7-fb108d17ec49" target="_blank" rel="noopener">Pillar Lead: Automation Engineer (R-00207)</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Truezerotech</strong>
@@ -7281,11 +7604,11 @@
       
       <div class="tags"><span>Endpoint Security Team</span><span>Full-Time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://careers.empowerpharmacy.com/jobs/?gh_jid=4371980009" target="_blank" rel="noopener">QA Automation Engineer</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Empower Pharmacy</strong>
@@ -7300,11 +7623,11 @@
       
       <div class="tags"><span>IT</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="greenhouse">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://job-boards.greenhouse.io/alphafmcroles/jobs/8729829002" target="_blank" rel="noopener">QA Engineer (Contract)</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Alpha Financial Markets Consulting</strong>
@@ -7318,6 +7641,25 @@
       </div>
       
       <div class="tags"><span>Technology Transformation</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="workable">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://apply.workable.com/j/21DA8DC9A8" target="_blank" rel="noopener">Embedded Python Data &amp; Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Pavago</strong>
+        <span>Costa Rica</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workable</span>
+        
+      </div>
+      
+      <div class="tags"><span>Candidate Sourcing</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="smartrecruiters">
       <div class="top">
@@ -7470,6 +7812,25 @@
       </div>
       
       <div class="tags"><span>RevOps</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/coderio/f6b8a6ec-54ab-41bf-aacf-2fa431392d6b" target="_blank" rel="noopener">SR Mobile QA Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Coderio</strong>
+        <span>Lima</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>Engineering</span><span>Contract | Remote</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
@@ -7832,6 +8193,25 @@
       
       <div class="tags"><span>Information Technology</span><span>Full-time</span><span>Package/Freight Delivery</span></div>
     </article>
+    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="ic" data-source="workable">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://apply.workable.com/j/D8842C0B28" target="_blank" rel="noopener">Manual QA Engineer (Netherlands)</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Flosum</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+8 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workable</span>
+        
+      </div>
+      
+      <div class="tags"><span>Manual QA Engineer</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
@@ -7887,7 +8267,7 @@
         
       </div>
       
-      <div class="tags"><span>Marketing</span><span>Marketing</span><span>FullTime</span><span>$30 – $40 per hour</span></div>
+      <div class="tags"><span>Marketing</span><span>Marketing</span><span>Contract</span><span>$30 – $40 per hour</span></div>
     </article>
     <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
@@ -8003,25 +8383,6 @@
       
       <div class="tags"><span>Security Architect Team</span><span>Full-Time</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://job-boards.greenhouse.io/oklo/jobs/6134825004" target="_blank" rel="noopener">Quality Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Oklo</strong>
-        <span>Santa Clara, CA or Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Quality Assurance</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="ashby">
       <div class="top">
         <span class="tier ic">ic</span>
@@ -8136,25 +8497,6 @@
       
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="recruitee">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://vpteam.recruitee.com/o/senior-qa-automation-engineer-playwrighttypescript" target="_blank" rel="noopener">Senior QA Automation Engineer (Playwright/TypeScript)</a>
-        <span class="badge">NEW</span>
-      </div>
-      <div class="meta">
-        <strong>VPteam</strong>
-        <span>Remote job</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">recruitee</span>
-        
-      </div>
-      
-      <div class="tags"><span>fulltime_permanent</span><span>administrative</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
         <span class="tier ic">ic</span>
@@ -8192,6 +8534,44 @@
       </div>
       
       <div class="tags"><span>Full-time</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="ic" data-source="recruitee">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://optics11.recruitee.com/o/software-test-engineer" target="_blank" rel="noopener">Software Test Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Optics11</strong>
+        <span>Amsterdam, Noord-Holland, Netherlands</span>
+        
+        
+        
+        
+        <span class="src">recruitee</span>
+        
+      </div>
+      
+      <div class="tags"><span>R&amp;D</span><span>fulltime_permanent</span><span>other</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="workable">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://apply.workable.com/j/666A9E9B57" target="_blank" rel="noopener">QA Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Pavago</strong>
+        <span>Costa Rica</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">workable</span>
+        
+      </div>
+      
+      <div class="tags"></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
@@ -8269,6 +8649,25 @@
       
       <div class="tags"><span>Geospatial &amp; Analytics</span><span>Full-Time</span></div>
     </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="recruitee">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://benfatto.recruitee.com/o/qa-automation-4" target="_blank" rel="noopener">QA Automation</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Ben Fatto</strong>
+        <span>Remote job</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">recruitee</span>
+        
+      </div>
+      
+      <div class="tags"><span>Technology Development</span><span>fulltime_permanent</span><span>information_technology</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="ashby">
       <div class="top">
         <span class="tier ic">ic</span>
@@ -8344,25 +8743,6 @@
       </div>
       
       <div class="tags"><span>R&amp;D</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://job-boards.greenhouse.io/tlatechinc/jobs/4318583009" target="_blank" rel="noopener">Staff QA Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>TLA Tech </strong>
-        <span>Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="smartrecruiters">
       <div class="top">
@@ -8620,7 +9000,7 @@
       <div class="meta">
         <strong>Magnetforensics</strong>
         <span>Ottawa, Ontario</span>
-        <span class="pill locs">+1 other locations</span>
+        
         <span class="pill">remote</span>
         
         
@@ -8706,25 +9086,6 @@
       
       <div class="tags"><span>Product Development</span><span>Regular - Full-time</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="ashby">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://jobs.ashbyhq.com/kraken.com/b43e32c0-5562-4f8b-a26f-c66b5f68c935" target="_blank" rel="noopener">Snr QA Automation Engineer - Pro</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Kraken.Com</strong>
-        <span>Poland</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">ashby</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span><span>QA / Testing</span><span>FullTime</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
@@ -8781,44 +9142,6 @@
       </div>
       
       <div class="tags"><span>Web Engineering</span><span>Web QA</span><span>FullTime</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="workable">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://apply.workable.com/j/6A7395BE19" target="_blank" rel="noopener">Software Development Engineer in Test (SDET)</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Worth AI</strong>
-        <span>Orlando, Florida, United States</span>
-        <span class="pill locs">+3 other locations</span>
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">workable</span>
-        
-      </div>
-      
-      <div class="tags"><span>Engineering</span><span>Engineering</span><span>Full-time</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://careers.toasttab.com/jobs?gh_jid=7947082" target="_blank" rel="noopener">GTM Engineer - Sales Workflow Automation, Revenue Intelligence</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Toast</strong>
-        <span>Remote, US</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Sales : Growth Operations</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="workday">
       <div class="top">
@@ -8918,25 +9241,6 @@
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="workday">
       <div class="top">
         <span class="tier ic">ic</span>
-        <a class="title" href="https://illumina.wd1.myworkdayjobs.com/illumina-careers/job/US---Remote/Senior-Software-Engineer-in-Test_43130-JOB-1" target="_blank" rel="noopener">Senior Software Engineer in Test</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Illumina</strong>
-        <span>US - Remote</span>
-        
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">workday</span>
-        
-      </div>
-      
-      <div class="tags"></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="workday">
-      <div class="top">
-        <span class="tier ic">ic</span>
         <a class="title" href="https://sands.wd1.myworkdayjobs.com/sands_careers/job/Remote-United-States/Sr-Software-Development-Engineer-in-Test---AI-First-Development_R26_0142" target="_blank" rel="noopener">Sr Software Development Engineer in Test - AI-First Development</a>
         
       </div>
@@ -8991,11 +9295,11 @@
       
       <div class="tags"></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="workday">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="workday">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Sr-Software-Development-Engineer-in-Test_R12106" target="_blank" rel="noopener">Staff Software Development Engineer in Test</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Workiva</strong>
@@ -9013,7 +9317,45 @@
     <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/deb64272-953e-4545-aa85-fbd4627e9cef" target="_blank" rel="noopener">Pillar Lead: Automation Engineer</a>
+        <a class="title" href="https://jobs.lever.co/jobgether/6857b7b5-d079-41a8-881e-c23a0b77c3d1" target="_blank" rel="noopener">Senior QA Automation Developer, Integrations</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Canada</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/5b61a058-482d-4050-a3d3-1b0e4d18402f" target="_blank" rel="noopener">Salesforce QA Automation Developer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Canada</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/4ca7033e-166e-4c1e-b1b6-00dcef36fb8c" target="_blank" rel="noopener">Sr. Lead Engineer, Integration &amp; Automation</a>
         <span class="badge">NEW</span>
       </div>
       <div class="meta">
@@ -9029,11 +9371,68 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/f8cc4b4f-493a-4dd4-9025-48e28bfecb6e" target="_blank" rel="noopener">Backend Engineer – API Integrationen, Connectoren, Worker/Jobs, Mailer Service, QA</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+6 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/a268acb5-e9e4-4814-83e9-b1adb9846061" target="_blank" rel="noopener">Test Craftsperson/Automation</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>Netherlands</span>
+        <span class="pill locs">+19 other locations</span>
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://jobs.lever.co/jobgether/deb64272-953e-4545-aa85-fbd4627e9cef" target="_blank" rel="noopener">Pillar Lead: Automation Engineer</a>
+        
+      </div>
+      <div class="meta">
+        <strong>Jobgether</strong>
+        <span>US</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">lever</span>
+        
+      </div>
+      
+      <div class="tags"><span>IT</span><span>Full-time</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://jobs.lever.co/jobgether/0d6249b4-95fc-4470-a287-7c12022a06dd" target="_blank" rel="noopener">QA Engineer</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
@@ -9143,35 +9542,16 @@
       
       <div class="tags"><span>IT</span><span>Full-time</span></div>
     </article>
-    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="lever">
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">
         <span class="tier ic">ic</span>
         <a class="title" href="https://jobs.lever.co/jobgether/5f3ce4e0-141d-4580-a46a-e1ee01d15757" target="_blank" rel="noopener">(Senior) Software Engineer (M/F/D) - Tools &amp; Automation</a>
-        <span class="badge">NEW</span>
+        
       </div>
       <div class="meta">
         <strong>Jobgether</strong>
         <span>Switzerland</span>
         <span class="pill locs">+2 other locations</span>
-        <span class="pill">remote</span>
-        
-        
-        <span class="src">lever</span>
-        
-      </div>
-      
-      <div class="tags"><span>IT</span><span>Full-time</span></div>
-    </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://jobs.lever.co/jobgether/d5a01e23-ecfd-435b-9204-a63c1a3907e0" target="_blank" rel="noopener">Technical Quality Assurance Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Jobgether</strong>
-        <span>US</span>
-        
         <span class="pill">remote</span>
         
         
