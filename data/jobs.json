@@ -77,7 +77,7 @@
     "company": "NLwerkt",
     "location": "Nederland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5858119641?se=8CeMvyOj8RG2KeasH0Kubw&utm_medium=api&utm_source=9b7a3075&v=BAF850B35B4D2C4D4AA76D2AF887F0F8A10FF7E0",
+    "url": "https://www.adzuna.nl/land/ad/5858119641?se=ZOQ8hrej8RGxSf1iGXKoQA&utm_medium=api&utm_source=9b7a3075&v=BAF850B35B4D2C4D4AA76D2AF887F0F8A10FF7E0",
     "salaryMin": 80148,
     "salaryMax": 80148,
     "currency": "EUR",
@@ -88,7 +88,7 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "bc23dc5e6652e2a2",
@@ -197,7 +197,7 @@
     "postedAt": "2026-08-24T17:17:26.326Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3d4f306b7f04aec7",
@@ -369,6 +369,27 @@
     "isNew": false
   },
   {
+    "id": "5a3e9fb96fd7fdf9",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "TEST MANAGER",
+    "company": "LITIT",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://litit.recruitee.com/o/test-manager",
+    "tags": [
+      "DEVELOPMENT",
+      "fulltime_permanent",
+      "information_technology",
+      "BMW",
+      "ITO121"
+    ],
+    "postedAt": "2026-08-20T10:27:06.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "7794abefb55a52d2",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -483,6 +504,24 @@
     "isNew": false
   },
   {
+    "id": "78aa3603aa1c6d80",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Test - BI Tech Lead",
+    "company": "Lingarogroup",
+    "location": "Poland",
+    "remote": true,
+    "url": "https://jobs.lever.co/lingarogroup/b0a79b1e-9c46-4345-8c20-9f5dcd1be3c6",
+    "tags": [
+      "Lingaro",
+      "Freelance"
+    ],
+    "postedAt": "2026-08-14T17:09:08.905Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "ca671c05e28ffd37",
     "source": "ashby",
     "vendor": "ashby",
@@ -499,24 +538,8 @@
     "postedAt": "2026-08-14T16:22:32.497+00:00",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "8b281bf25b129393",
-    "source": "adzuna",
-    "title": "Testmanager",
-    "company": "Dura Vermeer",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5841730958?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-14T12:36:17Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
   },
   {
     "id": "91df5131d9cdc8b2",
@@ -545,7 +568,7 @@
     "company": "Bodycote Hardingscentrum BV",
     "location": "Nederland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5840913284?se=8CeMvyOj8RG2KeasH0Kubw&utm_medium=api&utm_source=9b7a3075&v=F8A0113C5FDAA321E056526959611BFF8E6A59AF",
+    "url": "https://www.adzuna.nl/land/ad/5840913284?se=Tk9chbej8RGxSf1iGXKoQA&utm_medium=api&utm_source=9b7a3075&v=F8A0113C5FDAA321E056526959611BFF8E6A59AF",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -553,7 +576,7 @@
     "postedAt": "2026-08-14T00:35:58Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "10f547c899d58a20",
@@ -562,7 +585,7 @@
     "company": "Zandbergen Groep",
     "location": "Zoeterwoude, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5840913268?se=8CeMvyOj8RG2KeasH0Kubw&utm_medium=api&utm_source=9b7a3075&v=5B489B694338418AECF061FB358B72A3FD6BD391",
+    "url": "https://www.adzuna.nl/land/ad/5840913268?se=Tk9chbej8RGxSf1iGXKoQA&utm_medium=api&utm_source=9b7a3075&v=5B489B694338418AECF061FB358B72A3FD6BD391",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -570,7 +593,7 @@
     "postedAt": "2026-08-14T00:35:57Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f334c15f12f9b81b",
@@ -630,6 +653,28 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "2f6c9d4a29511d9d",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Lead AI Test Automation Architect",
+    "company": "High Tech Genesis",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://jobs.hightechgenesis.com/o/lead-ai-test-automation-architect",
+    "tags": [
+      "contract",
+      "other",
+      "Apexon",
+      "HM: Kris Soman",
+      "John Campbell"
+    ],
+    "postedAt": "2026-08-10T15:50:27.000Z",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "8d13cb3a3f32b36b",
@@ -870,7 +915,7 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e303131841c63e3c",
@@ -913,6 +958,7 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -927,7 +973,7 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "46596230a7eeed78",
@@ -1018,6 +1064,45 @@
     "isNew": false
   },
   {
+    "id": "7d4f2d4e2f4300db",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Sr Staff AI Engineer - Veza",
+    "company": "ServiceNow",
+    "location": "Minneapolis, Minnesota, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000146269339",
+    "tags": [
+      "Engineering, Infrastructure and Operations",
+      "Engineering",
+      "Full-time",
+      "Information Technology And Services"
+    ],
+    "postedAt": "2026-08-28T22:52:32.390Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "b22b10e3de2e2bdf",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Technical Program Manager, AI Delivery for Public Sector & Defence, Canada ",
+    "company": "Cohere",
+    "location": "Ottawa",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/cohere/01a34bc3-6421-4af2-bf5b-f42e98155dda",
+    "tags": [
+      "Product Management & Program Management",
+      "Engineering Program Management",
+      "FullTime"
+    ],
+    "postedAt": "2026-08-28T22:05:08.399+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "95329c6b6ad60a67",
     "source": "ashby",
     "vendor": "ashby",
@@ -1034,7 +1119,7 @@
     "postedAt": "2026-08-28T20:34:05.703+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cd650650c9451966",
@@ -1053,6 +1138,60 @@
     "postedAt": "2026-08-28T19:58:40.482+00:00",
     "tier": "adjacent",
     "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "c88be2eb3eccae8a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineering Manager, Voice and Video",
+    "company": "Twilio",
+    "location": "Remote - Ireland",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8073683",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-28T18:58:25-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "f474fb4e64a1a412",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineering Manager Twilio’s Conversational Agents",
+    "company": "Twilio",
+    "location": "Remote - US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/7926887",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-28T18:58:24-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "0bbf946ba0e2bf83",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineering Manager V&V Media",
+    "company": "Twilio",
+    "location": "Remote - United Kingdom",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067147",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-28T18:58:23-04:00",
+    "otherLocations": 3,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
     "isNew": true
   },
   {
@@ -1076,6 +1215,23 @@
     "isNew": false
   },
   {
+    "id": "437f9d68975a9030",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Software Engineering Manager, ToastNow",
+    "company": "Toast",
+    "location": "Remote US",
+    "remote": true,
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8144016",
+    "tags": [
+      "R & D : Engineering : Customer Experience Platform"
+    ],
+    "postedAt": "2026-08-28T17:58:45-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
     "id": "6c4c0624d82ee6d1",
     "source": "ashby",
     "vendor": "ashby",
@@ -1093,7 +1249,7 @@
     "postedAt": "2026-08-28T17:14:31.580+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cf25f13ae2688ebf",
@@ -1110,7 +1266,7 @@
     "postedAt": "2026-08-28T16:56:50-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3c026010e530b552",
@@ -1134,36 +1290,19 @@
     "isNew": false
   },
   {
-    "id": "989ca306b8c49816",
+    "id": "e9f66bf776f28f81",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Engineering Manager, Enterprise Fulfillment",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8084350",
+    "url": "https://instacart.careers/job/?gh_jid=8084349",
     "tags": [
       "Leadership (Engineering)"
     ],
-    "postedAt": "2026-08-28T16:51:47-04:00",
+    "postedAt": "2026-08-28T16:51:46-04:00",
     "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "437f9d68975a9030",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Software Engineering Manager, ToastNow",
-    "company": "Toast",
-    "location": "Remote US",
-    "remote": true,
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8144016",
-    "tags": [
-      "R & D : Engineering : Customer Experience Platform"
-    ],
-    "postedAt": "2026-08-28T16:50:28-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": true
@@ -1183,7 +1322,7 @@
     "postedAt": "2026-08-28T16:42:31-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "365ad6b078da779a",
@@ -1203,7 +1342,7 @@
     "postedAt": "2026-08-28T15:43:15.826+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a082f1d133357e01",
@@ -1220,7 +1359,7 @@
     "postedAt": "2026-08-28T14:34:07-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "beca6f8be6881bbe",
@@ -1237,7 +1376,7 @@
     "postedAt": "2026-08-28T14:30:07-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0212828f6049a6bc",
@@ -1256,7 +1395,7 @@
     "postedAt": "2026-08-28T14:11:23.429Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "79eaa3d1f7890994",
@@ -1274,7 +1413,7 @@
     "postedAt": "2026-08-28T13:17:26.730Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c1c8a957aa432c85",
@@ -1293,7 +1432,7 @@
     "postedAt": "2026-08-28T11:48:21.151Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5ac415fa09f4008e",
@@ -1312,7 +1451,7 @@
     "postedAt": "2026-08-28T11:32:22.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "df73f1e686ed36c1",
@@ -1329,7 +1468,7 @@
     "postedAt": "2026-08-28T11:07:03-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "23d85b42cf218e88",
@@ -1346,7 +1485,7 @@
     "postedAt": "2026-08-28T11:06:49-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ff62fa3e8550e6a5",
@@ -1383,7 +1522,7 @@
     "postedAt": "2026-08-28T08:52:54.046+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a5aec819a8df016b",
@@ -1404,7 +1543,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "06b4a2cbe0cd7f52",
@@ -1425,7 +1564,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fd80530df78aaed9",
@@ -1445,7 +1584,7 @@
     "postedAt": "2026-08-27T23:53:19.988Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2f71f04989f1db1b",
@@ -1486,7 +1625,7 @@
     "postedAt": "2026-08-27T20:38:54.212Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "de7f5d2e91a64dbf",
@@ -1506,7 +1645,7 @@
     "postedAt": "2026-08-27T20:38:30.161Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f5a6714070275e90",
@@ -1567,60 +1706,6 @@
     "isNew": false
   },
   {
-    "id": "c88be2eb3eccae8a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Engineering Manager, Voice and Video",
-    "company": "Twilio",
-    "location": "Remote - Ireland",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/8073683",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-08-27T19:32:58-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "f474fb4e64a1a412",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Engineering Manager Twilio’s Conversational Agents",
-    "company": "Twilio",
-    "location": "Remote - US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/7926887",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-08-27T19:32:56-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "df32665ee7b11b12",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Engineering Manager V&V Media",
-    "company": "Twilio",
-    "location": "Remote - Ontario, Canada (DNU)",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067501",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-08-27T19:32:56-04:00",
-    "otherLocations": 3,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "0845022fb43d058c",
     "source": "ashby",
     "vendor": "ashby",
@@ -1655,7 +1740,7 @@
     "postedAt": "2026-08-27T16:57:34-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0ff65f8dc990b18d",
@@ -1673,7 +1758,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e4bf020f034916df",
@@ -1693,7 +1778,7 @@
     "score": 5,
     "languageRequirement": "C1",
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9511d3df90c32674",
@@ -1804,35 +1889,6 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
-  },
-  {
-    "id": "893eb03e9e4f007e",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Data Engineering Manager",
-    "company": "Metyis AG",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://metyisag.recruitee.com/o/data-engineering-manager-5",
-    "tags": [
-      "Data & Analytics",
-      "fulltime_fixed_term",
-      "management",
-      "46261Data Engineering ManagerML4AmsterdamAdaptfy",
-      "CE_Adaptfy",
-      "D_data_analytics",
-      "ML_4",
-      "Mid",
-      "RL1_Netherlands",
-      "RL2_Amsterdam",
-      "WD_on_site",
-      "sd_data_engineering"
-    ],
-    "postedAt": "2026-08-27T15:15:08.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
   },
   {
     "id": "c775575587e9d629",
@@ -1962,7 +2018,7 @@
     "postedAt": "2026-08-27T08:40:20.651+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9a914b69e0567601",
@@ -2114,6 +2170,26 @@
     "isNew": false
   },
   {
+    "id": "4982d69ebce31c55",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Technical Sales Manager - Equipment Water Services (Central US)",
+    "company": "Veolia Environnement SA",
+    "location": "Dayton, OH, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000145810680",
+    "tags": [
+      "General Management",
+      "Engineering",
+      "Full-time",
+      "Environmental Services"
+    ],
+    "postedAt": "2026-08-26T18:33:46.539Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "5ba9942ba4d7593c",
     "source": "ashby",
     "vendor": "ashby",
@@ -2131,6 +2207,26 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "41b9701d8403bbda",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Healthcare Specialist Service Engineer",
+    "company": "Veolia Environnement SA",
+    "location": "Manchester, England, United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000145751329",
+    "tags": [
+      "Operations & Maintenance",
+      "Engineering",
+      "Full-time",
+      "Environmental Services"
+    ],
+    "postedAt": "2026-08-26T13:56:14.721Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "8e6018183e2b4753",
@@ -2525,6 +2621,26 @@
     "isNew": false
   },
   {
+    "id": "5bd49a7d58cd6d5a",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Technical Sales Manager - Industrial Water (Food & Beverage Industry)",
+    "company": "Veolia Environnement SA",
+    "location": "Denver, CO, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000145520579",
+    "tags": [
+      "Sales",
+      "Engineering",
+      "Full-time",
+      "Environmental Services"
+    ],
+    "postedAt": "2026-08-25T13:42:31.067Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "e9157db8254d98ca",
     "source": "lever",
     "vendor": "lever",
@@ -2790,7 +2906,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eed20a210eb67bc1",
@@ -2829,14 +2945,14 @@
     "isNew": false
   },
   {
-    "id": "f0857c2c4dceb00f",
+    "id": "e0b272b8a59b522a",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Product Manager, Retailer Platform",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8014062",
+    "url": "https://instacart.careers/job/?gh_jid=8014060",
     "tags": [
       "Product Management"
     ],
@@ -2845,7 +2961,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "994891eb51758454",
@@ -3072,7 +3188,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "63e0f6f747851d58",
@@ -3204,6 +3320,7 @@
     "postedAt": "2026-08-21T16:26:25.473Z",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -3276,6 +3393,23 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "4ea83bb4ffd30088",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Data Platform",
+    "company": "ZoomInfo Technologies LLC",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.zoominfo.com/careers?gh_jid=8730205002",
+    "tags": [
+      "965 Product Management - AI & Strategy"
+    ],
+    "postedAt": "2026-08-21T14:21:46-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "336442eaeb9e2d64",
@@ -3729,7 +3863,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e592f95b78cf0216",
@@ -4248,7 +4382,7 @@
     "postedAt": "2026-08-19T14:03:30-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6de241720639823a",
@@ -4341,25 +4475,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "f37582cd37d9a92b",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Test Engineer",
-    "company": "Qualinx",
-    "location": "Delft, Zuid-Holland, Netherlands",
-    "remote": false,
-    "url": "https://qualinx.recruitee.com/o/test-engineer-1",
-    "tags": [
-      "Operations",
-      "fulltime_permanent",
-      "engineering"
-    ],
-    "postedAt": "2026-08-19T09:43:50.000Z",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -4924,6 +5039,7 @@
     "postedAt": "2026-08-14T19:03:19.212Z",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -4962,6 +5078,7 @@
     "postedAt": "2026-08-14T18:42:09.870+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -4983,6 +5100,24 @@
     "isNew": false
   },
   {
+    "id": "9c2361c7d0b28cd4",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Test - LCA Digital Solution Consultant",
+    "company": "Lingarogroup",
+    "location": "Europe",
+    "remote": true,
+    "url": "https://jobs.lever.co/lingarogroup/bf91198f-4a96-485f-8f00-033a0442ebc1",
+    "tags": [
+      "Lingaro",
+      "Freelance"
+    ],
+    "postedAt": "2026-08-14T17:21:03.511Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "b8ea05ff65b28742",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4998,6 +5133,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -5017,6 +5153,7 @@
     "postedAt": "2026-08-14T14:55:15.746+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -5534,14 +5671,14 @@
     "isNew": false
   },
   {
-    "id": "35f3e876046721c0",
+    "id": "d5ced1cd1384cae4",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Manager, Machine Learning Engineering (Fraud)",
     "company": "Affirm",
-    "location": "Remote US",
+    "location": "Remote Canada",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7710178003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
     "tags": [
       "Checkout"
     ],
@@ -5550,7 +5687,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "19a22b1ea4799ba8",
@@ -6789,7 +6926,7 @@
       "Computer Software"
     ],
     "postedAt": "2026-08-03T10:27:30.436Z",
-    "otherLocations": 3,
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -6930,67 +7067,6 @@
     "isNew": false
   },
   {
-    "id": "44f028f3bae4060e",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Data Operations Specialist",
-    "company": "Halter",
-    "location": "Auckland",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/halter/3efb297d-4bcd-4a60-9e6a-2c1f778b7a85",
-    "tags": [
-      "Software Engineering",
-      "Data",
-      "Temporary"
-    ],
-    "postedAt": "2026-07-30T00:00:33.055+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "dfd2b5b429a1fffe",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Director, Engineering Program Manager ",
-    "company": "Skylo",
-    "location": "Mountain View, CA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/skylo/673d36af-5a06-459d-b4f3-79363e65281c",
-    "tags": [
-      "Engineering",
-      "CTO (ANT)",
-      "FullTime"
-    ],
-    "postedAt": "2026-07-29T21:56:40.300+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "6635332222e38e14",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "VP, Engineering & Facilities",
-    "company": "Hims And Hers",
-    "location": "US Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/hims-and-hers/cf1bb5be-3333-4159-b0e3-2400cebaf1fb",
-    "tags": [
-      "OPERATIONS",
-      "OPERATIONS",
-      "FullTime",
-      "$290K – $310K • Offers Equity"
-    ],
-    "postedAt": "2026-07-29T21:23:11.021+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "c1c289b9ada9ac94",
     "source": "workday",
     "vendor": "workday",
@@ -7123,7 +7199,7 @@
     "postedAt": "2026-08-28T12:16:09.418Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0f01f1ce55af08d3",
@@ -7141,7 +7217,7 @@
     "postedAt": "2026-08-28T11:19:11.847Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4ace10a07b2c2ece",
@@ -7159,7 +7235,7 @@
     "postedAt": "2026-08-28T07:28:59.803Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e1691fd6cc43952c",
@@ -7177,7 +7253,7 @@
     "postedAt": "2026-08-28T04:06:01.895Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "96ced994a360c059",
@@ -7196,7 +7272,7 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ded4a12688433bd4",
@@ -7307,7 +7383,7 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7dd4f097327abc9c",
@@ -7343,7 +7419,7 @@
     "postedAt": "2026-08-25T08:02:30.104Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d2fa1b397ec1e578",
@@ -7489,7 +7565,7 @@
     "otherLocations": 2,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a7c1acff2dd4153d",
@@ -7508,24 +7584,7 @@
     "otherLocations": 2,
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "2be11cf47b276770",
-    "source": "adzuna",
-    "title": "Quality Assurance Engineer",
-    "company": "AGAP2 Netherlands",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5859782839?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-08-28T17:36:36Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1e5875950c3c6cce",
@@ -7561,7 +7620,7 @@
     "postedAt": "2026-08-28T13:53:36.996+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1563afb0dc415cf6",
@@ -7576,6 +7635,25 @@
       "Test"
     ],
     "postedAt": "2026-08-28T11:06:33-04:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "f12045914241a30f",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "Senior Software Engineer in Test",
+    "company": "Multi Media LLC",
+    "location": "United States",
+    "remote": true,
+    "url": "https://apply.workable.com/j/ADA6950A66",
+    "tags": [
+      "Multi Media, LLC",
+      "Quality Assurance",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-28",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -7596,7 +7674,7 @@
     "postedAt": "2026-08-27T22:53:01.041Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "744602e32d21a487",
@@ -7616,7 +7694,7 @@
     "postedAt": "2026-08-27T20:48:58.605+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "49e520fb26758e7d",
@@ -7695,25 +7773,6 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "e202d67a4dbe6ed1",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Salto CloudWorks",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5856983139?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 720,
-    "salaryMax": 864,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-08-26T17:33:49Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
   },
   {
     "id": "ae42a679a48143d4",
@@ -7795,7 +7854,7 @@
     "postedAt": "2026-08-26T13:10:58",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "055b4bcdf7f3dc58",
@@ -8056,23 +8115,6 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
-  },
-  {
-    "id": "09c238b44f28ed6d",
-    "source": "adzuna",
-    "title": "Embedded Software QA Engineer",
-    "company": "KRUSH Labs B.V.",
-    "location": "Eindhoven, Noord-Brabant",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5851294100?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-08-21T17:48:12Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
   },
   {
     "id": "d45a035ab567e5a6",
@@ -8370,6 +8412,24 @@
     "isNew": false
   },
   {
+    "id": "4551d4f27bd3d475",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "DevOps Engineer (Cloud) - Freelance",
+    "company": "Lingarogroup",
+    "location": "Poland",
+    "remote": true,
+    "url": "https://jobs.lever.co/lingarogroup/9854513e-2e1a-4512-9324-be44da12e652",
+    "tags": [
+      "DevOps Automation",
+      "Freelance"
+    ],
+    "postedAt": "2026-08-18T12:57:31.379Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "79dfe432ee1d77fe",
     "source": "lever",
     "vendor": "lever",
@@ -8405,7 +8465,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a6e289fc498dcd7a",
@@ -8459,7 +8519,8 @@
     "postedAt": "2026-08-15T08:22:15Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "repostCount": 2,
+    "isNew": false
   },
   {
     "id": "0c94c657f82d72e5",
@@ -8476,7 +8537,8 @@
     "postedAt": "2026-08-15T08:22:15Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "repostCount": 2,
+    "isNew": false
   },
   {
     "id": "412ad74f031b55bd",
@@ -8493,6 +8555,7 @@
     "postedAt": "2026-08-14T18:26:21-04:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8528,6 +8591,7 @@
     "postedAt": "2026-08-14T15:29:24-04:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8545,6 +8609,7 @@
     "postedAt": "2026-08-14T15:27:45-04:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8680,6 +8745,7 @@
     "postedAt": "2026-08-13",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8763,6 +8829,24 @@
     "isNew": false
   },
   {
+    "id": "3e8a31d638c10a15",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "DevOps Engineer - SRE Observability",
+    "company": "Lingarogroup",
+    "location": "Poland",
+    "remote": true,
+    "url": "https://jobs.lever.co/lingarogroup/a0be3a26-831e-4692-bf68-adb4b0fde0a8",
+    "tags": [
+      "DevOps Automation",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-11T13:25:25.348Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "10f2a97377f118d3",
     "source": "ashby",
     "vendor": "ashby",
@@ -8782,6 +8866,24 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "a2477474456020a5",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Test Automation Engineer",
+    "company": "Lingarogroup",
+    "location": "Poland",
+    "remote": true,
+    "url": "https://jobs.lever.co/lingarogroup/b2dc78d2-cb37-4432-a462-b1322ce118cc",
+    "tags": [
+      "QA1",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-11T10:30:07.476Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "bea25901d7beb489",
@@ -8916,7 +9018,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d26bbce61deeb6dd",
@@ -9077,24 +9179,6 @@
     "isNew": false
   },
   {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5828768490?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-08-05T07:28:25Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "56c09d98c670ca47",
     "source": "workable",
     "vendor": "workable",
@@ -9128,24 +9212,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "9193216dd0faa0fe",
-    "source": "adzuna",
-    "title": "Senior QA Engineer with Automation",
-    "company": "Alex Staff Agency",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5827393062?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-08-04T07:16:28Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2a7b437969406bf5",
@@ -9183,23 +9250,6 @@
     "isNew": false
   },
   {
-    "id": "a33b3590a2eac9d3",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "IS International Services",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5826742454?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-08-03T19:10:59Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "c2870e4e4362957f",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -9216,25 +9266,6 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "5d7d178cbba3c771",
-    "source": "adzuna",
-    "title": "QA/Test Automation Engineer Senior",
-    "company": "Eminent Groep",
-    "location": "Leidschenveen, Den Haag",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5823150064?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 42000,
-    "salaryMax": 60000,
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-01T03:55:39Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
   },
   {
     "id": "f3e50441db59dd3a",
@@ -9375,6 +9406,7 @@
     "postedAt": "2026-07-31T12:53:08-04:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -9657,20 +9689,23 @@
     "isNew": false
   },
   {
-    "id": "968ad0365a0c1df0",
+    "id": "15911a01bad8a96c",
     "source": "adzuna",
-    "title": "Test Craftsperson/Automation",
-    "company": "Jobgether",
-    "location": "Veldhoven, Noord-Brabant",
-    "remote": true,
-    "url": "https://www.adzuna.nl/details/5852592718?utm_medium=api&utm_source=9b7a3075",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Nijmegen, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5836940837?se=Tk9chbej8RGxSf1iGXKoQA&utm_medium=api&utm_source=9b7a3075&v=CD8A57757EDF6FC191D99BA7F047A241A5F6CA0E",
+    "salaryMin": 33600,
+    "salaryMax": 61800,
     "currency": "EUR",
     "tags": [
-      "IT ICT vacatures"
+      "Vacatures Ander of Algemeen"
     ],
-    "postedAt": "2026-08-22T17:34:09Z",
+    "postedAt": "2026-08-11T17:46:15Z",
     "tier": "ic",
     "score": 0.5,
+    "repostCount": 2,
     "isNew": true
   }
 ]
