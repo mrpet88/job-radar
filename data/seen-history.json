@@ -8,6 +8,9 @@
   "agentic quality automation lead::hubs.is": [
     "2026-08-08"
   ],
+  "ai automation engineer::gismart": [
+    "2026-08-31"
+  ],
   "ai automation engineer::jobgether": [
     "2026-08-08"
   ],
@@ -76,6 +79,9 @@
   ],
   "associate data qa engineer::abacus insights": [
     "2026-08-08"
+  ],
+  "associate quality engineer::jobgether": [
+    "2026-08-31"
   ],
   "associate quality engineer::veeva": [
     "2026-08-28"
@@ -225,6 +231,9 @@
   "data qa engineer enterprise data dr::truelogic": [
     "2026-08-08",
     "2026-08-22"
+  ],
+  "data quality engineer::wellnecity": [
+    "2026-08-31"
   ],
   "data science engineering manager::alltrails": [
     "2026-08-08",
@@ -420,10 +429,12 @@
     "2026-08-08"
   ],
   "engineering manager data::xero": [
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-31"
   ],
   "engineering manager database::auctane": [
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-31"
   ],
   "engineering manager dedicated integrations::gitlab": [
     "2026-08-10",
@@ -464,6 +475,9 @@
   ],
   "engineering manager fraud identity platform::jobgether": [
     "2026-08-19"
+  ],
+  "engineering manager frontend consumer::kraken.com": [
+    "2026-08-31"
   ],
   "engineering manager frontend experience::jobgether": [
     "2026-08-20"
@@ -679,6 +693,9 @@
     "2026-08-14",
     "2026-08-28"
   ],
+  "engineering manager subscriptions::strava": [
+    "2026-08-31"
+  ],
   "engineering manager switchboard::gitlab": [
     "2026-08-08",
     "2026-08-22"
@@ -859,6 +876,9 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "engineering manager::topdesk": [
+    "2026-08-31"
+  ],
   "engineering manager::toptal": [
     "2026-08-08",
     "2026-08-22"
@@ -1009,6 +1029,9 @@
   "jr qa engineer::better collective a/s": [
     "2026-08-27"
   ],
+  "key account manager::smiths group": [
+    "2026-08-31"
+  ],
   "lead ai test automation architect::high tech genesis": [
     "2026-08-11",
     "2026-08-29"
@@ -1021,6 +1044,9 @@
   ],
   "lead data quality integrity::jobgether": [
     "2026-08-10"
+  ],
+  "lead growth product manager::maximustribe": [
+    "2026-08-31"
   ],
   "lead network architecture test engineer::jabil": [
     "2026-08-27"
@@ -1069,6 +1095,9 @@
   ],
   "lead salesforce developer::toast": [
     "2026-08-22"
+  ],
+  "lead security operations engineer::pleo": [
+    "2026-08-31"
   ],
   "lead software engineer in test::cd baby": [
     "2026-08-08",
@@ -1266,6 +1295,9 @@
   ],
   "manager quality assurance customer support::1password": [
     "2026-08-08"
+  ],
+  "manager quality assurance tcr::jobgether": [
+    "2026-08-31"
   ],
   "manager quality assurance::availity": [
     "2026-08-23"
@@ -1559,7 +1591,8 @@
     "2026-08-18"
   ],
   "product design manager::sitemate": [
-    "2026-08-08"
+    "2026-08-08",
+    "2026-08-31"
   ],
   "product manager b2b software platform::insiderone": [
     "2026-08-08"
@@ -1620,6 +1653,9 @@
   "product manager workspace::ttecdigital": [
     "2026-08-08"
   ],
+  "product manager::caseware": [
+    "2026-08-31"
+  ],
   "product marketing manager gtm owner::percona": [
     "2026-08-25"
   ],
@@ -1670,6 +1706,9 @@
   ],
   "project manager overhead lines::egis group": [
     "2026-08-26"
+  ],
+  "project manager::mactores": [
+    "2026-08-31"
   ],
   "project systems specialist::dart": [
     "2026-08-23"
@@ -1833,6 +1872,9 @@
   "quality assurance engineer::agap2 netherlands": [
     "2026-08-28"
   ],
+  "quality assurance engineer::caseware": [
+    "2026-08-31"
+  ],
   "quality assurance engineer::revealtech": [
     "2026-08-08",
     "2026-08-22"
@@ -1986,6 +2028,9 @@
     "2026-08-13",
     "2026-08-27"
   ],
+  "senior application security manager::pleo": [
+    "2026-08-31"
+  ],
   "senior applied research scientist::servicenow": [
     "2026-08-16"
   ],
@@ -2047,6 +2092,9 @@
   "senior engineering manager brand ads and promotions::deliveroo": [
     "2026-08-08",
     "2026-08-22"
+  ],
+  "senior engineering manager community engagement::strava": [
+    "2026-08-31"
   ],
   "senior engineering manager data::workiva": [
     "2026-08-09"
@@ -2183,6 +2231,9 @@
     "2026-08-13",
     "2026-08-27"
   ],
+  "senior manager data platform engineering::jobgether": [
+    "2026-08-31"
+  ],
   "senior manager engineering identity access management::jobgether": [
     "2026-08-14"
   ],
@@ -2195,6 +2246,9 @@
   ],
   "senior manager engineering::webflow": [
     "2026-08-22"
+  ],
+  "senior manager enterprise security::strava": [
+    "2026-08-31"
   ],
   "senior manager forward deployed engineering x 2 new roles::databricks": [
     "2026-08-08"
@@ -2351,6 +2405,9 @@
   ],
   "senior net developer saas manager::1password": [
     "2026-08-25"
+  ],
+  "senior network automation engineer::jobgether": [
+    "2026-08-31"
   ],
   "senior network reliability engineer incident management::skylo": [
     "2026-08-08",
@@ -2568,6 +2625,9 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "senior quality assurance engineer::jobgether": [
+    "2026-08-31"
+  ],
   "senior quality assurance engineer::moniepoint": [
     "2026-08-21"
   ],
@@ -2666,10 +2726,14 @@
     "2026-08-22"
   ],
   "senior software engineer quality engineering::jobgether": [
-    "2026-08-08"
+    "2026-08-08",
+    "2026-08-31"
   ],
   "senior software engineer test core::vanta": [
     "2026-08-22"
+  ],
+  "senior software engineer test::jobgether": [
+    "2026-08-31"
   ],
   "senior software engineer::yipitdata": [
     "2026-08-15",
@@ -2805,6 +2869,9 @@
   ],
   "senior test manager::upscale ai": [
     "2026-08-24"
+  ],
+  "service sales installed base manager::syntegon": [
+    "2026-08-31"
   ],
   "services quality manager::solvenergy": [
     "2026-08-25"
@@ -3158,6 +3225,9 @@
   "staff quality engineer exploratory test lead::bestow": [
     "2026-08-19"
   ],
+  "staff reliability engineer::servicenow": [
+    "2026-08-31"
+  ],
   "staff software development engineer in test::workiva": [
     "2026-08-20"
   ],
@@ -3420,7 +3490,8 @@
     "2026-08-28"
   ],
   "testmanager::dura vermeer": [
-    "2026-08-15"
+    "2026-08-15",
+    "2026-08-31"
   ],
   "testmanager::ministerie van defensie": [
     "2026-08-21"
