@@ -1,19 +1,17 @@
 [
   {
-    "id": "d7b02639bde3b259",
-    "source": "adzuna",
-    "title": "Testmanager ict",
-    "company": "NLwerkt",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5862879120?se=8nuwXF-l8RGZNvmSNlwMxA&utm_medium=api&utm_source=9b7a3075&v=15BDDCC48ECD6F81EFF13D84E078B10DA33C8829",
-    "salaryMin": 80148,
-    "salaryMax": 80148,
-    "currency": "EUR",
+    "id": "03b2c7785effc986",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Lead Hybrid QA Engineer ",
+    "company": "Sporty Group",
+    "location": "Europe - Remote",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4951687101",
     "tags": [
-      "Unknown"
+      "CRM"
     ],
-    "postedAt": "2026-08-31T12:35:47Z",
+    "postedAt": "2026-09-01T06:01:46-04:00",
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
@@ -200,7 +198,7 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c99eb464a41c56a6",
@@ -215,24 +213,6 @@
       "Quality Assurance"
     ],
     "postedAt": "2026-08-24T11:32:20-04:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "03b2c7785effc986",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Lead Hybrid QA Engineer ",
-    "company": "Sporty Group",
-    "location": "Europe - Remote",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4951687101",
-    "tags": [
-      "CRM"
-    ],
-    "postedAt": "2026-08-24T07:23:25-04:00",
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
@@ -365,6 +345,7 @@
     "postedAt": "2026-08-18T09:52:59-04:00",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -403,6 +384,7 @@
     "postedAt": "2026-08-17T18:44:47.574+00:00",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -500,7 +482,7 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "91df5131d9cdc8b2",
@@ -523,30 +505,13 @@
     "isNew": false
   },
   {
-    "id": "9e0a1159e14a150a",
-    "source": "adzuna",
-    "title": "Quality & Technical Manager",
-    "company": "Bodycote Hardingscentrum BV",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5840913284?se=8nuwXF-l8RGZNvmSNlwMxA&utm_medium=api&utm_source=9b7a3075&v=F8A0113C5FDAA321E056526959611BFF8E6A59AF",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-14T00:35:58Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "10f547c899d58a20",
     "source": "adzuna",
     "title": "Quality Manager Zandbergen Groep",
     "company": "Zandbergen Groep",
     "location": "Zoeterwoude, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5840913268?se=8nuwXF-l8RGZNvmSNlwMxA&utm_medium=api&utm_source=9b7a3075&v=5B489B694338418AECF061FB358B72A3FD6BD391",
+    "url": "https://www.adzuna.nl/land/ad/5840913268?se=xofVIxCm8RGehb7wXBjnIw&utm_medium=api&utm_source=9b7a3075&v=5B489B694338418AECF061FB358B72A3FD6BD391",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -614,28 +579,6 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
-  },
-  {
-    "id": "2f6c9d4a29511d9d",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Lead AI Test Automation Architect",
-    "company": "High Tech Genesis",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://jobs.hightechgenesis.com/o/lead-ai-test-automation-architect",
-    "tags": [
-      "contract",
-      "other",
-      "Apexon",
-      "HM: Kris Soman",
-      "John Campbell"
-    ],
-    "postedAt": "2026-08-10T15:50:27.000Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
-    "isNew": true
   },
   {
     "id": "8d13cb3a3f32b36b",
@@ -776,6 +719,23 @@
     "score": 10,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "fa19a1fb4ee1f441",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "QA Lead – Space Engineers 1",
+    "company": "KSWH",
+    "location": "Prague, Czech Republic (On-site) / Remote within EU",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/kswh/jobs/4940594101",
+    "tags": [
+      "Quality Assurance"
+    ],
+    "postedAt": "2026-08-04T11:17:54-04:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "8d35158cd0a710bb",
@@ -978,6 +938,628 @@
     "isNew": false
   },
   {
+    "id": "15881e2247a7902b",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Lead Master Trainer & Director of Training Quality",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/21f2462c-0abf-44a5-9425-7d941c3ecb2f",
+    "tags": [
+      "Human Resources",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-01T12:04:57.219Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "060d6d52bb86576a",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - OpenAEV",
+    "company": "Filigran",
+    "location": "France",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/filigran/f94db84f-13f7-41b3-a245-2cf99146095e",
+    "tags": [
+      "Research & Development",
+      "Research & Development",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-01T11:37:30.685+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "50ac1138dce07e69",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Mission Operations Engineer, Europe",
+    "company": "Anduril Industries",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5154301007?gh_jid=5154301007",
+    "tags": [
+      "Connected Warfare : Mission Command Engineering : Mission Software Engineering"
+    ],
+    "postedAt": "2026-09-01T10:12:48-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "247845ac3be912c2",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Construction Administration Project Manager - Data Center",
+    "company": "Olsson",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/olsson/jobs/5412333008",
+    "tags": [
+      "Data Centers - Facilities Engineering & Design - GN"
+    ],
+    "postedAt": "2026-09-01T09:58:26-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "15af09c2373a02d6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Deputy Director, Connected Warfare Europe",
+    "company": "Anduril Industries",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "remote": false,
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100657007?gh_jid=5100657007",
+    "tags": [
+      "Connected Warfare : Mission Command Engineering : Mission Operations"
+    ],
+    "postedAt": "2026-09-01T09:34:17-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "05478883af611b6a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Data Delivery Platform",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
+    "tags": [
+      "Development"
+    ],
+    "postedAt": "2026-09-01T08:12:22-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "62a5e0edc635aa6e",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Service Engineer",
+    "company": "Veolia Environnement SA",
+    "location": "Gloucester, England, United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000146641119",
+    "tags": [
+      "Operations & Maintenance",
+      "Engineering",
+      "Full-time",
+      "Environmental Services"
+    ],
+    "postedAt": "2026-09-01T07:37:38.827Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "dd35c0b2a46be650",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Service Engineer",
+    "company": "Veolia Environnement SA",
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000146639264",
+    "tags": [
+      "Operations & Maintenance",
+      "Engineering",
+      "Full-time",
+      "Environmental Services"
+    ],
+    "postedAt": "2026-09-01T07:29:30.690Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "748ce2a66404862f",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager II, Config Deployments",
+    "company": "Pinterest",
+    "location": "Seattle, WA, US; Remote, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8104117",
+    "tags": [
+      "Data Engineering"
+    ],
+    "postedAt": "2026-09-01T06:32:39-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "19648990adb5f3a4",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Agent Foundations: Agent Execution ",
+    "company": "GitLab",
+    "location": "Remote, United States",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8759592002",
+    "tags": [
+      "AI Engineering"
+    ],
+    "postedAt": "2026-09-01T05:14:26-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "2f9585d8b4d9efd2",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - AI-Native Email App",
+    "company": "Bjakcareer",
+    "location": "Hong Kong",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bjakcareer/f15c8a80-8c32-4b2c-a5a5-2a87ade45c75",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-01T04:03:53.190+00:00",
+    "otherLocations": 6,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "c866171a8a3ac94d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Group Product Manager - Commercial Risk & Platform Fraud",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7862254",
+    "tags": [
+      "Product Management"
+    ],
+    "postedAt": "2026-09-01T03:44:46-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "e95fdc6619a45419",
+    "source": "adzuna",
+    "title": "Engineering Manager",
+    "company": "Kier Group",
+    "location": "Broadgate, Central London",
+    "remote": true,
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5863494799?se=ziIqJxCm8RGa4ZQTFTeMcw&utm_medium=api&utm_source=9b7a3075&v=6DDF7996B605903FD496B0625CB7683D7A776EC0",
+    "salaryMin": 65906.98,
+    "salaryMax": 65906.98,
+    "currency": "GBP",
+    "tags": [
+      "Engineering Jobs"
+    ],
+    "postedAt": "2026-09-01T00:54:52Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "11b631a5f5f6059e",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Staff Product Manager, Embedded Finance",
+    "company": "Airwallex",
+    "location": "US - San Francisco",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/airwallex/d18f4a94-34a8-4548-b3e4-85589f2c620d",
+    "tags": [
+      "Product",
+      "Scale Platform",
+      "FullTime",
+      "$190K – $270K • Offers Equity • Offers Bonus"
+    ],
+    "postedAt": "2026-09-01T00:35:45.264+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "9533f9aadc9b5a06",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Sales Engineering - Majors, PacNW",
+    "company": "Zscaler",
+    "location": "Remote - Oregon, USA; Remote - Washington, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198898007",
+    "tags": [
+      "WW GTM Sales Other"
+    ],
+    "postedAt": "2026-08-31T22:26:29-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "eb547b9ecd612aec",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager, Credential Governance",
+    "company": "1password",
+    "location": "Remote (United States | Canada)",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/1password/e84ee8a7-18ef-4303-a720-9fd582ce0f38",
+    "tags": [
+      "Technology",
+      "Product Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-08-31T20:46:11.744+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "e08f02dcbc119c69",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "Parity",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/parity/remote-engineering-manager-202206",
+    "tags": [
+      "Acceleration",
+      "Full Time"
+    ],
+    "postedAt": "2026-08-31T20:40:18.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "cdb50712cc9f8031",
+    "source": "arbeitnow",
+    "title": "Engineering Manager, Search Engine (all genders)",
+    "company": "Distribusion Technologies",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/remote-engineering-manager-search-engine-all-genders-berlin-282985",
+    "tags": [
+      "Technology",
+      "Remote",
+      "Manager",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-08-31T20:30:22.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "e4e105636b2896e7",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Project Manager, Platform (Contractor)",
+    "company": "Amplify",
+    "location": "Remote - United States",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/amplify/c7b15b15-ca38-455b-a226-d82637fd28fa",
+    "tags": [
+      "Product",
+      "Platform",
+      "Contract",
+      "$45 – $50 per hour"
+    ],
+    "postedAt": "2026-08-31T19:24:09.493+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "d5616f92ebbdec1b",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Manager IGA Engineering (Sailpoint ISC)- Remote",
+    "company": "Experian",
+    "location": "United States, UNITED STATES, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/Experian/744000146538149",
+    "tags": [
+      "Information Security",
+      "Information Technology",
+      "Full-time",
+      "Financial Services"
+    ],
+    "postedAt": "2026-08-31T19:02:38.224Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "f56bcf16aebe6b10",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager",
+    "company": "Permitflow",
+    "location": "New York City, NY",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/permitflow/aa994de3-23b8-4999-9b26-1a6618b2e342",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime",
+      "$180K – $250K • Offers Equity"
+    ],
+    "postedAt": "2026-08-31T18:25:18.501+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "6b8bb1094d69d657",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Build ",
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002",
+    "tags": [
+      "Platforms Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "e6458c883cdbfd95",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Data Foundations",
+    "company": "GitLab",
+    "location": "Remote, US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
+    "tags": [
+      "Data Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "5b1a3e47f26b6828",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": " Engineering Manager, Dedicated Integrations",
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
+    "tags": [
+      "Platforms Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "da9e297144669320",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Growth",
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
+    "tags": [
+      "Data Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "18110a9dcea7071c",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Switchboard",
+    "company": "GitLab",
+    "location": "Remote, United Kingdom",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
+    "tags": [
+      "Platforms Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "55f0ff8227e3ef57",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Tenant Scale:Git",
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
+    "tags": [
+      "Architecture Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "b1bbe9b1a113769d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Engineering, Git & Gitaly Operations",
+    "company": "GitLab",
+    "location": "Remote, Bangalore",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626740002",
+    "tags": [
+      "Architecture Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "b5f0cab5b97ef328",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Engineering, Nonlinear Productivity (Friction Elimination & Solutions)",
+    "company": "GitLab",
+    "location": "Remote, Bangalore",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632388002",
+    "tags": [
+      "Architecture Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "f3dc50e1824a5f80",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Support Engineering, US Government",
+    "company": "GitLab",
+    "location": "Remote, United States",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8707385002",
+    "tags": [
+      "Customer Success - PubSec"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "2977d747add8db37",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Principal Product Manager, Engineering Intelligence & Insights",
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597813002",
+    "tags": [
+      "Core DevOps"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "369dc90ed54ff2ee",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineering Manager, Non-Linear Productivity",
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626290002",
+    "tags": [
+      "Architecture Engineering"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "c895a8197015584d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, Product Security Engineering (Security Posture & Supply Chain)",
+    "company": "GitLab",
+    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8722934002",
+    "tags": [
+      "Product Security"
+    ],
+    "postedAt": "2026-08-31T17:56:36-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "bd64c803afcb8bea",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff Technical Program Manager, Identity and Product Safety",
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, CA, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8049832",
+    "tags": [
+      "Oversight Engineering"
+    ],
+    "postedAt": "2026-08-31T16:08:58-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
     "id": "9245c0198840c1bc",
     "source": "ashby",
     "vendor": "ashby",
@@ -1015,7 +1597,42 @@
     "postedAt": "2026-08-31T15:59:06.896Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
+  },
+  {
+    "id": "6feb4f0b94e14e47",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff Technical Program Manager, Compute Infrastructure",
+    "company": "Pinterest",
+    "location": "San Francisco, CA, US; Remote, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494634",
+    "tags": [
+      "Oversight Engineering"
+    ],
+    "postedAt": "2026-08-31T15:52:58-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "edb6f964944969b5",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Sr. Manager, Engineering",
+    "company": "Pinterest",
+    "location": "Seattle,WA, US; Palo Alto, CA,US; San Francisco, CA, US; Remote, US",
+    "remote": true,
+    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=6908633",
+    "tags": [
+      "Core Engineering"
+    ],
+    "postedAt": "2026-08-31T15:50:35-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
   },
   {
     "id": "e336ebb419a301c3",
@@ -1035,7 +1652,25 @@
     "postedAt": "2026-08-31T15:07:43.849Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
+  },
+  {
+    "id": "9118a38ffe91883b",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engagement Manager, Life Sciences",
+    "company": "Domino Data Lab",
+    "location": "Remote US, New York City preferred",
+    "remote": true,
+    "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/8077693?gh_jid=8077693",
+    "tags": [
+      "Solutions Engineering"
+    ],
+    "postedAt": "2026-08-31T14:57:03-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
   },
   {
     "id": "d89870173402aaec",
@@ -1052,6 +1687,23 @@
       "FullTime"
     ],
     "postedAt": "2026-08-31T13:59:54.702+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "1276779687af0722",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Engineering Manager, Treatments Platform",
+    "company": "Twin Health",
+    "location": "Remote, USA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/twinhealth/jobs/6167373004",
+    "tags": [
+      "Engineering "
+    ],
+    "postedAt": "2026-08-31T13:19:20-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": true
@@ -1089,7 +1741,7 @@
     "postedAt": "2026-08-31T10:04:28.077Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2b6855bbf5a9a816",
@@ -1127,7 +1779,7 @@
     "postedAt": "2026-08-31T09:51:10.682Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b03d5f4881c9a542",
@@ -1146,219 +1798,6 @@
       "Full Time - Permanent"
     ],
     "postedAt": "2026-08-31T09:14:41.649Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "6b8bb1094d69d657",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Build ",
-    "company": "GitLab",
-    "location": "Remote, United Kingdom",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586667002",
-    "tags": [
-      "Platforms Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "e6458c883cdbfd95",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Data Foundations",
-    "company": "GitLab",
-    "location": "Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
-    "tags": [
-      "Data Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "5b1a3e47f26b6828",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": " Engineering Manager, Dedicated Integrations",
-    "company": "GitLab",
-    "location": "Remote, United Kingdom",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8636648002",
-    "tags": [
-      "Platforms Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "da9e297144669320",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Growth",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592891002",
-    "tags": [
-      "Data Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "18110a9dcea7071c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Switchboard",
-    "company": "GitLab",
-    "location": "Remote, United Kingdom",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8586632002",
-    "tags": [
-      "Platforms Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "55f0ff8227e3ef57",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Tenant Scale:Git",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, United Kingdom; Remote, United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8617538002",
-    "tags": [
-      "Architecture Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "b1bbe9b1a113769d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Engineering, Git & Gitaly Operations",
-    "company": "GitLab",
-    "location": "Remote, Bangalore",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626740002",
-    "tags": [
-      "Architecture Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "b5f0cab5b97ef328",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Engineering, Nonlinear Productivity (Friction Elimination & Solutions)",
-    "company": "GitLab",
-    "location": "Remote, Bangalore",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8632388002",
-    "tags": [
-      "Architecture Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "f3dc50e1824a5f80",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Support Engineering, US Government",
-    "company": "GitLab",
-    "location": "Remote, United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8707385002",
-    "tags": [
-      "Customer Success - PubSec"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2977d747add8db37",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Principal Product Manager, Engineering Intelligence & Insights",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8597813002",
-    "tags": [
-      "Core DevOps"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "369dc90ed54ff2ee",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Engineering Manager, Non-Linear Productivity",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, United Kingdom; Remote, US",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8626290002",
-    "tags": [
-      "Architecture Engineering"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "c895a8197015584d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Manager, Product Security Engineering (Security Posture & Supply Chain)",
-    "company": "GitLab",
-    "location": "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8722934002",
-    "tags": [
-      "Product Security"
-    ],
-    "postedAt": "2026-08-31T08:28:38-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -1403,7 +1842,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0a55ead300f075ef",
@@ -1421,42 +1860,6 @@
     "postedAt": "2026-08-30T23:55:38.981Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "15af09c2373a02d6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Deputy Director, Connected Warfare Europe",
-    "company": "Anduril Industries",
-    "location": "Amsterdam, North Holland, Netherlands",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100657007?gh_jid=5100657007",
-    "tags": [
-      "Connected Warfare : Mission Command Engineering : Mission Operations"
-    ],
-    "postedAt": "2026-08-30T06:09:32-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "50ac1138dce07e69",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Mission Operations Engineer, Europe",
-    "company": "Anduril Industries",
-    "location": "Amsterdam, North Holland, Netherlands",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5154301007?gh_jid=5154301007",
-    "tags": [
-      "Connected Warfare : Mission Command Engineering : Mission Software Engineering"
-    ],
-    "postedAt": "2026-08-29T15:26:24-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -1535,7 +1938,7 @@
     "postedAt": "2026-08-28T19:58:40.482+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c88be2eb3eccae8a",
@@ -1573,14 +1976,14 @@
     "isNew": false
   },
   {
-    "id": "0bbf946ba0e2bf83",
+    "id": "df32665ee7b11b12",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Engineering Manager V&V Media",
     "company": "Twilio",
-    "location": "Remote - United Kingdom",
+    "location": "Remote - Ontario, Canada (DNU)",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067147",
+    "url": "https://job-boards.greenhouse.io/twilio/jobs/8067501",
     "tags": [
       "Engineering"
     ],
@@ -1589,7 +1992,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "6fd1f643c0abb4ef",
@@ -1687,22 +2090,22 @@
     "isNew": false
   },
   {
-    "id": "e9f66bf776f28f81",
+    "id": "989ca306b8c49816",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Engineering Manager, Enterprise Fulfillment",
     "company": "Instacart",
-    "location": "United States - Remote",
+    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8084349",
+    "url": "https://instacart.careers/job/?gh_jid=8084350",
     "tags": [
       "Leadership (Engineering)"
     ],
-    "postedAt": "2026-08-28T16:51:46-04:00",
+    "postedAt": "2026-08-28T16:51:47-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "059ec69af2aed579",
@@ -1717,26 +2120,6 @@
       "Data Centers - Facilities Engineering & Design - GN"
     ],
     "postedAt": "2026-08-28T16:42:31-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "365ad6b078da779a",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Sr. Manager, OTA Vehicle Engineering",
-    "company": "Rivianvw.Tech",
-    "location": "Palo Alto, California",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/rivianvw.tech/30d089ce-e7c9-4ff7-89b0-39fcdddc897e",
-    "tags": [
-      "Technology and Innovation",
-      "Systems Integrations and Diagnostics",
-      "FullTime",
-      "$237,200 – $326,150 • Offers Equity • Offers Bonus • This role has an annual bonus target of 20%"
-    ],
-    "postedAt": "2026-08-28T15:43:15.826+00:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -1868,23 +2251,6 @@
     "isNew": false
   },
   {
-    "id": "23d85b42cf218e88",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Customer Data Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
-    "tags": [
-      "Development"
-    ],
-    "postedAt": "2026-08-28T11:06:49-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "ff62fa3e8550e6a5",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2004,26 +2370,6 @@
     "isNew": false
   },
   {
-    "id": "de7f5d2e91a64dbf",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Product Operations Analyst ",
-    "company": "Endava",
-    "location": "Remote, , United States",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/Endava/744000146066119",
-    "tags": [
-      "Client Delivery",
-      "Engineering",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-08-27T20:38:30.161Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "f5a6714070275e90",
     "source": "ashby",
     "vendor": "ashby",
@@ -2137,14 +2483,14 @@
     "isNew": false
   },
   {
-    "id": "24556a95f20425c9",
+    "id": "5c524b519dffb625",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Product Manager, Core Products & Platform",
     "company": "Fundraise Up",
-    "location": "Armenia - Remote",
+    "location": "Cyprus - Remote",
     "remote": true,
-    "url": "https://fundraiseup.com/careers/4715412005/?gh_jid=4715412005",
+    "url": "https://fundraiseup.com/careers/4714324005/?gh_jid=4714324005",
     "tags": [
       "Product Management"
     ],
@@ -2219,24 +2565,6 @@
     "location": "Arkansas - Remote; Colorado - Remote; Dallas, TX; Denver, CO; Fayetteville, AR; Fort Worth, TX; Joplin, MO; Kansas - Remote; Kansas City, MO; Missouri - Remote; Nebraska - Remote; North Kansas City, MO; Omaha, NE; Overland Park, KS; Springfield, MO; Texas - Remote",
     "remote": true,
     "url": "https://job-boards.greenhouse.io/olsson/jobs/5152340008",
-    "tags": [
-      "Utility Substation and Power Generation- GN"
-    ],
-    "postedAt": "2026-08-27T15:35:51-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "5f55ee2b9a450ed7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Substation Group Leader (Engineering Manager)",
-    "company": "Olsson",
-    "location": "Arizona - Remote; Colorado - Remote; Dallas, TX; Denver, CO; Fort Worth, TX; Phoenix, AZ; Texas - Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/olsson/jobs/5116730008",
     "tags": [
       "Utility Substation and Power Generation- GN"
     ],
@@ -2358,7 +2686,7 @@
     "postedAt": "2026-08-27T08:40:20.651+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9a914b69e0567601",
@@ -2570,25 +2898,6 @@
     "isNew": false
   },
   {
-    "id": "833b331b4c6306da",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Staff Product Manager, Telematics Platform",
-    "company": "Motive",
-    "location": "United States - Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gomotive/jobs/8303849002",
-    "tags": [
-      "Product"
-    ],
-    "postedAt": "2026-08-26T13:49:51-04:00",
-    "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "a4aeb56338f92373",
     "source": "ashby",
     "vendor": "ashby",
@@ -2778,23 +3087,6 @@
     "isNew": false
   },
   {
-    "id": "748ce2a66404862f",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager II, Config Deployments",
-    "company": "Pinterest",
-    "location": "Seattle, WA, US; Remote, US",
-    "remote": true,
-    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8104117",
-    "tags": [
-      "Data Engineering"
-    ],
-    "postedAt": "2026-08-25T18:20:09-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "d58d213ffea7a376",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -2809,6 +3101,7 @@
     "postedAt": "2026-08-25T17:06:16-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -2826,6 +3119,7 @@
     "postedAt": "2026-08-25T17:05:30-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -2843,6 +3137,7 @@
     "postedAt": "2026-08-25T17:04:34-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -3097,23 +3392,6 @@
     "isNew": false
   },
   {
-    "id": "edb6f964944969b5",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Manager, Engineering",
-    "company": "Pinterest",
-    "location": "Seattle,WA, US; Palo Alto, CA,US; San Francisco, CA, US; Remote, US",
-    "remote": true,
-    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=6908633",
-    "tags": [
-      "Core Engineering"
-    ],
-    "postedAt": "2026-08-24T16:22:35-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "b8dbd6224c695867",
     "source": "ashby",
     "vendor": "ashby",
@@ -3208,7 +3486,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eed20a210eb67bc1",
@@ -3247,14 +3525,14 @@
     "isNew": false
   },
   {
-    "id": "f0857c2c4dceb00f",
+    "id": "e0b272b8a59b522a",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Senior Product Manager, Retailer Platform",
     "company": "Instacart",
-    "location": "Canada - Remote (ON, AB, BC, or NS Only)",
+    "location": "United States - Remote",
     "remote": true,
-    "url": "https://instacart.careers/job/?gh_jid=8014062",
+    "url": "https://instacart.careers/job/?gh_jid=8014060",
     "tags": [
       "Product Management"
     ],
@@ -3399,24 +3677,6 @@
     "isNew": false
   },
   {
-    "id": "e19c4c77fd411b05",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manager, Quality Practice Advisor",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a1d2ee48-a3ad-4b1e-b1d5-0589a7fdabc2",
-    "tags": [
-      "Others",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T10:23:00.082Z",
-    "tier": "lead",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "efe64e4419f884f1",
     "source": "ashby",
     "vendor": "ashby",
@@ -3448,25 +3708,6 @@
       "620- Engineering"
     ],
     "postedAt": "2026-08-24T08:55:06-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2b332a23b5b4b95f",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager",
-    "company": "Deliveroo",
-    "location": "London - The River Building HQ",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/deliveroo/26973006-14a8-455d-befb-d9404a1fbd91",
-    "tags": [
-      "All Cost Centers",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-24T08:24:29.598+00:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -3918,23 +4159,6 @@
     "isNew": false
   },
   {
-    "id": "bd64c803afcb8bea",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Staff Technical Program Manager, Identity and Product Safety",
-    "company": "Pinterest",
-    "location": "San Francisco, CA, US; Remote, CA, US",
-    "remote": true,
-    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8049832",
-    "tags": [
-      "Oversight Engineering"
-    ],
-    "postedAt": "2026-08-20T21:53:42-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "6ed3ddc14ef615ee",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4039,23 +4263,6 @@
     "postedAt": "2026-08-20T21:38:49-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "6feb4f0b94e14e47",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Staff Technical Program Manager, Compute Infrastructure",
-    "company": "Pinterest",
-    "location": "San Francisco, CA, US; Remote, US",
-    "remote": true,
-    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7494634",
-    "tags": [
-      "Oversight Engineering"
-    ],
-    "postedAt": "2026-08-20T21:38:48-04:00",
-    "tier": "adjacent",
-    "score": 5,
     "repostCount": 2,
     "isNew": false
   },
@@ -4097,35 +4304,18 @@
     "isNew": false
   },
   {
-    "id": "dbf988fcac2b8047",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Manager, Sales Engineering - Majors, West",
-    "company": "Zscaler",
-    "location": "Remote - California, USA; Remote - Washington, USA",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5198898007",
-    "tags": [
-      "WW GTM Sales Other"
-    ],
-    "postedAt": "2026-08-20T18:25:16-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "5d85ebb7ababbf60",
+    "id": "305fd131c30fe299",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Manager, Solutions Engineering",
     "company": "Wiz, Inc.",
-    "location": "Remote - South Korea",
+    "location": "Remote - Australia",
     "remote": true,
-    "url": "https://www.wiz.io/careers/job/4671793006/:title?gh_jid=4671793006",
+    "url": "https://www.wiz.io/careers/job/4627167006/:title?gh_jid=4627167006",
     "tags": [
       "SE"
     ],
-    "postedAt": "2026-08-20T17:59:56-04:00",
+    "postedAt": "2026-08-20T17:59:26-04:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
@@ -4269,6 +4459,25 @@
     "isNew": false
   },
   {
+    "id": "6dca397dc5d04d71",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Technical Product Manager Battery Chargers and DC Distribution",
+    "company": "RocketSourcers B.V.",
+    "location": "Eindhoven, Noord-Brabant, Netherlands",
+    "remote": false,
+    "url": "https://rocketsourcers.recruitee.com/o/technical-product-manager-battery-chargers-and-dc-distribution",
+    "tags": [
+      "Victron Energy",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-08-20T14:12:53.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "73b6a4bd18cf1d3f",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -4283,7 +4492,6 @@
       "Marketing And Advertising"
     ],
     "postedAt": "2026-08-20T13:05:00.317Z",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -4303,23 +4511,6 @@
       "FullTime"
     ],
     "postedAt": "2026-08-20T12:56:51.111+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "c866171a8a3ac94d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Group Product Manager - Commercial Risk & Platform Fraud",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7862254",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-08-20T10:21:49-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -4450,23 +4641,6 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
-  },
-  {
-    "id": "76916e16dc79ca2e",
-    "source": "adzuna",
-    "title": "Engineering Manager",
-    "company": "TOPdesk",
-    "location": "Delft, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5849143876?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-20T04:04:42Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
   },
   {
     "id": "51faf7125c5e6066",
@@ -4712,6 +4886,25 @@
     "isNew": false
   },
   {
+    "id": "f37582cd37d9a92b",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Test Engineer",
+    "company": "Qualinx",
+    "location": "Delft, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://qualinx.recruitee.com/o/test-engineer-1",
+    "tags": [
+      "Operations",
+      "fulltime_permanent",
+      "engineering"
+    ],
+    "postedAt": "2026-08-19T09:43:50.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "a60748efd804a945",
     "source": "ashby",
     "vendor": "ashby",
@@ -4750,7 +4943,7 @@
     "postedAt": "2026-08-19T03:08:03.382+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0d5d7e8e071ec562",
@@ -4768,26 +4961,6 @@
       "$156K – $195K • Offers Equity • Offers Bonus • Starting compensation may vary based on geographic location, work experience, and skills."
     ],
     "postedAt": "2026-08-19T00:54:11.732+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "8f04f08646a83027",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Senior Manager Identity Governance Administration Engineering - Remote",
-    "company": "Experian",
-    "location": "United States, UNITED STATES, United States",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/Experian/744000144176399",
-    "tags": [
-      "Information Security",
-      "Information Technology",
-      "Full-time",
-      "Financial Services"
-    ],
-    "postedAt": "2026-08-18T22:34:22.536Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -4830,13 +5003,13 @@
     "postedAt": "2026-08-18T18:37:27.491+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
-    "id": "064a4a5f34ab4f90",
+    "id": "984a0955ac6cc27a",
     "source": "ashby",
     "vendor": "ashby",
-    "title": "Engineering Manager (Agentic Engineering)",
+    "title": "Software Engineering Manager (Agentic Engineering)",
     "company": "Coder",
     "location": "United Kingdom",
     "remote": true,
@@ -4848,9 +5021,10 @@
       "£94K – £141K • Offers Equity • Offers Bonus • Multiple Ranges"
     ],
     "postedAt": "2026-08-18T18:20:49.527+00:00",
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "53510efaf3b68616",
@@ -5070,6 +5244,7 @@
     "postedAt": "2026-08-17T22:17:25.752+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -5088,23 +5263,6 @@
       "Information Technology And Services"
     ],
     "postedAt": "2026-08-17T19:06:57.886Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "9118a38ffe91883b",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engagement Manager, Life Sciences",
-    "company": "Domino Data Lab",
-    "location": "Remote US, New York City preferred",
-    "remote": true,
-    "url": "https://app.careerpuck.com/job-board/domino-data-lab/job/8077693?gh_jid=8077693",
-    "tags": [
-      "Solutions Engineering"
-    ],
-    "postedAt": "2026-08-17T15:37:23-04:00",
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -5257,6 +5415,7 @@
     "postedAt": "2026-08-17",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -5292,27 +5451,7 @@
       "Product"
     ],
     "postedAt": "2026-08-14T22:46:00-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "b42bf7daa500f656",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Senior Software Engineering Manager | Applied AI Engineering",
-    "company": "ServiceNow",
-    "location": "Santa Clara, California, United States",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143600504",
-    "tags": [
-      "Digital Technology",
-      "Engineering",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-08-14T20:29:30.309Z",
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -5697,27 +5836,6 @@
     "isNew": false
   },
   {
-    "id": "2f9585d8b4d9efd2",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager - AI-Native Email App",
-    "company": "Bjakcareer",
-    "location": "Hong Kong",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/bjakcareer/f15c8a80-8c32-4b2c-a5a5-2a87ade45c75",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T04:07:51.285+00:00",
-    "otherLocations": 6,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "3367ebc352037675",
     "source": "ashby",
     "vendor": "ashby",
@@ -5735,7 +5853,7 @@
     "postedAt": "2026-08-14T01:46:52.376+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "99443eb07646f071",
@@ -5904,7 +6022,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a8a21b34186fc218",
@@ -5944,7 +6062,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f649e635bbbd9eeb",
@@ -6020,7 +6138,7 @@
       "Checkout"
     ],
     "postedAt": "2026-08-12T15:12:11-04:00",
-    "otherLocations": 2,
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -6652,22 +6770,24 @@
     "isNew": false
   },
   {
-    "id": "c4a9b5151705f83d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Solutions Engineering Manager, Product Specialist",
-    "company": "Motive",
-    "location": "United States - Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gomotive/jobs/8682523002",
+    "id": "fcb03ec4cda18aed",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Interim Site & Execution Manager",
+    "company": "SKYTREE",
+    "location": "Nijmegen, Gelderland, Netherlands",
+    "remote": false,
+    "url": "https://skytree.recruitee.com/o/interim-site-execution-manager",
     "tags": [
-      "Solutions Engineering ENT"
+      "Product & Engineering",
+      "fulltime_permanent",
+      "engineering"
     ],
-    "postedAt": "2026-08-06T09:23:47-04:00",
+    "postedAt": "2026-08-06T09:23:19.000Z",
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "1917329caa08513b",
@@ -7082,6 +7202,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -7159,28 +7280,28 @@
     "isNew": false
   },
   {
-    "id": "87800ed19f490665",
+    "id": "8d9368e482ac66c2",
     "source": "workday",
     "vendor": "workday",
-    "title": "Product Manager L6, Data Platform - Analytics Experience",
+    "title": "Engineering Manager - Asset Personalization Platform",
     "company": "Netflix",
     "location": "USA - Remote",
     "remote": true,
-    "url": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Product-Manager-L6--Data-Platform---Analytics-Experience_JR40363",
+    "url": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Engineering-Manager---Asset-Personalization-Platform_JR42362",
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "42a927b96c87d66f",
+    "id": "df3da581e4b7751d",
     "source": "workday",
     "vendor": "workday",
-    "title": "Senior Engineering Manager, Infrastructure Security Engineering - DGX Cloud",
-    "company": "Nvidia",
-    "location": "Canada, Remote",
+    "title": "Team Lead, Identity and Access Management — Okta Operations & Engineering",
+    "company": "Unisys",
+    "location": "USA Remote",
     "remote": true,
-    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Remote/Senior-Engineering-Manager--Infrastructure-Security-Engineering---DGX-Cloud_JR2023147-1",
+    "url": "https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Team-Lead--Identity-and-Access-Management---Okta-Operations---Engineering_REQ574403",
     "tags": [],
     "tier": "adjacent",
     "score": 5,
@@ -7202,6 +7323,43 @@
     "isNew": false
   },
   {
+    "id": "cdc77bb03a562809",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Manager IGA Engineering (Sailpoint ISC)",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/3b677daa-7563-4a3b-96ea-92c8aee0273b",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-01T13:20:30.744Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
+    "id": "bdc806cb2cfef00a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Software Engineering Manager (Core Workspaces)",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1249aa34-6a38-4ecb-b434-9a2b41783663",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-01T06:18:01.652Z",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
     "id": "90c3f618a00c2c25",
     "source": "lever",
     "vendor": "lever",
@@ -7217,7 +7375,7 @@
     "postedAt": "2026-08-31T13:33:58.425Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "17c8eefab61ee5a5",
@@ -7366,24 +7524,6 @@
     "isNew": false
   },
   {
-    "id": "7716e584c8b21ac9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, Data Modeling",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e9d119a0-4c5b-4867-a4a5-beb9de6ba899",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-26T05:19:53.147Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
     "id": "34fac4697c53e060",
     "source": "lever",
     "vendor": "lever",
@@ -7458,93 +7598,108 @@
     "isNew": false
   },
   {
-    "id": "92fb7d6c262d7b3b",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software Engineering Manager",
-    "company": "Jobgether",
-    "location": "US",
+    "id": "7b9e22d17cd31e69",
+    "source": "adzuna",
+    "title": "QA Engineer (Remote-Worldwide)",
+    "company": "Your Software Supplier",
+    "location": "Nederland",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1f3558a3-6dfe-4979-a8c8-a937442e6fa1",
+    "url": "https://www.adzuna.nl/details/5864551526?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 720,
+    "salaryMax": 1344,
+    "currency": "EUR",
     "tags": [
-      "IT",
-      "Full-time"
+      "Bouwkunde vacatures"
     ],
-    "postedAt": "2026-08-24T07:56:32.626Z",
-    "tier": "adjacent",
-    "score": 2.5,
+    "postedAt": "2026-09-01T13:58:22Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "975634083fb7bbdc",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior QA Engineer",
+    "company": "Sporty Group",
+    "location": "Global - Remote",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4725325101",
+    "tags": [
+      "Sporty Technical"
+    ],
+    "postedAt": "2026-09-01T06:01:46-04:00",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
-    "id": "771f5ba9f265a5cc",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, Product Design - Product Platform",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/28041050-448b-4f49-8394-3bba06c91c34",
+    "id": "9d8a3a1c0b5a57b7",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Test Engineer - Embedded Software",
+    "company": "Hudl",
+    "location": "Den Bosch, Netherlands",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/hudl/jobs/7338957",
     "tags": [
-      "Design",
-      "Full-time"
+      "Hardware R&D"
     ],
-    "postedAt": "2026-08-24T07:39:08.759Z",
-    "tier": "adjacent",
-    "score": 2.5,
+    "postedAt": "2026-09-01T03:04:57-04:00",
+    "tier": "ic",
+    "score": 1,
     "isNew": false
   },
   {
-    "id": "5d59fa1f98b0f3ae",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineering Manager – Salesforce",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/7aea28b8-c70f-429d-98e5-5b9feffb0aec",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T07:20:26.743Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "a8f58dd47790f2af",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager, AI Product Development",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/069ae82c-8100-47ed-924b-d3e0a86a2757",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T06:18:49.977Z",
-    "otherLocations": 15,
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "30b571bcfc6649a5",
-    "source": "ashby",
-    "vendor": "ashby",
+    "id": "e6fe64d5e6d51b92",
+    "source": "arbeitnow",
     "title": "AI Automation Engineer (FitMe)",
     "company": "Gismart",
     "location": "Remote",
     "remote": true,
-    "url": "https://jobs.ashbyhq.com/gismart/324aaf7b-554b-40a4-aee7-b02719751531",
+    "url": "https://www.arbeitnow.com/jobs/companies/gismart/remote-ai-automation-engineer-fitme-395989",
     "tags": [
       "FitMe",
-      "FitMe",
+      "Full Time"
+    ],
+    "postedAt": "2026-08-31T23:40:03.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "e2976322f261a66c",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Network Automation / NOC Engineer ",
+    "company": "Onhires",
+    "location": "Europe (remote)",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/onhires/768cd15e-ccbc-4d0d-8060-974bbf138113",
+    "tags": [
+      "IT Support / SysAdmin",
+      "IT Support / SysAdmin",
       "FullTime"
     ],
-    "postedAt": "2026-08-31T14:52:25.064+00:00",
+    "postedAt": "2026-08-31T20:37:45.254+00:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "a31fe1b1cbf68f75",
+    "source": "arbeitnow",
+    "title": "QA Software Test Automation Engineers (Java)",
+    "company": "Xm",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/xm/remote-qa-software-test-automation-engineers-java-204520",
+    "tags": [
+      "Quality Assurance",
+      "Full-time"
+    ],
+    "postedAt": "2026-08-31T20:04:06.000Z",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -7564,7 +7719,7 @@
     "postedAt": "2026-08-31T13:07:25-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3606391d4ee846c4",
@@ -7584,7 +7739,7 @@
     "postedAt": "2026-08-31T12:05:43.973+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "17c44ba7e863f5f0",
@@ -7602,7 +7757,7 @@
     "postedAt": "2026-08-31T09:22:52.635Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1dd14ee1ef341691",
@@ -7866,25 +8021,6 @@
     "isNew": false
   },
   {
-    "id": "e202d67a4dbe6ed1",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Salto CloudWorks",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5856983139?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 720,
-    "salaryMax": 864,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-08-26T17:33:49Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "ae42a679a48143d4",
     "source": "ashby",
     "vendor": "ashby",
@@ -7911,7 +8047,7 @@
     "company": "Lemon.io",
     "location": "Europe",
     "remote": true,
-    "url": "https://remotive.com/remote-jobs/software-development/senior-qa-engineer-2091100",
+    "url": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100",
     "tags": [
       ".Net",
       "android",
@@ -7958,7 +8094,7 @@
       "testing",
       "next.js",
       "flutter",
-      "Software Development",
+      "Quality Assurance",
       "full_time"
     ],
     "postedAt": "2026-08-26T13:10:58",
@@ -8023,23 +8159,6 @@
     "isNew": false
   },
   {
-    "id": "9d8a3a1c0b5a57b7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Test Engineer - Embedded Software",
-    "company": "Hudl",
-    "location": "Den Bosch, Netherlands",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/hudl/jobs/7338957",
-    "tags": [
-      "Hardware R&D"
-    ],
-    "postedAt": "2026-08-26T04:40:58-04:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "5bbffe82494ce7ea",
     "source": "ashby",
     "vendor": "ashby",
@@ -8077,61 +8196,23 @@
     "isNew": false
   },
   {
-    "id": "e486c1de7d7707b8",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Software Engineer, Code Quality for AI Training (Python)",
-    "company": "G2i",
-    "location": "Remote",
+    "id": "0def5a6961d1ea2b",
+    "source": "adzuna",
+    "title": "Senior QA Automation Engineer",
+    "company": "Ocho",
+    "location": "Belfast, Northern Ireland",
     "remote": true,
-    "url": "https://jobs.ashbyhq.com/g2i/bb8b999a-d585-4f44-a992-c1ba6fb4a005",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5855395434?se=ziIqJxCm8RGa4ZQTFTeMcw&utm_medium=api&utm_source=9b7a3075&v=FD3FA409BE48A64A9ED3197F88A14CEBD5B8167A",
+    "salaryMin": 65000,
+    "salaryMax": 65000,
+    "currency": "GBP",
     "tags": [
-      "G2i Eng Team",
-      "G2i Eng Team",
-      "Contract"
+      "IT Jobs"
     ],
-    "postedAt": "2026-08-25T14:11:18.265+00:00",
+    "postedAt": "2026-08-25T14:42:19Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "1e8361a504725f42",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Go - Senior Backend Engineer, AI Coding Agent Quality",
-    "company": "G2i",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/g2i/0568f150-f053-49e7-9393-48ac93ff7626",
-    "tags": [
-      "G2i Eng Team",
-      "G2i Eng Team",
-      "Contract"
-    ],
-    "postedAt": "2026-08-25T14:09:59.907+00:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "3b95233c4044a3d6",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Python - Senior Backend Engineer, AI Coding Agent Quality",
-    "company": "G2i",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/g2i/540429c2-b990-4b97-8020-70a2171731bf",
-    "tags": [
-      "G2i Eng Team",
-      "G2i Eng Team",
-      "Contract"
-    ],
-    "postedAt": "2026-08-25T14:09:33.326+00:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "a7c85ea1a2d823d9",
@@ -8186,24 +8267,6 @@
     "postedAt": "2026-08-24T13:55:19.314Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "975634083fb7bbdc",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior QA Engineer",
-    "company": "Sporty Group",
-    "location": "Global - Remote",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4725325101",
-    "tags": [
-      "Sporty Technical"
-    ],
-    "postedAt": "2026-08-24T07:23:25-04:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8343,6 +8406,25 @@
     "isNew": false
   },
   {
+    "id": "88d30966c352f7f0",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Software Test Engineer",
+    "company": "SwissPeak Partners GmbH",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://swisspeak-partners.ch/o/software-test-engineer",
+    "tags": [
+      "fulltime_permanent",
+      "information_technology",
+      "Nexplore"
+    ],
+    "postedAt": "2026-08-20T14:03:20.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "00dbd7e441fba650",
     "source": "workable",
     "vendor": "workable",
@@ -8393,23 +8475,6 @@
       "Full-Time"
     ],
     "postedAt": "2026-08-19T16:12:58.172Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "acbc231112f2f2bf",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "QA Automation Engineer",
-    "company": "Empower Pharmacy",
-    "location": "US Remote",
-    "remote": true,
-    "url": "https://careers.empowerpharmacy.com/jobs/?gh_jid=4371980009",
-    "tags": [
-      "IT"
-    ],
-    "postedAt": "2026-08-19T14:42:34-04:00",
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -8562,23 +8627,6 @@
     "isNew": false
   },
   {
-    "id": "d4d5a5af17650102",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr Reliability / Quality Engineer, Data Center Infrastructure Products",
-    "company": "Tract Capital Management, LP",
-    "location": "Alexandria, Virginia, United States; Austin, Texas, United States; Denver, Colorado, United States; Remote US; Seattle, Washington, United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/tractcapitalmanagementlp/jobs/4343772009",
-    "tags": [
-      "Tract Capital - Hardware"
-    ],
-    "postedAt": "2026-08-17T10:49:55-04:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "5ec5f212de28d428",
     "source": "adzuna",
     "title": "QA Engineer",
@@ -8630,24 +8678,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "af04abf015af6777",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "SR Mobile QA Automation Engineer",
-    "company": "Coderio",
-    "location": "Lima",
-    "remote": true,
-    "url": "https://jobs.lever.co/coderio/f6b8a6ec-54ab-41bf-aacf-2fa431392d6b",
-    "tags": [
-      "Engineering",
-      "Contract | Remote"
-    ],
-    "postedAt": "2026-08-14T16:47:19.206Z",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -8823,14 +8853,14 @@
     "isNew": false
   },
   {
-    "id": "429ef89e71527625",
+    "id": "62a2379d8bde4cb1",
     "source": "greenhouse",
     "vendor": "greenhouse",
     "title": "Software Engineer II, Backend (Test Infra)",
     "company": "Affirm",
-    "location": "Remote US",
+    "location": "Remote Canada",
     "remote": true,
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
     "tags": [
       "Infrastructure Platform Eng"
     ],
@@ -9282,23 +9312,6 @@
     "isNew": false
   },
   {
-    "id": "a33b3590a2eac9d3",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "IS International Services",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5826742454?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-08-03T19:10:59Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "c2870e4e4362957f",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -9315,6 +9328,20 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "db41fa5b5100cde6",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Quality Systems Engineer",
+    "company": "Adient",
+    "location": "Holland, MI",
+    "remote": false,
+    "url": "https://adient.wd3.myworkdayjobs.com/External/job/Holland-MI/Quality-Systems-Engineer_R-29188",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "5a1cc6177a5141a9",
@@ -9391,6 +9418,43 @@
     "isNew": false
   },
   {
+    "id": "d2fb8b714ba1742b",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Quality Engineer",
+    "company": "Jobgether",
+    "location": "Canada",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/2c05aff6-0d56-41cf-b7d3-6b3fd5592ce0",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-01T12:24:09.645Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "fa51e93150d4c103",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Data Quality Engineer",
+    "company": "Jobgether",
+    "location": "US",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/30d584bb-2bde-46ee-ab98-872427f56588",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-01T10:27:34.801Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
     "id": "d58516a1ef38f660",
     "source": "lever",
     "vendor": "lever",
@@ -9406,7 +9470,7 @@
     "postedAt": "2026-08-31T15:04:47.414Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ff960666b8c065ab",
@@ -9425,7 +9489,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a88411bcb19a65b8",
@@ -9443,7 +9507,7 @@
     "postedAt": "2026-08-31T11:51:27.274Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "796f9cad5e163dc9",
@@ -9461,7 +9525,7 @@
     "postedAt": "2026-08-31T10:25:51.248Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "38dcd40e2c84ff33",
@@ -9479,7 +9543,7 @@
     "postedAt": "2026-08-31T06:47:01.523Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d07f9c8a1dddc943",
@@ -9627,63 +9691,6 @@
     "postedAt": "2026-08-25T09:03:46.956Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "ca3b4678296211bd",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Automation Engineer (A)",
-    "company": "Jobgether",
-    "location": "US",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/25f406ee-d6e4-4ee6-9b95-3843e8150682",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T07:46:30.150Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "0b97622f7d9a4bfc",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "MarTech Engineer - AI & Automation",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1c2c9e9e-e02a-4a73-815d-f92ece01ca42",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T06:32:55.527Z",
-    "otherLocations": 9,
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "1c6d15c63819bd49",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Automation Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/9b7d03fe-0744-4c4c-bebb-a25661c6aacc",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-08-24T06:02:54.858Z",
-    "otherLocations": 24,
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 2,
     "isNew": false
   }
 ]
