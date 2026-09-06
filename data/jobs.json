@@ -1,5 +1,24 @@
 [
   {
+    "id": "ab8e8aee2f1faa5f",
+    "source": "jobicy",
+    "title": "Senior Manager, IT Platform Engineering - FIXED TERM",
+    "company": "ŌURA",
+    "location": "USA",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/148338-senior-manager-it-platform-engineering-fixed-term",
+    "currency": "USD",
+    "tags": [
+      "Software Engineering",
+      "Full-Time",
+      "Senior"
+    ],
+    "postedAt": "2026-09-06T05:30:11+00:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "73929f10e1047b76",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -12,6 +31,24 @@
       "Product & Technology"
     ],
     "postedAt": "2026-09-04T14:37:45-04:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": false
+  },
+  {
+    "id": "5ef685cff6b4899d",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Quality and Release Manager",
+    "company": "Raya",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.lever.co/raya/b4525eaa-b246-4a83-8cb8-0d8ddd4b5ab5",
+    "tags": [
+      "Engineering",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-04T00:01:32.094Z",
     "tier": "lead",
     "score": 10,
     "isNew": true
@@ -572,26 +609,6 @@
     "isNew": false
   },
   {
-    "id": "1558e65208f2931b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manager, Software Engineering",
-    "company": "Top Hat",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/top-hat/ac9bf228-f7d6-496d-bdd2-35825b90a431",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-06T19:54:45.564+00:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "e303131841c63e3c",
     "source": "workday",
     "vendor": "workday",
@@ -603,6 +620,7 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -666,6 +684,25 @@
     "isNew": false
   },
   {
+    "id": "8922661ce8b5adb1",
+    "source": "jobicy",
+    "title": "Staff Technical Product Manager, Ads ML Platform",
+    "company": "Reddit",
+    "location": "USA",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/145336-staff-technical-product-manager-ads-ml-platform",
+    "currency": "USD",
+    "tags": [
+      "Product & Operations",
+      "Full-Time",
+      "Senior"
+    ],
+    "postedAt": "2026-09-06T05:35:06+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "50ac1138dce07e69",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -678,24 +715,6 @@
       "Connected Warfare : Mission Command Engineering : Mission Software Engineering"
     ],
     "postedAt": "2026-09-05T08:23:51-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "15af09c2373a02d6",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Deputy Director, Connected Warfare Europe",
-    "company": "Anduril Industries",
-    "location": "Amsterdam, North Holland, Netherlands",
-    "remote": false,
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5100657007?gh_jid=5100657007",
-    "tags": [
-      "Connected Warfare : Mission Command Engineering : Mission Operations"
-    ],
-    "postedAt": "2026-09-05T07:49:12-04:00",
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
@@ -719,7 +738,7 @@
     "postedAt": "2026-09-05T04:19:12.741+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "946a4d5f9445b879",
@@ -739,7 +758,7 @@
     "postedAt": "2026-09-04T23:05:32.625+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "240c6c67c2254323",
@@ -760,7 +779,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4059cacb61a2a889",
@@ -780,7 +799,7 @@
     "postedAt": "2026-09-04T19:26:54.513Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f8db7f88ed36bbf5",
@@ -799,7 +818,7 @@
     "postedAt": "2026-09-04T18:41:32.582+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c3687219ad765a1b",
@@ -818,7 +837,7 @@
     "postedAt": "2026-09-04T15:57:25.910+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d6a6eff28929ff0d",
@@ -856,7 +875,7 @@
     "postedAt": "2026-09-04T14:20:58.326+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "78acacd9d8a40d66",
@@ -873,7 +892,7 @@
     "postedAt": "2026-09-04T13:52:03-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "748ce2a66404862f",
@@ -1050,6 +1069,7 @@
     "postedAt": "2026-09-04T13:22:11-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -1122,7 +1142,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7bb12afb6ae05e3b",
@@ -1140,7 +1160,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "064a244c516502f5",
@@ -1157,7 +1177,7 @@
     "postedAt": "2026-09-04T13:06:00-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8dcbce4b088806a1",
@@ -1194,7 +1214,7 @@
     "postedAt": "2026-09-04T11:09:13-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b49a05d4958228cf",
@@ -1212,7 +1232,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c5a28cbb5ca036e4",
@@ -1300,6 +1320,24 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "4569eedb169edfa8",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Server Engineering Manager, Member Experience",
+    "company": "Raya",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.lever.co/raya/112cf2b7-a07b-42ae-932d-10d4037e6d35",
+    "tags": [
+      "Engineering",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-03T23:05:57.812Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "534f5fb6fa9a0e56",
@@ -1943,7 +1981,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f474fb4e64a1a412",
@@ -3811,6 +3849,36 @@
     "isNew": false
   },
   {
+    "id": "893eb03e9e4f007e",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Data Engineering Manager",
+    "company": "Metyis AG",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://metyisag.recruitee.com/o/data-engineering-manager-5",
+    "tags": [
+      "Data & Analytics",
+      "fulltime_fixed_term",
+      "management",
+      "46261Data Engineering ManagerML4AmsterdamAdaptfy",
+      "CE_Adaptfy",
+      "D_data_analytics",
+      "Data Engineering ManagerML4AmsterdamAdaptfy1",
+      "ML_4",
+      "Mid",
+      "RL1_Netherlands",
+      "RL2_Amsterdam",
+      "WD_on_site",
+      "sd_data_engineering"
+    ],
+    "postedAt": "2026-08-27T15:15:08.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "c775575587e9d629",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -4456,7 +4524,7 @@
     "otherLocations": 3,
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -4476,7 +4544,7 @@
     "postedAt": "2026-08-24T19:36:31.523+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5a3250360f9bf5ce",
@@ -4555,7 +4623,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eed20a210eb67bc1",
@@ -4610,7 +4678,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "994891eb51758454",
@@ -4783,7 +4851,7 @@
     "otherLocations": 5,
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -5496,6 +5564,24 @@
     "isNew": false
   },
   {
+    "id": "36f11b657d2ae173",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager (Data Direction)",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4914586101",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-19T11:55:00-04:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "f37582cd37d9a92b",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -5513,7 +5599,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "22d2f12611a549c1",
@@ -5534,7 +5620,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6fa1aab506b1a532",
@@ -6867,7 +6953,7 @@
     "postedAt": "2026-08-08T20:14:07.666+00:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -6965,24 +7051,18 @@
     "isNew": false
   },
   {
-    "id": "4489c0d87bdebe99",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager",
-    "company": "Thought Machine",
-    "location": "United Kingdom, London",
+    "id": "8554340b1872f535",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Software Development Manager, Platform Engineering",
+    "company": "Autodesk",
+    "location": "New Jersey, USA - Remote",
     "remote": true,
-    "url": "https://jobs.ashbyhq.com/thought-machine/a10fc573-4d2a-4f19-a026-48c335d9d22d",
-    "tags": [
-      "Engineering",
-      "Product Engineering - Vault Core",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-06T15:50:17.615+00:00",
+    "url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/New-Jersey-USA---Remote/Engineering-Manager---Platform---DevOps_25WD94232-1",
+    "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 3,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "63b1b1ad9768f94b",
@@ -7084,7 +7164,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0499752f121945ab",
@@ -7450,6 +7530,25 @@
     "postedAt": "2026-09-04T22:43:32.074+00:00",
     "tier": "ic",
     "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "2f0d4bad7c52d760",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior QA Automation Engineer",
+    "company": "Revecore",
+    "location": "US-Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/Revecore/2c8ebde6-79c3-44b6-a54e-49bdc291914a",
+    "tags": [
+      "Tech Innovation",
+      "Tech Innovation",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-04T21:35:09.696+00:00",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -7471,7 +7570,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "975a30e2218eec3f",
@@ -7491,7 +7590,7 @@
     "postedAt": "2026-09-04T17:51:10.056Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "bb5709bd92cd6d57",
@@ -7511,7 +7610,7 @@
     "postedAt": "2026-09-04T17:48:30.001Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e1279c5c922419b7",
@@ -7529,7 +7628,7 @@
     "postedAt": "2026-09-04T17:31:11.982Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "38d86159ead76053",
@@ -7549,7 +7648,7 @@
     "postedAt": "2026-09-04T15:51:25.780+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f52fe89cd4a199eb",
@@ -7697,7 +7796,7 @@
     "postedAt": "2026-09-03T19:21:49-04:00",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -7742,7 +7841,7 @@
     "postedAt": "2026-09-03T16:00:05+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c2c5d18ead4dd739",
@@ -7815,6 +7914,25 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "3a74fcdee5e6537a",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Sr Functional QA with experience in test automation (web)",
+    "company": "GSB Solutions",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://gsb.lat/o/sr-functional-qa-with-experience-in-test-automation-web",
+    "tags": [
+      "Operational Recruitment",
+      "fulltime_permanent",
+      "information_technology"
+    ],
+    "postedAt": "2026-09-02T19:45:57.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "3288732cda50273b",
@@ -8057,7 +8175,7 @@
     "postedAt": "2026-08-28T20:38:41.132Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "969d00906edd0667",
@@ -8524,6 +8642,26 @@
     "isNew": false
   },
   {
+    "id": "7284b20e6b2a6db7",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Automation & Process Improvement Engineer",
+    "company": "IntegriChain",
+    "location": "Philadelphia, PA, United States",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/IntegriChain1/744000144779766",
+    "tags": [
+      "Product & Technology",
+      "Engineering",
+      "Full-time",
+      "Information Technology And Services"
+    ],
+    "postedAt": "2026-08-21T14:32:48.050Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "b8fd1bd286b0653e",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -8561,6 +8699,7 @@
     "postedAt": "2026-08-20T14:46:35.512+00:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -8736,24 +8875,6 @@
     "isNew": false
   },
   {
-    "id": "5ec5f212de28d428",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "ScholarshipOwl",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5842808110?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-15T08:22:15Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "f4e87dfb644f9121",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -8847,6 +8968,24 @@
     "isNew": false
   },
   {
+    "id": "5e84b908e4caf3d2",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "QA Automation",
+    "company": "JustMarkets",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4903347101",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-08-14T09:58:12-04:00",
+    "otherLocations": 1,
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "8e466fb6fefe3256",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -8863,7 +9002,7 @@
     "postedAt": "2026-08-13T15:55:28.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4e3ec3ab38da2e97",
@@ -8924,7 +9063,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eb7d9e9e3fe1ff54",
@@ -9158,63 +9297,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "d26bbce61deeb6dd",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer",
-    "company": "Swingdev",
-    "location": "Warsaw or Remote",
-    "remote": true,
-    "url": "https://jobs.lever.co/swingdev/a52cb573-91e5-4675-9c14-d77df564c592",
-    "tags": [
-      "QA",
-      "Full-time Engagement"
-    ],
-    "postedAt": "2026-08-07T09:50:07.061Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "cf7b2c3cccc53e55",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Network DevOps Engineer, RDMA Fabric Automation - Multiple Openings",
-    "company": "Vultr",
-    "location": "Remote - United States",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/Vultr/5006eced-ad0a-4e27-b314-4a6eb9733b14",
-    "tags": [
-      "Network Engineering",
-      "NetDevOps",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-06T20:29:06.742+00:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "d84ed304f35ce059",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Network Automation Engineer",
-    "company": "Flexential Corp.",
-    "location": "US (Remote)",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/flexentialcorp/jobs/4357896009",
-    "tags": [
-      "Network Services"
-    ],
-    "postedAt": "2026-08-06T16:56:43-04:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
     "isNew": false
   },
   {
@@ -9549,5 +9631,25 @@
     "tier": "ic",
     "score": 0.5,
     "isNew": false
+  },
+  {
+    "id": "15911a01bad8a96c",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Nijmegen, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5836940837?se=xkFzHPOp8RGQbP7dCMlcmA&utm_medium=api&utm_source=9b7a3075&v=CD8A57757EDF6FC191D99BA7F047A241A5F6CA0E",
+    "salaryMin": 33600,
+    "salaryMax": 61800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-08-11T17:46:15Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 2,
+    "isNew": true
   }
 ]
