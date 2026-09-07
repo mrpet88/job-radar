@@ -141,6 +141,9 @@
   "backend qa engineer::jobgether": [
     "2026-08-27"
   ],
+  "bid manager industrial cranes::konecranes": [
+    "2026-09-07"
+  ],
   "bim manager data centers::olsson": [
     "2026-08-19",
     "2026-09-02"
@@ -300,6 +303,9 @@
   "design project manager data centers::aecom": [
     "2026-08-11"
   ],
+  "devices iot field engineering manager::canonical": [
+    "2026-09-07"
+  ],
   "devices iot field engineering manager::jobgether": [
     "2026-09-03"
   ],
@@ -329,8 +335,14 @@
   "director senior manager ai harness engineering::jobgether": [
     "2026-08-12"
   ],
+  "director technical operations engineering::j&j family of companies": [
+    "2026-09-07"
+  ],
   "director technical operations engineering::jj": [
     "2026-09-04"
+  ],
+  "director technical operations engineering::johnson & johnson": [
+    "2026-09-07"
   ],
   "ech field engineering manager west coast region::motorolasolutions": [
     "2026-08-18"
@@ -524,7 +536,8 @@
   ],
   "engineering manager dedicated integrations::gitlab": [
     "2026-08-10",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "engineering manager devops::livedata": [
     "2026-08-14",
@@ -734,6 +747,12 @@
   "engineering manager pro::kraken.com": [
     "2026-08-27"
   ],
+  "engineering manager proactive security platform::doordash usa": [
+    "2026-09-07"
+  ],
+  "engineering manager proactive security pods::doordash usa": [
+    "2026-09-07"
+  ],
   "engineering manager product engineering::boulevard": [
     "2026-08-22"
   ],
@@ -763,6 +782,9 @@
   ],
   "engineering manager rc capital::revenuecat": [
     "2026-08-08"
+  ],
+  "engineering manager red team::doordash usa": [
+    "2026-09-07"
   ],
   "engineering manager regulatory reporting data::adyen": [
     "2026-08-28"
@@ -976,7 +998,8 @@
     "2026-08-22"
   ],
   "engineering manager::moniepoint": [
-    "2026-08-08"
+    "2026-08-08",
+    "2026-09-07"
   ],
   "engineering manager::netflix": [
     "2026-08-20"
@@ -1075,6 +1098,9 @@
   ],
   "facility quality manager::accorhotel": [
     "2026-08-27"
+  ],
+  "field engineering manager assistant project manager combined cycle power plant::jobgether": [
+    "2026-09-07"
   ],
   "field engineering manager::turbineone": [
     "2026-08-28"
@@ -1338,6 +1364,9 @@
   "manager corporate sales engineering::crowdstrike": [
     "2026-08-19"
   ],
+  "manager customer support engineering::fivetran": [
+    "2026-09-07"
+  ],
   "manager data engineering::airwallex": [
     "2026-08-08",
     "2026-08-28"
@@ -1405,7 +1434,8 @@
     "2026-08-28"
   ],
   "manager enterprise application engineering::harvey": [
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "manager field engineering strategic digital native business::databricks": [
     "2026-08-08",
@@ -1962,6 +1992,9 @@
   "product manager::caseware": [
     "2026-08-31"
   ],
+  "product manager::platform.sh": [
+    "2026-09-07"
+  ],
   "product marketing manager gtm owner::percona": [
     "2026-08-25"
   ],
@@ -2134,6 +2167,9 @@
   "qa engineer mobile::scholarshipowl": [
     "2026-08-15",
     "2026-08-29"
+  ],
+  "qa engineer shopify platform::jobgether": [
+    "2026-09-07"
   ],
   "qa engineer trading::binance": [
     "2026-08-08"
@@ -2384,6 +2420,9 @@
   "sap project manager::nagarro": [
     "2026-08-20",
     "2026-09-03"
+  ],
+  "sdet architect::jobgether": [
+    "2026-09-07"
   ],
   "sdet ii tvscientific::pinterest": [
     "2026-08-08",
@@ -2899,6 +2938,9 @@
     "2026-08-22",
     "2026-09-05"
   ],
+  "senior product manager ai risk onboarding::airwallex": [
+    "2026-09-07"
+  ],
   "senior product manager build engineering reviews::colab software": [
     "2026-08-08"
   ],
@@ -3004,7 +3046,8 @@
   ],
   "senior product manager::nash": [
     "2026-08-10",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "senior product manager::passagehealth": [
     "2026-08-08"
@@ -3428,7 +3471,8 @@
     "2026-08-26"
   ],
   "senior test manager::upscale ai": [
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "server engineering manager member experience::raya": [
     "2026-09-06"
@@ -3486,6 +3530,9 @@
   "software development manager platform engineering::autodesk": [
     "2026-09-06"
   ],
+  "software engineer ai automation::jobgether": [
+    "2026-09-07"
+  ],
   "software engineer backend core api process automation::camunda": [
     "2026-09-03"
   ],
@@ -3536,7 +3583,8 @@
     "2026-08-08"
   ],
   "software engineering manager::jobgether": [
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "software engineering manager::ziprecruiter": [
     "2026-08-08",
@@ -3824,6 +3872,9 @@
   "staff product manager care application platform::jobgether": [
     "2026-08-27"
   ],
+  "staff product manager connectivity platform::jobgether": [
+    "2026-09-07"
+  ],
   "staff product manager connectivity platform::wealthsimple": [
     "2026-09-04"
   ],
@@ -4001,7 +4052,8 @@
   ],
   "tech lead manager education::openai": [
     "2026-08-10",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-09-07"
   ],
   "tech lead manager software engineering::cengage": [
     "2026-09-02"
@@ -4076,6 +4128,9 @@
   "technical program manager core network delivery mno onboarding::skylo": [
     "2026-08-21",
     "2026-09-04"
+  ],
+  "technical program manager software engineering::jobgether": [
+    "2026-09-07"
   ],
   "technical program manager::dailypay": [
     "2026-08-27"
@@ -4187,6 +4242,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "vp engineering facilities::hims &#038; hers": [
+    "2026-09-07"
   ],
   "vp engineering facilities::hims and hers": [
     "2026-08-08",
