@@ -140,6 +140,9 @@
   "automation test engineer::matched group": [
     "2026-08-26"
   ],
+  "automation test engineer::skywarditsolutions": [
+    "2026-09-12"
+  ],
   "automation test engineer::stafide": [
     "2026-08-08"
   ],
@@ -324,6 +327,9 @@
   "development manager executive reporting::action1": [
     "2026-09-10"
   ],
+  "development manager integrations::action1": [
+    "2026-09-12"
+  ],
   "devices iot field engineering manager::canonical": [
     "2026-09-07"
   ],
@@ -331,7 +337,8 @@
     "2026-09-03"
   ],
   "devops engineer freelance::lingarogroup": [
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "devops engineer sre observability::lingarogroup": [
     "2026-08-29"
@@ -412,6 +419,12 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "engineering leader operations center day shift::gevernova": [
+    "2026-09-12"
+  ],
+  "engineering leader operations center night shift::gevernova": [
+    "2026-09-12"
+  ],
   "engineering manager accounts::relayfi": [
     "2026-08-21",
     "2026-09-04"
@@ -490,9 +503,15 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "engineering manager billing::supabase": [
+    "2026-09-12"
+  ],
   "engineering manager build::gitlab": [
     "2026-08-20",
     "2026-09-03"
+  ],
+  "engineering manager catalog::instacart": [
+    "2026-09-12"
   ],
   "engineering manager catalog::salla": [
     "2026-08-10"
@@ -512,6 +531,9 @@
   "engineering manager console team::deepgram": [
     "2026-08-08",
     "2026-08-22"
+  ],
+  "engineering manager cooperative systems::openai": [
+    "2026-09-12"
   ],
   "engineering manager core experimentation::openai": [
     "2026-08-08"
@@ -858,6 +880,9 @@
   "engineering manager rep experience::apollo.io": [
     "2026-09-10"
   ],
+  "engineering manager rep experience::jobgether": [
+    "2026-09-12"
+  ],
   "engineering manager scrum master with development background::jobgether": [
     "2026-09-10"
   ],
@@ -905,6 +930,9 @@
   "engineering manager solutions engineering::canonical ltd.": [
     "2026-08-23"
   ],
+  "engineering manager sre::jobgether": [
+    "2026-09-12"
+  ],
   "engineering manager sre::remote": [
     "2026-09-10"
   ],
@@ -941,6 +969,9 @@
   "engineering manager threat intelligence nordvpn::nord security": [
     "2026-08-08",
     "2026-08-22"
+  ],
+  "engineering manager tlm platform::harper": [
+    "2026-09-12"
   ],
   "engineering manager transformer::giga energy": [
     "2026-08-15"
@@ -1024,6 +1055,9 @@
   ],
   "engineering manager::coder": [
     "2026-08-19"
+  ],
+  "engineering manager::creatoriq": [
+    "2026-09-12"
   ],
   "engineering manager::customer.io": [
     "2026-08-08",
@@ -1186,6 +1220,9 @@
   "engineering manufacturing technical operations evaluator::jobgether": [
     "2026-09-09"
   ],
+  "engineering onboarding manager::affirm": [
+    "2026-09-12"
+  ],
   "engineering project manager::jobgether": [
     "2026-08-12"
   ],
@@ -1193,6 +1230,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "engineering technician::applied": [
+    "2026-09-12"
   ],
   "enterprise solutions engineering manager::ashby": [
     "2026-08-08"
@@ -1359,6 +1399,9 @@
   "key account manager::smiths group": [
     "2026-08-31"
   ],
+  "lead ai quality engineer::jobgether": [
+    "2026-09-12"
+  ],
   "lead ai test automation architect::high tech genesis": [
     "2026-08-11",
     "2026-08-29"
@@ -1378,6 +1421,9 @@
   "lead engineer test automation tools development::moniepoint": [
     "2026-09-08"
   ],
+  "lead engineering manager::justmarkets": [
+    "2026-09-12"
+  ],
   "lead growth product manager::maximustribe": [
     "2026-08-31"
   ],
@@ -1395,7 +1441,8 @@
   ],
   "lead principal product manager audit agents::fieldguide": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "lead principal product manager tax agents::fieldguide": [
     "2026-08-26",
@@ -1665,6 +1712,9 @@
     "2026-08-27",
     "2026-09-10"
   ],
+  "manager member innovation data engineering::netflix": [
+    "2026-09-12"
+  ],
   "manager national risk quality solutions::jobgether": [
     "2026-09-09"
   ],
@@ -1757,7 +1807,8 @@
   ],
   "manager software development financial risk::wealthsimple": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "manager software development observability platform::wealthsimple": [
     "2026-08-08",
@@ -1807,7 +1858,8 @@
   ],
   "manager software engineering::kobie": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "manager software engineering::meridianlink": [
     "2026-08-12",
@@ -1818,6 +1870,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "manager software test automation::veracyte": [
+    "2026-09-12"
   ],
   "manager solutions engineering digital natives::openai": [
     "2026-08-08"
@@ -1987,6 +2042,9 @@
   "payments solutions architect::testlio": [
     "2026-09-03"
   ],
+  "people ai automation engineer::deepgram": [
+    "2026-09-12"
+  ],
   "pharma operations improvement manager::redcare pharmacy": [
     "2026-08-30"
   ],
@@ -2086,6 +2144,9 @@
   "principal product manager industrial ai aerospace and defense::ifs": [
     "2026-08-19"
   ],
+  "principal product manager platform ai anywhere cloud::cloudera": [
+    "2026-09-12"
+  ],
   "principal product manager platform::jobgether": [
     "2026-09-10"
   ],
@@ -2153,6 +2214,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "product manager iii lims::natera": [
+    "2026-09-12"
   ],
   "product manager l6 data platform analytics experience::netflix": [
     "2026-08-22"
@@ -2393,13 +2457,17 @@
   ],
   "qa engineer mobile::scholarshipowl": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "qa engineer shopify platform::jobgether": [
     "2026-09-07"
   ],
   "qa engineer trading::binance": [
     "2026-08-08"
+  ],
+  "qa engineer::air apps": [
+    "2026-09-12"
   ],
   "qa engineer::alpha financial markets consulting": [
     "2026-08-20",
@@ -2424,8 +2492,12 @@
     "2026-08-10",
     "2026-09-11"
   ],
+  "qa engineer::pingwind": [
+    "2026-09-12"
+  ],
   "qa engineer::salto cloudworks": [
-    "2026-08-28"
+    "2026-08-28",
+    "2026-09-12"
   ],
   "qa engineer::scholarshipowl": [
     "2026-08-15",
@@ -2517,12 +2589,16 @@
   "quality assurance associate manager growth marketing operations::hinge health": [
     "2026-08-08"
   ],
+  "quality assurance automation engineer::northramp llc": [
+    "2026-09-12"
+  ],
   "quality assurance engineer i::inductive automation llc": [
     "2026-08-22",
     "2026-09-05"
   ],
   "quality assurance engineer::agap2 netherlands": [
-    "2026-08-28"
+    "2026-08-28",
+    "2026-09-12"
   ],
   "quality assurance engineer::caseware": [
     "2026-08-31"
@@ -2539,6 +2615,9 @@
   ],
   "quality assurance engineering manager::sprypointservices": [
     "2026-08-08"
+  ],
+  "quality assurance lead consultant::jobgether": [
+    "2026-09-12"
   ],
   "quality assurance lead consultant::neuraflash, part of accenture": [
     "2026-09-09"
@@ -2561,6 +2640,9 @@
   ],
   "quality cluster lead computerized systems::santen": [
     "2026-09-08"
+  ],
+  "quality engineer rack infrastructure site operations::openai": [
+    "2026-09-12"
   ],
   "quality engineer zeiss calypso cmm programmer::prince industries llc": [
     "2026-08-15",
@@ -2599,6 +2681,9 @@
     "2026-08-12",
     "2026-08-26",
     "2026-09-10"
+  ],
+  "quality engineer::upshop": [
+    "2026-09-12"
   ],
   "quality engineer::xplor": [
     "2026-08-10",
@@ -2709,6 +2794,9 @@
   "sdet::dutch": [
     "2026-08-13",
     "2026-08-27"
+  ],
+  "security and threat operations engineer::oneapp": [
+    "2026-09-12"
   ],
   "senior ai automation engineer::later": [
     "2026-08-08",
@@ -2859,6 +2947,9 @@
   "senior engineering manager machine learning::signifyd": [
     "2026-09-09"
   ],
+  "senior engineering manager media platform::solink": [
+    "2026-09-12"
+  ],
   "senior engineering manager middleware::skydio": [
     "2026-09-04"
   ],
@@ -2947,11 +3038,17 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "senior full stack engineer enterprise ai automation::truelogic": [
+    "2026-09-12"
+  ],
   "senior general test engineer jr660::eleks": [
     "2026-08-11"
   ],
   "senior growth product manager::maximustribe": [
     "2026-08-28"
+  ],
+  "senior gtm engineering analyst::1password": [
+    "2026-09-12"
   ],
   "senior gtm systems ai and automation engineer::camunda": [
     "2026-09-04"
@@ -2976,7 +3073,8 @@
     "2026-08-08"
   ],
   "senior machine learning engineer::servicenow": [
-    "2026-08-26"
+    "2026-08-26",
+    "2026-09-12"
   ],
   "senior machine learning operations engineer::mercury": [
     "2026-09-10"
@@ -3149,7 +3247,8 @@
   ],
   "senior manager sales engineering ai gpu cloud::mirantis": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "senior manager sales engineering enterprise west::zscaler": [
     "2026-08-19"
@@ -3326,6 +3425,9 @@
     "2026-08-25",
     "2026-09-08"
   ],
+  "senior product manager funnels::revenuecat": [
+    "2026-09-12"
+  ],
   "senior product manager grc platform::vanta": [
     "2026-08-08"
   ],
@@ -3466,7 +3568,8 @@
   ],
   "senior qa automation developer::upgrade": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "senior qa automation engineer aws salesforce::flosum": [
     "2026-09-11"
@@ -3496,7 +3599,8 @@
   ],
   "senior qa automation engineer::upgrade": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "senior qa automation engineer::vpteam": [
     "2026-08-18"
@@ -3701,7 +3805,8 @@
     "2026-08-13"
   ],
   "senior software engineer in test::multi media llc": [
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "senior software engineer in test::solink": [
     "2026-08-08"
@@ -3722,7 +3827,8 @@
   ],
   "senior software engineer::yipitdata": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "senior software engineering manager applied ai engineering::servicenow": [
     "2026-08-16",
@@ -4060,7 +4166,8 @@
   ],
   "software test engineer::optics11": [
     "2026-08-09",
-    "2026-08-26"
+    "2026-08-26",
+    "2026-09-12"
   ],
   "software test engineer::swisspeak partners gmbh": [
     "2026-08-30"
@@ -4207,6 +4314,9 @@
     "2026-08-08",
     "2026-08-22"
   ],
+  "sr qa engineer::ryzlabs": [
+    "2026-09-12"
+  ],
   "sr quality engineer::hinge health": [
     "2026-08-08",
     "2026-08-22"
@@ -4257,7 +4367,8 @@
     "2026-08-12"
   ],
   "sr staff ai engineer veza::servicenow": [
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "sr staff outbound product manager::servicenow": [
     "2026-08-22",
@@ -4527,6 +4638,12 @@
   "systems debug engineer ee::cerebras": [
     "2026-08-25"
   ],
+  "systems engineering test capabilities operations analyst::globalhr": [
+    "2026-09-12"
+  ],
+  "systems engineering test capabilities operations data digital solutions analyst::globalhr": [
+    "2026-09-12"
+  ],
   "team lead identity and access management okta operations engineering::unisys": [
     "2026-09-01"
   ],
@@ -4544,7 +4661,8 @@
   ],
   "tech lead manager::neara": [
     "2026-08-15",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "tech lead solution architect backend workflow engine sso observability qa::jobgether": [
     "2026-08-12"
@@ -4606,7 +4724,8 @@
     "2026-08-08"
   ],
   "technical program manager ai delivery for public sector defence canada::cohere": [
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "technical program manager ai delivery for public sector defence uk::cohere": [
     "2026-08-08"
@@ -4666,7 +4785,8 @@
     "2026-08-29"
   ],
   "technical sales manager industrial water::veolia environnement sa": [
-    "2026-08-29"
+    "2026-08-29",
+    "2026-09-12"
   ],
   "technical solutions manager::muon space": [
     "2026-09-09"
@@ -4743,6 +4863,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "veterinary project manager::vetcove": [
+    "2026-09-12"
   ],
   "vp engineering facilities::hims &#038; hers": [
     "2026-09-07"
