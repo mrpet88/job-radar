@@ -1,5 +1,24 @@
 [
   {
+    "id": "bcfce4cbb27c86a4",
+    "source": "jobicy",
+    "title": "QA Automation Lead [gn] Data Intelligence",
+    "company": "Actian",
+    "location": "Europe",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence",
+    "tags": [
+      "QA & Testing",
+      "Full-Time",
+      "Senior"
+    ],
+    "postedAt": "2026-09-12T13:45:23+00:00",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "02100abeafe1bbb4",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -14,24 +33,6 @@
     "postedAt": "2026-09-11T17:42:50-04:00",
     "tier": "lead",
     "score": 10,
-    "isNew": true
-  },
-  {
-    "id": "a0e09daf828a5029",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Mobile Engineering Manager - Sensing Discovery",
-    "company": "Ōura",
-    "location": "Remote - United States",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/oura/jobs/4231323009",
-    "tags": [
-      "Software Engineering "
-    ],
-    "postedAt": "2026-09-11T12:37:59-04:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 3,
     "isNew": false
   },
   {
@@ -51,6 +52,25 @@
     "score": 10,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "3cbb0267dc39894e",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Packaging Manager - HR Test",
+    "company": "Vilgain s.r.o.",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://vilgain.recruitee.com/o/packaging-manager-hr-test",
+    "tags": [
+      "NPD",
+      "parttime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-09-11T11:15:07.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "3e04e9f018769b34",
@@ -121,27 +141,6 @@
       "Full-time"
     ],
     "postedAt": "2026-09-10T12:28:13.179Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "a5ae31a9a0425eb1",
-    "source": "arbeitnow",
-    "title": "Senior Post-Market Surveillance Manager (m/f/d)",
-    "company": "Hilobyaktiia",
-    "location": "France",
-    "remote": true,
-    "url": "https://www.arbeitnow.fr/jobs/companies/hilobyaktiia/remote-senior-post-market-surveillance-manager-france-8227",
-    "tags": [
-      "Quality Assurance",
-      "Medical Devices",
-      "Quality and Regulatory",
-      "Remote",
-      "Full time",
-      "mid-senior"
-    ],
-    "postedAt": "2026-09-09T19:20:13.000Z",
     "tier": "lead",
     "score": 10,
     "isNew": false
@@ -628,6 +627,7 @@
     "postedAt": "2026-08-17T09:41:41.307Z",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -648,44 +648,6 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "91df5131d9cdc8b2",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Sr. Manager, Learning & Quality Operations, Enrollment",
-    "company": "Thyme Care",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/thyme-care/bb4e419f-7203-4e43-a7e2-41195bc37e08",
-    "tags": [
-      "Member Experience",
-      "Member Experience - Enrollment QTE",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T01:06:30.807+00:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "10f547c899d58a20",
-    "source": "adzuna",
-    "title": "Quality Manager Zandbergen Groep",
-    "company": "Zandbergen Groep",
-    "location": "Zoeterwoude, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5840913268?se=YkQjHKqu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=5B489B694338418AECF061FB358B72A3FD6BD391",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-14T00:35:57Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -749,6 +711,23 @@
     "isNew": false
   },
   {
+    "id": "a0e71aa65f4f1e94",
+    "source": "adzuna",
+    "title": "Manager Engineering",
+    "company": "Hollandia Infra",
+    "location": "Capelle aan den IJssel, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5881004332?se=Wp4Z0Hqv8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=64200A6CD725F845D4C5187D1CEF9972D193CBA1",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-09-12T14:49:02Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "1d489837c6b76852",
     "source": "ashby",
     "vendor": "ashby",
@@ -765,7 +744,7 @@
     "postedAt": "2026-09-12T08:44:14.892+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "892b7c0b0309cb9f",
@@ -785,7 +764,7 @@
     "postedAt": "2026-09-12T03:19:39.860+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "de556eea257ece82",
@@ -805,7 +784,7 @@
     "postedAt": "2026-09-11T21:18:35.878+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8fdcd08089e4a1eb",
@@ -824,7 +803,7 @@
     "postedAt": "2026-09-11T18:11:43.964+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "450e2fbb51eafcf5",
@@ -845,7 +824,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6e90e71457dc3fea",
@@ -864,7 +843,7 @@
     "postedAt": "2026-09-11T17:18:27.824+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b8762045c06dcc72",
@@ -881,7 +860,7 @@
     "postedAt": "2026-09-11T16:54:48-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "96043dae6bf5afb5",
@@ -901,7 +880,7 @@
     "postedAt": "2026-09-11T16:49:13.576+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "88617da41c08aa22",
@@ -921,7 +900,7 @@
     "postedAt": "2026-09-11T16:14:50.253+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "58e02f6a6097bab3",
@@ -938,7 +917,7 @@
     "postedAt": "2026-09-11T14:16:09-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d7484c7dc8148d75",
@@ -956,7 +935,7 @@
     "postedAt": "2026-09-11T11:40:59.771Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9b6b3f07a1f5479c",
@@ -973,7 +952,7 @@
     "postedAt": "2026-09-11T11:31:40-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5dbf21312cf11d79",
@@ -990,7 +969,7 @@
     "postedAt": "2026-09-11T11:22:23-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7e9b0c331216341e",
@@ -1062,23 +1041,6 @@
       "Infrastructure & Enterprise Architecture"
     ],
     "postedAt": "2026-09-11T09:58:01-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "0c4fa78929d95c0d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-09-11T08:36:00-04:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -1156,7 +1118,7 @@
     "postedAt": "2026-09-11T06:46:20.839Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3b7b6d4c75e4d433",
@@ -1256,7 +1218,7 @@
     "postedAt": "2026-09-11T00:00:35+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c04900d8a344014c",
@@ -1276,7 +1238,7 @@
     "otherLocations": 5,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5b27c698f78d7140",
@@ -1543,7 +1505,7 @@
     "postedAt": "2026-09-10T11:33:26.187Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b5d5e49e6ccf2594",
@@ -1882,7 +1844,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9e366afe3b402a25",
@@ -1916,7 +1878,6 @@
       "Site Reliability Engineering"
     ],
     "postedAt": "2026-09-09T13:29:34-04:00",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -2205,6 +2166,35 @@
     "postedAt": "2026-09-09T10:11:01.847Z",
     "tier": "lead",
     "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "8ca60cf5d039d71e",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Manager - Data Engineering",
+    "company": "Metyis AG",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://metyisag.recruitee.com/o/manager-data-engineering",
+    "tags": [
+      "Data & Analytics",
+      "fulltime_fixed_term",
+      "management",
+      "46261Data Engineering ManagerML4AmsterdamAdaptfy",
+      "CE_Adaptfy",
+      "D_data_analytics",
+      "Data Engineering ManagerML4AmsterdamAdaptfy1",
+      "ML_4",
+      "RL1_Netherlands",
+      "RL2_Amsterdam",
+      "Senior",
+      "WD_on_site",
+      "sd_data_engineering"
+    ],
+    "postedAt": "2026-09-09T08:36:17.000Z",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
   },
   {
@@ -2260,7 +2250,7 @@
     "postedAt": "2026-09-09T06:41:19.138Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "11b631a5f5f6059e",
@@ -2547,7 +2537,7 @@
     "postedAt": "2026-09-08T10:15:52.358Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "01b6b60dca1962f1",
@@ -2594,7 +2584,7 @@
     "company": "Capital One UK",
     "location": "London, UK",
     "remote": true,
-    "url": "https://www.adzuna.co.uk/jobs/land/ad/5875062075?se=iB1FKKqu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=F5BE14075C060E4DAE3B2527072CE514137C0F2F",
+    "url": "https://www.adzuna.co.uk/jobs/land/ad/5875062075?se=VDQ30nqv8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=F5BE14075C060E4DAE3B2527072CE514137C0F2F",
     "salaryMin": 67513.95,
     "salaryMax": 67513.95,
     "currency": "GBP",
@@ -2679,23 +2669,6 @@
       "Unknown"
     ],
     "postedAt": "2026-09-06T18:09:50Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2b661ffa6aaac930",
-    "source": "adzuna",
-    "title": "Director, Technical Operations & Engineering",
-    "company": "J&J Family of Companies",
-    "location": "Leiden, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5872793236?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-06T07:48:20Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -3390,7 +3363,7 @@
     "postedAt": "2026-09-03T16:32:51.920+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cec2ee6327471634",
@@ -3716,6 +3689,27 @@
     "isNew": false
   },
   {
+    "id": "d314ebf6eb6cf15b",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - Stock Trading App",
+    "company": "Bjakcareer",
+    "location": "United Kingdom",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bjakcareer/bd7b3414-07c9-44a4-a327-de995cccaa30",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-02T10:19:24.311+00:00",
+    "otherLocations": 6,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
     "id": "417277f91c8e3e04",
     "source": "ashby",
     "vendor": "ashby",
@@ -3816,6 +3810,27 @@
     "isNew": false
   },
   {
+    "id": "fc7ab9878613af1d",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - Wealth Management App",
+    "company": "Bjakcareer",
+    "location": "Hong Kong",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bjakcareer/c8d51ba9-7aa0-4f97-b78d-04147073f5f5",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-02T10:06:16.739+00:00",
+    "otherLocations": 6,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": false
+  },
+  {
     "id": "f42c0fea6f509f4a",
     "source": "ashby",
     "vendor": "ashby",
@@ -3830,6 +3845,27 @@
       "FullTime"
     ],
     "postedAt": "2026-09-02T10:06:07.184+00:00",
+    "otherLocations": 6,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": false
+  },
+  {
+    "id": "93be706ca1220d1c",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - AI Payments App",
+    "company": "Bjakcareer",
+    "location": "Hong Kong",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bjakcareer/8c93d57d-fcae-40f9-a367-569040120b29",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-02T10:05:52.765+00:00",
     "otherLocations": 6,
     "tier": "adjacent",
     "score": 5,
@@ -4356,6 +4392,27 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "37f3c2cd44996af3",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager",
+    "company": "Bjakcareer",
+    "location": "United States",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/bjakcareer/b40586dd-39c2-4627-aacb-b551c3fd2f81",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-01T04:16:15.008+00:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "2f9585d8b4d9efd2",
@@ -5118,7 +5175,7 @@
     "score": 5,
     "languageRequirement": "C1",
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9c060b264fff1e64",
@@ -5820,27 +5877,6 @@
     "isNew": false
   },
   {
-    "id": "20db7e49fdf4bba2",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Project Manager | NTS Optel",
-    "company": "NTS",
-    "location": "Nijmegen, Gelderland, Netherlands",
-    "remote": false,
-    "url": "https://nts.recruitee.com/o/project-manager-nts-optel",
-    "tags": [
-      "NTS Optel",
-      "fulltime_permanent",
-      "manufacturing",
-      "Engineering & Technology"
-    ],
-    "postedAt": "2026-08-24T14:56:32.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "4ca32defd3436f22",
     "source": "ashby",
     "vendor": "ashby",
@@ -5858,7 +5894,7 @@
     "postedAt": "2026-08-24T14:08:55.972+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d66dcf22b6ab6898",
@@ -5899,7 +5935,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a2df7c7e41fed47a",
@@ -6375,7 +6411,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "196a194de76afc33",
@@ -6456,7 +6492,7 @@
     "postedAt": "2026-08-20T15:18:37.599Z",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -6478,6 +6514,26 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "6dca397dc5d04d71",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Technical Product Manager Battery Chargers and DC Distribution",
+    "company": "RocketSourcers B.V.",
+    "location": "Eindhoven, Noord-Brabant, Netherlands",
+    "remote": false,
+    "url": "https://rocketsourcers.recruitee.com/o/technical-product-manager-battery-chargers-and-dc-distribution",
+    "tags": [
+      "Victron Energy",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-08-20T14:12:53.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "7bf9eafaac6f616c",
@@ -6707,6 +6763,7 @@
     "postedAt": "2026-08-19T13:29:56.277+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -6725,6 +6782,26 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "f37582cd37d9a92b",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Test Engineer",
+    "company": "Qualinx",
+    "location": "Delft, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://qualinx.recruitee.com/o/test-engineer-1",
+    "tags": [
+      "Operations",
+      "fulltime_permanent",
+      "engineering"
+    ],
+    "postedAt": "2026-08-19T09:43:50.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
     "isNew": true
   },
   {
@@ -6764,7 +6841,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6fa1aab506b1a532",
@@ -6940,6 +7017,7 @@
     "postedAt": "2026-08-18T12:49:46.830+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -7275,254 +7353,6 @@
     "isNew": false
   },
   {
-    "id": "5fb0833bb4603604",
-    "source": "remoteok",
-    "title": "Engineering Manager Thailand",
-    "company": "Bjak ",
-    "location": "Bangkok",
-    "remote": true,
-    "url": "https://remoteOK.com/remote-jobs/remote-engineering-manager-thailand-bjak-1136670",
-    "tags": [
-      "exec",
-      "design",
-      "sys admin",
-      "front end",
-      "infosec",
-      "technical",
-      "dev",
-      "testing",
-      "finance",
-      "cloud",
-      "mobile",
-      "engineer",
-      "backend",
-      "digital nomad"
-    ],
-    "postedAt": "2026-08-14T08:00:04+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "6fad74c5f0e7c580",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Manager, Engineering",
-    "company": "Harvey",
-    "location": "Bengaluru",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/harvey/78d412a6-d63a-4475-802b-934aa0e12ccb",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T05:42:38.306+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "63d6ac275ba4086c",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager",
-    "company": "Bjakcareer",
-    "location": "Hong Kong",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/bjakcareer/a76bc32e-13c9-422a-a345-8327e49d1278",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T05:04:04.961+00:00",
-    "otherLocations": 6,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "93be706ca1220d1c",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager - AI Payments App",
-    "company": "Bjakcareer",
-    "location": "Hong Kong",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/bjakcareer/0eafddab-a9e4-44fd-b85c-0775337de216",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T04:59:23.264+00:00",
-    "otherLocations": 6,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "fc7ab9878613af1d",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager - Wealth Management App",
-    "company": "Bjakcareer",
-    "location": "Hong Kong",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/bjakcareer/974f7df7-66c4-416e-9714-c5b62a13cee1",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T04:45:11.271+00:00",
-    "otherLocations": 6,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "9efac98623f8d5fb",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager - Stock Trading App",
-    "company": "Bjakcareer",
-    "location": "Hong Kong",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/bjakcareer/5d524496-bc4c-41bb-bb1d-f7d0953e4a6c",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-14T04:20:58.205+00:00",
-    "otherLocations": 6,
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "3367ebc352037675",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Manager, Enterprise Security  ",
-    "company": "Strava",
-    "location": "Strava SF",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/strava/9927c4ab-84aa-44a7-9dd7-d5cbdd3f7a27",
-    "tags": [
-      "Department",
-      "Engineering",
-      "FullTime",
-      "$270K – $290K • Offers Equity"
-    ],
-    "postedAt": "2026-08-14T01:46:52.376+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "a4240df5626c4877",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Big Data",
-    "company": "ZipRecruiter",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/ziprecruiter/jobs/8129327",
-    "tags": [
-      "710 Tech"
-    ],
-    "postedAt": "2026-08-13T18:34:58-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "d020dd35e1347be8",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Storage Operations Engineer",
-    "company": "Vultr",
-    "location": "Remote - United States",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/Vultr/423024d2-2f9a-475c-adeb-ddfd55b93c35",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-13T17:05:42.881+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "a153dc9a4c462d86",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Cluster Operations Software Engineer",
-    "company": "Cerebras",
-    "location": "Sunnyvale, CA",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/cerebras/f25b9677-32fa-41ed-84d1-0ed704a98533",
-    "tags": [
-      "Software Engineering ",
-      "Software Engineering ",
-      "FullTime"
-    ],
-    "postedAt": "2026-08-13T16:10:31.749+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "11ff5a12d5f8b186",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Machine Learning",
-    "company": "ZipRecruiter",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/ziprecruiter/jobs/8128603",
-    "tags": [
-      "710 Tech"
-    ],
-    "postedAt": "2026-08-13T14:17:57-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "86652d2f76114636",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Software Engineering Manager ",
-    "company": "ZipRecruiter",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/ziprecruiter/jobs/4932402",
-    "tags": [
-      "710 Tech"
-    ],
-    "postedAt": "2026-08-13T13:49:27-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "63b1b1ad9768f94b",
     "source": "workday",
     "vendor": "workday",
@@ -7548,7 +7378,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c1c289b9ada9ac94",
@@ -7577,7 +7407,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "25bea5ad2fbdc54c",
@@ -7591,7 +7421,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f5446536ff72fb0f",
@@ -7605,7 +7435,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cead1a3aebcdb32d",
@@ -7619,7 +7449,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "05bfbd78a0e54c22",
@@ -7678,7 +7508,7 @@
     "tags": [],
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "648045952179b438",
@@ -7712,7 +7542,7 @@
     "otherLocations": 6,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "232400334cebb6c0",
@@ -7730,7 +7560,7 @@
     "postedAt": "2026-09-11T02:22:51.443Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "99025d4310d06304",
@@ -7749,7 +7579,7 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0c78b10a4d9fe52c",
@@ -7768,7 +7598,7 @@
     "otherLocations": 6,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e375a75a7d93a8fb",
@@ -7786,7 +7616,7 @@
     "postedAt": "2026-09-10T07:49:40.474Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "02f484b76346e3a9",
@@ -7804,7 +7634,7 @@
     "postedAt": "2026-09-10T07:16:50.843Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8f7e826c634e82ea",
@@ -7822,7 +7652,7 @@
     "postedAt": "2026-09-10T07:07:49.047Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2ade9f7da1397923",
@@ -7840,7 +7670,7 @@
     "postedAt": "2026-09-10T07:06:39.861Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ce7380c068660070",
@@ -7858,7 +7688,7 @@
     "postedAt": "2026-09-09T09:59:36.934Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fb8cdf0981f4a597",
@@ -7877,7 +7707,7 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6cdcb9683d5f9e31",
@@ -7896,7 +7726,7 @@
     "otherLocations": 9,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a439738e28571fd8",
@@ -7914,7 +7744,7 @@
     "postedAt": "2026-09-08T02:31:35.223Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4f31229d4c42527a",
@@ -7930,28 +7760,10 @@
       "Full-time"
     ],
     "postedAt": "2026-09-07T16:08:58.440Z",
-    "otherLocations": 9,
+    "otherLocations": 8,
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
-  },
-  {
-    "id": "6fd68ac444f83910",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Staff Product Manager, Connectivity Platform",
-    "company": "Jobgether",
-    "location": "Canada",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e5f715a1-60e3-44f2-ba0f-2bd2c16afd97",
-    "tags": [
-      "Product",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-07T13:40:53.168Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "daa1afd437335dfd",
@@ -7969,24 +7781,25 @@
     "postedAt": "2026-09-07T11:55:07.975Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
-    "id": "59bf008dd88541f0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Field Engineering Manager/Assistant Project Manager -- Combined Cycle Power Plant",
-    "company": "Jobgether",
-    "location": "US",
+    "id": "6ec09a810958704a",
+    "source": "jobicy",
+    "title": "Senior Site Reliability Engineer (Hardware Automation)",
+    "company": "Nebius",
+    "location": "Europe,  Netherlands",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/2a4b16de-d138-4ddb-8cc3-896ba042acfe",
+    "url": "https://jobicy.com/jobs/149057-senior-site-reliability-engineer-hardware-automation",
     "tags": [
-      "Others",
-      "Full-time"
+      "DevOps & Infrastructure",
+      "Full-Time",
+      "Senior"
     ],
-    "postedAt": "2026-09-07T11:21:00.686Z",
-    "tier": "adjacent",
-    "score": 2.5,
+    "postedAt": "2026-09-12T13:45:05+00:00",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
     "isNew": true
   },
   {
@@ -8025,7 +7838,7 @@
     "otherLocations": 4,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9f6b52e482bd1f5a",
@@ -8046,7 +7859,7 @@
     "postedAt": "2026-09-11T18:20:01.370Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "624b094bf713df22",
@@ -8065,7 +7878,7 @@
     "postedAt": "2026-09-11T17:08:43.899+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eb7d9e9e3fe1ff54",
@@ -8083,7 +7896,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9da2c9fa9e7c01c4",
@@ -8101,7 +7914,7 @@
     "postedAt": "2026-09-11T13:41:16.136Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ed127e85f4f94f2a",
@@ -8119,7 +7932,7 @@
     "postedAt": "2026-09-11T13:11:03.867Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d84ed304f35ce059",
@@ -8154,46 +7967,7 @@
     "postedAt": "2026-09-11T12:15:33-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "5f5a138decfb0071",
-    "source": "arbeitnow",
-    "title": "QA Engineer",
-    "company": "Miaplaza",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/miaplaza/remote-qa-engineer-325150",
-    "tags": [
-      "Product Development",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-09-11T11:30:12.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "7c6725592ca1f3b5",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Air Apps",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5878722882?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 44000,
-    "salaryMax": 56000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-10T18:15:03Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
   },
   {
     "id": "faace5c58b662aeb",
@@ -8472,7 +8246,7 @@
     "postedAt": "2026-09-09T18:22:22.536+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a33358a576733015",
@@ -8611,7 +8385,7 @@
     "company": "YER",
     "location": "Eindhoven, Noord-Brabant",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5875562377?se=YkQjHKqu8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=CB05C9F6F80EB02F78CF0D4968C49D7C58CA2634",
+    "url": "https://www.adzuna.nl/land/ad/5875562377?se=Wp4Z0Hqv8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=CB05C9F6F80EB02F78CF0D4968C49D7C58CA2634",
     "salaryMin": 48000,
     "salaryMax": 63000,
     "currency": "EUR",
@@ -8657,24 +8431,6 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5871532774?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-09-05T07:38:58Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": true
   },
   {
     "id": "1cb6deb2a6fd95f3",
@@ -9157,24 +8913,6 @@
     "isNew": false
   },
   {
-    "id": "2be11cf47b276770",
-    "source": "adzuna",
-    "title": "Quality Assurance Engineer",
-    "company": "AGAP2 Netherlands",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5859782839?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-08-28T17:36:36Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "d63753ce92101abf",
     "source": "ashby",
     "vendor": "ashby",
@@ -9250,6 +8988,7 @@
     "postedAt": "2026-08-27T18:46:23.869Z",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -9291,26 +9030,6 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "e202d67a4dbe6ed1",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Salto CloudWorks",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5856983139?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 70000,
-    "salaryMax": 82000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-08-26T17:33:49Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
   },
   {
     "id": "ae42a679a48143d4",
@@ -9654,6 +9373,7 @@
     "postedAt": "2026-08-20T14:03:20.000Z",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -9750,7 +9470,7 @@
     "postedAt": "2026-08-18",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f0955f4c1bbc2cc0",
@@ -9788,24 +9508,6 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
-  },
-  {
-    "id": "0c94c657f82d72e5",
-    "source": "adzuna",
-    "title": "QA Engineer Mobile",
-    "company": "ScholarshipOwl",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5842808085?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-08-15T08:22:15Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": true
   },
   {
     "id": "6bdbe69c5f0d896c",
@@ -9973,7 +9675,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "453dbb39f26c1c27",
@@ -9992,7 +9694,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fdc3fd29e1aa1523",
@@ -10012,7 +9714,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cd8a41ffd8cded6c",
@@ -10030,7 +9732,7 @@
     "postedAt": "2026-09-09T09:08:09.966Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f7bc836a4a2b5c12",
@@ -10049,7 +9751,7 @@
     "otherLocations": 15,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a0e655056752fd1f",
@@ -10068,7 +9770,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "255025d73d4d6ccb",
@@ -10086,7 +9788,7 @@
     "postedAt": "2026-09-08T10:17:38.419Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1b26cb09e6a2876a",
@@ -10105,7 +9807,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "704906fcc09f5f03",
@@ -10125,7 +9827,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "16fce33d44048053",
@@ -10143,6 +9845,26 @@
     "postedAt": "2026-09-08T05:44:42.428Z",
     "tier": "ic",
     "score": 0.5,
+    "isNew": false
+  },
+  {
+    "id": "15911a01bad8a96c",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Synsel Techniek",
+    "location": "Nijmegen, Gelderland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5874669180?se=Wp4Z0Hqv8RG-FLx_YfIXKQ&utm_medium=api&utm_source=9b7a3075&v=FEBF0C89DFB5F23A9DD510578B6861AC8F9F9950",
+    "salaryMin": 33600,
+    "salaryMax": 61800,
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-09-07T23:10:13Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 3,
     "isNew": true
   },
   {
@@ -10162,7 +9884,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1007881f715b5509",
@@ -10181,7 +9903,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fc8192c649aa2eaf",
@@ -10197,9 +9919,9 @@
       "Contract"
     ],
     "postedAt": "2026-09-07T11:13:30.419Z",
-    "otherLocations": 19,
+    "otherLocations": 18,
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   }
 ]
