@@ -98,6 +98,9 @@
   "associate data qa engineer::abacus insights": [
     "2026-08-08"
   ],
+  "associate ii product operations::kraken.com": [
+    "2026-09-14"
+  ],
   "associate quality engineer::jobgether": [
     "2026-08-31"
   ],
@@ -295,7 +298,8 @@
     "2026-09-01"
   ],
   "data quality engineer::wellnecity": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "data science engineering manager::alltrails": [
     "2026-08-08",
@@ -342,6 +346,9 @@
   ],
   "devops engineer sre observability::lingarogroup": [
     "2026-08-29"
+  ],
+  "digital control systems engineering manager::gevernova": [
+    "2026-09-14"
   ],
   "digital quality measures lead::jobgether": [
     "2026-08-08"
@@ -599,11 +606,13 @@
   ],
   "engineering manager data::xero": [
     "2026-08-17",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "engineering manager database::auctane": [
     "2026-08-17",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "engineering manager dedicated integrations::gitlab": [
     "2026-08-10",
@@ -654,7 +663,8 @@
     "2026-08-19"
   ],
   "engineering manager frontend consumer::kraken.com": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "engineering manager frontend experience::jobgether": [
     "2026-08-20"
@@ -885,6 +895,9 @@
   "engineering manager rep experience::jobgether": [
     "2026-09-12"
   ],
+  "engineering manager revenue management azure::doit": [
+    "2026-09-14"
+  ],
   "engineering manager scrum master with development background::jobgether": [
     "2026-09-10"
   ],
@@ -947,7 +960,8 @@
     "2026-09-11"
   ],
   "engineering manager subscriptions::strava": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "engineering manager switchboard::gitlab": [
     "2026-08-08",
@@ -1399,7 +1413,8 @@
     "2026-08-27"
   ],
   "key account manager::smiths group": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "lead ai quality engineer::jobgether": [
     "2026-09-12"
@@ -1427,7 +1442,8 @@
     "2026-09-12"
   ],
   "lead growth product manager::maximustribe": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "lead healthcare coding quality auditor::sutherland": [
     "2026-09-10"
@@ -1747,6 +1763,9 @@
     "2026-08-22",
     "2026-09-05"
   ],
+  "manager or senior manager product design platform::harvey": [
+    "2026-09-14"
+  ],
   "manager partner applied ai engineering::openai": [
     "2026-08-13"
   ],
@@ -1926,6 +1945,9 @@
     "2026-08-08",
     "2026-08-22",
     "2026-09-05"
+  ],
+  "manual qa engineer::playson": [
+    "2026-09-14"
   ],
   "manual qa engineer::vacancies": [
     "2026-08-19",
@@ -2154,7 +2176,8 @@
     "2026-09-03"
   ],
   "principal product manager industrial ai aerospace and defense::ifs": [
-    "2026-08-19"
+    "2026-08-19",
+    "2026-09-14"
   ],
   "principal product manager platform ai anywhere cloud::cloudera": [
     "2026-09-12"
@@ -2192,7 +2215,8 @@
   ],
   "product design manager::sitemate": [
     "2026-08-08",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "product manager ai::getwingapp": [
     "2026-09-08"
@@ -2280,7 +2304,8 @@
     "2026-09-11"
   ],
   "product manager::caseware": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "product manager::platform.sh": [
     "2026-09-07"
@@ -2416,6 +2441,9 @@
   "qa automation engineer::key partnership recruitment limited": [
     "2026-08-08"
   ],
+  "qa automation engineer::novacard": [
+    "2026-09-14"
+  ],
   "qa automation engineer::pavago": [
     "2026-08-21",
     "2026-09-10"
@@ -2509,6 +2537,9 @@
   "qa engineer::pingwind": [
     "2026-09-12"
   ],
+  "qa engineer::quindar": [
+    "2026-09-14"
+  ],
   "qa engineer::salto cloudworks": [
     "2026-08-28",
     "2026-09-12"
@@ -2539,6 +2570,9 @@
   ],
   "qa engineer::your software supplier": [
     "2026-09-01"
+  ],
+  "qa integration engineer::master-works": [
+    "2026-09-14"
   ],
   "qa lead engineer::sporty group": [
     "2026-08-08"
@@ -2603,6 +2637,9 @@
   "quality assurance associate manager growth marketing operations::hinge health": [
     "2026-08-08"
   ],
+  "quality assurance automation engineer::fairphone": [
+    "2026-09-14"
+  ],
   "quality assurance automation engineer::northramp llc": [
     "2026-09-12"
   ],
@@ -2615,7 +2652,8 @@
     "2026-09-12"
   ],
   "quality assurance engineer::caseware": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "quality assurance engineer::publicinput": [
     "2026-09-10"
@@ -2812,6 +2850,9 @@
   "security and threat operations engineer::oneapp": [
     "2026-09-12"
   ],
+  "security engineering manager cybersecurity iam::crowdstrike": [
+    "2026-09-14"
+  ],
   "senior ai automation engineer::later": [
     "2026-08-08",
     "2026-08-22",
@@ -2916,7 +2957,8 @@
     "2026-09-05"
   ],
   "senior engineering manager community engagement::strava": [
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-14"
   ],
   "senior engineering manager d i analytics::planet": [
     "2026-09-10"
@@ -3656,6 +3698,9 @@
   "senior qa engineer::lemon.io": [
     "2026-08-28",
     "2026-09-11"
+  ],
+  "senior qa engineer::novacard": [
+    "2026-09-14"
   ],
   "senior qa engineer::pioneer services": [
     "2026-08-18"
