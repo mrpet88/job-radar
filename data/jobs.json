@@ -14,7 +14,7 @@
     "postedAt": "2026-09-24T18:41:55Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "003d9666e4cea53d",
@@ -197,7 +197,7 @@
     "postedAt": "2026-09-21T19:23:15.536Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d83c73e12eb6534f",
@@ -545,25 +545,6 @@
     "isNew": false
   },
   {
-    "id": "7c6725592ca1f3b5",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Air Apps",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5878722882?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 44000,
-    "salaryMax": 56000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-10T18:15:03Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "faace5c58b662aeb",
     "source": "adzuna",
     "title": "QA Automation Engineer",
@@ -659,7 +640,7 @@
     "postedAt": "2026-09-09T16:26:10.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d64a4ffe37002089",
@@ -698,44 +679,6 @@
     "isNew": false
   },
   {
-    "id": "2be11cf47b276770",
-    "source": "adzuna",
-    "title": "Quality Assurance Engineer",
-    "company": "AGAP2 Netherlands",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5859782839?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-08-28T17:36:36Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "e202d67a4dbe6ed1",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Salto CloudWorks",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5856983139?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 70000,
-    "salaryMax": 82000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-08-26T17:33:49Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "96f8143efea0e81d",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -754,69 +697,6 @@
     "postedAt": "2026-08-26T16:17:59.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "e11d80feddb45988",
-    "source": "remotive",
-    "title": "Senior QA Engineer",
-    "company": "Lemon.io",
-    "location": "Europe",
-    "remote": true,
-    "url": "https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100",
-    "tags": [
-      ".Net",
-      "android",
-      "C",
-      "C#",
-      "C++",
-      "data science",
-      "golang",
-      "ios",
-      "java",
-      "javascript",
-      "node.js",
-      "php",
-      "python",
-      "react",
-      "ruby/rails",
-      "scala",
-      "shopify",
-      "swift",
-      "UI/UX",
-      "wordpress",
-      "blockchain",
-      "AI/ML",
-      "automation",
-      "project management",
-      "react native",
-      "rust",
-      "unity",
-      "electron",
-      "spring",
-      "laravel",
-      "Ethereum",
-      "graphic design",
-      "Typescript ",
-      "cypress",
-      "angular ",
-      "selenium",
-      "firebase",
-      "data engineering",
-      "Site Reliability",
-      "Symfony",
-      "manual testing",
-      "marketplace",
-      "testing",
-      "next.js",
-      "flutter",
-      "Quality Assurance",
-      "full_time"
-    ],
-    "postedAt": "2026-08-26T13:10:58",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
     "isNew": false
   },
   {
