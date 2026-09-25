@@ -1,5 +1,5 @@
 import type { Job } from "../types.js";
-import { getJson, stripHtml, isRemoteText } from "../util/http.js";
+import { getJson, stripHtml, isRemoteText, bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 // https://jooble.org/api/about — POST to /api/{KEY}, key-gated.
@@ -27,7 +27,7 @@ export async function fetchJooble(opts: { apiKey: string; keywords: string; loca
       url: j.link,
       tags: [],
       postedAt: j.updated,
-      description: stripHtml(j.snippet).slice(0, 300),
+      ...bodyFields(stripHtml(j.snippet)),
     } satisfies Job;
   });
   console.log(`[jooble] fetched ${out.length} jobs`);

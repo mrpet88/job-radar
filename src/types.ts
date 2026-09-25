@@ -20,6 +20,7 @@ export interface Job {
   tags: string[];
   postedAt?: string;     // ISO date when known
   description?: string;  // short snippet
+  details?: string;      // full body text for the AI screen; never stored or rendered
   tier?: string;         // scoring tier name once matched: "lead" | "adjacent" | "ic"
   score?: number;        // tier weight, after promotion/demotion adjustments
   otherLocations?: number; // cross-posting collapse: N further locations folded in
@@ -40,11 +41,11 @@ export interface Board {
   fails?: number;        // consecutive harvest failures (reset to 0 on success)
 }
 
-// Location policy: remote roles are worldwide (minus low-pay markets); in-person
-// and hybrid roles are restricted to onsiteCountries.
+// Location policy: in-person and hybrid roles are restricted to onsiteCountries;
+// remote roles are kept only when open to someone living there.
 export interface LocationPolicy {
   onsiteCountries: string[]; // in-person/hybrid kept only if location matches one
-  remoteExclude: string[];   // remote dropped if location is restricted to one
+  remoteRegions: string[];   // remote kept if location names one of these (or onsite, or nothing)
 }
 
 // A weighted band of keyword groups. Matching semantics are unchanged from the

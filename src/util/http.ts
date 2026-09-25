@@ -136,6 +136,17 @@ export async function pool<T, R>(items: T[], n: number, fn: (item: T) => Promise
   return out;
 }
 
+// A source's body text, split two ways. `description` stays a 300-char snippet
+// because excludeKeywords scan it, and a full ad mentions "junior" or "stage" in
+// passing often enough to drop real lead roles. `details` is the full text (capped),
+// read only by the AI screen, where the Dutch requirement or the "must reside in
+// the US" line usually sits well past the first 300 characters.
+const DETAILS_MAX = 4000;
+export const bodyFields = (full: string) => ({
+  description: full.slice(0, 300),
+  details: full.slice(0, DETAILS_MAX) || undefined,
+});
+
 export const stripHtml = (s?: string): string =>
   (s ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 

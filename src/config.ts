@@ -89,13 +89,12 @@ export const criteria: SearchCriteria = {
       "the hague", "den haag", "utrecht", "eindhoven", "groningen", "tilburg",
       "haarlem", "nijmegen", "almere", "breda", "arnhem", "amersfoort", "leiden", "delft",
     ],
-    // Remote roles are kept worldwide EXCEPT when restricted to these lower-pay markets.
-    remoteExclude: [
-      "india", "pakistan", "bangladesh", "sri lanka", "philippines", "indonesia",
-      "vietnam", "thailand", "malaysia", "china", "nepal", "brazil", "argentina",
-      "colombia", "mexico", "peru", "chile", "venezuela", "ecuador", "nigeria",
-      "kenya", "ghana", "egypt", "south africa", "morocco", "turkey", "türkiye",
-      "ukraine", "latam", "latin america",
+    // Remote roles are kept only if the location names an onsite country above, one
+    // of these regions, or no place at all. A remote role pinned to any other place
+    // ("Remote – US", "Remote, Poland") is dropped: that's a residency requirement.
+    remoteRegions: [
+      "europe", "european", "eu", "emea", "eea", "benelux", "cet", "cest",
+      "worldwide", "anywhere", "global", "international",
     ],
   },
   maxAgeDays: 30, // drop postings older than 30 days (set undefined for no limit)
@@ -160,6 +159,25 @@ export const discovery = {
   // domain (lead-tier groups OR'd + term) to surface companies hiring in that region.
   locationTerms: ["netherlands"],
 };
+// ── AI screen (Gemini free tier) ── see src/screen.ts.
+// Reads each role against your CV and drops off-profile roles, Dutch-required ads and
+// remote roles restricted to another country. Needs GEMINI_API_KEY plus the CV, from
+// the JOB_RADAR_CV env var (the CI secret) or a local, gitignored cv.md. Missing
+// either → the screen is skipped and every role passes, as before.
+// JOB_RADAR_SCREEN=false skips it for one run.
+export const screening = {
+  enabled: Boolean(process.env.GEMINI_API_KEY) && process.env.JOB_RADAR_SCREEN !== "false",
+  apiKey: process.env.GEMINI_API_KEY ?? "",
+  model: process.env.GEMINI_MODEL || "gemini-3.5-flash-lite",
+  // What the model can't tell from a CV. Editing this re-screens every cached role.
+  candidate: "Lives in the Netherlands. Works in English; does not speak Dutch.",
+  batchSize: 10,          // ads per call
+  // Only unjudged roles cost calls, so a normal day is ~5 batches. The cap matters on
+  // the first run (or after a CV change), when the whole feed is judged at once.
+  maxBatchesPerRun: 60,
+  pauseMs: 5000,          // between calls, to stay under the free per-minute limit
+};
+
 // Companies that flood the feed (Jobgether cross-posts one role across dozens of
 // countries) or post off-domain roles (Synsel Techniek = manufacturing quality).
 // Their score is halved rather than excluded, so genuine hits still surface but sink.

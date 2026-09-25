@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://github.com/lever/postings-api
@@ -35,7 +35,7 @@ export async function fetchLever(board: Board, opts?: FetchOpts): Promise<Job[]>
       currency: j.salaryRange?.currency,
       tags: [j.categories?.team, j.categories?.commitment].filter(Boolean) as string[],
       postedAt: j.createdAt ? new Date(j.createdAt).toISOString() : undefined,
-      description: (j.descriptionPlain ?? "").slice(0, 300),
+      ...bodyFields(j.descriptionPlain ?? ""),
     } satisfies Job;
   });
 }

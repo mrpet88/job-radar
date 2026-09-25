@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, stripHtml, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getJson, isRemoteText, stripHtml, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://<token>.recruitee.com/api/offers/ — public, no auth.
@@ -71,7 +71,7 @@ export async function fetchRecruitee(board: Board, opts?: FetchOpts): Promise<Jo
         ...(o.tags ?? []),
       ].filter(Boolean) as string[],
       postedAt: toIso(o.published_at ?? o.created_at),
-      description: stripHtml(`${o.description ?? ""} ${o.requirements ?? ""}`).slice(0, 300),
+      ...bodyFields(stripHtml(`${o.description ?? ""} ${o.requirements ?? ""}`)),
     } satisfies Job;
   });
 }

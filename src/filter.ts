@@ -19,18 +19,23 @@ export function isFresh(job: Job, maxAgeDays?: number): boolean {
   return (Date.now() - t) / 86_400_000 <= maxAgeDays;
 }
 
-// Remote → worldwide, minus explicitly low-pay markets. In-person/hybrid
-// (remote=false) → only the onsite countries.
+// A location that names no place at all ("Remote", "Remote job", "3 Locations").
+// Nothing to judge on here, so the role passes and the AI screen reads the ad.
+const NO_PLACE = /\b(remote|hybrid|fully|full|time|job|jobs|work|from|home|first|only|\d+ locations?)\b|[^a-z]/g;
+const namesNoPlace = (loc: string) => loc.replace(NO_PLACE, "").length === 0;
+
+// Remote → kept only when it's open to someone living in the onsite countries:
+// the location names one of them, a region that includes them (Europe, EMEA,
+// worldwide…), or no place at all. "Remote – US" or "Remote, Poland" almost always
+// means residents of that country only, so any other named place drops the role.
+// In-person/hybrid (remote=false) → only the onsite countries.
 export function locationOk(job: Job, p?: LocationPolicy): boolean {
   if (!p) return true;
   const loc = job.location.toLowerCase().trim();
   const onsite = matchAny(loc, p.onsiteCountries);
-  if (job.remote) {
-    if (onsite) return true;                          // remote, based in NL etc.
-    if (matchAny(loc, p.remoteExclude)) return false; // restricted to a low-pay market
-    return true;                                      // worldwide / competitive / unspecified
-  }
-  return onsite;                                       // in-person/hybrid → onsite set only
+  if (job.remote)
+    return onsite || matchAny(loc, p.remoteRegions) || namesNoPlace(loc);
+  return onsite;
 }
 
 // Word-boundary test: `term` present as a whole word (or phrase) in `hay`.

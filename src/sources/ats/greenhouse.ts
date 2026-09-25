@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, stripHtml, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getJson, stripHtml, isRemoteText, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://developers.greenhouse.io/job-board.html
@@ -39,7 +39,7 @@ export async function fetchGreenhouse(board: Board, opts?: FetchOpts): Promise<J
       url: j.absolute_url,
       tags: (j.departments ?? []).map((d) => d.name).filter(Boolean),
       postedAt: j.updated_at,
-      description: desc.slice(0, 300),
+      ...bodyFields(desc),
     } satisfies Job;
   });
 }

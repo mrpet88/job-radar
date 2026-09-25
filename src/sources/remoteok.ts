@@ -1,5 +1,5 @@
 import type { Job } from "../types.js";
-import { getJson, stripHtml } from "../util/http.js";
+import { getJson, stripHtml, bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 // https://remoteok.com/api — array; the first element is a legal/metadata notice.
@@ -26,7 +26,7 @@ export async function fetchRemoteOk(): Promise<Job[]> {
       currency: j.salary_min ? "USD" : undefined,
       tags: j.tags ?? [],
       postedAt: j.date,
-      description: stripHtml(j.description).slice(0, 300),
+      ...bodyFields(stripHtml(j.description)),
     } satisfies Job));
   console.log(`[remoteok] fetched ${out.length} jobs`);
   return out;

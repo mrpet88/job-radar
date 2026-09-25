@@ -96,8 +96,11 @@ Edit `src/config.ts`:
   ALL its terms do. The highest matched tier's weight becomes the job's score, which
   drives ranking; the tier name shows as a badge.
 - `criteria.excludeKeywords`, `countries`, `remoteOnly`, `visaSponsorship`.
-- `criteria.location` — geo filter: remote roles are kept worldwide except
-  `remoteExclude` markets; in-person/hybrid roles are kept only in `onsiteCountries`.
+- `criteria.location` — geo filter: in-person/hybrid roles are kept only in
+  `onsiteCountries`; remote roles only when the location names an onsite country, one
+  of `remoteRegions` (Europe, EMEA, worldwide…), or no place at all. "Remote – US" is a
+  residency requirement, so any other named place drops the role.
+- `screening` — the AI screen (see below): model, batch size, and the `candidate` line.
 - `criteria.maxAgeDays` — drop postings older than N days (undefined = no limit).
 - `atsDomains` — which ATS domains discovery scans.
 - `probeCompanies` — employers to probe for a board directly, no search key needed.
@@ -119,6 +122,28 @@ Edit `src/config.ts`:
    the new roles, and publishes the dashboard to your Pages URL. "NEW" detection works
    because the previous `jobs.json` is committed and diffed each run — same for the
    board registry, probe results and repost history.
+
+## AI screen (optional)
+Keyword matching can't tell a QA engineering manager from a backend one, and the
+"must reside in the US" or "fluent Dutch required" line usually sits deep in the ad.
+So after the filters, each role is read against your CV by Gemini
+(`gemini-3.5-flash-lite` on the free tier by default), which gives one reason per
+role: `fit`, `off-profile`, `too-junior`, `dutch-required` or `location-restricted`.
+Anything but `fit` is dropped. The model sees the full ad text (up to 4,000 chars),
+which is never stored or published.
+
+- **Setup:** get a key at https://aistudio.google.com/apikey, then add repo secrets
+  `GEMINI_API_KEY` and `JOB_RADAR_CV` (the CV pasted as plain text). Optionally set the
+  repo *variable* `GEMINI_MODEL` to switch model. Locally: `export GEMINI_API_KEY=…`
+  and put the CV in `cv.md` (gitignored).
+- **Privacy:** this repo is public, so the CV only lives in the secret or the ignored
+  `cv.md`. `data/screen-state.json` holds a reason code per job id and a hash, nothing
+  derived from the CV. Note that on Gemini's **free tier Google may use prompts — the CV
+  and the ads — to improve its products**, and humans may review them.
+- **Cost:** verdicts are cached per job id, so only new roles cost calls (~5 a day). The
+  first run, or any change to the CV or `screening.candidate`, re-judges everything.
+- **Fails open:** if the key is missing, the quota runs out or the API is down, unjudged
+  roles are kept and judged on a later run. `JOB_RADAR_SCREEN=false` skips it for one run.
 
 ## Email digest (optional)
 Every run writes `digest.html` — the new roles in dashboard order (best-scoring
@@ -176,6 +201,7 @@ applying to.
 | `discovery-state.json` | Where the rotating search-query window resumes |
 | `probe-state.json` | Which `probeCompanies` resolved, and when each was last tried |
 | `seen-history.json` | Sighting dates per role, for repost detection |
+| `screen-state.json` | AI-screen verdict (reason code) per job id, plus the profile hash |
 
 All are committed by CI each run — the history *is* the state.
 
