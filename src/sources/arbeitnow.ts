@@ -1,4 +1,5 @@
 import type { Job } from "../types.js";
+import { bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 const BASE = "https://www.arbeitnow.com/api/job-board-api";
@@ -31,7 +32,7 @@ export async function fetchArbeitnow(opts: { maxPages?: number; visaSponsorship?
         url: j.url,
         tags: [...(j.tags ?? []), ...(j.job_types ?? [])],
         postedAt: j.created_at ? new Date(j.created_at * 1000).toISOString() : undefined,
-        description: (j.description ?? "").replace(/<[^>]+>/g, "").slice(0, 300),
+        ...bodyFields((j.description ?? "").replace(/<[^>]+>/g, "")),
       });
     }
   }

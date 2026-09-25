@@ -3,6 +3,7 @@ import path from "node:path";
 import type { Board } from "./types.js";
 import type { ProbeState } from "./probe.js";
 import type { SeenHistory } from "./filter.js";
+import type { ScreenState } from "./screen.js";
 
 const DATA_DIR = path.resolve("data");
 const STORE = path.join(DATA_DIR, "boards.json");
@@ -10,6 +11,7 @@ const DEAD = path.join(DATA_DIR, "dead.json");
 const STATE = path.join(DATA_DIR, "discovery-state.json");
 const PROBE = path.join(DATA_DIR, "probe-state.json");
 const HISTORY = path.join(DATA_DIR, "seen-history.json");
+const SCREEN = path.join(DATA_DIR, "screen-state.json");
 
 export const boardKey = (b: Pick<Board, "vendor" | "token" | "site">) =>
   `${b.vendor}:${b.token.toLowerCase()}:${(b.site ?? "").toLowerCase()}`;
@@ -79,6 +81,17 @@ export async function loadSeenHistory(): Promise<SeenHistory> {
 export async function saveSeenHistory(history: SeenHistory): Promise<void> {
   const sorted = Object.fromEntries(Object.entries(history).sort(([a], [b]) => a.localeCompare(b)));
   await fs.writeFile(HISTORY, JSON.stringify(sorted, null, 2));
+}
+
+// Cached AI-screen verdicts per job id. See screen() in src/screen.ts.
+export async function loadScreenState(): Promise<ScreenState> {
+  try {
+    return JSON.parse(await fs.readFile(SCREEN, "utf8")) as ScreenState;
+  } catch { return { profile: "", verdicts: {} }; }
+}
+
+export async function saveScreenState(state: ScreenState): Promise<void> {
+  await fs.writeFile(SCREEN, JSON.stringify(state, null, 2));
 }
 
 // Drop denylist entries older than ttlDays so revived boards can be re-found.

@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getJson, isRemoteText, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://developers.ashbyhq.com/docs/public-job-posting-api
@@ -35,7 +35,7 @@ export async function fetchAshby(board: Board, opts?: FetchOpts): Promise<Job[]>
       url: j.jobUrl,
       tags: [j.department, j.team, j.employmentType, pay].filter(Boolean) as string[],
       postedAt: j.publishedAt,
-      description: (j.descriptionPlain ?? "").slice(0, 300),
+      ...bodyFields(j.descriptionPlain ?? ""),
     } satisfies Job;
   });
 }

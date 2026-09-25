@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getText, stripHtml, isRemoteText, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getText, stripHtml, isRemoteText, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://<slug>.teamtailor.com/jobs.rss — public RSS, no auth, no key.
@@ -72,7 +72,7 @@ export function parseRss(xml: string, fallbackName: string): Job[] {
 
     // Descriptions arrive as XML-escaped HTML, so they decode twice: once out of
     // XML into HTML, then again for entities that were nested inside that HTML.
-    const description = unescape(stripHtml(tag(block, "description"))).slice(0, 300);
+    const body = unescape(stripHtml(tag(block, "description")));
 
     out.push({
       id: hashId(["teamtailor", company, title, location]),
@@ -87,7 +87,7 @@ export function parseRss(xml: string, fallbackName: string): Job[] {
       tags: [...new Set([tag(block, "tt:department"), tag(block, "tt:role"), remoteStatus]
         .filter(Boolean) as string[])],
       postedAt: Number.isNaN(posted) ? undefined : new Date(posted).toISOString(),
-      description,
+      ...bodyFields(body),
     } satisfies Job);
   }
   return out;

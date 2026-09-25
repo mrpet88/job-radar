@@ -1,5 +1,5 @@
 import type { Board, Job } from "../../types.js";
-import { getJson, isRemoteText, stripHtml, prettify, assertHost , type FetchOpts } from "../../util/http.js";
+import { getJson, isRemoteText, stripHtml, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
 
 // https://apply.workable.com/api/v1/widget/accounts/<token>?details=true
@@ -41,7 +41,7 @@ export async function fetchWorkable(board: Board, opts?: FetchOpts): Promise<Job
       url: j.url ?? j.shortlink ?? `https://apply.workable.com/${board.token}/`,
       tags: [j.department, j.function, j.employment_type].filter(Boolean) as string[],
       postedAt: j.published_on ?? j.created_at,
-      description: stripHtml(j.description).slice(0, 300),
+      ...bodyFields(stripHtml(j.description)),
     } satisfies Job;
   });
 }

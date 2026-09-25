@@ -1,4 +1,5 @@
 import type { Job } from "../types.js";
+import { bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 interface AdzunaJob {
@@ -39,7 +40,7 @@ export async function fetchAdzuna(opts: {
           currency: country === "gb" ? "GBP" : "EUR",
           tags: j.category?.label ? [j.category.label] : [],
           postedAt: j.created,
-          description: (j.description ?? "").replace(/<[^>]+>/g, "").slice(0, 300),
+          ...bodyFields((j.description ?? "").replace(/<[^>]+>/g, "")),
         });
       }
     }

@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { Board, Job } from "./types.js";
-import { criteria, sources, atsDomains, discovery, seedBoards, demoteCompanies, probeCompanies, probing } from "./config.js";
+import { criteria, sources, atsDomains, discovery, seedBoards, demoteCompanies, probeCompanies, probing, screening } from "./config.js";
 import { fetchArbeitnow } from "./sources/arbeitnow.js";
 import { fetchAdzuna } from "./sources/adzuna.js";
 import { fetchRemoteOk } from "./sources/remoteok.js";
@@ -11,9 +11,10 @@ import { fetchJooble } from "./sources/jooble.js";
 import { fetchBoard } from "./sources/ats/index.js";
 import { discover } from "./discover.js";
 import { probe } from "./probe.js";
-import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState, loadSeenHistory, saveSeenHistory } from "./boards.js";
+import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState, loadSeenHistory, saveSeenHistory, loadScreenState, saveScreenState } from "./boards.js";
 import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny, trackReposts, roleKey } from "./filter.js";
 import { renderHtml } from "./render.js";
+import { screen } from "./screen.js";
 import { writeDigest } from "./digest.js";
 import { pool } from "./util/http.js";
 
@@ -28,6 +29,14 @@ async function loadKnownIds(): Promise<Set<string>> {
     const prev = JSON.parse(raw) as Job[];
     return new Set(prev.map((j) => j.id));
   } catch { return new Set(); }
+}
+
+// The CV for the AI screen: the JOB_RADAR_CV secret in CI, or a local cv.md.
+// cv.md is gitignored — the repo is public and the CV must never be committed.
+async function loadCv(): Promise<string> {
+  if (process.env.JOB_RADAR_CV?.trim()) return process.env.JOB_RADAR_CV.trim();
+  try { return (await fs.readFile(path.resolve("cv.md"), "utf8")).trim(); }
+  catch { return ""; }
 }
 
 async function safe(label: string, fn: () => Promise<Job[]>): Promise<Job[]> {
@@ -146,16 +155,30 @@ async function main() {
   const gated = dedupe(collected.filter((j) => matchesCriteria(j, criteria)));
   // Collapse cross-posted duplicates (same role across many countries) to one row.
   const collapsed = collapseCrossPosting(gated, nlTerms);
+  // AI screen: drop what keyword rules can't see (off-profile, Dutch required,
+  // remote-but-one-country-only). Unjudged roles pass; see src/screen.ts.
+  let screened = collapsed;
+  const cv = screening.enabled ? await loadCv() : "";
+  if (screening.enabled && cv) {
+    const r = await screen(collapsed, await loadScreenState(), cv, screening);
+    await saveScreenState(r.state);
+    screened = r.kept;
+    const why = [...r.dropped].map(([k, n]) => `${k} ${n}`).join(" · ") || "none";
+    console.log(`[screen] judged ${r.judged} new · dropped ${collapsed.length - r.kept.length} (${why})` +
+      (r.pending ? ` · ${r.pending} still unjudged, kept for now` : ""));
+  } else {
+    console.log(`[screen] skipped (${!screening.enabled ? "no GEMINI_API_KEY or JOB_RADAR_SCREEN=false" : "no CV — set JOB_RADAR_CV or add cv.md"})`);
+  }
   // Repost tracking: record this run's roles and pick up how often each has been
   // re-listed. Annotation only — nothing is dropped on the strength of it.
-  const { history, counts } = trackReposts(collapsed, await loadSeenHistory());
+  const { history, counts } = trackReposts(screened, await loadSeenHistory());
   await saveSeenHistory(history);
   // Score + detect language while the description is still present (both need it).
-  const scored = collapsed.map((j) => {
+  const scored = screened.map((j) => {
     const { tier, score } = scoreJob(j, criteria, demoteCompanies);
     return {
       ...j, tier, score,
-      languageRequirement: detectLanguageRequirement(j.description),
+      languageRequirement: detectLanguageRequirement(j.details ?? j.description),
       repostCount: counts.get(roleKey(j)),
     };
   });
@@ -166,7 +189,7 @@ async function main() {
   // source posting, so the ad text isn't needed in the frontend. Keeps jobs.json
   // small and the dashboard a clean, scannable list. (excludeKeywords, scoring and
   // language detection already consumed the full description above.)
-  const enriched = all.map((j) => ({ ...j, description: undefined, isNew: freshIds.has(j.id) }));
+  const enriched = all.map((j) => ({ ...j, description: undefined, details: undefined, isNew: freshIds.has(j.id) }));
   // Rank by score (on-target lead roles first), then most recent.
   enriched.sort((a, b) => (b.score ?? 0) - (a.score ?? 0) ||
     (b.postedAt ?? "").localeCompare(a.postedAt ?? ""));
@@ -199,7 +222,8 @@ async function main() {
   console.log(`known boards:     ${boards.length}`);
   console.log(`collected (raw):  ${collected.length}`);
   console.log(`gated+deduped:    ${gated.length}`);
-  console.log(`after collapse:   ${enriched.length}  (${collapsedAway} cross-posts folded)`);
+  console.log(`after collapse:   ${collapsed.length}  (${collapsedAway} cross-posts folded)`);
+  console.log(`after AI screen:  ${enriched.length}`);
   console.log(`by tier:          lead ${tierCount("lead")} · adjacent ${tierCount("adjacent")} · ic ${tierCount("ic")}`);
   console.log(`lead NL/remote-EU: ${leadNl.length}`);
   console.log(`NEW this run:     ${fresh.length}`);

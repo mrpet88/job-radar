@@ -1,5 +1,5 @@
 import type { Job } from "../types.js";
-import { getJson, stripHtml } from "../util/http.js";
+import { getJson, stripHtml, bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 // https://remotive.com/api/remote-jobs (jobs delayed ~24h; personal use).
@@ -21,7 +21,7 @@ export async function fetchRemotive(): Promise<Job[]> {
     url: j.url,
     tags: [...(j.tags ?? []), j.category, j.job_type].filter(Boolean) as string[],
     postedAt: j.publication_date,
-    description: stripHtml(j.description).slice(0, 300),
+    ...bodyFields(stripHtml(j.description)),
   } satisfies Job));
   console.log(`[remotive] fetched ${out.length} jobs`);
   return out;

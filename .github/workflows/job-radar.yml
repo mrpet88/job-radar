@@ -43,6 +43,11 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
           JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+          # AI screen (optional): Gemini key + the CV as plain text. Both secrets —
+          # the repo is public, so the CV never goes into a committed file.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          JOB_RADAR_CV: ${{ secrets.JOB_RADAR_CV }}
           JOB_RADAR_DIGEST_FORCE: ${{ inputs.force_digest }}
         run: npm start
       # Digest email — only when the run found something new (steps.collect.outputs.send).

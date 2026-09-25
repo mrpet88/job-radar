@@ -1,5 +1,5 @@
 import type { Job } from "../types.js";
-import { getJson, stripHtml } from "../util/http.js";
+import { getJson, stripHtml, bodyFields } from "../util/http.js";
 import { hashId } from "../util/id.js";
 
 // https://jobicy.com/jobs-rss-feed → JSON API v2.
@@ -25,7 +25,7 @@ export async function fetchJobicy(): Promise<Job[]> {
     currency: j.salaryCurrency,
     tags: [...(j.jobIndustry ?? []), ...(j.jobType ?? []), j.jobLevel].filter(Boolean) as string[],
     postedAt: j.pubDate,
-    description: stripHtml(j.jobExcerpt).slice(0, 300),
+    ...bodyFields(stripHtml(j.jobExcerpt)),
   } satisfies Job));
   console.log(`[jobicy] fetched ${out.length} jobs`);
   return out;
