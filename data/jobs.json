@@ -1,5 +1,23 @@
 [
   {
+    "id": "73929f10e1047b76",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Software Quality Manager",
+    "company": "Wikimedia Foundation",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8137733",
+    "tags": [
+      "Product & Technology"
+    ],
+    "postedAt": "2026-09-25T20:21:30-04:00",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
     "id": "9e346c8d91311c41",
     "source": "adzuna",
     "title": "QA Manager",
@@ -66,24 +84,6 @@
       "Full-time"
     ],
     "postedAt": "2026-09-10T12:28:13.179Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "73929f10e1047b76",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Software Quality Manager",
-    "company": "Wikimedia Foundation",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8137733",
-    "tags": [
-      "Product & Technology"
-    ],
-    "postedAt": "2026-09-04T14:37:45-04:00",
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
@@ -303,6 +303,7 @@
     "postedAt": "2026-09-11T11:31:40-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -414,6 +415,42 @@
     "isNew": false
   },
   {
+    "id": "5d9677b42c2656de",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager- Ceph & Distributed Storage",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/e9885728-9947-4de4-9810-a93e8b6d320a",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-25T18:55:12.350Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
+    "id": "28875ef87fde1dd6",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "OpenStack Engineering Manager",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/d422def2-b895-4762-b7a0-e7a93d363a02",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-25T16:57:58.413Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
     "id": "8808c72cb67e7e09",
     "source": "lever",
     "vendor": "lever",
@@ -448,24 +485,6 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "504dc292615b72b9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Payments Integrations",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1e4819e4-1b93-4c41-bd8e-b8f568ce3c1b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-18T08:22:42.534Z",
-    "tier": "adjacent",
-    "score": 2.5,
     "isNew": false
   },
   {
@@ -542,7 +561,28 @@
     "postedAt": "2026-09-11T18:20:01.370Z",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "7c6725592ca1f3b5",
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "Air Apps",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5878722882?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 44000,
+    "salaryMax": 56000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-10T18:15:03Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "faace5c58b662aeb",
@@ -679,40 +719,22 @@
     "isNew": false
   },
   {
-    "id": "96f8143efea0e81d",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Middle+ QA Engineer",
-    "company": "NOVACARD",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://novacard.recruitee.com/o/middle-qa-engineer",
+    "id": "2be11cf47b276770",
+    "source": "adzuna",
+    "title": "Quality Assurance Engineer",
+    "company": "AGAP2 Netherlands",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5859782839?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "Engineering & Technology",
-      "fulltime_permanent",
-      "information_technology",
-      "Mid-level",
-      "Remote"
+      "IT ICT vacatures"
     ],
-    "postedAt": "2026-08-26T16:17:59.000Z",
+    "postedAt": "2026-08-28T17:36:36Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "c9e2387ad071e556",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Senior QA Engineer",
-    "company": "Walkerdunlop",
-    "location": "Remote - Netherlands",
-    "remote": true,
-    "url": "https://walkerdunlop.wd1.myworkdayjobs.com/wd/job/Remote---Netherlands/Senior-QA-Engineer_Req-1880",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 4,
-    "isNew": false
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "72f69bd0f13e9426",
