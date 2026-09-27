@@ -301,6 +301,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "98507837dbdac763": {
+      "reason": "location-restricted",
+      "at": "2026-09-27"
+    },
     "99632d23470d6768": {
       "reason": "fit",
       "at": "2026-09-25"
@@ -401,6 +405,10 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "c0e6b4c3f6fa4afb": {
+      "reason": "off-profile",
+      "at": "2026-09-27"
+    },
     "c866171a8a3ac94d": {
       "reason": "off-profile",
       "at": "2026-09-25"
@@ -484,6 +492,10 @@
     "fc101cc250b8e9ae": {
       "reason": "location-restricted",
       "at": "2026-09-25"
+    },
+    "feed210ae6644dca": {
+      "reason": "off-profile",
+      "at": "2026-09-27"
     }
   }
 }
