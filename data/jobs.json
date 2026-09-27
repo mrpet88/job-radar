@@ -397,24 +397,6 @@
     "isNew": false
   },
   {
-    "id": "2c236aac09be2a90",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager (Infra)",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4954993101",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-08-28T02:12:40-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "5d9677b42c2656de",
     "source": "lever",
     "vendor": "lever",
@@ -430,7 +412,7 @@
     "postedAt": "2026-09-25T18:55:12.350Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "28875ef87fde1dd6",
@@ -448,7 +430,7 @@
     "postedAt": "2026-09-25T16:57:58.413Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8808c72cb67e7e09",
@@ -582,7 +564,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "faace5c58b662aeb",
@@ -662,27 +644,6 @@
     "isNew": false
   },
   {
-    "id": "b2905f42389026fc",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA Automation Engineer",
-    "company": "NOVACARD",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://novacard.recruitee.com/o/qa-automation-engineer-1",
-    "tags": [
-      "Engineering & Technology",
-      "fulltime_permanent",
-      "information_technology",
-      "Mid-level",
-      "Remote"
-    ],
-    "postedAt": "2026-09-09T16:26:10.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "d64a4ffe37002089",
     "source": "adzuna",
     "title": "QA Test Automation Engineer.",
@@ -734,7 +695,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "72f69bd0f13e9426",
