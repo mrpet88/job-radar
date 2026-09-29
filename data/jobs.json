@@ -1,5 +1,24 @@
 [
   {
+    "id": "97548dbab6d6009c",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Quality Engineering Lead",
+    "company": "Thyme Care",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/thyme-care/468f8587-5775-42d6-b029-76c24f0f2719",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-09-28T20:41:01.487+00:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "73929f10e1047b76",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -49,6 +68,7 @@
     "postedAt": "2026-09-15T12:51:16-04:00",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -125,6 +145,24 @@
     "score": 10,
     "repostCount": 4,
     "isNew": false
+  },
+  {
+    "id": "f4056e09f8a8e789",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Manager, QA Engineering",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/28eb37cc-5c3d-416a-bdc6-e05408f2c7e8",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-29T06:32:24.881Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "91b0d6b69a2f19e8",
@@ -254,24 +292,6 @@
     "isNew": false
   },
   {
-    "id": "0c4fa78929d95c0d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-09-18T08:52:09-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "889e17b3bfda1add",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -376,7 +396,7 @@
     "postedAt": "2026-09-04T05:32:25-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -434,6 +454,25 @@
     "isNew": false
   },
   {
+    "id": "2b3d64ee402492c9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/a50e28ac-4dbc-4115-84e9-deb4230b4c0d",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-09-24T11:09:17.432Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "repostCount": 4,
+    "isNew": false
+  },
+  {
     "id": "8808c72cb67e7e09",
     "source": "lever",
     "vendor": "lever",
@@ -452,41 +491,40 @@
     "isNew": false
   },
   {
-    "id": "2b3d64ee402492c9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "126effefc54ddc12",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior Software Engineer, Quality ",
+    "company": "Camunda",
+    "location": "Remote",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/08b08e30-54a0-4cc8-85eb-c3351b410c96",
+    "url": "https://jobs.ashbyhq.com/camunda/8290ba6d-3406-416f-9d08-585b65163db9",
     "tags": [
-      "IT",
-      "Full-time"
+      "Products",
+      "Engineering",
+      "FullTime"
     ],
-    "postedAt": "2026-09-21T07:08:47.982Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "2317e1557e10534e",
-    "source": "jobicy",
-    "title": "QA Engineer",
-    "company": "Workwize",
-    "location": "Europe",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/151950-qa-engineer-4",
-    "tags": [
-      "QA & Testing",
-      "Full-Time",
-      "Any"
-    ],
-    "postedAt": "2026-09-28T05:20:27+00:00",
+    "postedAt": "2026-09-28T19:17:55.620+00:00",
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "repostCount": 3,
+    "isNew": true
+  },
+  {
+    "id": "297bc1a88b825be3",
+    "source": "adzuna",
+    "title": "Pega DCM Test Automation (ID:",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5901627738?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-09-28T16:24:45Z",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -506,7 +544,7 @@
     "postedAt": "2026-09-27T09:20:20Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9d8a3a1c0b5a57b7",
@@ -527,22 +565,22 @@
     "isNew": false
   },
   {
-    "id": "949912595e940dbf",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Embedded Software Engineer-Test Automation",
-    "company": "FORT Robotics",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/fortrobotics/jobs/4708674005",
+    "id": "09c238b44f28ed6d",
+    "source": "adzuna",
+    "title": "Embedded Software QA Engineer",
+    "company": "KRUSH Labs B.V.",
+    "location": "Eindhoven, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5892850348?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "Engineering"
+      "Vacatures Ander of Algemeen"
     ],
-    "postedAt": "2026-09-21T11:23:03-04:00",
+    "postedAt": "2026-09-21T16:36:40Z",
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "b02120f257f834ea",
@@ -584,6 +622,25 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "cc0469be92450264",
+    "source": "adzuna",
+    "title": "Backend QA Engineer",
+    "company": "Air Apps",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5878724971?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 52000,
+    "salaryMax": 65000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-10T18:15:23Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "7c6725592ca1f3b5",
@@ -683,28 +740,6 @@
     "isNew": false
   },
   {
-    "id": "b2905f42389026fc",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA Automation Engineer",
-    "company": "NOVACARD",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://novacard.recruitee.com/o/qa-automation-engineer-1",
-    "tags": [
-      "Engineering & Technology",
-      "fulltime_permanent",
-      "information_technology",
-      "Mid-level",
-      "Remote"
-    ],
-    "postedAt": "2026-09-09T16:26:10.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "d64a4ffe37002089",
     "source": "adzuna",
     "title": "QA Test Automation Engineer.",
@@ -721,6 +756,24 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5871532774?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-09-05T07:38:58Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 4,
+    "isNew": true
   },
   {
     "id": "975634083fb7bbdc",
