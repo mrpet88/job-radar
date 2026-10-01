@@ -1,5 +1,23 @@
 [
   {
+    "id": "003d9666e4cea53d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Quality Assurance Manager",
+    "company": "Judi Health",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/judihealth/jobs/5424758008",
+    "tags": [
+      "Technology"
+    ],
+    "postedAt": "2026-09-30T13:57:06-04:00",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
     "id": "97548dbab6d6009c",
     "source": "ashby",
     "vendor": "ashby",
@@ -51,24 +69,6 @@
     "postedAt": "2026-09-24T18:41:55Z",
     "tier": "lead",
     "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "003d9666e4cea53d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Quality Assurance Manager",
-    "company": "Judi Health",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/judihealth/jobs/5424758008",
-    "tags": [
-      "Technology"
-    ],
-    "postedAt": "2026-09-15T12:51:16-04:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -310,24 +310,6 @@
     "isNew": false
   },
   {
-    "id": "889e17b3bfda1add",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": " Engineering Manager - Revenue Management Azure",
-    "company": "DoiT",
-    "location": "Remote Netherlands ",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/doitintl/jobs/7993865003",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-09-14T05:12:42-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "7c6aa99fdc03c8f2",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -418,40 +400,22 @@
     "isNew": false
   },
   {
-    "id": "5d9677b42c2656de",
+    "id": "f8e5715c9d2d9bd0",
     "source": "lever",
     "vendor": "lever",
-    "title": "Engineering Manager- Ceph & Distributed Storage",
+    "title": "Engineering Manager - Foundations & Enablement",
     "company": "Jobgether",
     "location": "Netherlands",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e9885728-9947-4de4-9810-a93e8b6d320a",
+    "url": "https://jobs.lever.co/jobgether/79376bf5-599b-4adc-a087-9c20c226e5fd",
     "tags": [
       "IT",
       "Full-time"
     ],
-    "postedAt": "2026-09-25T18:55:12.350Z",
+    "postedAt": "2026-10-01T11:19:37.782Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "28875ef87fde1dd6",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "OpenStack Engineering Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d422def2-b895-4762-b7a0-e7a93d363a02",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-25T16:57:58.413Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "2b3d64ee402492c9",
@@ -511,24 +475,6 @@
     "isNew": false
   },
   {
-    "id": "09c238b44f28ed6d",
-    "source": "adzuna",
-    "title": "Embedded Software QA Engineer",
-    "company": "KRUSH Labs B.V.",
-    "location": "Eindhoven, Noord-Brabant",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5892850348?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-09-21T16:36:40Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "b02120f257f834ea",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -567,25 +513,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "cc0469be92450264",
-    "source": "adzuna",
-    "title": "Backend QA Engineer",
-    "company": "Air Apps",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5878724971?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 52000,
-    "salaryMax": 65000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-10T18:15:23Z",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -686,28 +613,6 @@
     "isNew": false
   },
   {
-    "id": "b2905f42389026fc",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA Automation Engineer",
-    "company": "NOVACARD",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://novacard.recruitee.com/o/qa-automation-engineer-1",
-    "tags": [
-      "Engineering & Technology",
-      "fulltime_permanent",
-      "information_technology",
-      "Mid-level",
-      "Remote"
-    ],
-    "postedAt": "2026-09-09T16:26:10.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "d64a4ffe37002089",
     "source": "adzuna",
     "title": "QA Test Automation Engineer.",
@@ -723,24 +628,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5871532774?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-09-05T07:38:58Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 4,
     "isNew": false
   },
   {
@@ -762,20 +649,6 @@
     "isNew": false
   },
   {
-    "id": "4658b1a729ae09af",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Quality Engineer",
-    "company": "Jj",
-    "location": "Leiden, South Holland, Netherlands",
-    "remote": false,
-    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leiden-South-Holland-Netherlands/Quality-Engineer_R-087831-1",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "46170a7714b35209",
     "source": "lever",
     "vendor": "lever",
@@ -791,7 +664,7 @@
     "postedAt": "2026-09-30T08:10:01.754Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "09d8601dfececa2c",
@@ -809,7 +682,7 @@
     "postedAt": "2026-09-30T07:33:37.118Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "72f69bd0f13e9426",
