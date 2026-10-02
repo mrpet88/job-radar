@@ -129,22 +129,22 @@
     "isNew": false
   },
   {
-    "id": "03b2c7785effc986",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Lead Hybrid QA Engineer ",
-    "company": "Sporty Group",
-    "location": "Europe - Remote",
+    "id": "a313d4ec56714929",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Lead QA Engineer (AI native)",
+    "company": "Jobgether",
+    "location": "Netherlands",
     "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4951687101",
+    "url": "https://jobs.lever.co/jobgether/fad1819a-e968-430b-b294-c99cc090c4aa",
     "tags": [
-      "CRM"
+      "IT",
+      "Full-time"
     ],
-    "postedAt": "2026-09-02T06:03:48-04:00",
+    "postedAt": "2026-10-02T10:31:06.780Z",
     "tier": "lead",
-    "score": 10,
-    "repostCount": 4,
-    "isNew": false
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "9b6b3f07a1f5479c",
@@ -342,7 +342,7 @@
     "postedAt": "2026-09-11T08:35:38-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -415,26 +415,86 @@
     "postedAt": "2026-10-01T11:19:37.782Z",
     "tier": "adjacent",
     "score": 2.5,
+    "isNew": false
+  },
+  {
+    "id": "ef5e64cde591113c",
+    "source": "jobicy",
+    "title": "Automation Engineer (Customer Service)",
+    "company": "Nebius",
+    "location": "Europe",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/154401-automation-engineer-customer-service",
+    "tags": [
+      "Software Engineering",
+      "Full-Time",
+      "Any"
+    ],
+    "postedAt": "2026-10-02T08:38:06+00:00",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
-    "id": "2b3d64ee402492c9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "5bac9876d201c5df",
+    "source": "remotive",
+    "title": "Senior back-end Engineer",
+    "company": "Lemon.io",
+    "location": "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a50e28ac-4dbc-4115-84e9-deb4230b4c0d",
+    "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
     "tags": [
-      "IT",
-      "Full-time"
+      ".Net",
+      "android",
+      "C",
+      "C#",
+      "C++",
+      "data science",
+      "golang",
+      "ios",
+      "java",
+      "javascript",
+      "kubernetes",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "ruby/rails",
+      "scala",
+      "shopify",
+      "swift",
+      "UI/UX",
+      "wordpress",
+      "blockchain",
+      "AI/ML",
+      "automation",
+      "project management",
+      "react native",
+      "research",
+      "rust",
+      "unity",
+      "electron",
+      "spring",
+      "laravel",
+      "Ethereum",
+      "graphic design",
+      "Typescript ",
+      "hardware",
+      "angular ",
+      "firebase",
+      "data engineering",
+      "Site Reliability",
+      "Symfony",
+      "next.js",
+      "infrastructure",
+      "flutter",
+      "Software Development",
+      "full_time"
     ],
-    "postedAt": "2026-09-24T11:09:17.432Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "repostCount": 4,
-    "isNew": false
+    "postedAt": "2026-09-30T13:15:26",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "126effefc54ddc12",
@@ -475,6 +535,28 @@
     "isNew": false
   },
   {
+    "id": "d822c31a8b90cd15",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer",
+    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer",
+    "tags": [
+      "Development",
+      "fulltime_permanent",
+      "information_technology",
+      "Allegro",
+      "Senior"
+    ],
+    "postedAt": "2026-09-18T11:50:09.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "b02120f257f834ea",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -490,8 +572,28 @@
     "postedAt": "2026-09-17T15:02:49.000Z",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "4ee2bd8735d92409",
+    "source": "adzuna",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "Fairphone",
+    "location": "Noord west, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5882783654?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 3000,
+    "salaryMax": 3000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-13T18:19:06Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "9f6b52e482bd1f5a",
@@ -510,26 +612,6 @@
       "Full-Time"
     ],
     "postedAt": "2026-09-11T18:20:01.370Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "7c6725592ca1f3b5",
-    "source": "adzuna",
-    "title": "QA Engineer",
-    "company": "Air Apps",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5878722882?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 44000,
-    "salaryMax": 56000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-10T18:15:03Z",
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
@@ -613,6 +695,28 @@
     "isNew": false
   },
   {
+    "id": "b2905f42389026fc",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "QA Automation Engineer",
+    "company": "NOVACARD",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://novacard.recruitee.com/o/qa-automation-engineer-1",
+    "tags": [
+      "Engineering & Technology",
+      "fulltime_permanent",
+      "information_technology",
+      "Mid-level",
+      "Remote"
+    ],
+    "postedAt": "2026-09-09T16:26:10.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "d64a4ffe37002089",
     "source": "adzuna",
     "title": "QA Test Automation Engineer.",
@@ -631,22 +735,22 @@
     "isNew": false
   },
   {
-    "id": "975634083fb7bbdc",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior QA Engineer",
-    "company": "Sporty Group",
-    "location": "Global - Remote",
+    "id": "e730d2ef8a6138ff",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Automation Engineer (Customer Service)",
+    "company": "Jobgether",
+    "location": "Netherlands",
     "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4725325101",
+    "url": "https://jobs.lever.co/jobgether/422a7ad5-2b99-4a49-aac6-00f3b2f0701f",
     "tags": [
-      "Sporty Technical"
+      "IT",
+      "Full-time"
     ],
-    "postedAt": "2026-09-02T06:04:30-04:00",
+    "postedAt": "2026-10-02T07:13:18.980Z",
     "tier": "ic",
-    "score": 1,
-    "repostCount": 4,
-    "isNew": false
+    "score": 0.5,
+    "isNew": true
   },
   {
     "id": "46170a7714b35209",
@@ -682,25 +786,6 @@
     "postedAt": "2026-09-30T07:33:37.118Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "72f69bd0f13e9426",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer (service desk)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/e9e6b14f-bd0b-4907-946c-7ef317352c82",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-23T20:14:22.178Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 4,
     "isNew": false
   }
 ]

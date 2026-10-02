@@ -25,6 +25,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "03fb0091d4b57d52": {
+      "reason": "location-restricted",
+      "at": "2026-10-02"
+    },
     "05478883af611b6a": {
       "reason": "fit",
       "at": "2026-09-25"
@@ -97,6 +101,10 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "1e506cae2f70b96b": {
+      "reason": "location-restricted",
+      "at": "2026-10-02"
+    },
     "1f5080e999d373dd": {
       "reason": "fit",
       "at": "2026-09-28"
@@ -104,6 +112,10 @@
     "1fb214310e3b31db": {
       "reason": "location-restricted",
       "at": "2026-09-25"
+    },
+    "205ca68578a6f6b2": {
+      "reason": "off-profile",
+      "at": "2026-10-02"
     },
     "2214bac40a8dbeff": {
       "reason": "off-profile",
@@ -221,6 +233,10 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "4ee2bd8735d92409": {
+      "reason": "fit",
+      "at": "2026-10-02"
+    },
     "4f1081bb6caf8709": {
       "reason": "off-profile",
       "at": "2026-10-01"
@@ -240,6 +256,10 @@
     "56e404287373b016": {
       "reason": "off-profile",
       "at": "2026-09-25"
+    },
+    "5bac9876d201c5df": {
+      "reason": "fit",
+      "at": "2026-10-02"
     },
     "5c00adc0c047f3c5": {
       "reason": "off-profile",
@@ -445,6 +465,14 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "a313d4ec56714929": {
+      "reason": "fit",
+      "at": "2026-10-02"
+    },
+    "a47004d042ab817d": {
+      "reason": "location-restricted",
+      "at": "2026-10-02"
+    },
     "a51e8741f38f0574": {
       "reason": "location-restricted",
       "at": "2026-10-01"
@@ -553,6 +581,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "d822c31a8b90cd15": {
+      "reason": "fit",
+      "at": "2026-10-02"
+    },
     "d83c73e12eb6534f": {
       "reason": "fit",
       "at": "2026-09-25"
@@ -589,6 +621,10 @@
       "reason": "off-profile",
       "at": "2026-10-01"
     },
+    "e730d2ef8a6138ff": {
+      "reason": "fit",
+      "at": "2026-10-02"
+    },
     "e9ec988cc100a7c5": {
       "reason": "fit",
       "at": "2026-09-29"
@@ -596,6 +632,10 @@
     "ec5ce80a5a5d6290": {
       "reason": "location-restricted",
       "at": "2026-09-25"
+    },
+    "ef5e64cde591113c": {
+      "reason": "fit",
+      "at": "2026-10-02"
     },
     "f02b6aca3d6fc60b": {
       "reason": "off-profile",
