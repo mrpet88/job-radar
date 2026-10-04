@@ -11,10 +11,9 @@
       "Quality Assurance"
     ],
     "postedAt": "2026-10-02T17:55:08.000Z",
-    "otherLocations": 1,
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "003d9666e4cea53d",
@@ -87,44 +86,6 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
-  },
-  {
-    "id": "5ef685cff6b4899d",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality and Release Manager",
-    "company": "Raya",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.lever.co/raya/b4525eaa-b246-4a83-8cb8-0d8ddd4b5ab5",
-    "tags": [
-      "Engineering",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-04T00:01:32.094Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "650894cfcf2aa812",
-    "source": "jobicy",
-    "title": "Site Reliability Engineering Manager",
-    "company": "Canonical",
-    "location": "APAC,  EMEA",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/149986-site-reliability-engineering-manager",
-    "tags": [
-      "DevOps & Infrastructure",
-      "Full-Time",
-      "Midweight"
-    ],
-    "postedAt": "2026-10-03T02:43:26+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
   },
   {
     "id": "a313d4ec56714929",
@@ -326,60 +287,6 @@
     "isNew": false
   },
   {
-    "id": "df73f1e686ed36c1",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Regulatory Reporting Data",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8110803",
-    "tags": [
-      "Data Analytics"
-    ],
-    "postedAt": "2026-09-04T05:35:07-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "05478883af611b6a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Data Delivery Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8110805",
-    "tags": [
-      "Development"
-    ],
-    "postedAt": "2026-09-04T05:32:25-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "2361f4e813c1e8df",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Software Engineering Manager, Data",
-    "company": "Kard Financial, Inc.",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/kardfinancialinc/jobs/4730995005",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-09-03T19:21:23-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "f8e5715c9d2d9bd0",
     "source": "lever",
     "vendor": "lever",
@@ -396,6 +303,26 @@
     "tier": "adjacent",
     "score": 2.5,
     "isNew": false
+  },
+  {
+    "id": "577371fd66aba26d",
+    "source": "arbeitnow",
+    "title": "QA Engineer Mobile",
+    "company": "ScholarshipOwl",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/scholarshipowl/remote-qa-engineer-mobile-berlin-166747",
+    "tags": [
+      "Development",
+      "Remote",
+      "Mid",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-10-04T08:30:08.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 4,
+    "isNew": true
   },
   {
     "id": "5bac9876d201c5df",
@@ -495,6 +422,28 @@
     "score": 1,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "d822c31a8b90cd15",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer",
+    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer",
+    "tags": [
+      "Development",
+      "fulltime_permanent",
+      "information_technology",
+      "Allegro",
+      "Senior"
+    ],
+    "postedAt": "2026-09-18T11:50:09.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "b02120f257f834ea",
@@ -609,28 +558,6 @@
       "Senior QA Automation Engineer"
     ],
     "postedAt": "2026-09-10",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "b2905f42389026fc",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA Automation Engineer",
-    "company": "NOVACARD",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://novacard.recruitee.com/o/qa-automation-engineer-1",
-    "tags": [
-      "Engineering & Technology",
-      "fulltime_permanent",
-      "information_technology",
-      "Mid-level",
-      "Remote"
-    ],
-    "postedAt": "2026-09-09T16:26:10.000Z",
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
