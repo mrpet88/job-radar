@@ -88,6 +88,77 @@
     "isNew": false
   },
   {
+    "id": "0c4fa78929d95c0d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
+    "tags": [
+      "Product Management"
+    ],
+    "postedAt": "2026-10-05T10:38:52-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "ad3fe2eae17ef44e",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Field Engineering (Pre-Sales) – Benelux Named Accounts",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8836690002",
+    "tags": [
+      "Field Engineering - Other"
+    ],
+    "postedAt": "2026-10-05T10:20:58-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "ed2664c2f0b18807",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Quality Systems Manager",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/38319c76-b31d-424d-80e5-fe16b15dd281",
+    "tags": [
+      "Others",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-05T08:21:35.424Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "3bdceb9a37844fe7",
+    "source": "jobicy",
+    "title": "Engineering Manager",
+    "company": "Supabase",
+    "location": "Anywhere",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/154552-engineering-manager-9",
+    "tags": [
+      "Product & Operations",
+      "Full-Time",
+      "Senior"
+    ],
+    "postedAt": "2026-10-05T08:02:58+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "a313d4ec56714929",
     "source": "lever",
     "vendor": "lever",
@@ -322,7 +393,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5bac9876d201c5df",
@@ -386,24 +457,21 @@
     "isNew": false
   },
   {
-    "id": "126effefc54ddc12",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Software Engineer, Quality ",
+    "id": "f6a638f9f066ee45",
+    "source": "arbeitnow",
+    "title": "Senior Software Engineer, Quality",
     "company": "Camunda",
     "location": "Remote",
     "remote": true,
-    "url": "https://jobs.ashbyhq.com/camunda/8290ba6d-3406-416f-9d08-585b65163db9",
+    "url": "https://www.arbeitnow.ch/jobs/companies/camunda/remote-senior-software-engineer-quality-4113",
     "tags": [
       "Products",
-      "Engineering",
-      "FullTime"
+      "Full Time"
     ],
-    "postedAt": "2026-09-28T19:17:55.620+00:00",
-    "otherLocations": 1,
+    "postedAt": "2026-09-28T23:40:08.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "9d8a3a1c0b5a57b7",
@@ -424,28 +492,6 @@
     "isNew": false
   },
   {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer",
-    "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "Allegro",
-      "Senior"
-    ],
-    "postedAt": "2026-09-18T11:50:09.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "b02120f257f834ea",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -463,6 +509,25 @@
     "score": 1,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "8dc0cccdb3383970",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "QA Engineer",
+    "company": "Creative Clicks B.V.",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://creativeclicks.recruitee.com/o/qa-engineer-2",
+    "tags": [
+      "Development",
+      "fulltime_fixed_term",
+      "information_technology"
+    ],
+    "postedAt": "2026-09-16T13:53:26.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "9f6b52e482bd1f5a",
