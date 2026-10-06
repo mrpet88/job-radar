@@ -71,21 +71,76 @@
     "isNew": false
   },
   {
-    "id": "9e346c8d91311c41",
-    "source": "adzuna",
-    "title": "QA Manager",
-    "company": "At Harver",
-    "location": "Nederland",
+    "id": "ad3fe2eae17ef44e",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Field Engineering (Pre-Sales) – Benelux Named Accounts",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
     "remote": false,
-    "url": "https://www.adzuna.nl/details/5897130563?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8836690002",
     "tags": [
-      "Unknown"
+      "Field Engineering - Other"
     ],
-    "postedAt": "2026-09-24T18:41:55Z",
-    "tier": "lead",
-    "score": 10,
+    "postedAt": "2026-10-06T07:41:17-04:00",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": false
+  },
+  {
+    "id": "b377b92ee8b013a8",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Automation QA Lead ( Betting )",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/3747e340-0c08-4273-a147-d829659dffe5",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-06T06:57:13.522Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "6de241720639823a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Forward Deployed Engineering",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
+    "tags": [
+      "Professional Services Operations"
+    ],
+    "postedAt": "2026-10-06T06:38:56-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 5,
+    "isNew": false
+  },
+  {
+    "id": "48179e3ace7dfde1",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Software Engineer, Engineering Operations",
+    "company": "Camunda",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/camunda/327f13d9-6054-46e5-96cd-bd757554f478",
+    "tags": [
+      "Products",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-10-05T18:31:56.857+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "0c4fa78929d95c0d",
@@ -103,24 +158,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "ad3fe2eae17ef44e",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Field Engineering (Pre-Sales) – Benelux Named Accounts",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8836690002",
-    "tags": [
-      "Field Engineering - Other"
-    ],
-    "postedAt": "2026-10-05T10:20:58-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ed2664c2f0b18807",
@@ -138,25 +176,7 @@
     "postedAt": "2026-10-05T08:21:35.424Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "3bdceb9a37844fe7",
-    "source": "jobicy",
-    "title": "Engineering Manager",
-    "company": "Supabase",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/154552-engineering-manager-9",
-    "tags": [
-      "Product & Operations",
-      "Full-Time",
-      "Senior"
-    ],
-    "postedAt": "2026-10-05T08:02:58+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a313d4ec56714929",
@@ -230,26 +250,6 @@
     "isNew": false
   },
   {
-    "id": "9e366afe3b402a25",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Software Engineer, Engineering Operations",
-    "company": "Camunda",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/camunda/327f13d9-6054-46e5-96cd-bd757554f478",
-    "tags": [
-      "Products",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-09-22T15:00:23.109+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "6766f86d6d184237",
     "source": "lever",
     "vendor": "lever",
@@ -282,24 +282,6 @@
     "postedAt": "2026-09-21T13:22:12-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "6de241720639823a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Forward Deployed Engineering",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
-    "tags": [
-      "Professional Services Operations"
-    ],
-    "postedAt": "2026-09-21T13:22:12-04:00",
-    "tier": "adjacent",
-    "score": 5,
     "repostCount": 5,
     "isNew": false
   },
@@ -318,7 +300,7 @@
     "postedAt": "2026-09-21T13:22:12-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 4,
+    "repostCount": 5,
     "isNew": false
   },
   {
@@ -373,26 +355,6 @@
     "postedAt": "2026-10-01T11:19:37.782Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "577371fd66aba26d",
-    "source": "arbeitnow",
-    "title": "QA Engineer Mobile",
-    "company": "ScholarshipOwl",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/scholarshipowl/remote-qa-engineer-mobile-berlin-166747",
-    "tags": [
-      "Development",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-10-04T08:30:08.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 4,
     "isNew": false
   },
   {
@@ -457,41 +419,6 @@
     "isNew": false
   },
   {
-    "id": "f6a638f9f066ee45",
-    "source": "arbeitnow",
-    "title": "Senior Software Engineer, Quality",
-    "company": "Camunda",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://www.arbeitnow.ch/jobs/companies/camunda/remote-senior-software-engineer-quality-4113",
-    "tags": [
-      "Products",
-      "Full Time"
-    ],
-    "postedAt": "2026-09-28T23:40:08.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "9d8a3a1c0b5a57b7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Test Engineer - Embedded Software",
-    "company": "Hudl",
-    "location": "Den Bosch, Netherlands",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/hudl/jobs/7338957",
-    "tags": [
-      "Hardware R&D"
-    ],
-    "postedAt": "2026-09-24T12:45:57-04:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "b02120f257f834ea",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -511,25 +438,6 @@
     "isNew": false
   },
   {
-    "id": "8dc0cccdb3383970",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA Engineer",
-    "company": "Creative Clicks B.V.",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://creativeclicks.recruitee.com/o/qa-engineer-2",
-    "tags": [
-      "Development",
-      "fulltime_fixed_term",
-      "information_technology"
-    ],
-    "postedAt": "2026-09-16T13:53:26.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "9f6b52e482bd1f5a",
     "source": "lever",
     "vendor": "lever",
@@ -546,26 +454,6 @@
       "Full-Time"
     ],
     "postedAt": "2026-09-11T18:20:01.370Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "faace5c58b662aeb",
-    "source": "adzuna",
-    "title": "QA Automation Engineer",
-    "company": "Air Apps",
-    "location": "Amsterdam, Noord-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5878715642?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 47000,
-    "salaryMax": 59000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-10T18:13:08Z",
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
@@ -623,24 +511,6 @@
       "Senior QA Automation Engineer"
     ],
     "postedAt": "2026-09-10",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "d64a4ffe37002089",
-    "source": "adzuna",
-    "title": "QA Test Automation Engineer.",
-    "company": "Fitura",
-    "location": "Utrecht, Provincie Utrecht",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5875448721?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-09-08T12:42:10Z",
     "tier": "ic",
     "score": 1,
     "repostCount": 2,

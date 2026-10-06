@@ -37,6 +37,10 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "05b362bab61c6118": {
+      "reason": "off-profile",
+      "at": "2026-10-06"
+    },
     "08b3c39864f1a6b7": {
       "reason": "location-restricted",
       "at": "2026-09-25"
@@ -120,6 +124,10 @@
     "205ca68578a6f6b2": {
       "reason": "off-profile",
       "at": "2026-10-02"
+    },
+    "20fa5b2a8edfaa06": {
+      "reason": "off-profile",
+      "at": "2026-10-06"
     },
     "2214bac40a8dbeff": {
       "reason": "off-profile",
@@ -240,6 +248,10 @@
     "47914c450e556c04": {
       "reason": "off-profile",
       "at": "2026-09-25"
+    },
+    "48179e3ace7dfde1": {
+      "reason": "fit",
+      "at": "2026-10-06"
     },
     "4dc12c80bf21be2b": {
       "reason": "location-restricted",
@@ -560,6 +572,10 @@
     "b2905f42389026fc": {
       "reason": "fit",
       "at": "2026-09-25"
+    },
+    "b377b92ee8b013a8": {
+      "reason": "fit",
+      "at": "2026-10-06"
     },
     "b556a8eff8b145c0": {
       "reason": "off-profile",
