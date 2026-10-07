@@ -71,6 +71,38 @@
     "isNew": false
   },
   {
+    "id": "9e346c8d91311c41",
+    "source": "adzuna",
+    "title": "QA Manager",
+    "company": "At Harver",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5897130563?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-24T18:41:55Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "5a47c588c238686e",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "GSI Project Site Quality Lead",
+    "company": "Gevernova",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5051446-2",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "ad3fe2eae17ef44e",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -103,7 +135,7 @@
     "postedAt": "2026-10-06T06:57:13.522Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6de241720639823a",
@@ -140,7 +172,7 @@
     "postedAt": "2026-10-05T18:31:56.857+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0c4fa78929d95c0d",
@@ -212,24 +244,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "f4056e09f8a8e789",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Manager, QA Engineering",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/28eb37cc-5c3d-416a-bdc6-e05408f2c7e8",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-29T06:32:24.881Z",
-    "tier": "lead",
-    "score": 5,
     "isNew": false
   },
   {
@@ -356,6 +370,25 @@
     "tier": "adjacent",
     "score": 2.5,
     "isNew": false
+  },
+  {
+    "id": "7b4bab392ee67d20",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior Embedded Software Test Engineer",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
+    "tags": [
+      "R&D",
+      "fulltime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-10-01T16:35:40.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "5bac9876d201c5df",
@@ -515,6 +548,20 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "f43b8a88d495f642",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Automation CSV Engineer",
+    "company": "Jj",
+    "location": "Leiden, South Holland, Netherlands",
+    "remote": false,
+    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leiden-South-Holland-Netherlands/Senior-Automation-CSV-Engineer_R-102707",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "e730d2ef8a6138ff",
