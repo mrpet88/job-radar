@@ -85,7 +85,7 @@
     "postedAt": "2026-09-17T04:53:37Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "42f8b7dae06b3a97",
@@ -99,6 +99,24 @@
     "tags": [],
     "tier": "lead",
     "score": 10,
+    "isNew": false
+  },
+  {
+    "id": "856e348456a7a3a4",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Chapter Lead",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/98e53171-0ca5-4b4a-9073-a63bd1c9aab8",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-08T07:08:38.986Z",
+    "tier": "lead",
+    "score": 5,
     "isNew": true
   },
   {
@@ -389,7 +407,7 @@
     "postedAt": "2026-10-06T16:29:26.806+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c6a55663e85b6fc5",
@@ -405,7 +423,7 @@
     "tier": "ic",
     "score": 1,
     "languageRequirement": "C1",
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7b4bab392ee67d20",
@@ -507,28 +525,6 @@
     "isNew": false
   },
   {
-    "id": "9f6b52e482bd1f5a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Automation Test Engineer",
-    "company": "Skywarditsolutions",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobs.lever.co/skywarditsolutions/83938a38-5264-492f-a3f2-2a52093848a7",
-    "salaryMin": 110000,
-    "salaryMax": 130000,
-    "currency": "USD",
-    "tags": [
-      "CMS-SEAS IT",
-      "Full-Time"
-    ],
-    "postedAt": "2026-09-11T18:20:01.370Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "faace5c58b662aeb",
     "source": "adzuna",
     "title": "QA Automation Engineer",
@@ -546,7 +542,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "aa2184cd47b2f73e",
@@ -622,7 +618,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e730d2ef8a6138ff",
