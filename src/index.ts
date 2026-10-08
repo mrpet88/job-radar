@@ -8,11 +8,12 @@ import { fetchRemoteOk } from "./sources/remoteok.js";
 import { fetchRemotive } from "./sources/remotive.js";
 import { fetchJobicy } from "./sources/jobicy.js";
 import { fetchJooble } from "./sources/jooble.js";
+import { fetchReliefWeb } from "./sources/reliefweb.js";
 import { fetchBoard } from "./sources/ats/index.js";
 import { discover } from "./discover.js";
 import { probe } from "./probe.js";
 import { loadBoards, saveBoards, mergeBoards, boardKey, loadDead, saveDead, pruneExpiredDead, loadDiscoveryOffset, saveDiscoveryOffset, loadProbeState, saveProbeState, loadSeenHistory, saveSeenHistory, loadScreenState, saveScreenState } from "./boards.js";
-import { matchesCriteria, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny, trackReposts, roleKey } from "./filter.js";
+import { matchesCriteria, keywordMatch, dedupe, diffNew, scoreJob, collapseCrossPosting, detectLanguageRequirement, matchAny, trackReposts, roleKey } from "./filter.js";
 import { renderHtml } from "./render.js";
 import { screen } from "./screen.js";
 import { writeDigest } from "./digest.js";
@@ -53,10 +54,14 @@ async function main() {
   const dead = pruneExpiredDead(await loadDead());
 
   // ── Registry: start from saved boards + config seed boards ──
-  let boards = mergeBoards(
-    await loadBoards(),
-    seedBoards.map(({ firstSeen, ...c }) => c),
-  ).merged;
+  const seeds = seedBoards.map(({ firstSeen, ...c }) => c);
+  // mergeBoards keeps the stored copy of a known board, so lay the seed's own
+  // fields back over it: config is the source of truth for hand-set boards
+  // (a SuccessFactors `location`, say), while harvest state (lastOk, fails,
+  // firstSeen) stays as stored.
+  const seedByKey = new Map(seeds.map((s) => [boardKey(s), s]));
+  let boards = mergeBoards(await loadBoards(), seeds).merged
+    .map((b) => ({ ...b, ...seedByKey.get(boardKey(b)) }));
 
   // ── Discover new ATS boards via the search API ──
   // Discovery is restricted to lead-tier keyword groups: companies posting IC roles
@@ -98,8 +103,10 @@ async function main() {
     const now = new Date().toISOString();
     const gone = new Set<string>();   // returned 404/410 → the board is gone
     let flaky = 0;                    // transient errors (429/5xx/timeout)
+    // Vendors that pay a request per posting only fetch titles that could match.
+    const titleGate = (title: string) => keywordMatch(title, criteria);
     const harvested = await pool(boards, 5, async (b) => {
-      try { const jobs = await fetchBoard(b); b.lastOk = now; b.fails = 0; return jobs; }
+      try { const jobs = await fetchBoard(b, undefined, titleGate); b.lastOk = now; b.fails = 0; return jobs; }
       catch (e) {
         b.fails = (b.fails ?? 0) + 1;
         if (/HTTP 4(04|10)/.test((e as Error).message)) gone.add(boardKey(b));
@@ -148,6 +155,11 @@ async function main() {
     const keywords = allTerms.join(" ");
     collected.push(...await safe("jooble", () =>
       fetchJooble({ apiKey: sources.jooble.apiKey, keywords })));
+  }
+  if (sources.reliefweb.enabled) {
+    collected.push(...await safe("reliefweb", () => fetchReliefWeb(sources.reliefweb)));
+  } else {
+    console.log("[reliefweb] skipped (no RELIEFWEB_APPNAME set)");
   }
 
   // ── Filter → dedupe → collapse → score → diff → write ──

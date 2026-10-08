@@ -43,6 +43,8 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
           JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+          # ReliefWeb (UN/NGO jobs): an appname ReliefWeb approved. Skipped when unset.
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
           # AI screen (optional): Gemini key + the CV as plain text. Both secrets —
           # the repo is public, so the CV never goes into a committed file.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

@@ -52,10 +52,15 @@ export function matchesCriteria(job: Job, c: SearchCriteria): boolean {
   if (!isFresh(job, c.maxAgeDays)) return false;
   if (!locationOk(job, c.location)) return false;
 
-  // Keyword match is title+tags only, with word boundaries, so a role must
-  // actually *be* about the keyword — not merely mention it in boilerplate.
-  // ANY group in ANY tier matches, where a group requires ALL its terms.
-  const hay = `${job.title} ${job.tags.join(" ")}`.toLowerCase();
+  return keywordMatch(`${job.title} ${job.tags.join(" ")}`, c);
+}
+
+// Keyword match is title+tags only, with word boundaries, so a role must actually
+// *be* about the keyword — not merely mention it in boilerplate. ANY group in ANY
+// tier matches, where a group requires ALL its terms. Exported so a source can gate
+// costly per-posting requests on the title alone (see successfactors.ts).
+export function keywordMatch(text: string, c: SearchCriteria): boolean {
+  const hay = text.toLowerCase();
   return c.keywordTiers.some((t) => t.groups.some((g) => g.every((term) => wordIn(hay, term))));
 }
 

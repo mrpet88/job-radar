@@ -1,42 +1,11 @@
 import type { Board, Job } from "../../types.js";
 import { getText, stripHtml, isRemoteText, prettify, assertHost, bodyFields, type FetchOpts } from "../../util/http.js";
 import { hashId } from "../../util/id.js";
+import { ITEM_RE, tag, unescape } from "../../util/xml.js";
 
 // https://<slug>.teamtailor.com/jobs.rss — public RSS, no auth, no key.
 // Teamtailor is Nordic-built and common across NL/EU mid-market employers, so it
 // reaches boards the US-centric vendors miss.
-//
-// Parsed with regex rather than an XML library: the repo runs on zero runtime
-// dependencies, and the feed shape is narrow and stable — flat <item> blocks with
-// text-only children. Each field is read inside its own item block, so a stray
-// tag elsewhere in the document can't bleed across postings.
-const ITEM_RE = /<item\b[^>]*>([\s\S]*?)<\/item>/g;
-
-// One field out of a block. Self-closing tags (<tt:role/>, common on these feeds)
-// deliberately don't match and come back undefined.
-function tag(block: string, name: string): string | undefined {
-  const m = block.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)</${name}>`));
-  const v = m ? decodeXml(m[1]).trim() : "";
-  return v || undefined;
-}
-
-// &amp; is unescaped LAST so that "&amp;lt;" survives as the literal "&lt;"
-// instead of collapsing into "<" and inventing markup that was never there.
-const unescape = (s: string): string =>
-  s.replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&#(\d+);/g, (_, d: string) => safeChar(Number(d)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, h: string) => safeChar(parseInt(h, 16)))
-    .replace(/&amp;/g, "&");
-
-const safeChar = (code: number): string =>
-  Number.isFinite(code) && code >= 0 && code <= 0x10ffff ? String.fromCodePoint(code) : "";
-
-const decodeXml = (s: string): string =>
-  unescape(s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1"));
 
 export async function fetchTeamtailor(board: Board, opts?: FetchOpts): Promise<Job[]> {
   const url = `https://${board.token}.teamtailor.com/jobs.rss`;

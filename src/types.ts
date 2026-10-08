@@ -3,6 +3,9 @@ export type Vendor =
   | "greenhouse" | "lever" | "ashby" | "workday"
   // EU/NL-heavy vendors: Recruitee (NL), Workable, SmartRecruiters, Teamtailor.
   | "recruitee" | "workable" | "smartrecruiters" | "teamtailor"
+  // SAP SuccessFactors: large enterprises and public bodies (EU agencies). Vanity
+  // domains, so it can't be discovered or probed — boards come from seedBoards.
+  | "successfactors"
   | "web";
 
 export interface Job {
@@ -29,12 +32,15 @@ export interface Job {
 }
 
 // A company career board we know how to harvest directly.
-// `site`/`dc` are only meaningful for Workday tenants.
+// `site`/`dc` are only meaningful for Workday tenants; `location`/`locationSearch`
+// only for SuccessFactors ones.
 export interface Board {
   vendor: Exclude<Vendor, "web">;
-  token: string;         // greenhouse token / lever slug / ashby name / workday tenant
+  token: string;         // greenhouse token / lever slug / ashby name / workday tenant / successfactors host
   site?: string;         // workday site (e.g. "External")
   dc?: string;           // workday data center (e.g. "wd1")
+  location?: string;     // successfactors: location for every role (tenants rarely expose one)
+  locationSearch?: string; // successfactors: server-side location filter (e.g. "Netherlands")
   name?: string;         // display name once resolved
   firstSeen: string;     // ISO date the board entered the registry
   lastOk?: string;       // ISO date of last successful harvest

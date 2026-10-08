@@ -27,6 +27,11 @@ export const criteria: SearchCriteria = {
         ["testcoordinator"],          // real NL title, lead-adjacent
         ["test", "architect"],        // Polteq-style, routes into lead work
         ["quality", "coach"],
+        // Matching is whole-word, so "test" never matches "testing": without these,
+        // "Head of Testing" and "Testing Lead" were silently dropped.
+        ["testing", "lead"],
+        ["testing", "manager"],
+        ["head", "of", "testing"],
       ],
     },
     {
@@ -52,6 +57,21 @@ export const criteria: SearchCriteria = {
         ["quality", "engineer"],
         ["automation", "engineer"],
         ["qa", "engineer"],
+        // Whole-word again: "engineer" doesn't match "engineering", so EMA's
+        // "Software Quality Engineering Specialist" fell through every group.
+        ["quality", "engineering"],
+        ["qa", "engineering"],
+        // "Specialist" was in no group at all — public-sector and EU-agency titles
+        // use it where a company would say "engineer".
+        ["qa", "specialist"],
+        ["test", "specialist"],
+        ["testing", "specialist"],
+        ["quality", "assurance", "specialist"],
+        ["software", "tester"],
+        ["qa", "tester"],
+        // Deliberately NOT added: bare ["test", "engineer"] / ["test", "engineering"].
+        // In NL those are mostly hardware/semiconductor roles; "Software Test
+        // Engineer" is already covered by ["software", "engineer", "test"].
       ],
     },
   ],
@@ -184,9 +204,27 @@ export const screening = {
 export const demoteCompanies = ["Jobgether", "Synsel Techniek"];
 // Optional: pin high-signal company boards directly. These are harvested every
 // run even without a search key. Discovered boards accumulate here automatically.
+// Fields set here override the stored copy in boards.json every run, so editing a
+// seed takes effect without touching the data files.
 export const seedBoards: Board[] = [
   // { vendor: "greenhouse", token: "stripe", firstSeen: "2026-07-01" },
   // { vendor: "workday", token: "honeywell", dc: "wd1", site: "Honeywell_Careers", firstSeen: "2026-07-01" },
+
+  // SuccessFactors can't be discovered or probed (vanity domains), so this is the
+  // only way in: token = the career site's host. Spot one by its job URLs, which
+  // look like https://<host>/job/<Title-Slug>/<numeric-id>/. Tiles rarely carry a
+  // location, so set `location` (single-site employer) or `locationSearch`
+  // (multinational: filters server-side and doubles as the location).
+  {
+    vendor: "successfactors", token: "careers.ema.europa.eu",
+    name: "European Medicines Agency", location: "Amsterdam, Netherlands",
+    firstSeen: "2026-10-08",
+  },
+  {
+    vendor: "successfactors", token: "careers.capgemini.com",
+    name: "Capgemini", locationSearch: "Netherlands",
+    firstSeen: "2026-10-08",
+  },
 ];
 export const sources = {
   arbeitnow: { enabled: true },   // no key needed
@@ -202,5 +240,12 @@ export const sources = {
   jooble: {
     enabled: Boolean(process.env.JOOBLE_API_KEY),
     apiKey: process.env.JOOBLE_API_KEY ?? "",
+  },
+  // UN / IGO / NGO roles. Needs an appname ReliefWeb has approved (free, by form):
+  // https://apidoc.reliefweb.int/parameters#appname. Searched on title terms only.
+  reliefweb: {
+    enabled: Boolean(process.env.RELIEFWEB_APPNAME),
+    appname: process.env.RELIEFWEB_APPNAME ?? "",
+    titleTerms: ["qa", "quality", "test", "testing", "tester", "sdet"],
   },
 };

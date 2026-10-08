@@ -29,10 +29,13 @@ Over time you accumulate the per-company API map you'd never build by hand.
 ### Sources
 - **Direct ATS** — Greenhouse, Lever, Ashby, Workday, plus the EU/NL-heavy vendors
   Recruitee, Workable, SmartRecruiters and Teamtailor (harvested from the registry).
+- **SAP SuccessFactors** — big enterprises and public bodies, including EU agencies.
+  Hand-seeded only; see below.
 - **Discovery** — Brave Search or Google CSE finds new ATS boards (needs one free
   key), and slug probing finds named companies' boards for free.
 - **Aggregators** (no key) — Arbeitnow, RemoteOK, Remotive, Jobicy; plus **Adzuna**
-  (free dev key, 50+ countries incl. NL, salary) and **Jooble** (free key).
+  (free dev key, 50+ countries incl. NL, salary), **Jooble** (free key) and
+  **ReliefWeb** (UN/IGO/NGO roles; free, approved appname).
 
 ## Run locally
 ```bash
@@ -85,16 +88,47 @@ Results are cached in `data/probe-state.json`: resolved companies are never re-p
 and misses are retried after 30 days. So the cost is one sweep (~20s for 15 companies),
 not a daily tax. Set `JOB_RADAR_PROBE=false` to skip it.
 
-### Enable Adzuna / Jooble (free, optional)
+### Add a SuccessFactors employer (free, no key)
+Large employers and public bodies — EU agencies, consultancies, multinationals — often
+run SAP SuccessFactors, which none of the vendors above cover. It can't be found
+automatically: every tenant sits on its own vanity domain, so there's no shared host
+to search or slug to guess. Spot one by its job URLs, which look like
+`https://<host>/job/<Title-Slug>/<numeric-id>/`, then add it to `seedBoards` in
+`src/config.ts` with the host as `token`:
+
+```ts
+{ vendor: "successfactors", token: "careers.ema.europa.eu",
+  name: "European Medicines Agency", location: "Amsterdam, Netherlands", firstSeen: "2026-10-08" },
+{ vendor: "successfactors", token: "careers.capgemini.com",
+  name: "Capgemini", locationSearch: "Netherlands", firstSeen: "2026-10-08" },
+```
+
+Tenants rarely show a location on their listings, so give one of:
+- `location` — a single-site employer; every role gets it.
+- `locationSearch` — a multinational; it filters server-side (Capgemini lists
+  thousands of roles worldwide, ~80 in NL) and doubles as the location.
+
+Each board is read through its listing pages; the full posting is fetched only for
+titles that pass the keyword filter, so a big tenant costs a few requests, not
+hundreds. Seed fields override the stored copy every run, so edits take effect
+without touching `data/boards.json`.
+
+### Enable Adzuna / Jooble / ReliefWeb (free, optional)
 - Adzuna: register at https://developer.adzuna.com → `export ADZUNA_APP_ID=… ADZUNA_APP_KEY=…`
 - Jooble: get a key at https://jooble.org/api/about → `export JOOBLE_API_KEY=…`
+- ReliefWeb: request an appname at https://apidoc.reliefweb.int/parameters#appname
+  (approved by hand, typically within days) → `export RELIEFWEB_APPNAME=…`. The
+  public RSS feed isn't a keyless shortcut: it blocks scripted clients as bots.
 
 ## Change what you track
 Edit `src/config.ts`:
 - `criteria.keywordTiers` — weighted bands of keyword groups (`lead` / `adjacent` /
   `ic`). A job matches if ANY group in ANY tier matches, and a group matches only when
   ALL its terms do. The highest matched tier's weight becomes the job's score, which
-  drives ranking; the tier name shows as a badge.
+  drives ranking; the tier name shows as a badge. Terms match **whole words in the
+  title** (and tags), so inflections need their own group: `test` doesn't match
+  "Testing", `engineer` doesn't match "Engineering". That gap once hid "Head of
+  Testing" and every "Quality Engineering Specialist".
 - `criteria.excludeKeywords`, `countries`, `remoteOnly`, `visaSponsorship`.
 - `criteria.location` — geo filter: in-person/hybrid roles are kept only in
   `onsiteCountries`; remote roles only when the location names an onsite country, one
@@ -110,13 +144,14 @@ Edit `src/config.ts`:
 - `demoteCompanies` — companies whose score is halved (feed-flooders and off-domain
   posters) so genuine hits still surface but sink.
 - `seedBoards` — pin specific company boards to harvest directly (e.g. a Workday
-  tenant like Honeywell), without waiting for discovery to find them.
+  tenant like Honeywell), without waiting for discovery to find them. The only way
+  in for SuccessFactors employers (see above).
 
 ## Scheduled + hosted (GitHub Actions)
 1. Push this repo to GitHub.
 2. Settings → Secrets → Actions: add `BRAVE_API_KEY` (for discovery) and optionally
-   `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`, plus the mail secrets below
-   if you want the digest.
+   `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_API_KEY`, `RELIEFWEB_APPNAME`, plus the
+   mail secrets below if you want the digest.
 3. Settings → Pages → Source: GitHub Actions.
 4. The workflow runs once daily (09:30 UTC), commits everything under `data/`, emails
    the new roles, and publishes the dashboard to your Pages URL. "NEW" detection works

@@ -8,11 +8,16 @@ import { fetchRecruitee } from "./recruitee.js";
 import { fetchWorkable } from "./workable.js";
 import { fetchSmartRecruiters } from "./smartrecruiters.js";
 import { fetchTeamtailor } from "./teamtailor.js";
+import { fetchSuccessFactors } from "./successfactors.js";
 
 // Route a registry board to its vendor fetcher. `opts` lets a caller override the
 // HTTP timeout and retries: probing wants to fail fast on a guessed slug, while a
-// real harvest should wait out a slow board.
-export function fetchBoard(board: Board, opts?: FetchOpts): Promise<Job[]> {
+// real harvest should wait out a slow board. `titleGate` is for vendors that pay a
+// request per posting to get its body (SuccessFactors) — only titles that pass it
+// are fetched in full; every other vendor delivers bodies in the list call.
+export function fetchBoard(
+  board: Board, opts?: FetchOpts, titleGate?: (title: string) => boolean,
+): Promise<Job[]> {
   switch (board.vendor) {
     case "greenhouse":      return fetchGreenhouse(board, opts);
     case "lever":           return fetchLever(board, opts);
@@ -22,5 +27,6 @@ export function fetchBoard(board: Board, opts?: FetchOpts): Promise<Job[]> {
     case "workable":        return fetchWorkable(board, opts);
     case "smartrecruiters": return fetchSmartRecruiters(board, opts);
     case "teamtailor":      return fetchTeamtailor(board, opts);
+    case "successfactors":  return fetchSuccessFactors(board, opts, titleGate);
   }
 }
