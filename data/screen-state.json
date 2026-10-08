@@ -21,6 +21,10 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "01c85c1a6b98eeee": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
+    },
     "03b2c7785effc986": {
       "reason": "fit",
       "at": "2026-09-25"
@@ -80,6 +84,10 @@
     "0cda7031d51d6fd9": {
       "reason": "off-profile",
       "at": "2026-10-05"
+    },
+    "0d39af05b216cf02": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
     },
     "0d6b6301e3539abe": {
       "reason": "off-profile",
@@ -153,6 +161,10 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "2616e602311a6c36": {
+      "reason": "fit",
+      "at": "2026-10-08"
+    },
     "27bc4f82b32e86a0": {
       "reason": "off-profile",
       "at": "2026-09-29"
@@ -189,6 +201,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "2dded3a92ed865d5": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
+    },
     "30c6402dd51aa865": {
       "reason": "off-profile",
       "at": "2026-09-25"
@@ -213,6 +229,14 @@
       "reason": "location-restricted",
       "at": "2026-09-25"
     },
+    "3b043fee32f4298a": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
+    },
+    "3b4bfc2db8637bd4": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
+    },
     "3bdceb9a37844fe7": {
       "reason": "fit",
       "at": "2026-10-05"
@@ -233,6 +257,14 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "41fd154fd741c1db": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
+    },
+    "42f8b7dae06b3a97": {
+      "reason": "fit",
+      "at": "2026-10-08"
+    },
     "43221bf02dcfa585": {
       "reason": "too-junior",
       "at": "2026-10-01"
@@ -240,6 +272,10 @@
     "4569eedb169edfa8": {
       "reason": "off-profile",
       "at": "2026-09-25"
+    },
+    "45c73e4f5deeb264": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
     },
     "45df783a2d1e5f29": {
       "reason": "off-profile",
@@ -261,6 +297,10 @@
       "reason": "fit",
       "at": "2026-10-06"
     },
+    "4c8a3e9b85edec81": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
+    },
     "4dc12c80bf21be2b": {
       "reason": "location-restricted",
       "at": "2026-09-25"
@@ -272,6 +312,10 @@
     "4f1081bb6caf8709": {
       "reason": "off-profile",
       "at": "2026-10-01"
+    },
+    "4f2f62e5c2ef79ad": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
     },
     "504dc292615b72b9": {
       "reason": "fit",
@@ -288,6 +332,10 @@
     "54b7cf2ba622178e": {
       "reason": "off-profile",
       "at": "2026-10-07"
+    },
+    "565feb3754ed42e0": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
     },
     "56e404287373b016": {
       "reason": "off-profile",
@@ -329,9 +377,17 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "62d8d62f761b53db": {
+      "reason": "fit",
+      "at": "2026-10-08"
+    },
     "6317cc3b33e9616a": {
       "reason": "off-profile",
       "at": "2026-10-01"
+    },
+    "63b0f6e08eae88e9": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
     },
     "63b1b1ad9768f94b": {
       "reason": "location-restricted",
@@ -377,6 +433,10 @@
       "reason": "too-junior",
       "at": "2026-09-25"
     },
+    "707a6697cb9fdcac": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
+    },
     "7151e1d24e900e70": {
       "reason": "off-profile",
       "at": "2026-09-29"
@@ -393,6 +453,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "75b20ea96ec5a179": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
+    },
     "7794abefb55a52d2": {
       "reason": "off-profile",
       "at": "2026-09-25"
@@ -400,6 +464,10 @@
     "78d82b62363b9098": {
       "reason": "location-restricted",
       "at": "2026-09-25"
+    },
+    "799c9b3a80fe7022": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
     },
     "7abf277ab7cd2e47": {
       "reason": "location-restricted",
@@ -433,6 +501,10 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "82c4ec23b07b006b": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
+    },
     "83e867415ba5caf8": {
       "reason": "off-profile",
       "at": "2026-09-25"
@@ -456,6 +528,10 @@
     "893eb03e9e4f007e": {
       "reason": "off-profile",
       "at": "2026-09-26"
+    },
+    "8aaec95ee5538467": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
     },
     "8aff04b8181f5810": {
       "reason": "off-profile",
@@ -581,6 +657,10 @@
       "reason": "fit",
       "at": "2026-09-25"
     },
+    "abf52dbf40e9e26a": {
+      "reason": "dutch-required",
+      "at": "2026-10-08"
+    },
     "ad3fe2eae17ef44e": {
       "reason": "fit",
       "at": "2026-10-05"
@@ -593,6 +673,10 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "b24c2640e8943dc3": {
+      "reason": "location-restricted",
+      "at": "2026-10-08"
+    },
     "b268ac7f172efa11": {
       "reason": "fit",
       "at": "2026-09-25"
@@ -604,6 +688,10 @@
     "b377b92ee8b013a8": {
       "reason": "fit",
       "at": "2026-10-06"
+    },
+    "b5268b0718c15225": {
+      "reason": "location-restricted",
+      "at": "2026-10-08"
     },
     "b556a8eff8b145c0": {
       "reason": "off-profile",
@@ -620,6 +708,10 @@
     "b974779089e5e031": {
       "reason": "fit",
       "at": "2026-09-25"
+    },
+    "b9cea1cf1397c015": {
+      "reason": "location-restricted",
+      "at": "2026-10-08"
     },
     "bcf4938491879a6d": {
       "reason": "fit",
@@ -649,6 +741,10 @@
       "reason": "off-profile",
       "at": "2026-09-27"
     },
+    "c6a55663e85b6fc5": {
+      "reason": "fit",
+      "at": "2026-10-08"
+    },
     "c83e012e6d6cf398": {
       "reason": "location-restricted",
       "at": "2026-10-01"
@@ -668,6 +764,10 @@
     "c9f9764a9cc5e2ef": {
       "reason": "location-restricted",
       "at": "2026-10-05"
+    },
+    "cbc56c12363d03e7": {
+      "reason": "fit",
+      "at": "2026-10-08"
     },
     "cc0469be92450264": {
       "reason": "fit",
@@ -756,6 +856,10 @@
     "ed2664c2f0b18807": {
       "reason": "fit",
       "at": "2026-10-05"
+    },
+    "edd7b074058b12bb": {
+      "reason": "off-profile",
+      "at": "2026-10-08"
     },
     "ef5e64cde591113c": {
       "reason": "fit",

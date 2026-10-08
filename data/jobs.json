@@ -71,35 +71,34 @@
     "isNew": false
   },
   {
-    "id": "9e346c8d91311c41",
+    "id": "62d8d62f761b53db",
     "source": "adzuna",
-    "title": "QA Manager",
-    "company": "At Harver",
-    "location": "Nederland",
+    "title": "Team Lead Software Testing",
+    "company": "Lely",
+    "location": "Maassluis, Zuid-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/details/5897130563?utm_medium=api&utm_source=9b7a3075",
+    "url": "https://www.adzuna.nl/details/5887051783?utm_medium=api&utm_source=9b7a3075",
     "currency": "EUR",
     "tags": [
-      "Unknown"
+      "Bouwkunde vacatures"
     ],
-    "postedAt": "2026-09-24T18:41:55Z",
+    "postedAt": "2026-09-17T04:53:37Z",
     "tier": "lead",
     "score": 10,
     "isNew": true
   },
   {
-    "id": "5a47c588c238686e",
+    "id": "42f8b7dae06b3a97",
     "source": "workday",
     "vendor": "workday",
-    "title": "GSI Project Site Quality Lead",
-    "company": "Gevernova",
+    "title": "Program Manager, Quality, AIS",
+    "company": "Gehc",
     "location": "Remote",
     "remote": true,
-    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5051446-2",
+    "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Program-Manager--Quality--AIS_R4047142-1",
     "tags": [],
     "tier": "lead",
     "score": 10,
-    "repostCount": 2,
     "isNew": true
   },
   {
@@ -261,6 +260,7 @@
     "postedAt": "2026-09-23T10:28:01-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -372,6 +372,42 @@
     "isNew": false
   },
   {
+    "id": "cbc56c12363d03e7",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Analyst (Global Contract)",
+    "company": "Jump App",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/jump-app/86b3df3f-0658-4949-914d-b701e18e128f",
+    "tags": [
+      "Engineering, Product & Design",
+      "Software Development",
+      "Contract",
+      "$8 – $10 per hour"
+    ],
+    "postedAt": "2026-10-06T16:29:26.806+00:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "c6a55663e85b6fc5",
+    "source": "successfactors",
+    "vendor": "successfactors",
+    "title": "Software Quality Engineering Specialist",
+    "company": "European Medicines Agency",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://careers.ema.europa.eu/job/Software-Quality-Engineering-Specialist-1157/1444613633/",
+    "tags": [],
+    "postedAt": "2026-10-06T00:00:00.000Z",
+    "tier": "ic",
+    "score": 1,
+    "languageRequirement": "C1",
+    "isNew": true
+  },
+  {
     "id": "7b4bab392ee67d20",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -388,7 +424,7 @@
     "postedAt": "2026-10-01T16:35:40.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5bac9876d201c5df",
@@ -493,6 +529,26 @@
     "isNew": false
   },
   {
+    "id": "faace5c58b662aeb",
+    "source": "adzuna",
+    "title": "QA Automation Engineer",
+    "company": "Air Apps",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5878715642?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 47000,
+    "salaryMax": 59000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-10T18:13:08Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "aa2184cd47b2f73e",
     "source": "lever",
     "vendor": "lever",
@@ -550,17 +606,22 @@
     "isNew": false
   },
   {
-    "id": "f43b8a88d495f642",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Senior Automation CSV Engineer",
-    "company": "Jj",
-    "location": "Leiden, South Holland, Netherlands",
-    "remote": false,
-    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leiden-South-Holland-Netherlands/Senior-Automation-CSV-Engineer_R-102707",
-    "tags": [],
+    "id": "2616e602311a6c36",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1b6ca19e-f68e-4bc3-a7e7-72c6c1d4584f",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-08T00:57:59.935Z",
     "tier": "ic",
-    "score": 1,
+    "score": 0.5,
+    "repostCount": 5,
     "isNew": true
   },
   {
@@ -577,42 +638,6 @@
       "Full-time"
     ],
     "postedAt": "2026-10-02T07:13:18.980Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "46170a7714b35209",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineer, Quality",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d75061e0-e9ca-4a05-9766-0aa396c553da",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-30T08:10:01.754Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "09d8601dfececa2c",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Python Automation Test Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4f0594d5-4366-47a7-9d98-367221a9b890",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-09-30T07:33:37.118Z",
     "tier": "ic",
     "score": 0.5,
     "isNew": false
