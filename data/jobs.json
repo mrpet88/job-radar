@@ -1,21 +1,5 @@
 [
   {
-    "id": "f1c1f6823eb7e7fd",
-    "source": "arbeitnow",
-    "title": "Telecoms QA Director",
-    "company": "netcracker",
-    "location": "Belgium, UK, Netherlands, Germany, Italy",
-    "remote": false,
-    "url": "https://www.arbeitnow.ch/jobs/companies/netcracker/telecoms-qa-director-belgium-uk-netherlands-germany-italy-419950",
-    "tags": [
-      "Quality Assurance"
-    ],
-    "postedAt": "2026-10-02T17:55:08.000Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -71,6 +55,24 @@
     "isNew": false
   },
   {
+    "id": "9e346c8d91311c41",
+    "source": "adzuna",
+    "title": "QA Manager",
+    "company": "At Harver",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5897130563?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-24T18:41:55Z",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "62d8d62f761b53db",
     "source": "adzuna",
     "title": "Team Lead Software Testing",
@@ -117,7 +119,7 @@
     "postedAt": "2026-10-08T07:08:38.986Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ad3fe2eae17ef44e",
@@ -206,7 +208,7 @@
     "postedAt": "2026-10-05T10:38:52-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -297,42 +299,7 @@
     "postedAt": "2026-09-21T19:23:15.536Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "d83c73e12eb6534f",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Backend",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5313313002",
-    "tags": [
-      "Executive Engineering - Pipeline"
-    ],
-    "postedAt": "2026-09-21T13:22:12-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 5,
-    "isNew": false
-  },
-  {
-    "id": "3f72aa2bc774e51c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Manager, Engineering",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540678002",
-    "tags": [
-      "Executive Engineering - Pipeline"
-    ],
-    "postedAt": "2026-09-21T13:22:12-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -372,22 +339,24 @@
     "isNew": false
   },
   {
-    "id": "f8e5715c9d2d9bd0",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Foundations & Enablement",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "10b4c01fdb2c8f49",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Manual QA Engineer (Game Client)",
+    "company": "Playson",
+    "location": "European Union",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/79376bf5-599b-4adc-a087-9c20c226e5fd",
+    "url": "https://jobs.ashbyhq.com/playson/10588b28-7e0b-4881-8dcc-712cde713e70",
     "tags": [
-      "IT",
-      "Full-time"
+      "Game Tribe",
+      "Game Tribe",
+      "FullTime"
     ],
-    "postedAt": "2026-10-01T11:19:37.782Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
+    "postedAt": "2026-10-09T10:51:14.715+00:00",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "cbc56c12363d03e7",
@@ -424,6 +393,24 @@
     "score": 1,
     "languageRequirement": "C1",
     "isNew": false
+  },
+  {
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5911177652?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-10-04T07:52:08Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 4,
+    "isNew": true
   },
   {
     "id": "7b4bab392ee67d20",
@@ -525,6 +512,26 @@
     "isNew": false
   },
   {
+    "id": "7c6725592ca1f3b5",
+    "source": "adzuna",
+    "title": "QA Engineer",
+    "company": "Air Apps",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5878722882?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 44000,
+    "salaryMax": 56000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-10T18:15:03Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "faace5c58b662aeb",
     "source": "adzuna",
     "title": "QA Automation Engineer",
@@ -541,26 +548,7 @@
     "postedAt": "2026-09-10T18:13:08Z",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "aa2184cd47b2f73e",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Automation & Performance Engineer | 12 weeks+ (575)",
-    "company": "Ubiminds",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.lever.co/Ubiminds/38978896-dd18-4b2d-94f6-80a4762bd3e5",
-    "tags": [
-      "AB",
-      "Seasonal"
-    ],
-    "postedAt": "2026-09-10T15:34:25.923Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -580,7 +568,7 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -598,8 +586,26 @@
     "postedAt": "2026-09-10",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "928bba49ef5f43e4",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Infrastructure Automation Engineer (Ansible / AWX) | DevOps",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/74416bca-8c90-4ecc-8031-08aa7857da0b",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-09T06:49:58.761Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
   },
   {
     "id": "2616e602311a6c36",
