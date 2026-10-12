@@ -271,45 +271,6 @@
     "isNew": false
   },
   {
-    "id": "d456ac1f1db3eae9",
-    "source": "arbeitnow",
-    "title": "Senior QA Engineer (All genders)",
-    "company": "Distribusion Technologies",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/remote-senior-qa-engineer-all-genders-berlin-68172",
-    "tags": [
-      "Technology",
-      "Remote",
-      "Experienced",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-10-10T20:30:22.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "10b4c01fdb2c8f49",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Manual QA Engineer (Game Client)",
-    "company": "Playson",
-    "location": "European Union",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/playson/10588b28-7e0b-4881-8dcc-712cde713e70",
-    "tags": [
-      "Game Tribe",
-      "Game Tribe",
-      "FullTime"
-    ],
-    "postedAt": "2026-10-09T10:51:14.715+00:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "b268ac7f172efa11",
     "source": "workable",
     "vendor": "workable",
@@ -362,6 +323,23 @@
     "score": 1,
     "languageRequirement": "C1",
     "isNew": false
+  },
+  {
+    "id": "b908617a42b3feb6",
+    "source": "adzuna",
+    "title": "Senior Engineer, Quality Assurance/Engineering",
+    "company": "Cboe Global Markets",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5911698615?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-10-04T18:37:40Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "e9ec988cc100a7c5",
@@ -462,26 +440,22 @@
     "isNew": false
   },
   {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer",
+    "id": "297bc1a88b825be3",
+    "source": "adzuna",
+    "title": "Pega DCM Test Automation (ID:",
+    "company": "STAFIDE",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5901627738?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "Allegro",
-      "Senior"
+      "IT ICT vacatures"
     ],
-    "postedAt": "2026-09-18T11:50:09.000Z",
+    "postedAt": "2026-09-28T16:24:45Z",
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "b02120f257f834ea",
@@ -501,6 +475,63 @@
     "score": 1,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "4ee2bd8735d92409",
+    "source": "adzuna",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "Fairphone",
+    "location": "Noord west, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5882783654?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 3000,
+    "salaryMax": 3000,
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-09-13T18:19:06Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "0e6842e529cdafd9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Backend QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/5d24b642-8c9c-4274-bfe9-5dfbe2fc48ae",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-12T07:57:53.205Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "d159e143df9dda12",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Automation QA Engineer (Playwright/Typescript)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/d43c35d7-3971-4a99-a502-e4560041287e",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-12T07:53:25.700Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
   },
   {
     "id": "928bba49ef5f43e4",
