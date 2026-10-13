@@ -1,5 +1,23 @@
 [
   {
+    "id": "1eb80fad8cd3bc7f",
+    "source": "arbeitnow",
+    "title": "Senior Manager, QA Engineering",
+    "company": "Camunda",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-manager-qa-engineering-470969",
+    "tags": [
+      "Products",
+      "Full Time"
+    ],
+    "postedAt": "2026-10-13T02:40:04.000Z",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 4,
+    "isNew": true
+  },
+  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -14,7 +32,7 @@
     "postedAt": "2026-09-30T13:57:06-04:00",
     "tier": "lead",
     "score": 10,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -34,6 +52,7 @@
     "postedAt": "2026-09-28T20:41:01.487+00:00",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -90,21 +109,21 @@
     "isNew": false
   },
   {
-    "id": "856e348456a7a3a4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Chapter Lead",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/98e53171-0ca5-4b4a-9073-a63bd1c9aab8",
+    "id": "6de241720639823a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Forward Deployed Engineering",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
     "tags": [
-      "IT",
-      "Full-time"
+      "Professional Services Operations"
     ],
-    "postedAt": "2026-10-08T07:08:38.986Z",
-    "tier": "lead",
+    "postedAt": "2026-10-13T12:49:15-04:00",
+    "tier": "adjacent",
     "score": 5,
+    "repostCount": 5,
     "isNew": false
   },
   {
@@ -122,42 +141,6 @@
     "postedAt": "2026-10-06T07:41:17-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "b377b92ee8b013a8",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Automation QA Lead ( Betting )",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3747e340-0c08-4273-a147-d829659dffe5",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-06T06:57:13.522Z",
-    "tier": "lead",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "6de241720639823a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Forward Deployed Engineering",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
-    "tags": [
-      "Professional Services Operations"
-    ],
-    "postedAt": "2026-10-06T06:38:56-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 5,
     "isNew": false
   },
   {
@@ -195,24 +178,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "ed2664c2f0b18807",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Quality Systems Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/38319c76-b31d-424d-80e5-fe16b15dd281",
-    "tags": [
-      "Others",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-05T08:21:35.424Z",
-    "tier": "lead",
-    "score": 5,
     "isNew": false
   },
   {
@@ -269,6 +234,24 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "505b50fd22689c14",
+    "source": "arbeitnow",
+    "title": "Agentic Automation Test Engineer",
+    "company": "12Build",
+    "location": "Nijverdal, Overijssel, Nederland",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/12build/agentic-automation-test-engineer-nijverdal-38887",
+    "tags": [
+      "Development",
+      "Experienced",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-10-12T18:30:58.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "b268ac7f172efa11",
@@ -339,7 +322,7 @@
     "postedAt": "2026-10-04T18:37:40Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e9ec988cc100a7c5",
@@ -356,7 +339,7 @@
     "postedAt": "2026-10-04T07:52:08Z",
     "tier": "ic",
     "score": 1,
-    "repostCount": 4,
+    "repostCount": 5,
     "isNew": false
   },
   {
@@ -455,7 +438,8 @@
     "otherLocations": 1,
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "repostCount": 2,
+    "isNew": false
   },
   {
     "id": "b02120f257f834ea",
@@ -494,80 +478,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "0e6842e529cdafd9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Backend QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5d24b642-8c9c-4274-bfe9-5dfbe2fc48ae",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-12T07:57:53.205Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "d159e143df9dda12",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Automation QA Engineer (Playwright/Typescript)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d43c35d7-3971-4a99-a502-e4560041287e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-12T07:53:25.700Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": true
-  },
-  {
-    "id": "928bba49ef5f43e4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Infrastructure Automation Engineer (Ansible / AWX) | DevOps",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/74416bca-8c90-4ecc-8031-08aa7857da0b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-09T06:49:58.761Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "2616e602311a6c36",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1b6ca19e-f68e-4bc3-a7e7-72c6c1d4584f",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-08T00:57:59.935Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 5,
     "isNew": false
   }
 ]
