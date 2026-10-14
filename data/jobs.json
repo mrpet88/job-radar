@@ -1,20 +1,19 @@
 [
   {
-    "id": "1eb80fad8cd3bc7f",
+    "id": "846bbc9c8d7f7c95",
     "source": "arbeitnow",
-    "title": "Senior Manager, QA Engineering",
-    "company": "Camunda",
+    "title": "Quality Platform Lead",
+    "company": "Vio",
     "location": "Remote",
     "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-manager-qa-engineering-470969",
+    "url": "https://www.arbeitnow.nl/jobs/companies/vio/remote-quality-platform-lead-218706",
     "tags": [
-      "Products",
+      "Engineering & Technology",
       "Full Time"
     ],
-    "postedAt": "2026-10-13T02:40:04.000Z",
+    "postedAt": "2026-10-14T08:40:20.000Z",
     "tier": "lead",
     "score": 10,
-    "repostCount": 4,
     "isNew": true
   },
   {
@@ -109,6 +108,43 @@
     "isNew": false
   },
   {
+    "id": "6c61bc8f64edf50e",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager, Developer Infrastructure",
+    "company": "Valon",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/Valon/542a1d63-737f-499b-b06a-a43d0f36a97b",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime",
+      "$245K – $285K • Offers Equity"
+    ],
+    "postedAt": "2026-10-13T19:23:43.948+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "83dc880b59019245",
+    "source": "arbeitnow",
+    "title": "Engineering Manager, Excel Agents",
+    "company": "Datasnipper",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/datasnipper/engineering-manager-excel-agents-amsterdam-361000",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-10-13T17:40:47.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "6de241720639823a",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -125,6 +161,24 @@
     "score": 5,
     "repostCount": 5,
     "isNew": false
+  },
+  {
+    "id": "856e348456a7a3a4",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Chapter Lead",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/98e53171-0ca5-4b4a-9073-a63bd1c9aab8",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-08T07:08:38.986Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "ad3fe2eae17ef44e",
@@ -234,24 +288,6 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
-  },
-  {
-    "id": "505b50fd22689c14",
-    "source": "arbeitnow",
-    "title": "Agentic Automation Test Engineer",
-    "company": "12Build",
-    "location": "Nijverdal, Overijssel, Nederland",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/12build/agentic-automation-test-engineer-nijverdal-38887",
-    "tags": [
-      "Development",
-      "Experienced",
-      "fulltime fixed term"
-    ],
-    "postedAt": "2026-10-12T18:30:58.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
   },
   {
     "id": "b268ac7f172efa11",
@@ -435,7 +471,6 @@
       "IT ICT vacatures"
     ],
     "postedAt": "2026-09-28T16:24:45Z",
-    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
@@ -461,23 +496,77 @@
     "isNew": false
   },
   {
-    "id": "4ee2bd8735d92409",
-    "source": "adzuna",
-    "title": "Quality Assurance Automation Engineer",
-    "company": "Fairphone",
-    "location": "Noord west, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5882783654?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 3000,
-    "salaryMax": 3000,
-    "currency": "EUR",
+    "id": "0e6842e529cdafd9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Backend QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/5d24b642-8c9c-4274-bfe9-5dfbe2fc48ae",
     "tags": [
-      "Unknown"
+      "IT",
+      "Full-time"
     ],
-    "postedAt": "2026-09-13T18:19:06Z",
+    "postedAt": "2026-10-12T07:57:53.205Z",
     "tier": "ic",
-    "score": 1,
+    "score": 0.5,
     "repostCount": 2,
-    "isNew": false
+    "isNew": true
+  },
+  {
+    "id": "d159e143df9dda12",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Automation QA Engineer (Playwright/Typescript)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/d43c35d7-3971-4a99-a502-e4560041287e",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-12T07:53:25.700Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "928bba49ef5f43e4",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Infrastructure Automation Engineer (Ansible / AWX) | DevOps",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/74416bca-8c90-4ecc-8031-08aa7857da0b",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-09T06:49:58.761Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "2616e602311a6c36",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1b6ca19e-f68e-4bc3-a7e7-72c6c1d4584f",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-08T00:57:59.935Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 5,
+    "isNew": true
   }
 ]
