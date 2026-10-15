@@ -1,22 +1,5 @@
 [
   {
-    "id": "846bbc9c8d7f7c95",
-    "source": "arbeitnow",
-    "title": "Quality Platform Lead",
-    "company": "Vio",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://www.arbeitnow.nl/jobs/companies/vio/remote-quality-platform-lead-218706",
-    "tags": [
-      "Engineering & Technology",
-      "Full Time"
-    ],
-    "postedAt": "2026-10-14T08:40:20.000Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
-  },
-  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -91,21 +74,60 @@
     "isNew": false
   },
   {
-    "id": "62d8d62f761b53db",
-    "source": "adzuna",
-    "title": "Team Lead Software Testing",
-    "company": "Lely",
-    "location": "Maassluis, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5887051783?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
+    "id": "36f11b657d2ae173",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager (Data Direction)",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4914586101",
     "tags": [
-      "Bouwkunde vacatures"
+      "Payments & Identity"
     ],
-    "postedAt": "2026-09-17T04:53:37Z",
-    "tier": "lead",
-    "score": 10,
+    "postedAt": "2026-10-15T06:20:21-04:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
+    "id": "9b6b3f07a1f5479c",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Lead Engineering Manager",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101",
+    "tags": [
+      "Payments & Identity"
+    ],
+    "postedAt": "2026-10-15T06:20:21-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "cbcee02072392e9f",
+    "source": "arbeitnow",
+    "title": "Senior Engineering Manager, Infrastructure (all genders)",
+    "company": "Distribusion Technologies",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/remote-senior-engineering-manager-infrastructure-all-genders-berlin-479471",
+    "tags": [
+      "Technology",
+      "Remote",
+      "Manager",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-10-14T20:32:24.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "6c61bc8f64edf50e",
@@ -125,24 +147,7 @@
     "postedAt": "2026-10-13T19:23:43.948+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "83dc880b59019245",
-    "source": "arbeitnow",
-    "title": "Engineering Manager, Excel Agents",
-    "company": "Datasnipper",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/datasnipper/engineering-manager-excel-agents-amsterdam-361000",
-    "tags": [
-      "Engineering",
-      "Full Time"
-    ],
-    "postedAt": "2026-10-13T17:40:47.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6de241720639823a",
@@ -178,7 +183,7 @@
     "postedAt": "2026-10-08T07:08:38.986Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "ad3fe2eae17ef44e",
@@ -235,24 +240,6 @@
     "isNew": false
   },
   {
-    "id": "9b6b3f07a1f5479c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Lead Engineering Manager",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-09-30T03:52:27-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "00abc61503b78497",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -288,6 +275,26 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "e56ab95e7958cb55",
+    "source": "arbeitnow",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/optics11/software-test-engineer-amsterdam-332708",
+    "tags": [
+      "R&D",
+      "Mid",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-10-14T20:32:33.000Z",
+    "otherLocations": 1,
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 5,
+    "isNew": true
   },
   {
     "id": "b268ac7f172efa11",
@@ -361,24 +368,6 @@
     "isNew": false
   },
   {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5911177652?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-10-04T07:52:08Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 5,
-    "isNew": false
-  },
-  {
     "id": "7b4bab392ee67d20",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -393,6 +382,7 @@
       "other"
     ],
     "postedAt": "2026-10-01T16:35:40.000Z",
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -471,6 +461,7 @@
       "IT ICT vacatures"
     ],
     "postedAt": "2026-09-28T16:24:45Z",
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
@@ -512,7 +503,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d159e143df9dda12",
@@ -530,25 +521,7 @@
     "postedAt": "2026-10-12T07:53:25.700Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
-  },
-  {
-    "id": "928bba49ef5f43e4",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Infrastructure Automation Engineer (Ansible / AWX) | DevOps",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/74416bca-8c90-4ecc-8031-08aa7857da0b",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-09T06:49:58.761Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2616e602311a6c36",
@@ -567,6 +540,6 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 5,
-    "isNew": true
+    "isNew": false
   }
 ]
