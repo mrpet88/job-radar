@@ -16,7 +16,7 @@
     "postedAt": "2026-10-07T15:58:31Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "003d9666e4cea53d",
@@ -71,7 +71,7 @@
     "postedAt": "2026-09-25T20:21:30-04:00",
     "tier": "lead",
     "score": 10,
-    "repostCount": 3,
+    "repostCount": 4,
     "isNew": false
   },
   {
@@ -89,6 +89,24 @@
     "postedAt": "2026-09-24T18:41:55Z",
     "tier": "lead",
     "score": 10,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "00abc61503b78497",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Functional Safety Manager",
+    "company": "FORT Robotics",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/fortrobotics/jobs/4736658005",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-10-16T11:04:56-04:00",
+    "tier": "adjacent",
+    "score": 5,
     "repostCount": 2,
     "isNew": false
   },
@@ -164,7 +182,7 @@
     "postedAt": "2026-10-13T12:49:15-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 5,
+    "repostCount": 6,
     "isNew": false
   },
   {
@@ -238,24 +256,6 @@
     "postedAt": "2026-10-03T18:49:36Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "00abc61503b78497",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Functional Safety Manager",
-    "company": "FORT Robotics",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/fortrobotics/jobs/4736658005",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-09-23T10:28:01-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -296,7 +296,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "e56ab95e7958cb55",
@@ -333,7 +333,7 @@
     "postedAt": "2026-10-14T19:09:16Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d70c35787b341f9b",
@@ -350,24 +350,7 @@
     "postedAt": "2026-10-13T19:04:56Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "8a7d90c03210a321",
-    "source": "adzuna",
-    "title": "Senior IT Software Quality Engineer – Data & ETL ( M/F/H )",
-    "company": "Everience Benelux",
-    "location": "Rotterdam, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5921252264?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-10-10T00:55:08Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b268ac7f172efa11",

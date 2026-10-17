@@ -221,6 +221,10 @@
       "reason": "off-profile",
       "at": "2026-10-14"
     },
+    "24402923cddb1b8b": {
+      "reason": "location-restricted",
+      "at": "2026-10-17"
+    },
     "247845ac3be912c2": {
       "reason": "location-restricted",
       "at": "2026-09-25"
@@ -709,6 +713,10 @@
       "reason": "fit",
       "at": "2026-10-16"
     },
+    "8a90f1a6f63e122f": {
+      "reason": "dutch-required",
+      "at": "2026-10-17"
+    },
     "8aaec95ee5538467": {
       "reason": "off-profile",
       "at": "2026-10-08"
@@ -848,6 +856,10 @@
     "a2a1dbbf381ca387": {
       "reason": "off-profile",
       "at": "2026-10-14"
+    },
+    "a2eee35614934cbb": {
+      "reason": "off-profile",
+      "at": "2026-10-17"
     },
     "a313d4ec56714929": {
       "reason": "fit",
