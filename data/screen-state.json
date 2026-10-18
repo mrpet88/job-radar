@@ -169,6 +169,10 @@
       "reason": "location-restricted",
       "at": "2026-10-09"
     },
+    "1a5c2a7ca98e133d": {
+      "reason": "fit",
+      "at": "2026-10-18"
+    },
     "1d489837c6b76852": {
       "reason": "off-profile",
       "at": "2026-09-25"
@@ -473,6 +477,10 @@
       "reason": "off-profile",
       "at": "2026-09-25"
     },
+    "5c76363b811aba15": {
+      "reason": "off-profile",
+      "at": "2026-10-18"
+    },
     "5c8dc7ad5f3579e0": {
       "reason": "off-profile",
       "at": "2026-10-07"
@@ -652,6 +660,10 @@
     "800529a516b7e88a": {
       "reason": "dutch-required",
       "at": "2026-09-25"
+    },
+    "818fc069c41d9c68": {
+      "reason": "fit",
+      "at": "2026-10-18"
     },
     "8241a9c775447845": {
       "reason": "off-profile",
@@ -856,6 +868,10 @@
     "a2a1dbbf381ca387": {
       "reason": "off-profile",
       "at": "2026-10-14"
+    },
+    "a2ca0df7af9a93df": {
+      "reason": "off-profile",
+      "at": "2026-10-18"
     },
     "a2eee35614934cbb": {
       "reason": "off-profile",
@@ -1201,6 +1217,14 @@
       "reason": "off-profile",
       "at": "2026-09-28"
     },
+    "f06cacbd73ba3eea": {
+      "reason": "off-profile",
+      "at": "2026-10-18"
+    },
+    "f0e31bbf83a3d911": {
+      "reason": "location-restricted",
+      "at": "2026-10-18"
+    },
     "f1ae5d9f2c4b5610": {
       "reason": "off-profile",
       "at": "2026-10-14"
@@ -1264,6 +1288,10 @@
     "fc101cc250b8e9ae": {
       "reason": "location-restricted",
       "at": "2026-09-25"
+    },
+    "fdf476ed3cfdea5b": {
+      "reason": "off-profile",
+      "at": "2026-10-18"
     },
     "fe5a5fef9ada6f3c": {
       "reason": "off-profile",
