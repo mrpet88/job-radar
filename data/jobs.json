@@ -74,6 +74,26 @@
     "isNew": false
   },
   {
+    "id": "97108b364d030852",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Delivery Manager",
+    "company": "Progress Partners",
+    "location": "European Union",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/progress-partners/60240b2d-86d0-4e7e-a0a5-fa4fab0dfb9d",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-10-19T12:26:41.903+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
     "id": "00abc61503b78497",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -181,6 +201,7 @@
     "postedAt": "2026-10-06T07:41:17-04:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -222,6 +243,24 @@
     "isNew": false
   },
   {
+    "id": "4b5bfdd5f92eeb07",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager, Automation Intelligence",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/e43a1be2-0585-4225-816b-5d542abfd5c5",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-19T09:48:27.588Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
+  },
+  {
     "id": "1a5c2a7ca98e133d",
     "source": "arbeitnow",
     "title": "Senior Quality Engineer - Tellent Intelligence (AI)",
@@ -238,7 +277,7 @@
     "postedAt": "2026-10-18T02:32:17.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "eff416e48261757f",
@@ -316,7 +355,7 @@
     "postedAt": "2026-10-13T09:32:53.317Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "b268ac7f172efa11",
@@ -404,7 +443,7 @@
       "other"
     ],
     "postedAt": "2026-10-01T16:35:40.000Z",
-    "otherLocations": 2,
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -489,6 +528,42 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "c8b4981746237a26",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Data QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/4d2fb276-33b6-4352-9903-1c02f94d9857",
+    "tags": [
+      "Analyst",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-19T11:41:47.196Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "4bfce158fe311e58",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Quality Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/2fd898ee-dcb7-4148-ad0f-38c638d176fb",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-19T08:14:37.139Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
   },
   {
     "id": "0e6842e529cdafd9",
