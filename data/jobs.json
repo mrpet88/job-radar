@@ -91,7 +91,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "00abc61503b78497",
@@ -124,25 +124,6 @@
       "Trading Tech"
     ],
     "postedAt": "2026-10-16T10:02:35-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "36f11b657d2ae173",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager (Data Direction)",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4914586101",
-    "tags": [
-      "Data and AI"
-    ],
-    "postedAt": "2026-10-15T10:30:08-04:00",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
@@ -221,6 +202,7 @@
     "postedAt": "2026-10-05T18:31:56.857+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -243,6 +225,25 @@
     "isNew": false
   },
   {
+    "id": "2b3d64ee402492c9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/dcc17ff3-a032-4579-b4a9-1e57d9e5125d",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-10-20T00:45:29.559Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "repostCount": 5,
+    "isNew": true
+  },
+  {
     "id": "4b5bfdd5f92eeb07",
     "source": "lever",
     "vendor": "lever",
@@ -258,6 +259,43 @@
     "postedAt": "2026-10-19T09:48:27.588Z",
     "tier": "adjacent",
     "score": 2.5,
+    "isNew": false
+  },
+  {
+    "id": "a287921cb5270f6f",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "QA Engineer",
+    "company": "Splitmetrics",
+    "location": "Remote - Europe Time Zones",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/splitmetrics/76b4ab11-5e42-44c4-a0ee-487c2e1e8f46",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-10-20T08:18:07.104+00:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "975634083fb7bbdc",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior QA Engineer",
+    "company": "Sporty Group",
+    "location": "Global - Remote",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/sportygroup/jobs/4725325101",
+    "tags": [
+      "Sporty Technical"
+    ],
+    "postedAt": "2026-10-20T05:27:19-04:00",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 5,
     "isNew": true
   },
   {
@@ -545,7 +583,7 @@
     "postedAt": "2026-10-19T11:41:47.196Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4bfce158fe311e58",
@@ -563,43 +601,6 @@
     "postedAt": "2026-10-19T08:14:37.139Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
-  },
-  {
-    "id": "0e6842e529cdafd9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Backend QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5d24b642-8c9c-4274-bfe9-5dfbe2fc48ae",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-12T07:57:53.205Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "d159e143df9dda12",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Automation QA Engineer (Playwright/Typescript)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/d43c35d7-3971-4a99-a502-e4560041287e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-12T07:53:25.700Z",
-    "tier": "ic",
-    "score": 0.5,
     "isNew": false
   },
   {
@@ -610,12 +611,12 @@
     "company": "Jobgether",
     "location": "Netherlands",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/6d6f24b8-76a3-4df5-a657-f28a354890c7",
+    "url": "https://jobs.lever.co/jobgether/891ae6ce-f301-4a50-9143-4ed9c985abea",
     "tags": [
       "IT",
-      "Contract"
+      "Full-time"
     ],
-    "postedAt": "2026-10-12T01:04:01.241Z",
+    "postedAt": "2026-10-15T07:43:09.466Z",
     "tier": "ic",
     "score": 0.5,
     "repostCount": 5,
