@@ -74,6 +74,24 @@
     "isNew": false
   },
   {
+    "id": "6de241720639823a",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Manager, Forward Deployed Engineering",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
+    "tags": [
+      "Professional Services Operations"
+    ],
+    "postedAt": "2026-10-20T12:38:58-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 6,
+    "isNew": false
+  },
+  {
     "id": "97108b364d030852",
     "source": "ashby",
     "vendor": "ashby",
@@ -150,24 +168,6 @@
     "isNew": false
   },
   {
-    "id": "6de241720639823a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Forward Deployed Engineering",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
-    "tags": [
-      "Professional Services Operations"
-    ],
-    "postedAt": "2026-10-13T12:49:15-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 6,
-    "isNew": false
-  },
-  {
     "id": "ad3fe2eae17ef44e",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -241,7 +241,7 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4b5bfdd5f92eeb07",
@@ -278,7 +278,7 @@
     "postedAt": "2026-10-20T08:18:07.104+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "975634083fb7bbdc",
@@ -296,7 +296,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1a5c2a7ca98e133d",
@@ -356,23 +356,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 5,
-    "isNew": false
-  },
-  {
-    "id": "99ebce72c7cc7518",
-    "source": "adzuna",
-    "title": "Senior Test Automation Engineer (DF)",
-    "company": "Lely",
-    "location": "Maassluis, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5927808011?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-10-14T19:09:16Z",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -467,26 +450,6 @@
     "isNew": false
   },
   {
-    "id": "7b4bab392ee67d20",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior Embedded Software Test Engineer",
-    "company": "Optics11",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
-    "tags": [
-      "R&D",
-      "fulltime_permanent",
-      "other"
-    ],
-    "postedAt": "2026-10-01T16:35:40.000Z",
-    "otherLocations": 1,
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "5bac9876d201c5df",
     "source": "remotive",
     "title": "Senior back-end Engineer",
@@ -547,6 +510,23 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "1fca7b4b04dde3ff",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Software Engineer, Quality Engineering",
+    "company": "Alpaca ",
+    "location": "Global Anywhere",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/alpaca/jobs/6114845004",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-09-29T16:24:24-04:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "297bc1a88b825be3",
