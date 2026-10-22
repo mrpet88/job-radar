@@ -1,5 +1,23 @@
 [
   {
+    "id": "534230d6baa0d583",
+    "source": "arbeitnow",
+    "title": "Engineering Lead – Connectivity Domain",
+    "company": "Sunweb Group",
+    "location": "Rotterdam, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/sunweb-group/engineering-lead-connectivity-domain-rotterdam-466479",
+    "tags": [
+      "Tech",
+      "Manager",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-10-22T11:51:51.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -74,22 +92,19 @@
     "isNew": false
   },
   {
-    "id": "6de241720639823a",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Forward Deployed Engineering",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
-    "tags": [
-      "Professional Services Operations"
-    ],
-    "postedAt": "2026-10-20T12:38:58-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 6,
-    "isNew": false
+    "id": "5a47c588c238686e",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "GSI Project Site Quality Lead",
+    "company": "Gevernova",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5052375-2",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "97108b364d030852",
@@ -126,7 +141,7 @@
     "postedAt": "2026-10-16T11:04:56-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -206,23 +221,23 @@
     "isNew": false
   },
   {
-    "id": "6766f86d6d184237",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Pricing",
-    "company": "Protolabs",
-    "location": "Amsterdam",
+    "id": "ba743c422a8670ae",
+    "source": "adzuna",
+    "title": "Manager Software Engineering | Product Engineering Unit",
+    "company": "Fygi",
+    "location": "Rotterdam, Zuid-Holland",
     "remote": false,
-    "url": "https://jobs.lever.co/protolabs/8f686252-685a-4914-8081-b2c91841d219",
+    "url": "https://www.adzuna.nl/details/5910315388?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 72960,
+    "salaryMax": 97200,
+    "currency": "EUR",
     "tags": [
-      "Software Engineering",
-      "Full-time"
+      "Thuishulp en schoonmaak vacatures"
     ],
-    "postedAt": "2026-09-21T19:23:15.536Z",
+    "postedAt": "2026-10-03T18:49:36Z",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "2b3d64ee402492c9",
@@ -262,6 +277,25 @@
     "isNew": false
   },
   {
+    "id": "b9cafc1c0f1bcec4",
+    "source": "arbeitnow",
+    "title": "QA Engineer",
+    "company": "Creative Clicks B.V.",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/creative-clicks-bv/qa-engineer-amsterdam-349908",
+    "tags": [
+      "Development",
+      "Mid",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-10-22T11:51:51.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "a287921cb5270f6f",
     "source": "ashby",
     "vendor": "ashby",
@@ -299,23 +333,21 @@
     "isNew": false
   },
   {
-    "id": "1a5c2a7ca98e133d",
-    "source": "arbeitnow",
-    "title": "Senior Quality Engineer - Tellent Intelligence (AI)",
-    "company": "Tellent",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.nl/jobs/companies/tellent/remote-senior-quality-engineer-tellent-intelligence-ai-amsterdam-295070",
+    "id": "8a7d90c03210a321",
+    "source": "adzuna",
+    "title": "Senior IT Software Quality Engineer – Data & ETL ( M/F/H )",
+    "company": "Everience Benelux",
+    "location": "Rotterdam, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5932008964?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "1. R&D",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
+      "Unknown"
     ],
-    "postedAt": "2026-10-18T02:32:17.000Z",
+    "postedAt": "2026-10-17T13:02:48Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "eff416e48261757f",
@@ -339,24 +371,21 @@
     "isNew": false
   },
   {
-    "id": "e56ab95e7958cb55",
-    "source": "arbeitnow",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "id": "99ebce72c7cc7518",
+    "source": "adzuna",
+    "title": "Senior Test Automation Engineer (DF)",
+    "company": "Lely",
+    "location": "Maassluis, Zuid-Holland",
     "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/optics11/software-test-engineer-amsterdam-332708",
+    "url": "https://www.adzuna.nl/details/5927808011?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "R&D",
-      "Mid",
-      "fulltime permanent"
+      "Bouwkunde vacatures"
     ],
-    "postedAt": "2026-10-14T20:32:33.000Z",
-    "otherLocations": 1,
+    "postedAt": "2026-10-14T19:09:16Z",
     "tier": "ic",
     "score": 1,
-    "repostCount": 5,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "818fc069c41d9c68",
@@ -414,6 +443,7 @@
     "postedAt": "2026-10-06T16:29:26.806+00:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -430,6 +460,7 @@
     "tier": "ic",
     "score": 1,
     "languageRequirement": "C1",
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -448,6 +479,45 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5911177652?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-10-04T07:52:08Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 5,
+    "isNew": true
+  },
+  {
+    "id": "7b4bab392ee67d20",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior Embedded Software Test Engineer",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
+    "tags": [
+      "R&D",
+      "fulltime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-10-01T16:35:40.000Z",
+    "otherLocations": 1,
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "5bac9876d201c5df",
@@ -526,7 +596,7 @@
     "postedAt": "2026-09-29T16:24:24-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "297bc1a88b825be3",
@@ -599,7 +669,7 @@
     "postedAt": "2026-10-15T07:43:09.466Z",
     "tier": "ic",
     "score": 0.5,
-    "repostCount": 5,
+    "repostCount": 6,
     "isNew": false
   }
 ]
