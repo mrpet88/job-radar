@@ -15,7 +15,7 @@
     "postedAt": "2026-10-22T11:51:51.000Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "003d9666e4cea53d",
@@ -88,22 +88,60 @@
     "postedAt": "2026-09-24T18:41:55Z",
     "tier": "lead",
     "score": 10,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
-    "id": "5a47c588c238686e",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "GSI Project Site Quality Lead",
-    "company": "Gevernova",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5052375-2",
-    "tags": [],
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 3,
+    "id": "31624460d8a3b474",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "GreenFlux",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/greenflux/engineering-manager-amsterdam-260715",
+    "tags": [
+      "IT Development",
+      "Manager",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-10-23T11:51:31.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "7c6aa99fdc03c8f2",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Head of Forward Deployed Engineering - Operations ",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7953778",
+    "tags": [
+      "Infrastructure"
+    ],
+    "postedAt": "2026-10-22T14:04:47-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": true
+  },
+  {
+    "id": "42b0a7a89f98afc7",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Android",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
+    "tags": [
+      "Development"
+    ],
+    "postedAt": "2026-10-22T12:44:55-04:00",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
   },
   {
@@ -221,20 +259,20 @@
     "isNew": false
   },
   {
-    "id": "ba743c422a8670ae",
-    "source": "adzuna",
-    "title": "Manager Software Engineering | Product Engineering Unit",
-    "company": "Fygi",
-    "location": "Rotterdam, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5910315388?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 72960,
-    "salaryMax": 97200,
-    "currency": "EUR",
+    "id": "869bef2167b5a31c",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior Engineering Manager",
+    "company": "Synthesia",
+    "location": "Europe",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/synthesia/4c6dedb3-2dbf-46b7-9336-a2b19b55dfd7",
     "tags": [
-      "Thuishulp en schoonmaak vacatures"
+      "Engineering",
+      "Engineering",
+      "FullTime"
     ],
-    "postedAt": "2026-10-03T18:49:36Z",
+    "postedAt": "2026-09-28T13:52:10.684+00:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": true
@@ -277,6 +315,45 @@
     "isNew": false
   },
   {
+    "id": "f4933f736058889a",
+    "source": "jobicy",
+    "title": "Performance Engineer - Benchmarking",
+    "company": "Supabase",
+    "location": "Anywhere",
+    "remote": true,
+    "url": "https://jobicy.com/jobs/156582-performance-engineer-benchmarking",
+    "tags": [
+      "QA & Testing",
+      "Full-Time",
+      "Any"
+    ],
+    "postedAt": "2026-10-23T09:26:39+00:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "10b4c01fdb2c8f49",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Manual QA Engineer (Game Client)",
+    "company": "Playson",
+    "location": "European Union",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/playson/10588b28-7e0b-4881-8dcc-712cde713e70",
+    "tags": [
+      "Game Tribe",
+      "Game Tribe",
+      "FullTime"
+    ],
+    "postedAt": "2026-10-22T15:42:57.346+00:00",
+    "otherLocations": 1,
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
     "id": "b9cafc1c0f1bcec4",
     "source": "arbeitnow",
     "title": "QA Engineer",
@@ -293,6 +370,45 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "d822c31a8b90cd15",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer",
+    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
+    "tags": [
+      "Development",
+      "fulltime_permanent",
+      "information_technology",
+      "MUFG",
+      "Senior"
+    ],
+    "postedAt": "2026-10-22T07:49:09.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
+    "id": "2b6ac38eee923a49",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior QA Data Engineer",
+    "company": "Gradient AI",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/gradientai/jobs/8038980003",
+    "tags": [
+      "Tech & Development"
+    ],
+    "postedAt": "2026-10-20T13:02:11-04:00",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -333,23 +449,6 @@
     "isNew": false
   },
   {
-    "id": "8a7d90c03210a321",
-    "source": "adzuna",
-    "title": "Senior IT Software Quality Engineer – Data & ETL ( M/F/H )",
-    "company": "Everience Benelux",
-    "location": "Rotterdam, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5932008964?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-10-17T13:02:48Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "eff416e48261757f",
     "source": "ashby",
     "vendor": "ashby",
@@ -385,7 +484,7 @@
     "postedAt": "2026-10-14T19:09:16Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "818fc069c41d9c68",
@@ -422,7 +521,7 @@
     "postedAt": "2026-10-08",
     "tier": "ic",
     "score": 1,
-    "repostCount": 3,
+    "repostCount": 4,
     "isNew": false
   },
   {
@@ -496,28 +595,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 5,
-    "isNew": true
-  },
-  {
-    "id": "7b4bab392ee67d20",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior Embedded Software Test Engineer",
-    "company": "Optics11",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
-    "tags": [
-      "R&D",
-      "fulltime_permanent",
-      "other"
-    ],
-    "postedAt": "2026-10-01T16:35:40.000Z",
-    "otherLocations": 1,
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5bac9876d201c5df",
@@ -651,25 +729,6 @@
     "postedAt": "2026-10-19T08:14:37.139Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "2616e602311a6c36",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/891ae6ce-f301-4a50-9143-4ed9c985abea",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-15T07:43:09.466Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 6,
     "isNew": false
   }
 ]
