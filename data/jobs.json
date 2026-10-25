@@ -1,23 +1,5 @@
 [
   {
-    "id": "534230d6baa0d583",
-    "source": "arbeitnow",
-    "title": "Engineering Lead – Connectivity Domain",
-    "company": "Sunweb Group",
-    "location": "Rotterdam, Zuid-Holland, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/sunweb-group/engineering-lead-connectivity-domain-rotterdam-466479",
-    "tags": [
-      "Tech",
-      "Manager",
-      "fulltime fixed term"
-    ],
-    "postedAt": "2026-10-22T11:51:51.000Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
-  },
-  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -74,24 +56,6 @@
     "isNew": false
   },
   {
-    "id": "9e346c8d91311c41",
-    "source": "adzuna",
-    "title": "QA Manager",
-    "company": "At Harver",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5897130563?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-09-24T18:41:55Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "1d4c89eba1cf8d82",
     "source": "arbeitnow",
     "title": "Senior Engineering Manager - Core",
@@ -107,45 +71,7 @@
     "postedAt": "2026-10-24T05:51:35.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "2a2dcfcadb0aa250",
-    "source": "jobicy",
-    "title": "Engineering Manager, Managed Services",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/149528-engineering-manager-managed-services",
-    "tags": [
-      "Product & Operations",
-      "Full-Time",
-      "Midweight"
-    ],
-    "postedAt": "2026-10-24T03:45:28+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "0c3deac3b43c173d",
-    "source": "jobicy",
-    "title": "Engineering Manager - Solutions Engineering",
-    "company": "Canonical",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/149556-engineering-manager-solutions-engineering",
-    "tags": [
-      "Product & Operations",
-      "Full-Time",
-      "Midweight"
-    ],
-    "postedAt": "2026-10-24T03:45:12+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "31624460d8a3b474",
@@ -391,47 +317,6 @@
     "isNew": false
   },
   {
-    "id": "b9cafc1c0f1bcec4",
-    "source": "arbeitnow",
-    "title": "QA Engineer",
-    "company": "Creative Clicks B.V.",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/creative-clicks-bv/qa-engineer-amsterdam-349908",
-    "tags": [
-      "Development",
-      "Mid",
-      "fulltime fixed term"
-    ],
-    "postedAt": "2026-10-22T11:51:51.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
-    "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "MUFG",
-      "Senior"
-    ],
-    "postedAt": "2026-10-22T07:49:09.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "2b6ac38eee923a49",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -635,7 +520,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5bac9876d201c5df",
