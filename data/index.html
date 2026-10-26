@@ -47,7 +47,7 @@
 </style></head><body>
 <header><div class="wrap" style="padding:0">
   <h1>Job Radar</h1>
-  <div class="sub">33 matched · 3 lead · 13 adjacent · 17 ic · 0 new · generated 25 Oct 2026, 14:54 CET</div>
+  <div class="sub">36 matched · 3 lead · 15 adjacent · 18 ic · 6 new · generated 26 Oct 2026, 17:22 CET</div>
 </div></header>
 <div class="wrap">
   <div class="controls">
@@ -56,11 +56,30 @@
       <button class="chip" id="c-nl" onclick="tog(this)">Netherlands</button>
       <button class="chip" id="c-remote" onclick="tog(this)">Remote</button>
       <button class="chip" id="c-new" onclick="tog(this)">New</button>
-      <select id="c-src" onchange="af()"><option value="">All sources</option><option value="adzuna">adzuna</option><option value="arbeitnow">arbeitnow</option><option value="ashby">ashby</option><option value="greenhouse">greenhouse</option><option value="lever">lever</option><option value="recruitee">recruitee</option><option value="remotive">remotive</option><option value="smartrecruiters">smartrecruiters</option><option value="successfactors">successfactors</option><option value="workable">workable</option></select>
+      <select id="c-src" onchange="af()"><option value="">All sources</option><option value="adzuna">adzuna</option><option value="arbeitnow">arbeitnow</option><option value="ashby">ashby</option><option value="greenhouse">greenhouse</option><option value="lever">lever</option><option value="recruitee">recruitee</option><option value="remotive">remotive</option><option value="smartrecruiters">smartrecruiters</option><option value="successfactors">successfactors</option><option value="workable">workable</option><option value="workday">workday</option></select>
       <span id="count" class="count"></span>
     </div>
   </div>
   <div id="list">
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="lead" data-source="arbeitnow">
+      <div class="top">
+        <span class="tier lead">lead</span>
+        <a class="title" href="https://www.arbeitnow.nl/jobs/companies/sunweb-group/engineering-lead-connectivity-domain-rotterdam-466479" target="_blank" rel="noopener">Engineering Lead – Connectivity Domain</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Sunweb Group</strong>
+        <span>Rotterdam, Zuid-Holland, Netherlands</span>
+        
+        
+        
+        
+        <span class="src">arbeitnow</span>
+        
+      </div>
+      
+      <div class="tags"><span>Tech</span><span>Manager</span><span>fulltime fixed term</span></div>
+    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
       <div class="top">
         <span class="tier lead">lead</span>
@@ -99,15 +118,34 @@
       
       <div class="tags"><span>Engineering</span><span>Engineering</span><span>FullTime</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="lead" data-source="greenhouse">
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="adjacent" data-source="greenhouse">
       <div class="top">
-        <span class="tier lead">lead</span>
-        <a class="title" href="https://job-boards.greenhouse.io/wikimedia/jobs/8137733" target="_blank" rel="noopener">Software Quality Manager</a>
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.greenhouse.io/adyen/jobs/8164042" target="_blank" rel="noopener">Senior Product Manager - Data, Machine Learning &amp; GenAI Platform</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Adyen</strong>
+        <span>Amsterdam</span>
+        
+        
+        
+        <span class="repost" title="seen in 4 separate listings — this role gets re-advertised">reposted ×4</span>
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Product Management</span></div>
+    </article>
+    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101" target="_blank" rel="noopener">Lead Engineering Manager</a>
         
       </div>
       <div class="meta">
-        <strong>Wikimedia Foundation</strong>
-        <span>Remote</span>
+        <strong>JustMarkets</strong>
+        <span>Remote, Europe</span>
         
         <span class="pill">remote</span>
         
@@ -116,7 +154,26 @@
         
       </div>
       
-      <div class="tags"><span>Product &amp; Technology</span></div>
+      <div class="tags"><span>Trading Tech</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="greenhouse">
+      <div class="top">
+        <span class="tier adjacent">adjacent</span>
+        <a class="title" href="https://job-boards.eu.greenhouse.io/nuitee/jobs/5015027101" target="_blank" rel="noopener">Engineering Manager, Pricing &amp; Revenue</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Nuitée</strong>
+        <span>Europe (remote)</span>
+        
+        <span class="pill">remote</span>
+        
+        
+        <span class="src">greenhouse</span>
+        
+      </div>
+      
+      <div class="tags"><span>Tech</span></div>
     </article>
     <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="adjacent" data-source="arbeitnow">
       <div class="top">
@@ -232,25 +289,6 @@
       
       <div class="tags"><span>Engineering</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="greenhouse">
-      <div class="top">
-        <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101" target="_blank" rel="noopener">Lead Engineering Manager</a>
-        
-      </div>
-      <div class="meta">
-        <strong>JustMarkets</strong>
-        <span>Remote, Europe</span>
-        
-        <span class="pill">remote</span>
-        
-        <span class="repost" title="seen in 4 separate listings — this role gets re-advertised">reposted ×4</span>
-        <span class="src">greenhouse</span>
-        
-      </div>
-      
-      <div class="tags"><span>Trading Tech</span></div>
-    </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
@@ -289,11 +327,11 @@
       
       <div class="tags"><span>Field Engineering - Other</span></div>
     </article>
-    <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="adjacent" data-source="ashby">
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="adjacent" data-source="ashby">
       <div class="top">
         <span class="tier adjacent">adjacent</span>
-        <a class="title" href="https://jobs.ashbyhq.com/camunda/327f13d9-6054-46e5-96cd-bd757554f478" target="_blank" rel="noopener">Software Engineer, Engineering Operations</a>
-        
+        <a class="title" href="https://jobs.ashbyhq.com/camunda/327f13d9-6054-46e5-96cd-bd757554f478" target="_blank" rel="noopener">Software Engineer, Backend - Engineering Operations</a>
+        <span class="badge">NEW</span>
       </div>
       <div class="meta">
         <strong>Camunda</strong>
@@ -301,7 +339,7 @@
         
         <span class="pill">remote</span>
         
-        <span class="repost" title="seen in 2 separate listings — this role gets re-advertised">reposted ×2</span>
+        
         <span class="src">ashby</span>
         
       </div>
@@ -383,6 +421,25 @@
       </div>
       
       <div class="tags"><span>Game Tribe</span><span>Game Tribe</span><span>FullTime</span></div>
+    </article>
+    <article class="card new" data-nl="0" data-remote="1" data-new="1" data-tier="ic" data-source="recruitee">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4" target="_blank" rel="noopener">Senior QA Automation Engineer</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Codest Ltd. Company No. 12590542, VAT number: GB363431020</strong>
+        <span>Remote job</span>
+        
+        <span class="pill">remote</span>
+        
+        <span class="repost" title="seen in 3 separate listings — this role gets re-advertised">reposted ×3</span>
+        <span class="src">recruitee</span>
+        
+      </div>
+      
+      <div class="tags"><span>Development</span><span>fulltime_permanent</span><span>information_technology</span><span>MUFG</span><span>Senior</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="greenhouse">
       <div class="top">
@@ -548,7 +605,7 @@
         
         
         
-        
+        <span class="repost" title="seen in 2 separate listings — this role gets re-advertised">reposted ×2</span>
         <span class="src">adzuna</span>
         
       </div>
@@ -573,25 +630,6 @@
       </div>
       
       <div class="tags"><span>Vacatures Ander of Algemeen</span></div>
-    </article>
-    <article class="card" data-nl="1" data-remote="0" data-new="0" data-tier="ic" data-source="recruitee">
-      <div class="top">
-        <span class="tier ic">ic</span>
-        <a class="title" href="https://optics11.recruitee.com/o/senior-embedded-software-test-engineer" target="_blank" rel="noopener">Senior Embedded Software Test Engineer</a>
-        
-      </div>
-      <div class="meta">
-        <strong>Optics11</strong>
-        <span>Amsterdam, Noord-Holland, Netherlands</span>
-        
-        
-        
-        <span class="repost" title="seen in 2 separate listings — this role gets re-advertised">reposted ×2</span>
-        <span class="src">recruitee</span>
-        
-      </div>
-      
-      <div class="tags"><span>R&amp;D</span><span>fulltime_permanent</span><span>other</span></div>
     </article>
     <article class="card" data-nl="0" data-remote="1" data-new="0" data-tier="ic" data-source="remotive">
       <div class="top">
@@ -649,6 +687,25 @@
       </div>
       
       <div class="tags"><span>IT ICT vacatures</span></div>
+    </article>
+    <article class="card new" data-nl="1" data-remote="0" data-new="1" data-tier="ic" data-source="workday">
+      <div class="top">
+        <span class="tier ic">ic</span>
+        <a class="title" href="https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/Netherlands---Hoofddorp/QA-Specialist-II_R0055002-2" target="_blank" rel="noopener">QA Specialist II</a>
+        <span class="badge">NEW</span>
+      </div>
+      <div class="meta">
+        <strong>Gilead</strong>
+        <span>Netherlands - Hoofddorp</span>
+        
+        
+        
+        
+        <span class="src">workday</span>
+        
+      </div>
+      
+      <div class="tags"></div>
     </article>
     <article class="card" data-nl="1" data-remote="1" data-new="0" data-tier="ic" data-source="lever">
       <div class="top">

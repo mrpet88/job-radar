@@ -1,5 +1,23 @@
 [
   {
+    "id": "534230d6baa0d583",
+    "source": "arbeitnow",
+    "title": "Engineering Lead – Connectivity Domain",
+    "company": "Sunweb Group",
+    "location": "Rotterdam, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/sunweb-group/engineering-lead-connectivity-domain-rotterdam-466479",
+    "tags": [
+      "Tech",
+      "Manager",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-10-22T11:51:51.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "003d9666e4cea53d",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -38,22 +56,57 @@
     "isNew": false
   },
   {
-    "id": "73929f10e1047b76",
+    "id": "0c4fa78929d95c0d",
     "source": "greenhouse",
     "vendor": "greenhouse",
-    "title": "Software Quality Manager",
-    "company": "Wikimedia Foundation",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8137733",
+    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
     "tags": [
-      "Product & Technology"
+      "Product Management"
     ],
-    "postedAt": "2026-09-25T20:21:30-04:00",
-    "tier": "lead",
-    "score": 10,
+    "postedAt": "2026-10-26T10:48:20-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": true
+  },
+  {
+    "id": "9b6b3f07a1f5479c",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Lead Engineering Manager",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101",
+    "tags": [
+      "Trading Tech"
+    ],
+    "postedAt": "2026-10-26T08:59:42-04:00",
+    "tier": "adjacent",
+    "score": 5,
     "repostCount": 4,
     "isNew": false
+  },
+  {
+    "id": "998244acd4946f48",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Pricing & Revenue",
+    "company": "Nuitée",
+    "location": "Europe (remote)",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/nuitee/jobs/5015027101",
+    "tags": [
+      "Tech"
+    ],
+    "postedAt": "2026-10-26T06:17:30-04:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "1d4c89eba1cf8d82",
@@ -165,24 +218,6 @@
     "isNew": false
   },
   {
-    "id": "9b6b3f07a1f5479c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Lead Engineering Manager",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101",
-    "tags": [
-      "Trading Tech"
-    ],
-    "postedAt": "2026-10-16T10:02:35-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
     "id": "6c61bc8f64edf50e",
     "source": "ashby",
     "vendor": "ashby",
@@ -221,10 +256,10 @@
     "isNew": false
   },
   {
-    "id": "48179e3ace7dfde1",
+    "id": "a4600c149beec36b",
     "source": "ashby",
     "vendor": "ashby",
-    "title": "Software Engineer, Engineering Operations",
+    "title": "Software Engineer, Backend - Engineering Operations",
     "company": "Camunda",
     "location": "Remote",
     "remote": true,
@@ -237,8 +272,7 @@
     "postedAt": "2026-10-05T18:31:56.857+00:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "869bef2167b5a31c",
@@ -315,6 +349,28 @@
     "score": 1,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "d822c31a8b90cd15",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer",
+    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
+    "tags": [
+      "Development",
+      "fulltime_permanent",
+      "information_technology",
+      "MUFG",
+      "Senior"
+    ],
+    "postedAt": "2026-10-22T07:49:09.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "2b6ac38eee923a49",
@@ -482,6 +538,7 @@
     "postedAt": "2026-10-04T18:37:40Z",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -500,26 +557,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 5,
-    "isNew": false
-  },
-  {
-    "id": "7b4bab392ee67d20",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior Embedded Software Test Engineer",
-    "company": "Optics11",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
-    "tags": [
-      "R&D",
-      "fulltime_permanent",
-      "other"
-    ],
-    "postedAt": "2026-10-01T16:35:40.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -619,6 +656,20 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "d4ac74051c872581",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "QA Specialist II",
+    "company": "Gilead",
+    "location": "Netherlands - Hoofddorp",
+    "remote": false,
+    "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/Netherlands---Hoofddorp/QA-Specialist-II_R0055002-2",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "c8b4981746237a26",

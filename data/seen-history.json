@@ -1098,6 +1098,9 @@
   "engineering manager postgres::jobgether": [
     "2026-08-28"
   ],
+  "engineering manager pricing revenue::nuitée": [
+    "2026-10-26"
+  ],
   "engineering manager pricing::protolabs": [
     "2026-09-25",
     "2026-10-09"
@@ -3362,6 +3365,9 @@
   "qa software test automation engineers::xm": [
     "2026-09-01"
   ],
+  "qa specialist ii::gilead": [
+    "2026-10-26"
+  ],
   "qa test automation engineer senior::eminent groep": [
     "2026-08-28"
   ],
@@ -3802,7 +3808,8 @@
     "2026-09-23"
   ],
   "senior engineer quality assurance engineering::cboe global markets": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-26"
   ],
   "senior engineer test automation::care access": [
     "2026-08-08",
@@ -4509,7 +4516,8 @@
   "senior product manager data machine learning genai platform::adyen": [
     "2026-09-11",
     "2026-09-25",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-26"
   ],
   "senior product manager data platform::ezcater, inc": [
     "2026-08-08",
@@ -5384,6 +5392,9 @@
   ],
   "software engineer backend core api process automation::camunda": [
     "2026-09-03"
+  ],
+  "software engineer backend engineering operations::camunda": [
+    "2026-10-26"
   ],
   "software engineer data quality::jobgether": [
     "2026-08-25"
