@@ -1,42 +1,5 @@
 [
   {
-    "id": "ce19e6d33be826cc",
-    "source": "adzuna",
-    "title": "Test Lead - Robotics - Rotterdam",
-    "company": "Blauwtand",
-    "location": "Maassluis, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5917149227?utm_medium=api&utm_source=9b7a3075",
-    "salaryMin": 78000,
-    "salaryMax": 96000,
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-10-07T15:58:31Z",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
-  },
-  {
-    "id": "003d9666e4cea53d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Quality Assurance Manager",
-    "company": "Judi Health",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/judihealth/jobs/5424758008",
-    "tags": [
-      "Technology"
-    ],
-    "postedAt": "2026-09-30T13:57:06-04:00",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
     "id": "97548dbab6d6009c",
     "source": "ashby",
     "vendor": "ashby",
@@ -55,6 +18,20 @@
     "score": 10,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "73f4c769695da0f1",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Regional Quality Excellence Manager",
+    "company": "Gevernova",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/Regional-Quality-Excellence-Manager_R5057119",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "998244acd4946f48",
@@ -107,42 +84,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "1d4c89eba1cf8d82",
-    "source": "arbeitnow",
-    "title": "Senior Engineering Manager - Core",
-    "company": "Channable",
-    "location": "Utrecht, Utrecht, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/channable/senior-engineering-manager-core-utrecht-115990",
-    "tags": [
-      "Engineering",
-      "Senior manager",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-10-24T05:51:35.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "31624460d8a3b474",
-    "source": "arbeitnow",
-    "title": "Engineering Manager",
-    "company": "GreenFlux",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/greenflux/engineering-manager-amsterdam-260715",
-    "tags": [
-      "IT Development",
-      "Manager",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-10-23T11:51:31.000Z",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -236,6 +177,7 @@
     "postedAt": "2026-10-13T19:23:43.948+00:00",
     "tier": "adjacent",
     "score": 5,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -276,42 +218,21 @@
     "isNew": false
   },
   {
-    "id": "869bef2167b5a31c",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Engineering Manager",
-    "company": "Synthesia",
-    "location": "Europe",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/synthesia/4c6dedb3-2dbf-46b7-9336-a2b19b55dfd7",
+    "id": "9708331ad4a96fa1",
+    "source": "arbeitnow",
+    "title": "Interim QA Specialist",
+    "company": "Rentman",
+    "location": "Utrecht",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/rentman/interim-qa-specialist-utrecht-458492",
     "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime"
+      "R&D",
+      "Full Time"
     ],
-    "postedAt": "2026-09-28T13:52:10.684+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "2b3d64ee402492c9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/dcc17ff3-a032-4579-b4a9-1e57d9e5125d",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-10-20T00:45:29.559Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "repostCount": 5,
-    "isNew": false
+    "postedAt": "2026-10-27T18:40:39.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "10b4c01fdb2c8f49",
@@ -331,45 +252,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
-    "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "MUFG",
-      "Senior"
-    ],
-    "postedAt": "2026-10-22T07:49:09.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "2b6ac38eee923a49",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior QA Data Engineer",
-    "company": "Gradient AI",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/gradientai/jobs/8038980003",
-    "tags": [
-      "Tech & Development"
-    ],
-    "postedAt": "2026-10-20T13:02:11-04:00",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -443,27 +325,6 @@
       "Bouwkunde vacatures"
     ],
     "postedAt": "2026-10-14T19:09:16Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "818fc069c41d9c68",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Senior Agentic Quality Engineer ",
-    "company": "TOPdesk",
-    "location": "Delft, ZH, Netherlands",
-    "remote": false,
-    "url": "https://jobs.smartrecruiters.com/TOPdesk/744000155210350",
-    "tags": [
-      "Product Engineering",
-      "Engineering",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-10-13T09:32:53.317Z",
-    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -561,6 +422,26 @@
     "isNew": false
   },
   {
+    "id": "7b4bab392ee67d20",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior Embedded Software Test Engineer",
+    "company": "Optics11",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
+    "tags": [
+      "R&D",
+      "fulltime_permanent",
+      "other"
+    ],
+    "postedAt": "2026-10-01T16:35:40.000Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "5bac9876d201c5df",
     "source": "remotive",
     "title": "Senior back-end Engineer",
@@ -637,25 +518,6 @@
     "postedAt": "2026-09-29T16:24:24-04:00",
     "tier": "ic",
     "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "297bc1a88b825be3",
-    "source": "adzuna",
-    "title": "Pega DCM Test Automation (ID:",
-    "company": "STAFIDE",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5901627738?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-09-28T16:24:45Z",
-    "otherLocations": 1,
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
     "isNew": false
   },
   {
