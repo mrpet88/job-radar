@@ -659,6 +659,9 @@
     "2026-09-04",
     "2026-09-18"
   ],
+  "engineering manager architecture engineering async::gitlab": [
+    "2026-10-30"
+  ],
   "engineering manager artifacts::openai": [
     "2026-08-13",
     "2026-08-27",
@@ -1263,6 +1266,9 @@
   "engineering manager sre::xero": [
     "2026-09-02",
     "2026-09-16"
+  ],
+  "engineering manager sscs supply chain::gitlab": [
+    "2026-10-30"
   ],
   "engineering manager stock trading app::bjakcareer": [
     "2026-08-14",
@@ -5136,7 +5142,8 @@
   ],
   "senior software quality engineer::vclusterlabs": [
     "2026-08-08",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-30"
   ],
   "senior solutions engineering manager product specialist::jobgether": [
     "2026-08-08"
@@ -5289,7 +5296,8 @@
     "2026-09-15"
   ],
   "senior test automation engineer::lely": [
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-30"
   ],
   "senior test automation engineer::sigma software": [
     "2026-08-08",
