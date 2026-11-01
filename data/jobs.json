@@ -1,5 +1,22 @@
 [
   {
+    "id": "2281f5d28ba6277d",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "Finom",
+    "location": "Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/finom/engineering-manager-netherlands-239043",
+    "tags": [
+      "Backend",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-01T06:06:51.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "97108b364d030852",
     "source": "ashby",
     "vendor": "ashby",
@@ -253,28 +270,6 @@
     "isNew": false
   },
   {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
-    "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "MUFG",
-      "Senior"
-    ],
-    "postedAt": "2026-10-22T07:49:09.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": true
-  },
-  {
     "id": "a287921cb5270f6f",
     "source": "ashby",
     "vendor": "ashby",
@@ -330,24 +325,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "99ebce72c7cc7518",
-    "source": "adzuna",
-    "title": "Senior Test Automation Engineer (DF)",
-    "company": "Lely",
-    "location": "Maassluis, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5927808011?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-10-14T19:09:16Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -441,26 +418,6 @@
     "score": 1,
     "repostCount": 6,
     "isNew": false
-  },
-  {
-    "id": "7b4bab392ee67d20",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior Embedded Software Test Engineer",
-    "company": "Optics11",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
-    "remote": false,
-    "url": "https://optics11.recruitee.com/o/senior-embedded-software-test-engineer",
-    "tags": [
-      "R&D",
-      "fulltime_permanent",
-      "other"
-    ],
-    "postedAt": "2026-10-01T16:35:40.000Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": true
   },
   {
     "id": "fdc3fd29e1aa1523",
