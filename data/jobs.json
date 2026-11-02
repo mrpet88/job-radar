@@ -1,5 +1,88 @@
 [
   {
+    "id": "a18b971c5d63e917",
+    "source": "remoteok",
+    "title": "Partner Operations Manager",
+    "company": "Mecka",
+    "location": "",
+    "remote": true,
+    "url": "https://remoteOK.com/remote-jobs/remote-partner-operations-manager-mecka-1137609",
+    "salaryMin": 80000,
+    "salaryMax": 100000,
+    "currency": "USD",
+    "tags": [
+      "exec",
+      "design",
+      "education",
+      "customer support",
+      "marketing",
+      "quality assurance",
+      "finance",
+      "robotics",
+      "ops",
+      "recruiter",
+      "engineer",
+      "digital nomad"
+    ],
+    "postedAt": "2026-11-01T00:00:08+00:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "42b0a7a89f98afc7",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Android",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
+    "tags": [
+      "Development"
+    ],
+    "postedAt": "2026-11-02T07:59:19-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "0c4fa78929d95c0d",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
+    "tags": [
+      "Product Management"
+    ],
+    "postedAt": "2026-11-02T07:58:39-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": false
+  },
+  {
+    "id": "7c6aa99fdc03c8f2",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Head of Forward Deployed Engineering - Operations ",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7953778",
+    "tags": [
+      "Infrastructure"
+    ],
+    "postedAt": "2026-11-02T07:46:18-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": false
+  },
+  {
     "id": "2281f5d28ba6277d",
     "source": "arbeitnow",
     "title": "Engineering Manager",
@@ -14,7 +97,7 @@
     "postedAt": "2026-11-01T06:06:51.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "97108b364d030852",
@@ -33,7 +116,7 @@
     "postedAt": "2026-10-29T13:00:23.726+00:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 3,
+    "repostCount": 4,
     "isNew": false
   },
   {
@@ -72,24 +155,6 @@
     "isNew": false
   },
   {
-    "id": "0c4fa78929d95c0d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-10-26T10:48:20-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
     "id": "9b6b3f07a1f5479c",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -105,41 +170,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "7c6aa99fdc03c8f2",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Head of Forward Deployed Engineering - Operations ",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7953778",
-    "tags": [
-      "Infrastructure"
-    ],
-    "postedAt": "2026-10-22T14:04:47-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "42b0a7a89f98afc7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Android",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
-    "tags": [
-      "Development"
-    ],
-    "postedAt": "2026-10-22T12:44:55-04:00",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -182,6 +212,25 @@
     "isNew": false
   },
   {
+    "id": "6de6f98487749a20",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Analytics Engineering Manager",
+    "company": "Eneba",
+    "location": "Europe",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/eneba/d2b8bf73-41bb-4e18-baa6-143c42c3e91b",
+    "tags": [
+      "Technology",
+      "Data",
+      "FullTime"
+    ],
+    "postedAt": "2026-10-06T11:38:56.691+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "ad3fe2eae17ef44e",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -196,7 +245,7 @@
     "postedAt": "2026-10-06T07:41:17-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 2,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -217,6 +266,23 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "9e004f8b5aae16db",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "AI Engineer / AI Automation",
+    "company": "Growe Talents",
+    "location": "Anywhere; Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/growetalents/jobs/4971056101",
+    "tags": [
+      "Casino"
+    ],
+    "postedAt": "2026-11-02T11:05:00-05:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "2b6ac38eee923a49",
@@ -251,6 +317,24 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "13f77c4e7b7fd8ea",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Automation / CSV Engineer",
+    "company": "Cagents",
+    "location": "Netherlands",
+    "remote": false,
+    "url": "https://jobs.lever.co/cagents/c2c0fa1d-b72e-42c4-a77a-1eed0c4c0db5",
+    "tags": [
+      "North Europe",
+      "Contract"
+    ],
+    "postedAt": "2026-10-28T09:37:26.694Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "9708331ad4a96fa1",
@@ -326,6 +410,26 @@
     "score": 1,
     "repostCount": 3,
     "isNew": false
+  },
+  {
+    "id": "373b845ce7124da4",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Automation QA Engineer (QVAC) (100% remote)",
+    "company": "Tether Operations Limited",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://tether.recruitee.com/o/automation-qa-engineer-qvac-100-remote-eg",
+    "tags": [
+      "Product​",
+      "fulltime_permanent",
+      "engineering",
+      "Data"
+    ],
+    "postedAt": "2026-10-14T18:29:30.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "b268ac7f172efa11",
@@ -418,6 +522,49 @@
     "score": 1,
     "repostCount": 6,
     "isNew": false
+  },
+  {
+    "id": "12c3374ba76e0876",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Specialist - IT/OT Automation Engineer",
+    "company": "Bristolmyerssquibb",
+    "location": "Leiden – NL",
+    "remote": false,
+    "url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS/job/Leiden--NL/Senior-Specialist---IT-OT-Automation-Engineer_R1602395",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "b79ab0376ef66df0",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Sr. Automation Engineer, Falcon Complete (Remote, CAN)",
+    "company": "Crowdstrike",
+    "location": "6 Locations",
+    "remote": true,
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Canada---Remote-ON/Sr-Automation-Engineer--Falcon-Complete--Remote--CAN-_R30415",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "aa4d013b3f872fda",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Infrastructure Automation Engineer (Linux / Ansible)",
+    "company": "Kyndryl",
+    "location": "Hoofddorp, North Holland, Netherlands",
+    "remote": false,
+    "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Hoofddorp-North-Holland-Netherlands/Senior-IT-Infrastructure-Automation-SME_R-51289",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "fdc3fd29e1aa1523",
