@@ -1,78 +1,5 @@
 [
   {
-    "id": "f1e6713f8d077b74",
-    "source": "jobicy",
-    "title": "English to Maltese Review Lead for UI, Marketing & Product Content",
-    "company": "Welo Global",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158982-english-to-maltese-review-lead-for-ui-marketing-product-content",
-    "tags": [
-      "QA & Testing",
-      "Contract",
-      "Senior"
-    ],
-    "postedAt": "2026-11-04T13:58:36+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
-  },
-  {
-    "id": "77c9f463a2f5a147",
-    "source": "jobicy",
-    "title": "English to Lao Review Lead for UI, Marketing & Product Content",
-    "company": "Welo Global",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158980-english-to-lao-review-lead-for-ui-marketing-product-content",
-    "tags": [
-      "QA & Testing",
-      "Contract",
-      "Senior"
-    ],
-    "postedAt": "2026-11-04T13:58:11+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
-  },
-  {
-    "id": "aa6ffb2006598839",
-    "source": "jobicy",
-    "title": "English to Kyrgyz Review Lead for UI, Marketing & Product Content",
-    "company": "Welo Global",
-    "location": "Anywhere",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158978-english-to-kyrgyz-review-lead-for-ui-marketing-product-content",
-    "tags": [
-      "QA & Testing",
-      "Contract",
-      "Senior"
-    ],
-    "postedAt": "2026-11-04T13:58:08+00:00",
-    "tier": "lead",
-    "score": 10,
-    "isNew": true
-  },
-  {
-    "id": "962609b6c95658f2",
-    "source": "arbeitnow",
-    "title": "Senior QA Manager - Fully Remote",
-    "company": "SOFTGAMES",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/softgames/senior-qa-manager-fully-remote-berlin-156016",
-    "tags": [
-      "Remote",
-      "Entry",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-11-04T03:31:37.000Z",
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
-    "isNew": true
-  },
-  {
     "id": "907a3fe440452384",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -120,17 +47,124 @@
     "isNew": false
   },
   {
-    "id": "d688ca1f4c9d1225",
+    "id": "e052bb578f6cbc54",
     "source": "workday",
     "vendor": "workday",
-    "title": "Quality Assurance Manager EMEA Asia Pacific",
-    "company": "Carrier",
-    "location": "NLD2856: Warmonderweg 11, Sassenheim, 2171 AH, Netherlands",
-    "remote": false,
-    "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/NLD2856-Warmonderweg-11-Sassenheim-2171-AH-Netherlands/Head-of-Quality-Manager-Global_30221591",
+    "title": "QA Compliance Lead Auditor (GCP) North Carolina area  Remote Based",
+    "company": "Fortrea",
+    "location": "2 Locations",
+    "remote": true,
+    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/QA-Compliance-Lead-Auditor--GCP-Auditor--REMOTE_261425",
     "tags": [],
     "tier": "lead",
     "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "5911d873891bde9e",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Manager QA, Remote based in North Carolina",
+    "company": "Fortrea",
+    "location": "2 Locations",
+    "remote": true,
+    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/Senior-Manager-QA--External-Audit_266385",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "d29f7132f5f737c3",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Security Operations Engineer",
+    "company": "Criticalloop",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/criticalloop/fb670448-ddc3-400e-825e-2a891d3ade69",
+    "tags": [
+      "Technology",
+      "AGENCY ROLES - PRODUCT ENGINEERING",
+      "FullTime",
+      "$120K – $165K • Offers Equity"
+    ],
+    "postedAt": "2026-11-05T16:50:06.430+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "109886fcc2719038",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Operations Manager Zuid-Nederland | Industrial Service | Konecranes ",
+    "company": "Konecranes",
+    "location": "Nistelrode, , Netherlands",
+    "remote": false,
+    "url": "https://jobs.smartrecruiters.com/Konecranes/744000159872951",
+    "tags": [
+      "Engineering",
+      "Full-time",
+      "Machinery"
+    ],
+    "postedAt": "2026-11-05T13:50:36.350Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "c36e6625de34d0c4",
+    "source": "adzuna",
+    "title": "Senior QA Test Automation Consultant",
+    "company": "Nekst-IT",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5953997522?se=KMg70T_Z8RGGLZAPeUFxlw&utm_medium=api&utm_source=9b7a3075&v=F04A4DCF14E1C459E055C1DDDB12942F59A156E3",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T09:08:38Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "170e7ed08f1f6dca",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "Insify",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/insify/engineering-manager-amsterdam-43550",
+    "tags": [
+      "Tech",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-05T03:08:38.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "97108b364d030852",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Delivery Manager",
+    "company": "Progress Partners",
+    "location": "European Union",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/progress-partners/42e4dcee-9289-4a36-9645-97489991f43c",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-11-04T19:23:05.215+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
     "isNew": true
   },
   {
@@ -150,25 +184,7 @@
     "postedAt": "2026-11-04T13:54:20.173+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "ce047da640ba82b4",
-    "source": "jobicy",
-    "title": "Observability Engineering Manager",
-    "company": "Canonical",
-    "location": "EMEA,  Canada,  USA",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158930-observability-engineering-manager",
-    "tags": [
-      "Software Engineering",
-      "Full-Time",
-      "Senior"
-    ],
-    "postedAt": "2026-11-04T13:47:36+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "88ea7f6c5087fab5",
@@ -185,7 +201,7 @@
     "postedAt": "2026-11-04T12:09:28-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6fa9855603ef08d4",
@@ -203,7 +219,7 @@
     "postedAt": "2026-11-03T18:51:27.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cda866a9744a40c1",
@@ -220,7 +236,7 @@
     "postedAt": "2026-11-03T18:40:36.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a541ae5106e09721",
@@ -237,7 +253,7 @@
     "postedAt": "2026-11-03T16:55:58-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cdeb781f0f54f08f",
@@ -352,25 +368,6 @@
     "isNew": false
   },
   {
-    "id": "688207c5f82e99a6",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior R&D Engineer Trainingssystemen (m/v/x)",
-    "company": "Koninklijk Nederlands Lucht- en Ruimtevaartcentrum",
-    "location": "Amsterdam, Noord-Holland, Nederland",
-    "remote": false,
-    "url": "https://werkenbijnlr.recruitee.com/o/senior-rd-engineer-trainingssystemen-mvx",
-    "tags": [
-      "Aerospace Operations",
-      "fulltime_fixed_term",
-      "engineering"
-    ],
-    "postedAt": "2026-10-29T19:07:57.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "1dd3a80a098a4743",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -386,24 +383,6 @@
       "Vast"
     ],
     "postedAt": "2026-10-29T15:43:49.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "03ebd259137769cb",
-    "source": "arbeitnow",
-    "title": "Engineering Director - Building Automation",
-    "company": "Priva",
-    "location": "De Lier, Zuid-Holland, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/priva/engineering-director-building-automation-de-lier-312369",
-    "tags": [
-      "Tech & Data",
-      "Manager",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-10-28T18:31:16.000Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -477,7 +456,7 @@
     "postedAt": "2026-10-16T11:04:56-04:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 3,
+    "repostCount": 4,
     "isNew": false
   },
   {
@@ -502,62 +481,6 @@
     "isNew": false
   },
   {
-    "id": "6de6f98487749a20",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Analytics Engineering Manager",
-    "company": "Eneba",
-    "location": "Europe",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/eneba/d2b8bf73-41bb-4e18-baa6-143c42c3e91b",
-    "tags": [
-      "Technology",
-      "Data",
-      "FullTime"
-    ],
-    "postedAt": "2026-10-06T11:38:56.691+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "ad3fe2eae17ef44e",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Manager, Field Engineering (Pre-Sales) – Benelux Named Accounts",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8836690002",
-    "tags": [
-      "Field Engineering - Other"
-    ],
-    "postedAt": "2026-10-06T07:41:17-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "a4600c149beec36b",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Software Engineer, Backend - Engineering Operations",
-    "company": "Camunda",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/camunda/327f13d9-6054-46e5-96cd-bd757554f478",
-    "tags": [
-      "Products",
-      "Engineering",
-      "FullTime"
-    ],
-    "postedAt": "2026-10-05T18:31:56.857+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "4f31229d4c42527a",
     "source": "lever",
     "vendor": "lever",
@@ -574,6 +497,81 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "fe2d7a20b669127c",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Senior Fingerprint Laboratory Specialist ",
+    "company": "Eurofins",
+    "location": "Maastricht, LI, Netherlands",
+    "remote": false,
+    "url": "https://jobs.smartrecruiters.com/Eurofins/744000159936519",
+    "tags": [
+      "Testing & Laboratory",
+      "Research",
+      "Full-time",
+      "Biotechnology"
+    ],
+    "postedAt": "2026-11-05T17:15:56.176Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "063ef2e86232f355",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Dangerous Goods Specialist",
+    "company": "SGS",
+    "location": "Eindhoven, NB, Netherlands",
+    "remote": false,
+    "url": "https://jobs.smartrecruiters.com/SGS/744000159852058",
+    "tags": [
+      "Inspection and Field Testing",
+      "Distribution",
+      "Full-time",
+      "Logistics And Supply Chain"
+    ],
+    "postedAt": "2026-11-05T12:09:02.705Z",
+    "otherLocations": 1,
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "c0bcd4f5498cd3ee",
+    "source": "adzuna",
+    "title": "Automation Support Engineer (RPA)",
+    "company": "Tacstone Technology",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5953786784?se=_qY10j_Z8RGJb_1qOzusGA&utm_medium=api&utm_source=9b7a3075&v=7E7E04DBA11F38C38E11B01A3ABBE4501173DB08",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T04:57:21Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "7b014d303dea88e9",
+    "source": "arbeitnow",
+    "title": "Activation and Production Testing Specialist",
+    "company": "Hopae",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/hopae/remote-activation-and-production-testing-specialist-171647",
+    "tags": [
+      "Product",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-05T00:40:12.000Z",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -591,63 +589,25 @@
       "FullTime"
     ],
     "postedAt": "2026-11-04T16:47:24.401+00:00",
+    "otherLocations": 1,
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
-    "id": "ea75246fd71668b7",
-    "source": "jobicy",
-    "title": "Python Software Engineer - Ubuntu Hardware Certification Team",
-    "company": "Canonical",
-    "location": "EMEA",
+    "id": "6ad05ceeeff77fcf",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "GRC Controls Automation Engineer",
+    "company": "Box",
+    "location": "Remote",
     "remote": true,
-    "url": "https://jobicy.com/jobs/158954-python-software-engineer-ubuntu-hardware-certification-team",
+    "url": "https://job-boards.greenhouse.io/boxinc/jobs/8109677",
     "tags": [
-      "QA & Testing",
-      "Full-Time",
-      "Any"
+      "Compliance & Risk"
     ],
-    "postedAt": "2026-11-04T13:49:19+00:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "1991ceb995af2e63",
-    "source": "jobicy",
-    "title": "Freelance Tester in Netherlands",
-    "company": "Testlio",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158936-freelance-tester-in-netherlands",
-    "tags": [
-      "QA & Testing",
-      "Contract",
-      "Any"
-    ],
-    "postedAt": "2026-11-04T13:47:45+00:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "b013d63546ad680a",
-    "source": "jobicy",
-    "title": "Freelance Software Tester for Payments testing (Remote in Germany & the Netherlands)",
-    "company": "Testlio",
-    "location": "Germany,  Netherlands",
-    "remote": true,
-    "url": "https://jobicy.com/jobs/158931-freelance-software-tester-for-payments-testing-remote-in-germany-the-netherlands-2",
-    "currency": "USD",
-    "tags": [
-      "QA & Testing",
-      "Contract",
-      "Any"
-    ],
-    "postedAt": "2026-11-04T13:47:37+00:00",
-    "otherLocations": 1,
+    "postedAt": "2026-11-04T13:11:06-05:00",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -670,23 +630,6 @@
     "postedAt": "2026-11-04T13:06:08.185Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "c6a55663e85b6fc5",
-    "source": "successfactors",
-    "vendor": "successfactors",
-    "title": "Software Quality Engineering Specialist",
-    "company": "European Medicines Agency",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://careers.ema.europa.eu/job/Software-Quality-Engineering-Specialist-1157/1444613633/",
-    "tags": [],
-    "postedAt": "2026-11-04T02:00:00.000Z",
-    "tier": "ic",
-    "score": 1,
-    "languageRequirement": "C1",
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -704,7 +647,7 @@
     "postedAt": "2026-11-03T18:40:36.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "06070a6abe16776d",
@@ -744,6 +687,45 @@
     "isNew": false
   },
   {
+    "id": "b92f7d82c944a5ca",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Freelance Game LQA Tester (English → French)",
+    "company": "TransPerfect",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://transperfect.com/o/freelance-game-lqa-tester-english-french",
+    "tags": [
+      "QA Testing",
+      "freelance",
+      "translation_services"
+    ],
+    "postedAt": "2026-11-03T08:43:16.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "a0b33db367ba1e54",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Freelance Localization Games Tester - Remote (French Speaker)",
+    "company": "TransPerfect",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://transperfect.com/o/freelance-localization-games-tester-remote-french-speaker",
+    "tags": [
+      "QA Testing",
+      "freelance",
+      "internet",
+      "Freelance"
+    ],
+    "postedAt": "2026-11-03T08:17:32.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "e9ec988cc100a7c5",
     "source": "adzuna",
     "title": "Software Test Engineer",
@@ -759,6 +741,26 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 6,
+    "isNew": false
+  },
+  {
+    "id": "89d7f9f6493d4269",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "French LQA Games Tester - Remote (Freelance)",
+    "company": "TransPerfect",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://transperfect.com/o/french-lqa-games-tester-remote-freelance",
+    "tags": [
+      "QA Testing",
+      "freelance",
+      "internet",
+      "Freelance"
+    ],
+    "postedAt": "2026-11-03T01:57:13.000Z",
+    "tier": "ic",
+    "score": 1,
     "isNew": true
   },
   {
@@ -873,6 +875,26 @@
     "isNew": false
   },
   {
+    "id": "8a2f9c32e9cd6a76",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "QA Engineer (Remote)",
+    "company": "Decilegroup",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.lever.co/decilegroup/82429004-c548-4b59-a547-febc6960b2c5",
+    "salaryMin": 80000,
+    "salaryMax": 100000,
+    "currency": "USD",
+    "tags": [
+      "Engineering and Product"
+    ],
+    "postedAt": "2026-10-14T00:15:39.096Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "b268ac7f172efa11",
     "source": "workable",
     "vendor": "workable",
@@ -891,27 +913,6 @@
     "isNew": false
   },
   {
-    "id": "cbc56c12363d03e7",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "QA Analyst (Global Contract)",
-    "company": "Jump App",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/jump-app/86b3df3f-0658-4949-914d-b701e18e128f",
-    "tags": [
-      "Engineering, Product & Design",
-      "Software Development",
-      "Contract",
-      "$8 – $10 per hour"
-    ],
-    "postedAt": "2026-10-06T16:29:26.806+00:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
     "id": "8d7fd24dea5b93f0",
     "source": "workday",
     "vendor": "workday",
@@ -923,6 +924,39 @@
     "tags": [],
     "tier": "ic",
     "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "21c1b07f16af3aae",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Senior Infrastructure Automation Engineer (Linux, Ansible)",
+    "company": "Kyndryl",
+    "location": "Hoofddorp, North Holland, Netherlands",
+    "remote": false,
+    "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Hoofddorp-North-Holland-Netherlands/Senior-IT-Infrastructure-Automation-SME_R-51289",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "b753564badcbf088",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Sleep Test Specialist (S1)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/76dfbca5-360d-47d1-a1c9-16e60e3e9d25",
+    "tags": [
+      "Others",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-05T11:17:50.539Z",
+    "tier": "ic",
+    "score": 0.5,
     "isNew": true
   },
   {
@@ -941,26 +975,7 @@
     "postedAt": "2026-10-29T10:33:53.918Z",
     "tier": "ic",
     "score": 0.5,
-    "repostCount": 6,
-    "isNew": true
-  },
-  {
-    "id": "ad111d5e285ab348",
-    "source": "adzuna",
-    "title": "Software Quality Engineer voor machinebouwsoftware in Den Haag | Jouw Techniekbaan",
-    "company": "Synsel Techniek",
-    "location": "'s-Gravenhage, Den Haag",
-    "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5940863836?se=MuAihHXY8RGPl_JC3n0ZgQ&utm_medium=api&utm_source=9b7a3075&v=E72561C6E53769EFA7811DDC2B1A124692FF6428",
-    "salaryMin": 42000,
-    "salaryMax": 60000,
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-10-25T01:25:10Z",
-    "tier": "ic",
-    "score": 0.5,
+    "repostCount": 7,
     "isNew": false
   }
 ]
