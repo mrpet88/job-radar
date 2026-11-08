@@ -98,35 +98,60 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
+    "isNew": false
+  },
+  {
+    "id": "05a38fcec087c6f6",
+    "source": "arbeitnow",
+    "title": "Product Manager, Agent Platform",
+    "company": "Siena",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.co.uk/jobs/companies/siena/remote-product-manager-agent-platform-11837",
+    "tags": [
+      "Product",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-07T18:40:14.000Z",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
   },
   {
-    "id": "e052bb578f6cbc54",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "QA Compliance Lead Auditor (GCP) North Carolina area  Remote Based",
-    "company": "Fortrea",
-    "location": "2 Locations",
-    "remote": true,
-    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/QA-Compliance-Lead-Auditor--GCP-Auditor--REMOTE_261425",
-    "tags": [],
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
+    "id": "39f25365751b20a6",
+    "source": "arbeitnow",
+    "title": "Software Engineering Manager",
+    "company": "Benchmark",
+    "location": "Almelo, Overijssel, Nederland",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/benchmark/software-engineering-manager-almelo-364758",
+    "tags": [
+      "Design Engineering",
+      "Mid",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-11-07T15:51:23.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
-    "id": "5911d873891bde9e",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Senior Manager QA, Remote based in North Carolina",
-    "company": "Fortrea",
-    "location": "2 Locations",
-    "remote": true,
-    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/Senior-Manager-QA--External-Audit_266385",
-    "tags": [],
-    "tier": "lead",
-    "score": 10,
-    "isNew": false
+    "id": "c65187a0b5376c92",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "Benchmark",
+    "location": "Almelo, Overijssel, Nederland",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/benchmark/engineering-manager-almelo-219785",
+    "tags": [
+      "Design Engineering",
+      "Mid",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-11-07T15:51:23.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "a51095b701b68475",
@@ -146,7 +171,7 @@
     "postedAt": "2026-11-06T20:01:08.569+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a541ae5106e09721",
@@ -199,23 +224,6 @@
     ],
     "postedAt": "2026-11-06T07:29:08.030Z",
     "tier": "lead",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "d7c5c86bf7e45254",
-    "source": "arbeitnow",
-    "title": "Software Engineer, Operations Research",
-    "company": "Circuithub",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/circuithub/remote-software-engineer-operations-research-57308",
-    "tags": [
-      "Software Engineering",
-      "Full Time"
-    ],
-    "postedAt": "2026-11-06T06:40:11.000Z",
-    "tier": "adjacent",
     "score": 5,
     "isNew": false
   },
@@ -379,6 +387,7 @@
       "FullTime"
     ],
     "postedAt": "2026-11-03T15:00:30.551+00:00",
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -476,25 +485,6 @@
     ],
     "postedAt": "2026-10-29T15:43:49.000Z",
     "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "b5fda1f0f9a8b582",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Sr. Manager Documentation",
-    "company": "Payabli",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/payabli/0f14ec17-1923-4b76-8d44-2da31324146b",
-    "tags": [
-      "Engineering",
-      "Technical Writing ",
-      "FullTime"
-    ],
-    "postedAt": "2026-10-27T18:11:58.467+00:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -609,7 +599,7 @@
     "tier": "adjacent",
     "score": 2.5,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d8a4e32da585e0da",
@@ -626,7 +616,7 @@
     "postedAt": "2026-11-06T23:15:34Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c3f3f66f2dbbe7b3",
@@ -846,7 +836,7 @@
     "company": "Tacstone Technology",
     "location": "Amsterdam, Noord-Holland",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5953786784?se=UEkFdcPa8RGQHOXUHmvTgQ&utm_medium=api&utm_source=9b7a3075&v=7E7E04DBA11F38C38E11B01A3ABBE4501173DB08",
+    "url": "https://www.adzuna.nl/land/ad/5953786784?se=zhDHbo_b8RGJ_5m-0JeM1g&utm_medium=api&utm_source=9b7a3075&v=7E7E04DBA11F38C38E11B01A3ABBE4501173DB08",
     "currency": "EUR",
     "tags": [
       "Unknown"
@@ -1003,6 +993,23 @@
     "isNew": false
   },
   {
+    "id": "4636514d1e0cd7c6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Staff Engineer, Automation",
+    "company": "Healthie",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/healthie/jobs/4438089009",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-10-26T18:17:08-04:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "a287921cb5270f6f",
     "source": "ashby",
     "vendor": "ashby",
@@ -1082,26 +1089,6 @@
     "isNew": false
   },
   {
-    "id": "1ab6ae41e3931571",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Quality Engineer",
-    "company": "JACOBS DOUWE EGBERTS",
-    "location": "Joure, FR, Netherlands",
-    "remote": false,
-    "url": "https://jobs.smartrecruiters.com/JACOBSDOUWEEGBERTS/744000154493601",
-    "tags": [
-      "Quality Management",
-      "Quality Assurance",
-      "Full-time",
-      "Consumer Goods"
-    ],
-    "postedAt": "2026-10-08T17:02:18.325Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "d4ac74051c872581",
     "source": "workday",
     "vendor": "workday",
@@ -1146,6 +1133,6 @@
     "postedAt": "2026-11-05T11:17:50.539Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   }
 ]

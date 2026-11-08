@@ -22,9 +22,6 @@
   "ai automation engineer::gismart": [
     "2026-08-31"
   ],
-  "ai automation engineer::kdci": [
-    "2026-08-10"
-  ],
   "ai automation engineer::magnetforensics": [
     "2026-08-27",
     "2026-09-10",
@@ -339,7 +336,6 @@
     "2026-08-18"
   ],
   "data engineering manager::metyis ag": [
-    "2026-08-10",
     "2026-08-28"
   ],
   "data engineering senior manager::imprint": [
@@ -379,9 +375,6 @@
   ],
   "data science engineering manager::alltrails": [
     "2026-08-22"
-  ],
-  "data science engineering manager::jobgether": [
-    "2026-08-10"
   ],
   "data science engineering manager::netflix": [
     "2026-09-02"
@@ -484,9 +477,6 @@
   "electrical construction manager ams 1246::winthrop technologies": [
     "2026-08-12",
     "2026-08-26"
-  ],
-  "electrical engineering department manager::jobgether": [
-    "2026-08-10"
   ],
   "email automation qa specialist::imprint": [
     "2026-08-11",
@@ -658,9 +648,6 @@
   "engineering manager catalog::instacart": [
     "2026-09-12"
   ],
-  "engineering manager catalog::salla": [
-    "2026-08-10"
-  ],
   "engineering manager ceph distributed storage::jobgether": [
     "2026-09-26"
   ],
@@ -752,7 +739,6 @@
     "2026-09-14"
   ],
   "engineering manager dedicated integrations::gitlab": [
-    "2026-08-10",
     "2026-08-24",
     "2026-09-07",
     "2026-09-21"
@@ -1258,6 +1244,9 @@
   "engineering manager::bellese": [
     "2026-09-02"
   ],
+  "engineering manager::benchmark": [
+    "2026-11-08"
+  ],
   "engineering manager::benepass": [
     "2026-09-16"
   ],
@@ -1738,9 +1727,6 @@
     "2026-09-09",
     "2026-09-23"
   ],
-  "lead data quality integrity::jobgether": [
-    "2026-08-10"
-  ],
   "lead engineer test automation tools development::moniepoint": [
     "2026-09-08",
     "2026-09-22"
@@ -2171,9 +2157,6 @@
   "manager site reliability engineering::lightspeedhq": [
     "2026-09-16"
   ],
-  "manager smb sales engineering::jobgether": [
-    "2026-08-10"
-  ],
   "manager software development engineer iris ai::delinea": [
     "2026-09-05"
   ],
@@ -2501,7 +2484,6 @@
     "2026-11-03"
   ],
   "principal consultant salesforce business development manager::nagarro": [
-    "2026-08-10",
     "2026-08-24"
   ],
   "principal device quality engineer::heartflow": [
@@ -2614,6 +2596,9 @@
   "product design manager::sitemate": [
     "2026-08-31",
     "2026-09-14"
+  ],
+  "product manager agent platform::siena": [
+    "2026-11-08"
   ],
   "product manager ai::getwingapp": [
     "2026-09-08",
@@ -2746,7 +2731,6 @@
     "2026-08-15"
   ],
   "program manager banking financial services::nagarro": [
-    "2026-08-10",
     "2026-08-24"
   ],
   "program manager quality ais::gehc": [
@@ -2881,7 +2865,6 @@
     "2026-09-18"
   ],
   "qa automation lead gn data intelligence::actian": [
-    "2026-08-10",
     "2026-09-13"
   ],
   "qa automation test engineer::aretum": [
@@ -2977,7 +2960,6 @@
     "2026-08-22"
   ],
   "qa engineer::miaplaza": [
-    "2026-08-10",
     "2026-09-11"
   ],
   "qa engineer::pingwind": [
@@ -3217,7 +3199,6 @@
     "2026-09-12"
   ],
   "quality engineer::xplor": [
-    "2026-08-10",
     "2026-08-24"
   ],
   "quality engineering lead::shopware ag": [
@@ -3382,9 +3363,6 @@
     "2026-08-22",
     "2026-09-05",
     "2026-09-19"
-  ],
-  "senior ai backend engineer agent evaluation quality::salla": [
-    "2026-08-10"
   ],
   "senior ai engineering enablement lead::servicenow": [
     "2026-09-10",
@@ -3899,7 +3877,6 @@
     "2026-09-19"
   ],
   "senior manager qa auditor gcp strategy::regeneron": [
-    "2026-08-10",
     "2026-08-25"
   ],
   "senior manager qa based in north carolina::fortrea": [
@@ -4003,9 +3980,6 @@
     "2026-08-22",
     "2026-09-05",
     "2026-09-19"
-  ],
-  "senior manager security engineering::jobgether": [
-    "2026-08-10"
   ],
   "senior manager software development clients accounts::wealthsimple": [
     "2026-09-05",
@@ -4252,7 +4226,6 @@
     "2026-08-19"
   ],
   "senior product manager::nash": [
-    "2026-08-10",
     "2026-08-24",
     "2026-09-07"
   ],
@@ -4330,7 +4303,6 @@
     "2026-08-22"
   ],
   "senior qa automation engineer::jobgether": [
-    "2026-08-10",
     "2026-08-24",
     "2026-09-09",
     "2026-09-24"
@@ -4536,7 +4508,6 @@
     "2026-09-22"
   ],
   "senior site reliability engineer::nebius": [
-    "2026-08-10",
     "2026-09-13"
   ],
   "senior software developer in test quality platform::maintainx": [
@@ -5000,6 +4971,9 @@
     "2026-09-05",
     "2026-09-19"
   ],
+  "software engineering manager::benchmark": [
+    "2026-11-08"
+  ],
   "software engineering manager::coder": [
     "2026-09-01",
     "2026-09-15"
@@ -5348,6 +5322,9 @@
   "staff devops automation engineer::jobgether": [
     "2026-09-16"
   ],
+  "staff engineer automation::healthie": [
+    "2026-11-08"
+  ],
   "staff gpu inference sdet::cerebras": [
     "2026-09-10",
     "2026-09-24"
@@ -5529,9 +5506,6 @@
   "strong middle senior test automation engineer jr629::eleks": [
     "2026-08-22"
   ],
-  "strong middle senior test engineer jr620::eleks": [
-    "2026-08-10"
-  ],
   "structural bim manager data centers::olsson": [
     "2026-08-15"
   ],
@@ -5600,7 +5574,6 @@
     "2026-08-22"
   ],
   "tech lead manager education::openai": [
-    "2026-08-10",
     "2026-08-24",
     "2026-09-07"
   ],
@@ -5772,9 +5745,6 @@
   "test automation engineer::endava": [
     "2026-08-12"
   ],
-  "test automation engineer::jobgether": [
-    "2026-08-10"
-  ],
   "test automation engineer::lingarogroup": [
     "2026-08-29"
   ],
@@ -5795,12 +5765,6 @@
   ],
   "test craftsperson automation::jobgether": [
     "2026-08-21"
-  ],
-  "test engineer procedure writer senior consultant nuclear::jobgether": [
-    "2026-08-10"
-  ],
-  "test engineer::jobgether": [
-    "2026-08-10"
   ],
   "test engineer::logicgate": [
     "2026-08-28",
@@ -5836,7 +5800,6 @@
     "2026-08-29"
   ],
   "testmanager ict::nlwerkt": [
-    "2026-08-10",
     "2026-08-28"
   ],
   "testmanager::cpu consulting & software gmbh": [
@@ -5881,8 +5844,5 @@
   ],
   "workflow automation engineer::jobgether": [
     "2026-08-17"
-  ],
-  "workflow automation engineer::kdci": [
-    "2026-08-10"
   ]
 }
