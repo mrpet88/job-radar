@@ -34,7 +34,6 @@
     "2026-09-05"
   ],
   "ai engineering manager::inpost": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08",
     "2026-09-22"
@@ -52,9 +51,6 @@
   ],
   "ai operations engineer::clickhouse": [
     "2026-08-26"
-  ],
-  "ai pipeline engineer security automation platform::cloudlinux": [
-    "2026-08-11"
   ],
   "ai platform engineer enablement and governance operations::kraken.com": [
     "2026-09-18"
@@ -393,15 +389,9 @@
   "deployment project manager::oklo": [
     "2026-09-23"
   ],
-  "deputy design manager i data centers::aecom": [
-    "2026-08-11"
-  ],
   "deputy director connected warfare europe::anduril industries": [
     "2026-08-22",
     "2026-09-05"
-  ],
-  "design project manager data centers::aecom": [
-    "2026-08-11"
   ],
   "design project manager::aecom": [
     "2026-09-19"
@@ -479,7 +469,6 @@
     "2026-08-26"
   ],
   "email automation qa specialist::imprint": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -628,6 +617,9 @@
     "2026-09-05",
     "2026-09-22",
     "2026-10-06"
+  ],
+  "engineering manager big data job understanding::ziprecruiter": [
+    "2026-11-09"
   ],
   "engineering manager big data::ziprecruiter": [
     "2026-08-14",
@@ -864,7 +856,6 @@
     "2026-09-03"
   ],
   "engineering manager in datatech::spd technology": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -956,7 +947,6 @@
     "2026-08-21"
   ],
   "engineering manager partner proposition::utility warehouse": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08",
     "2026-09-22"
@@ -984,7 +974,8 @@
     "2026-08-28"
   ],
   "engineering manager pricing revenue::nuitée": [
-    "2026-10-26"
+    "2026-10-26",
+    "2026-11-09"
   ],
   "engineering manager pricing::protolabs": [
     "2026-09-25",
@@ -1088,7 +1079,6 @@
     "2026-09-19"
   ],
   "engineering manager shared services::human interest": [
-    "2026-08-11",
     "2026-08-25"
   ],
   "engineering manager shipping logistics::jobgether": [
@@ -1395,9 +1385,6 @@
     "2026-08-17",
     "2026-09-17"
   ],
-  "engineering manager::strideinc": [
-    "2026-08-11"
-  ],
   "engineering manager::supabase": [
     "2026-10-05"
   ],
@@ -1493,6 +1480,9 @@
   "execution contract manager::veolia environnement sa": [
     "2026-09-23"
   ],
+  "experienced specialist qa::jj": [
+    "2026-11-09"
+  ],
   "facility quality manager::accorhotel": [
     "2026-08-27"
   ],
@@ -1576,6 +1566,9 @@
   "grc program manager assurance engineering control systems::openai": [
     "2026-08-22"
   ],
+  "group engineering manager::justmarkets": [
+    "2026-11-09"
+  ],
   "group product manager commercial risk platform fraud::adyen": [
     "2026-08-21",
     "2026-09-04",
@@ -1608,6 +1601,9 @@
   "gtm engineer sales workflow automation revenue intelligence::toast": [
     "2026-09-03",
     "2026-09-18"
+  ],
+  "hands on engineering manager infrastructure::miaplaza": [
+    "2026-11-09"
   ],
   "hands on engineering manager opencti integrations::filigran": [
     "2026-08-22"
@@ -1714,7 +1710,6 @@
     "2026-09-12"
   ],
   "lead ai test automation architect::high tech genesis": [
-    "2026-08-11",
     "2026-08-29"
   ],
   "lead ai test automation architect::jobgether": [
@@ -2108,9 +2103,6 @@
   "manager qp quality assurance::jj": [
     "2026-09-17"
   ],
-  "manager quality assurance auditor gcp::regeneron": [
-    "2026-08-11"
-  ],
   "manager quality assurance tcr::jobgether": [
     "2026-08-31"
   ],
@@ -2193,7 +2185,6 @@
     "2026-10-16"
   ],
   "manager software engineering::affirm": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -2613,7 +2604,6 @@
     "2026-09-19"
   ],
   "product manager data platform::inpost": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08",
     "2026-09-22"
@@ -2991,7 +2981,6 @@
     "2026-09-05"
   ],
   "qa engineer::talentmanagementsolution": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -3036,7 +3025,8 @@
     "2026-09-01"
   ],
   "qa specialist ii::gilead": [
-    "2026-10-26"
+    "2026-10-26",
+    "2026-11-09"
   ],
   "qa specialist::eurofins": [
     "2026-11-06"
@@ -3136,6 +3126,9 @@
   "quality assurance manager energy::jobgether": [
     "2026-09-09"
   ],
+  "quality assurance manager europe::turner & townsend": [
+    "2026-11-09"
+  ],
   "quality assurance manager::judi health": [
     "2026-09-15",
     "2026-09-29",
@@ -3164,7 +3157,6 @@
     "2026-08-27"
   ],
   "quality engineer::disher": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -3200,6 +3192,9 @@
   ],
   "quality engineer::xplor": [
     "2026-08-24"
+  ],
+  "quality engineering architect financial services::cgi": [
+    "2026-11-09"
   ],
   "quality engineering lead::shopware ag": [
     "2026-09-20"
@@ -3284,9 +3279,6 @@
   "revenue systems manager growth::airwallex": [
     "2026-09-03",
     "2026-09-17"
-  ],
-  "risk manager west london south east::greene king": [
-    "2026-08-11"
   ],
   "role automation program manager qa consultant automation warehouse automation wcs wms erp integration supply chain::tms llc": [
     "2026-08-26"
@@ -3592,9 +3584,6 @@
   "senior engineering manager service hub omnichannel group::jobgether": [
     "2026-08-12"
   ],
-  "senior engineering manager shipping services::inpost": [
-    "2026-08-11"
-  ],
   "senior engineering manager site lead::nord security": [
     "2026-08-22"
   ],
@@ -3681,9 +3670,6 @@
   "senior full stack engineer enterprise ai automation::truelogic": [
     "2026-09-12"
   ],
-  "senior general test engineer jr660::eleks": [
-    "2026-08-11"
-  ],
   "senior growth product manager::maximustribe": [
     "2026-08-28"
   ],
@@ -3731,7 +3717,6 @@
     "2026-08-12"
   ],
   "senior manager ai corporate engineering::vanta": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -4005,7 +3990,6 @@
     "2026-09-15"
   ],
   "senior manager software engineering::socure": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -4031,7 +4015,6 @@
     "2026-08-12"
   ],
   "senior manager systems engineering::vanta": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -4101,7 +4084,8 @@
     "2026-09-11",
     "2026-09-25",
     "2026-10-09",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-11-09"
   ],
   "senior product manager data platform::ezcater, inc": [
     "2026-08-22",
@@ -4125,7 +4109,6 @@
     "2026-08-27"
   ],
   "senior product manager engineering integrity::adyen": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -4137,7 +4120,6 @@
     "2026-09-12"
   ],
   "senior product manager identity graph platform products::socure": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08"
   ],
@@ -4642,6 +4624,9 @@
   ],
   "senior specialist it ot automation engineer::bristolmyerssquibb": [
     "2026-11-02"
+  ],
+  "senior specialist qa quality in the plant::jj": [
+    "2026-11-09"
   ],
   "senior staff inbound product manager ai search::servicenow": [
     "2026-09-23"
@@ -5437,9 +5422,6 @@
   "staff software engineer in test anywhere cloud::cloudera": [
     "2026-08-22"
   ],
-  "staff software engineer in test mobile::inpost": [
-    "2026-08-11"
-  ],
   "staff software engineer in test product engineering::natera": [
     "2026-08-22"
   ],
@@ -5479,7 +5461,6 @@
     "2026-09-19"
   ],
   "staff technical program manager security::pinterest": [
-    "2026-08-11",
     "2026-08-25",
     "2026-09-08",
     "2026-09-22"
@@ -5621,9 +5602,6 @@
   "technical manager::lgc group": [
     "2026-08-12",
     "2026-08-26"
-  ],
-  "technical operations engineer::ipid": [
-    "2026-08-11"
   ],
   "technical product manager ai cloud networking::mirantis": [
     "2026-08-13"
