@@ -1,5 +1,42 @@
 [
   {
+    "id": "8a3fa7320e14d905",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Tax Quality Lead",
+    "company": "Check Technologies",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/check-technologies/73cf33be-8dff-497d-8559-6645059b982c",
+    "tags": [
+      "Research & Development",
+      "R&D Operations",
+      "FullTime",
+      "$141.1K – $182.6K • Offers Equity • Multiple Ranges"
+    ],
+    "postedAt": "2026-11-11T21:55:53.602+00:00",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
+    "id": "09a9cba7a2e4820e",
+    "source": "adzuna",
+    "title": "Manager Safety, Health, Environment and Quality",
+    "company": "Videojet",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5961416902?se=MuftPMHe8RGtfI4ANTZ8vw&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-11-11T10:04:28Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "f648aa462e8793ca",
     "source": "ashby",
     "vendor": "ashby",
@@ -103,6 +140,180 @@
     "isNew": false
   },
   {
+    "id": "5a47c588c238686e",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "GSI Project Site Quality Lead",
+    "company": "Gevernova",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5052375-2",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 4,
+    "isNew": true
+  },
+  {
+    "id": "7fcdb5430283c340",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Manager QP Quality Assurance",
+    "company": "Jj",
+    "location": "Leiden, South Holland, Netherlands",
+    "remote": false,
+    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leiden-South-Holland-Netherlands/Manager-QP-Quality-Assurance_R-090887",
+    "tags": [],
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "dd19725979acc398",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Group Engineering Manager (Infrastructure & IT Operations)",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/5029429101",
+    "tags": [
+      "Trading Tech"
+    ],
+    "postedAt": "2026-11-12T10:37:23-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "6307e6fefc657d18",
+    "source": "arbeitnow",
+    "title": "Software Engineer, Backend - Engineering Operations",
+    "company": "Camunda",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-software-engineer-backend-engineering-operations-483915",
+    "tags": [
+      "Products",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-12T06:40:11.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "c15bd1409744da86",
+    "source": "arbeitnow",
+    "title": "Engineering Manager - Infrastructure",
+    "company": "Camunda",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-engineering-manager-infrastructure-86673",
+    "tags": [
+      "Products",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-12T06:40:11.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
+    "id": "78e1b0e60182e554",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Ads Product Catalogs",
+    "company": "Reddit",
+    "location": "Remote - The Netherlands",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/reddit/jobs/8330469",
+    "tags": [
+      "Ads Product & Engineering"
+    ],
+    "postedAt": "2026-11-12T04:28:38-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "dbede64e11be2232",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - Realtime",
+    "company": "Supabase",
+    "location": "Remote, Global",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/supabase/33caf92a-986f-4695-a84c-792720ff832d",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-11-12T02:49:10.278+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "5e6e0af7afb88be5",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Engineering Manager - Pipelines",
+    "company": "Supabase",
+    "location": "Remote, Global",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/supabase/51da9786-43c9-446e-bb84-653b17b5d6ac",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-11-12T02:33:40.725+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "7f0c3e90ac1e749a",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Project Manager – Digital Marketing & Experience Platforms (AEM / AEP) (Dubai Only) (100% Remote)",
+    "company": "Allshore Talent",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://allshoretalent.recruitee.com/o/project-manager-digital-marketing-experience-platforms-aem-aep-dubai-only-100-remote",
+    "tags": [
+      "AllShore Talent (Client)",
+      "contract",
+      "engineering"
+    ],
+    "postedAt": "2026-11-11T19:19:46.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "a541ae5106e09721",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Rail Track Engineering Project Manager",
+    "company": "Olsson",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/olsson/jobs/5471717008",
+    "tags": [
+      "Rail Rail Design - GN"
+    ],
+    "postedAt": "2026-11-11T13:31:24-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
     "id": "b0b90aa3303e4e44",
     "source": "lever",
     "vendor": "lever",
@@ -118,7 +329,7 @@
     "postedAt": "2026-11-11T07:46:56.429Z",
     "tier": "lead",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9f3b92047f9c7695",
@@ -135,7 +346,7 @@
     "postedAt": "2026-11-11T06:40:12.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "3782980e456fb329",
@@ -155,23 +366,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "a541ae5106e09721",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Rail Track Engineering Project Manager",
-    "company": "Olsson",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/olsson/jobs/5471717008",
-    "tags": [
-      "Rail Rail Design - GN"
-    ],
-    "postedAt": "2026-11-10T17:05:34-05:00",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -189,7 +383,7 @@
     "postedAt": "2026-11-10T16:07:19-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c5f88dd25f1c658f",
@@ -207,22 +401,6 @@
     ],
     "postedAt": "2026-11-10T12:33:41.389+00:00",
     "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "38629ea9289701de",
-    "source": "arbeitnow",
-    "title": "Technical Account Manager",
-    "company": "veeamsoftware",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://www.arbeitnow.fr/jobs/companies/veeamsoftware/remote-technical-account-manager-46886",
-    "tags": [
-      "Professional Services Engineering - Global 1009486"
-    ],
-    "postedAt": "2026-11-10T09:55:21.000Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -279,23 +457,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 5,
-    "isNew": false
-  },
-  {
-    "id": "23845a353e0650cb",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Group Engineering Manager",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/5029429101",
-    "tags": [
-      "Trading Tech"
-    ],
-    "postedAt": "2026-11-09T03:07:36-05:00",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -374,24 +535,6 @@
     "isNew": false
   },
   {
-    "id": "f29afec1905bcfb9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Test Manager - Output/CCM/Document Management Systems",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/c3e09918-ecaf-46dc-ba00-b91f78fcce23",
-    "tags": [
-      "IT",
-      "Contract"
-    ],
-    "postedAt": "2026-11-06T07:29:08.030Z",
-    "tier": "lead",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "8178bf10e8564f33",
     "source": "lever",
     "vendor": "lever",
@@ -405,25 +548,6 @@
       "Full-time"
     ],
     "postedAt": "2026-11-05T23:23:39.759Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "109886fcc2719038",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "Operations Manager Zuid-Nederland | Industrial Service | Konecranes ",
-    "company": "Konecranes",
-    "location": "Nistelrode, , Netherlands",
-    "remote": false,
-    "url": "https://jobs.smartrecruiters.com/Konecranes/744000159872951",
-    "tags": [
-      "Engineering",
-      "Full-time",
-      "Machinery"
-    ],
-    "postedAt": "2026-11-05T13:50:36.350Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -544,24 +668,6 @@
     "isNew": false
   },
   {
-    "id": "0c4fa78929d95c0d",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Product Manager - Data, Machine Learning & GenAI Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8164042",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-11-02T07:58:39-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 5,
-    "isNew": false
-  },
-  {
     "id": "7c6aa99fdc03c8f2",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -636,6 +742,26 @@
     "score": 5,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "bafd89e11c2ee3de",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Senior Engineering Manager",
+    "company": "Talkiatry",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/talkiatry/1efdf792-0f3d-4cbd-8ce9-277ed6980289",
+    "tags": [
+      "Corporate & Technology",
+      "Engineering",
+      "FullTime",
+      "$180K – $200K • Offers Bonus"
+    ],
+    "postedAt": "2026-10-22T17:57:38.397+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "452a1808648ca07d",
@@ -714,41 +840,68 @@
     "isNew": false
   },
   {
-    "id": "9f038a5de87ff1dd",
+    "id": "e7ae2d3b14892717",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Embedded Software QA Engineer",
+    "company": "Aquablu B.V",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://aquablu.recruitee.com/o/embedded-software-qa-engineer-1",
+    "tags": [
+      "Product & Engineering",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-11-12T16:21:31.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "5437bdd3e9a4fa31",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
     "title": "Dangerous Goods Specialist",
     "company": "SGS",
-    "location": "Venlo, LI, Netherlands",
+    "location": "Spijkenisse, ZH, Netherlands",
     "remote": false,
-    "url": "https://jobs.smartrecruiters.com/SGS/744000161111809",
+    "url": "https://jobs.smartrecruiters.com/SGS/744000161148589",
     "tags": [
       "Inspection and Field Testing",
-      "Distribution",
+      "Other",
       "Full-time",
-      "Logistics And Supply Chain"
+      "Oil And Energy"
     ],
-    "postedAt": "2026-11-11T15:30:52.289Z",
+    "postedAt": "2026-11-11T18:57:50.936Z",
     "otherLocations": 4,
     "tier": "ic",
     "score": 1,
     "isNew": true
   },
   {
-    "id": "7f009e617bff039c",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "QA - Automation Engineer",
-    "company": "Hudson Manpower",
-    "location": "Remote job",
+    "id": "67b6e12dcb013c0a",
+    "source": "remoteok",
+    "title": "Patient Care Specialist I",
+    "company": "Boston Scientific",
+    "location": "",
     "remote": true,
-    "url": "https://hudsonmanpower.recruitee.com/o/qa-automation-engineer-3",
+    "url": "https://remoteOK.com/remote-jobs/remote-patient-care-specialist-i-boston-scientific-1137719",
     "tags": [
-      "ENGINEERING",
-      "contract",
-      "engineering"
+      "design",
+      "sys admin",
+      "education",
+      "technical",
+      "customer support",
+      "testing",
+      "telecommuting",
+      "exec",
+      "sales",
+      "medical",
+      "recruiter",
+      "digital nomad"
     ],
-    "postedAt": "2026-11-11T14:33:36.000Z",
+    "postedAt": "2026-11-11T08:00:08+00:00",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -789,24 +942,6 @@
     "postedAt": "2026-11-10T11:28:00.870Z",
     "tier": "ic",
     "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "c6fc8e8de51b2042",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Quality Assurance Engineer",
-    "company": "TerraPower LLC.",
-    "location": "Remote ",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/terrapowerllc/jobs/4194957009",
-    "tags": [
-      "Nuclear Quality & Continuous Improvement"
-    ],
-    "postedAt": "2026-11-09T20:12:18-05:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -862,6 +997,25 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "206541dddb90a37c",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "DevOps Automation (Platform) Engineer",
+    "company": "ARHS",
+    "location": "The Hague, ZH, Netherlands",
+    "remote": true,
+    "url": "https://jobs.smartrecruiters.com/ARHS/744000160205954",
+    "tags": [
+      "Information Technology",
+      "Full-time",
+      "Information Technology And Services"
+    ],
+    "postedAt": "2026-11-06T13:49:30.836Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "923a02f7e6a93ce4",
@@ -944,24 +1098,6 @@
     "isNew": false
   },
   {
-    "id": "24798fb44e669462",
-    "source": "arbeitnow",
-    "title": "QA Engineer",
-    "company": "YoungOnes",
-    "location": "Breda, Noord-Brabant, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/youngones/qa-engineer-breda-496087",
-    "tags": [
-      "Development",
-      "Entry",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-11-06T03:31:51.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "a27f1905a37b65a6",
     "source": "adzuna",
     "title": "Senior Engineer, QA",
@@ -976,7 +1112,7 @@
     "postedAt": "2026-11-05T17:53:43Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "dd95b5864a7c80b1",
@@ -1050,26 +1186,6 @@
     "isNew": false
   },
   {
-    "id": "06070a6abe16776d",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "HSE Coördinator",
-    "company": "Veolia Environnement SA",
-    "location": "Schiphol-Rijk, NH, Netherlands",
-    "remote": false,
-    "url": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000159400076",
-    "tags": [
-      "Quality / Health / Safety / Environment",
-      "Engineering",
-      "Full-time",
-      "Environmental Services"
-    ],
-    "postedAt": "2026-11-03T14:27:07.989Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "793395a0d495800e",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1087,43 +1203,21 @@
     "isNew": false
   },
   {
-    "id": "a0b33db367ba1e54",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Freelance Localization Games Tester - Remote (French Speaker)",
-    "company": "TransPerfect",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://transperfect.com/o/freelance-localization-games-tester-remote-french-speaker",
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
     "tags": [
-      "QA Testing",
-      "freelance",
-      "internet",
-      "Freelance"
+      "Vacatures Ander of Algemeen"
     ],
-    "postedAt": "2026-11-03T08:17:32.000Z",
+    "postedAt": "2026-11-03T07:25:02Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "89d7f9f6493d4269",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "French LQA Games Tester - Remote (Freelance)",
-    "company": "TransPerfect",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://transperfect.com/o/french-lqa-games-tester-remote-freelance",
-    "tags": [
-      "QA Testing",
-      "freelance",
-      "internet",
-      "Freelance"
-    ],
-    "postedAt": "2026-11-03T01:57:13.000Z",
-    "tier": "ic",
-    "score": 1,
+    "repostCount": 6,
     "isNew": true
   },
   {
@@ -1144,6 +1238,24 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "7119b717326f8db7",
+    "source": "adzuna",
+    "title": "Quality Engineer",
+    "company": "Just Eat",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5944797114?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-10-28T18:47:54Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
   },
   {
     "id": "13f77c4e7b7fd8ea",
@@ -1202,26 +1314,6 @@
     "isNew": false
   },
   {
-    "id": "373b845ce7124da4",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Automation QA Engineer (QVAC) (100% remote)",
-    "company": "Tether Operations Limited",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://tether.recruitee.com/o/automation-qa-engineer-qvac-100-remote-eg",
-    "tags": [
-      "Product​",
-      "fulltime_permanent",
-      "engineering",
-      "Data"
-    ],
-    "postedAt": "2026-10-14T18:29:30.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "8a2f9c32e9cd6a76",
     "source": "lever",
     "vendor": "lever",
@@ -1250,6 +1342,20 @@
     "location": "4 Locations",
     "remote": true,
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Sr-Automation-Engineer--Remote-_R26438",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "2ab2708064cb68fc",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "GSI Project Quality Engineer",
+    "company": "Gevernova",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Quality-Engineer_R5053859-3",
     "tags": [],
     "tier": "ic",
     "score": 1,
