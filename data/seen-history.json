@@ -118,9 +118,6 @@
   "automation engineer advanced manufacturing::wabtec": [
     "2026-09-22"
   ],
-  "automation engineer met kennis rockwell::pm group": [
-    "2026-08-15"
-  ],
   "automation engineer::jobgether": [
     "2026-10-02"
   ],
@@ -132,9 +129,6 @@
   ],
   "automation engineer::wabtec": [
     "2026-09-21"
-  ],
-  "automation lead engineer ti::dura vermeer": [
-    "2026-08-15"
   ],
   "automation performance engineer 12 weeks::ubiminds": [
     "2026-09-11",
@@ -341,7 +335,8 @@
     "2026-08-22"
   ],
   "data qa engineer::jobgether": [
-    "2026-10-19"
+    "2026-10-19",
+    "2026-11-13"
   ],
   "data quality engineer::jobgether": [
     "2026-09-01"
@@ -720,6 +715,9 @@
   "engineering manager destinations::hightouch": [
     "2026-09-22"
   ],
+  "engineering manager developer ecosystem::databricks": [
+    "2026-11-13"
+  ],
   "engineering manager developer infrastructure::valon": [
     "2026-10-14",
     "2026-10-28",
@@ -747,9 +745,6 @@
   "engineering manager energy::utility warehouse": [
     "2026-09-10",
     "2026-09-24"
-  ],
-  "engineering manager eu::ashby": [
-    "2026-08-15"
   ],
   "engineering manager excel agents::datasnipper": [
     "2026-10-14"
@@ -942,6 +937,9 @@
   "engineering manager perception and machine learning::jobgether": [
     "2026-09-18"
   ],
+  "engineering manager pipelines::jobgether": [
+    "2026-11-13"
+  ],
   "engineering manager pipelines::supabase": [
     "2026-11-12"
   ],
@@ -963,7 +961,6 @@
     "2026-09-19"
   ],
   "engineering manager privacy infrastructure engineering::netflix": [
-    "2026-08-15",
     "2026-09-16"
   ],
   "engineering manager pro::kraken.com": [
@@ -1000,6 +997,9 @@
   ],
   "engineering manager quality and delivery::tbc": [
     "2026-08-17"
+  ],
+  "engineering manager realtime::jobgether": [
+    "2026-11-13"
   ],
   "engineering manager realtime::supabase": [
     "2026-11-12"
@@ -1117,7 +1117,6 @@
     "2026-09-19"
   ],
   "engineering manager thailand::bjak": [
-    "2026-08-15",
     "2026-09-10"
   ],
   "engineering manager threat intelligence nordvpn::nord security": [
@@ -1125,9 +1124,6 @@
   ],
   "engineering manager tlm platform::harper": [
     "2026-09-12"
-  ],
-  "engineering manager transformer::giga energy": [
-    "2026-08-15"
   ],
   "engineering manager transformers::giga energy": [
     "2026-08-22",
@@ -1495,6 +1491,9 @@
     "2026-10-22",
     "2026-11-05"
   ],
+  "gcp quality assurance lead us based::fortrea": [
+    "2026-11-13"
+  ],
   "gestionnaire senior des donn es senior manager data engineering::jobgether": [
     "2026-08-20"
   ],
@@ -1502,9 +1501,6 @@
     "2026-08-21",
     "2026-09-04",
     "2026-09-18"
-  ],
-  "global quality and laboratory improvement manager::sgs": [
-    "2026-08-15"
   ],
   "global quality continuous improvement manager::hitachi": [
     "2026-09-03"
@@ -1723,7 +1719,6 @@
     "2026-08-28"
   ],
   "lead principal product manager audit agents::fieldguide": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -2016,9 +2011,6 @@
   "manager national risk quality solutions::jobgether": [
     "2026-09-09"
   ],
-  "manager network engineering transport::crowdstrike": [
-    "2026-08-15"
-  ],
   "manager of data engineering delivery::natera": [
     "2026-09-02",
     "2026-09-16"
@@ -2066,7 +2058,6 @@
     "2026-09-20"
   ],
   "manager quality assurance::clarioclinical": [
-    "2026-08-15",
     "2026-08-29"
   ],
   "manager quality practice advisor::jobgether": [
@@ -2111,7 +2102,6 @@
     "2026-09-05"
   ],
   "manager software development financial risk::wealthsimple": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -2151,7 +2141,6 @@
     "2026-09-05"
   ],
   "manager software engineering::kobie": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -2650,9 +2639,6 @@
   "product success technical director::servicenow": [
     "2026-08-20"
   ],
-  "production automation system engineer::van oord": [
-    "2026-08-15"
-  ],
   "program manager banking financial services::nagarro": [
     "2026-08-24"
   ],
@@ -2839,7 +2825,6 @@
     "2026-09-05"
   ],
   "qa engineer mobile::scholarshipowl": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12",
     "2026-10-04"
@@ -2899,7 +2884,6 @@
     "2026-09-12"
   ],
   "qa engineer::scholarshipowl": [
-    "2026-08-15",
     "2026-08-29"
   ],
   "qa engineer::splitmetrics": [
@@ -3043,6 +3027,9 @@
     "2026-08-20",
     "2026-11-06"
   ],
+  "quality assurance engineer::tiledmedia operations b.v.": [
+    "2026-11-13"
+  ],
   "quality assurance lead consultant::jobgether": [
     "2026-09-12"
   ],
@@ -3079,7 +3066,6 @@
     "2026-09-12"
   ],
   "quality engineer zeiss calypso cmm programmer::prince industries llc": [
-    "2026-08-15",
     "2026-08-29"
   ],
   "quality engineer::clarioclinical": [
@@ -3087,7 +3073,8 @@
     "2026-09-05"
   ],
   "quality engineer::clarios": [
-    "2026-08-27"
+    "2026-08-27",
+    "2026-11-13"
   ],
   "quality engineer::disher": [
     "2026-08-25",
@@ -3321,6 +3308,9 @@
   ],
   "senior construction project manager big box retail construction::teklysium inc": [
     "2026-09-22"
+  ],
+  "senior data engineer::lemon.io": [
+    "2026-11-13"
   ],
   "senior data engineering manager::yipitdata": [
     "2026-08-22",
@@ -3789,7 +3779,6 @@
     "2026-09-02"
   ],
   "senior manager sales engineering ai gpu cloud::mirantis": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -3884,9 +3873,6 @@
   ],
   "senior manager solutions engineering state local educational small cities::skydio": [
     "2026-09-19"
-  ],
-  "senior manager solutions engineering::jobgether": [
-    "2026-08-15"
   ],
   "senior manager systems engineering::vanta": [
     "2026-08-25",
@@ -4125,7 +4111,6 @@
     "2026-08-21"
   ],
   "senior qa automation developer::upgrade": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -4168,7 +4153,6 @@
     "2026-09-20"
   ],
   "senior qa automation engineer::upgrade": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -4237,6 +4221,9 @@
   "senior qa lead 12 weeks::ubiminds": [
     "2026-09-11",
     "2026-09-25"
+  ],
+  "senior qa manager automation ai fully::softgames": [
+    "2026-11-13"
   ],
   "senior qa manager fully::softgames": [
     "2026-09-16",
@@ -4330,14 +4317,12 @@
     "2026-09-05"
   ],
   "senior sdet test automation performance engineering contract us::tech holding": [
-    "2026-08-15",
     "2026-08-29"
   ],
   "senior sdet::spd technology": [
     "2026-08-21"
   ],
   "senior sdet::synack": [
-    "2026-08-15",
     "2026-08-29"
   ],
   "senior security qa lead 12 weeks::ubiminds": [
@@ -4423,7 +4408,6 @@
     "2026-09-22"
   ],
   "senior software engineer::yipitdata": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -4469,7 +4453,8 @@
   ],
   "senior software quality engineer::vclusterlabs": [
     "2026-10-16",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-11-13"
   ],
   "senior solutions engineering manager product specialist::motive": [
     "2026-08-22"
@@ -4711,6 +4696,9 @@
     "2026-08-25",
     "2026-09-16"
   ],
+  "software development engineer in test::jobgether": [
+    "2026-11-13"
+  ],
   "software development engineer in test::magnetforensics": [
     "2026-08-22"
   ],
@@ -4720,9 +4708,6 @@
   ],
   "software development engineer in test::payter b.v.": [
     "2026-09-23"
-  ],
-  "software development engineer in test::precoro inc": [
-    "2026-08-15"
   ],
   "software development engineer in test::worth ai": [
     "2026-08-25"
@@ -4923,6 +4908,9 @@
   ],
   "sr engineering manager data platform::gohighlevel": [
     "2026-09-22"
+  ],
+  "sr engineering manager developer ecosystem::databricks": [
+    "2026-11-13"
   ],
   "sr engineering manager incentive compensation ops::captivateiq": [
     "2026-08-26",
@@ -5321,9 +5309,6 @@
   "strong middle senior test automation engineer jr629::eleks": [
     "2026-08-22"
   ],
-  "structural bim manager data centers::olsson": [
-    "2026-08-15"
-  ],
   "substation engineering manager::aecom": [
     "2026-08-25"
   ],
@@ -5353,8 +5338,10 @@
     "2026-08-23"
   ],
   "support engineering manager::supabase": [
-    "2026-08-15",
     "2026-09-16"
+  ],
+  "sustainability specialist::metro/makro": [
+    "2026-11-13"
   ],
   "sustaining operations engineer::canonical": [
     "2026-09-23"
@@ -5400,7 +5387,6 @@
     "2026-09-16"
   ],
   "tech lead manager::neara": [
-    "2026-08-15",
     "2026-08-29",
     "2026-09-12"
   ],
@@ -5505,9 +5491,6 @@
   "technical project manager data center infrastructure::giga energy": [
     "2026-08-22",
     "2026-09-05"
-  ],
-  "technical project manager engineering::alten": [
-    "2026-08-15"
   ],
   "technical project manager::coder": [
     "2026-08-21",
@@ -5614,7 +5597,6 @@
     "2026-09-24"
   ],
   "testmanager::dura vermeer": [
-    "2026-08-15",
     "2026-08-31"
   ],
   "testmanager::ministerie van defensie": [

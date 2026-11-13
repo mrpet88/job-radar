@@ -1,5 +1,23 @@
 [
   {
+    "id": "0c07fc880f87a387",
+    "source": "arbeitnow",
+    "title": "Senior QA Manager Automation & AI - Fully Remote",
+    "company": "SOFTGAMES",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/softgames/senior-qa-manager-automation-ai-fully-remote-berlin-71172",
+    "tags": [
+      "Remote",
+      "Entry",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-11-12T21:31:40.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "8a3fa7320e14d905",
     "source": "ashby",
     "vendor": "ashby",
@@ -17,7 +35,7 @@
     "postedAt": "2026-11-11T21:55:53.602+00:00",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "09a9cba7a2e4820e",
@@ -26,7 +44,7 @@
     "company": "Videojet",
     "location": "Utrecht, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5961416902?se=MuftPMHe8RGtfI4ANTZ8vw&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
+    "url": "https://www.adzuna.nl/land/ad/5961416902?se=dNKxTYff8RGNl561rfNY_A&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -34,7 +52,7 @@
     "postedAt": "2026-11-11T10:04:28Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f648aa462e8793ca",
@@ -140,34 +158,69 @@
     "isNew": false
   },
   {
-    "id": "5a47c588c238686e",
+    "id": "aa758abff9f64e68",
     "source": "workday",
     "vendor": "workday",
-    "title": "GSI Project Site Quality Lead",
-    "company": "Gevernova",
-    "location": "Remote",
+    "title": "GCP / Quality Assurance Lead, US Remote Based",
+    "company": "Fortrea",
+    "location": "2 Locations",
     "remote": true,
-    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Site-Quality-Lead_R5052375-2",
+    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/Quality-Assurance-Lead--US-Remote-Based_266337-1",
     "tags": [],
     "tier": "lead",
     "score": 10,
-    "repostCount": 4,
     "isNew": true
   },
   {
-    "id": "7fcdb5430283c340",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Manager QP Quality Assurance",
-    "company": "Jj",
-    "location": "Leiden, South Holland, Netherlands",
+    "id": "6036840e74fedbd4",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Developer Ecosystem",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
     "remote": false,
-    "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Leiden-South-Holland-Netherlands/Manager-QP-Quality-Assurance_R-090887",
-    "tags": [],
-    "tier": "lead",
-    "score": 10,
-    "repostCount": 2,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8937807002",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-13T05:47:08-05:00",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
+  },
+  {
+    "id": "437fd6e8ef0e39c0",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Sr. Engineering Manager - Developer Ecosystem",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8940907002",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-13T05:42:55-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "a541ae5106e09721",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Rail Track Engineering Project Manager",
+    "company": "Olsson",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/olsson/jobs/5471717008",
+    "tags": [
+      "Rail Rail Design - GN"
+    ],
+    "postedAt": "2026-11-12T17:34:00-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
   },
   {
     "id": "dd19725979acc398",
@@ -184,7 +237,7 @@
     "postedAt": "2026-11-12T10:37:23-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6307e6fefc657d18",
@@ -202,25 +255,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "c15bd1409744da86",
-    "source": "arbeitnow",
-    "title": "Engineering Manager - Infrastructure",
-    "company": "Camunda",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-engineering-manager-infrastructure-86673",
-    "tags": [
-      "Products",
-      "Full Time"
-    ],
-    "postedAt": "2026-11-12T06:40:11.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "78e1b0e60182e554",
@@ -237,7 +272,7 @@
     "postedAt": "2026-11-12T04:28:38-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "dbede64e11be2232",
@@ -256,7 +291,7 @@
     "postedAt": "2026-11-12T02:49:10.278+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5e6e0af7afb88be5",
@@ -275,7 +310,7 @@
     "postedAt": "2026-11-12T02:33:40.725+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7f0c3e90ac1e749a",
@@ -292,23 +327,6 @@
       "engineering"
     ],
     "postedAt": "2026-11-11T19:19:46.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "a541ae5106e09721",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Rail Track Engineering Project Manager",
-    "company": "Olsson",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/olsson/jobs/5471717008",
-    "tags": [
-      "Rail Rail Design - GN"
-    ],
-    "postedAt": "2026-11-11T13:31:24-05:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -701,7 +719,6 @@
       "Vast"
     ],
     "postedAt": "2026-10-29T15:43:49.000Z",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -761,7 +778,7 @@
     "postedAt": "2026-10-22T17:57:38.397+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "452a1808648ca07d",
@@ -801,25 +818,40 @@
     "isNew": false
   },
   {
-    "id": "6c61bc8f64edf50e",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Engineering Manager, Developer Infrastructure",
-    "company": "Valon",
-    "location": "Remote",
+    "id": "86f29f0b9b4faae2",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager - Realtime",
+    "company": "Jobgether",
+    "location": "Netherlands",
     "remote": true,
-    "url": "https://jobs.ashbyhq.com/Valon/542a1d63-737f-499b-b06a-a43d0f36a97b",
+    "url": "https://jobs.lever.co/jobgether/bac4389f-37c1-4a2f-8ab1-1d973049bfc7",
     "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "$245K – $285K • Offers Equity"
+      "IT",
+      "Full-time"
     ],
-    "postedAt": "2026-10-13T19:23:43.948+00:00",
+    "postedAt": "2026-11-13T07:04:04.015Z",
     "tier": "adjacent",
-    "score": 5,
-    "repostCount": 3,
-    "isNew": false
+    "score": 2.5,
+    "isNew": true
+  },
+  {
+    "id": "b9e4cf246c8d84fc",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Engineering Manager - Pipelines",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/1d41042a-9a80-454c-8f7f-a2ad6f4f35ab",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-13T06:54:47.282Z",
+    "tier": "adjacent",
+    "score": 2.5,
+    "isNew": true
   },
   {
     "id": "e169983797d09754",
@@ -840,23 +872,41 @@
     "isNew": false
   },
   {
-    "id": "e7ae2d3b14892717",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Embedded Software QA Engineer",
-    "company": "Aquablu B.V",
-    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "id": "631c09a606d82db4",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "Sustainability Specialist ",
+    "company": "METRO/MAKRO",
+    "location": "Amsterdam, NH, Netherlands",
     "remote": false,
-    "url": "https://aquablu.recruitee.com/o/embedded-software-qa-engineer-1",
+    "url": "https://jobs.smartrecruiters.com/METROMAKRO/744000161463744",
     "tags": [
-      "Product & Engineering",
-      "fulltime_fixed_term",
-      "engineering"
+      "Quality Assurance",
+      "Quality Assurance",
+      "Full-time",
+      "Wholesale"
     ],
-    "postedAt": "2026-11-12T16:21:31.000Z",
+    "postedAt": "2026-11-13T11:37:33.656Z",
     "tier": "ic",
     "score": 1,
     "isNew": true
+  },
+  {
+    "id": "793395a0d495800e",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Security/ATO Automation Engineer",
+    "company": "SkyePoint Decisions",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/skyepointdecisionsinc/jobs/4477348009",
+    "tags": [
+      "Billable "
+    ],
+    "postedAt": "2026-11-12T14:18:36-05:00",
+    "tier": "ic",
+    "score": 1,
+    "isNew": false
   },
   {
     "id": "5437bdd3e9a4fa31",
@@ -875,6 +925,72 @@
     ],
     "postedAt": "2026-11-11T18:57:50.936Z",
     "otherLocations": 4,
+    "tier": "ic",
+    "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "4cd34877d31aee87",
+    "source": "remotive",
+    "title": "Senior Data Engineer",
+    "company": "Lemon.io",
+    "location": "LATAM, Europe, USA, Canada, APAC",
+    "remote": true,
+    "url": "https://remotive.com/remote-jobs/data/senior-data-engineer-2091137",
+    "tags": [
+      ".Net",
+      "android",
+      "apache",
+      "AWS",
+      "azure",
+      "C",
+      "C#",
+      "C++",
+      "data science",
+      "fullstack",
+      "golang",
+      "ios",
+      "java",
+      "javascript",
+      "magento",
+      "node.js",
+      "php",
+      "python",
+      "react",
+      "ruby/rails",
+      "scala",
+      "shopify",
+      "sql",
+      "swift",
+      "UI/UX",
+      "wordpress",
+      "blockchain",
+      "AI/ML",
+      "automation",
+      "project management",
+      "react native",
+      "rust",
+      "unity",
+      "electron",
+      "spring",
+      "data analysis",
+      "laravel",
+      "Ethereum",
+      "graphic design",
+      "Typescript ",
+      "angular ",
+      "GCP",
+      "firebase",
+      "Snowflake",
+      "Site Reliability",
+      "Symfony",
+      "next.js",
+      "infrastructure",
+      "flutter",
+      "Data and Analytics",
+      "full_time"
+    ],
+    "postedAt": "2026-11-11T18:39:59",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -904,7 +1020,7 @@
     "postedAt": "2026-11-11T08:00:08+00:00",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2b6ac38eee923a49",
@@ -1015,7 +1131,7 @@
     "postedAt": "2026-11-06T13:49:30.836Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "923a02f7e6a93ce4",
@@ -1186,23 +1302,6 @@
     "isNew": false
   },
   {
-    "id": "793395a0d495800e",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Security/ATO Automation Engineer",
-    "company": "SkyePoint Decisions",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/skyepointdecisionsinc/jobs/4477348009",
-    "tags": [
-      "Billable "
-    ],
-    "postedAt": "2026-11-03T12:10:30-05:00",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
     "id": "e9ec988cc100a7c5",
     "source": "adzuna",
     "title": "Software Test Engineer",
@@ -1218,7 +1317,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 6,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cdbc2077903888bd",
@@ -1240,21 +1339,21 @@
     "isNew": false
   },
   {
-    "id": "7119b717326f8db7",
-    "source": "adzuna",
-    "title": "Quality Engineer",
-    "company": "Just Eat",
-    "location": "Nederland",
+    "id": "9ded3bc466cf5f71",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Quality Assurance Engineer",
+    "company": "Tiledmedia Operations B.V.",
+    "location": "Rotterdam, Zuid-Holland, Netherlands",
     "remote": false,
-    "url": "https://www.adzuna.nl/details/5944797114?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
+    "url": "https://tiledmediaoperationsbv.recruitee.com/o/quality-assurance-engineer",
     "tags": [
-      "Unknown"
+      "fulltime_fixed_term",
+      "engineering"
     ],
-    "postedAt": "2026-10-28T18:47:54Z",
+    "postedAt": "2026-10-28T16:16:03.000Z",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
     "isNew": true
   },
   {
@@ -1310,73 +1409,59 @@
     "postedAt": "2026-10-16T12:33:41.622+00:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 3,
+    "isNew": false
+  },
+  {
+    "id": "660feac100e84363",
+    "source": "workday",
+    "vendor": "workday",
+    "title": "Quality Engineer (1st shift)",
+    "company": "Clarios",
+    "location": "United States, Ohio, Holland",
+    "remote": false,
+    "url": "https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Ohio-Holland/Quality-Engineer--1st-shift-_WD51238",
+    "tags": [],
+    "tier": "ic",
+    "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "8a2f9c32e9cd6a76",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "QA Engineer (Remote)",
-    "company": "Decilegroup",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.lever.co/decilegroup/82429004-c548-4b59-a547-febc6960b2c5",
-    "salaryMin": 80000,
-    "salaryMax": 100000,
-    "currency": "USD",
-    "tags": [
-      "Engineering and Product"
-    ],
-    "postedAt": "2026-10-14T00:15:39.096Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "816a228503f1fbab",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Sr. Automation Engineer (Remote)",
-    "company": "Crowdstrike",
-    "location": "4 Locations",
-    "remote": true,
-    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Sr-Automation-Engineer--Remote-_R26438",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "2ab2708064cb68fc",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "GSI Project Quality Engineer",
-    "company": "Gevernova",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Remote/GSI-Project-Quality-Engineer_R5053859-3",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
     "isNew": true
   },
   {
-    "id": "b753564badcbf088",
+    "id": "c8b4981746237a26",
     "source": "lever",
     "vendor": "lever",
-    "title": "Sleep Test Specialist (S1)",
+    "title": "Data QA Engineer",
     "company": "Jobgether",
     "location": "Netherlands",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/76dfbca5-360d-47d1-a1c9-16e60e3e9d25",
+    "url": "https://jobs.lever.co/jobgether/71c43fee-a795-427c-9d54-1f072c4b26b5",
     "tags": [
-      "Others",
+      "IT",
       "Full-time"
     ],
-    "postedAt": "2026-11-05T11:17:50.539Z",
+    "postedAt": "2026-11-13T10:07:16.042Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": false
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "d1d305cb93238427",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Software Development Engineer in Test (SDET)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/3db5264a-6cf9-416d-aea3-901d7f8859ca",
+    "tags": [
+      "IT",
+      "Contract"
+    ],
+    "postedAt": "2026-11-13T08:36:35.780Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
   }
 ]
