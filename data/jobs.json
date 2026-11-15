@@ -20,6 +20,23 @@
     "isNew": false
   },
   {
+    "id": "09a9cba7a2e4820e",
+    "source": "adzuna",
+    "title": "Manager Safety, Health, Environment and Quality",
+    "company": "Videojet",
+    "location": "Utrecht, Provincie Utrecht",
+    "remote": false,
+    "url": "https://www.adzuna.nl/land/ad/5961416902?se=bvA_mBLh8RGNl561rfNY_A&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
+    "currency": "EUR",
+    "tags": [
+      "Bouwkunde vacatures"
+    ],
+    "postedAt": "2026-11-11T10:04:28Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "f648aa462e8793ca",
     "source": "ashby",
     "vendor": "ashby",
@@ -57,6 +74,23 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "476eef831b2d2ddc",
+    "source": "adzuna",
+    "title": "QA & Test Lead",
+    "company": "Mitsui Sumitomo Insurance",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5954545781?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T17:56:08Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "a52d47859e29cdf0",
@@ -691,43 +725,6 @@
     "postedAt": "2026-10-20T16:53:23-04:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "452a1808648ca07d",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Project Manager Marine",
-    "company": "ALEWIJNSE",
-    "location": "Netherlands, Gelderland, Netherlands",
-    "remote": false,
-    "url": "https://alewijnse.recruitee.com/o/project-manager-maritiem",
-    "tags": [
-      "Projectmanagement",
-      "fulltime_permanent",
-      "engineering"
-    ],
-    "postedAt": "2026-10-16T11:41:37.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "00abc61503b78497",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Functional Safety Manager",
-    "company": "FORT Robotics",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://job-boards.greenhouse.io/fortrobotics/jobs/4736658005",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-10-16T11:04:56-04:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 4,
     "isNew": false
   },
   {
@@ -803,6 +800,23 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "7c3cab561dc887ae",
+    "source": "adzuna",
+    "title": "Test Automation & Data Engineer",
+    "company": "ABN AMRO International Services B.V.",
+    "location": "Amsterdam, Noord-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5963500893?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-12T18:06:20Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "793395a0d495800e",
@@ -974,6 +988,40 @@
     "isNew": false
   },
   {
+    "id": "6638627b59cbeb61",
+    "source": "adzuna",
+    "title": "Quality Engineering Architect [Financial Services]",
+    "company": "CGI",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5958350213?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Accounting en Financiële vacatures"
+    ],
+    "postedAt": "2026-11-08T19:13:33Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "d8a4e32da585e0da",
+    "source": "adzuna",
+    "title": "QA Specialist",
+    "company": "Eurofins Netherlands BioPharma Product Testing",
+    "location": "Oegstgeest, Zuid-Holland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5956109353?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Adviseur en Consultancy vacatures"
+    ],
+    "postedAt": "2026-11-06T23:15:34Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "c3f3f66f2dbbe7b3",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -1093,6 +1141,40 @@
     "isNew": false
   },
   {
+    "id": "a27f1905a37b65a6",
+    "source": "adzuna",
+    "title": "Senior Engineer, QA",
+    "company": "ASM",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5954537199?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T17:53:43Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "dd95b5864a7c80b1",
+    "source": "adzuna",
+    "title": "Software Quality Assurance Engineer",
+    "company": "Thermo Fisher Scientific",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5954536630?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "IT ICT vacatures"
+    ],
+    "postedAt": "2026-11-05T17:52:58Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "fe2d7a20b669127c",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -1113,6 +1195,23 @@
     "isNew": false
   },
   {
+    "id": "9cd9e202812544f6",
+    "source": "adzuna",
+    "title": "Software Quality Assurance Engineer",
+    "company": "ThermoFisher Scientific",
+    "location": "Eindhoven, Noord-Brabant",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5953932714?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T08:21:01Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "6ad05ceeeff77fcf",
     "source": "greenhouse",
     "vendor": "greenhouse",
@@ -1128,6 +1227,64 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "a0b33db367ba1e54",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Freelance Localization Games Tester - Remote (French Speaker)",
+    "company": "TransPerfect",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://transperfect.com/o/freelance-localization-games-tester-remote-french-speaker",
+    "tags": [
+      "QA Testing",
+      "freelance",
+      "internet",
+      "Freelance"
+    ],
+    "postedAt": "2026-11-03T08:17:32.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-11-03T07:25:02Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 6,
+    "isNew": true
+  },
+  {
+    "id": "89d7f9f6493d4269",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "French LQA Games Tester - Remote (Freelance)",
+    "company": "TransPerfect",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://transperfect.com/o/french-lqa-games-tester-remote-freelance",
+    "tags": [
+      "QA Testing",
+      "freelance",
+      "internet",
+      "Freelance"
+    ],
+    "postedAt": "2026-11-03T01:57:13.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "cdbc2077903888bd",
@@ -1184,27 +1341,6 @@
     "isNew": false
   },
   {
-    "id": "eff416e48261757f",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "Senior Software Quality Engineer ",
-    "company": "Vclusterlabs",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/vClusterLabs/124d9219-af4c-4a03-86c4-afe54ec32c34",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "FullTime",
-      "€65K – €110K • Offers Equity • Offers Bonus • Multiple Ranges"
-    ],
-    "postedAt": "2026-10-16T12:33:41.622+00:00",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
     "id": "660feac100e84363",
     "source": "workday",
     "vendor": "workday",
@@ -1231,7 +1367,7 @@
     "tags": [],
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c8b4981746237a26",

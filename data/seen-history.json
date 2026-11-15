@@ -171,9 +171,6 @@
   "backend engineer api integrationen connectoren worker jobs mailer service qa::jobgether": [
     "2026-08-21"
   ],
-  "backend engineering manager::jobgether": [
-    "2026-08-17"
-  ],
   "backend qa engineer::air apps": [
     "2026-09-29"
   ],
@@ -698,12 +695,10 @@
     "2026-09-10"
   ],
   "engineering manager data::xero": [
-    "2026-08-17",
     "2026-08-31",
     "2026-09-14"
   ],
   "engineering manager database::auctane": [
-    "2026-08-17",
     "2026-08-31",
     "2026-09-14"
   ],
@@ -994,9 +989,6 @@
   ],
   "engineering manager qa::binance": [
     "2026-09-18"
-  ],
-  "engineering manager quality and delivery::tbc": [
-    "2026-08-17"
   ],
   "engineering manager realtime::jobgether": [
     "2026-11-13"
@@ -1308,9 +1300,6 @@
     "2026-08-22",
     "2026-09-05"
   ],
-  "engineering manager::owner": [
-    "2026-08-17"
-  ],
   "engineering manager::paddle": [
     "2026-08-22"
   ],
@@ -1350,7 +1339,6 @@
     "2026-09-22"
   ],
   "engineering manager::sotheby's": [
-    "2026-08-17",
     "2026-09-17"
   ],
   "engineering manager::supabase": [
@@ -1771,9 +1759,6 @@
   "lead quality assurance engineer patient::jobgether": [
     "2026-09-02"
   ],
-  "lead quality engineer design services::jobgether": [
-    "2026-08-17"
-  ],
   "lead quality specialist::gevernova": [
     "2026-09-19"
   ],
@@ -1814,9 +1799,6 @@
   ],
   "manager ai ml engineering::lyrahealth": [
     "2026-09-18"
-  ],
-  "manager applications adf etl ai::molina healthcare": [
-    "2026-08-17"
   ],
   "manager applied ai engineering::openai": [
     "2026-08-26",
@@ -2111,9 +2093,6 @@
   "manager software development observability platform::wealthsimple": [
     "2026-08-22"
   ],
-  "manager software engineering ai assistant::netdocuments": [
-    "2026-08-17"
-  ],
   "manager software engineering fullstack::affirm": [
     "2026-08-22",
     "2026-09-05"
@@ -2124,9 +2103,6 @@
   "manager software engineering operations::jobber": [
     "2026-09-05",
     "2026-09-19"
-  ],
-  "manager software engineering platform::netdocuments": [
-    "2026-08-17"
   ],
   "manager software engineering product engineering unit::fygi": [
     "2026-10-16"
@@ -5509,6 +5485,9 @@
   "telecoms qa director::netcracker": [
     "2026-10-03"
   ],
+  "test automation data engineer::abn amro international services b.v.": [
+    "2026-11-15"
+  ],
   "test automation developer::jobgether": [
     "2026-09-15"
   ],
@@ -5610,8 +5589,5 @@
   "windows engineering manager::renewed vision": [
     "2026-08-28",
     "2026-09-11"
-  ],
-  "workflow automation engineer::jobgether": [
-    "2026-08-17"
   ]
 }
