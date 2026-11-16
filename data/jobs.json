@@ -1,5 +1,24 @@
 [
   {
+    "id": "bb476043d7f38976",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Manager Automation & AI - Fully Remote",
+    "company": "SOFTGAMES",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://jobs.softgames.de/o/senior-qa-manager-automation-ai-fully-remote",
+    "tags": [
+      "Remote",
+      "fulltime_permanent",
+      "internet"
+    ],
+    "postedAt": "2026-11-12T09:33:34.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
+  },
+  {
     "id": "8a3fa7320e14d905",
     "source": "ashby",
     "vendor": "ashby",
@@ -26,7 +45,7 @@
     "company": "Videojet",
     "location": "Utrecht, Provincie Utrecht",
     "remote": false,
-    "url": "https://www.adzuna.nl/land/ad/5961416902?se=bvA_mBLh8RGNl561rfNY_A&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
+    "url": "https://www.adzuna.nl/land/ad/5961416902?se=lsf43Pbh8RGkFs9JnLiCSw&utm_medium=api&utm_source=9b7a3075&v=96390868E84198FD55D059B4B5DA39F69314CCCB",
     "currency": "EUR",
     "tags": [
       "Bouwkunde vacatures"
@@ -34,7 +53,7 @@
     "postedAt": "2026-11-11T10:04:28Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "f648aa462e8793ca",
@@ -90,7 +109,7 @@
     "postedAt": "2026-11-05T17:56:08Z",
     "tier": "lead",
     "score": 10,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a52d47859e29cdf0",
@@ -137,20 +156,7 @@
     "postedAt": "2026-11-01T00:00:08+00:00",
     "tier": "lead",
     "score": 10,
-    "isNew": false
-  },
-  {
-    "id": "aa758abff9f64e68",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "GCP / Quality Assurance Lead, US Remote Based",
-    "company": "Fortrea",
-    "location": "2 Locations",
-    "remote": true,
-    "url": "https://fortrea.wd1.myworkdayjobs.com/fortrea/job/Durham/Quality-Assurance-Lead--US-Remote-Based_266337-1",
-    "tags": [],
-    "tier": "lead",
-    "score": 10,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -165,7 +171,7 @@
     "tags": [
       "Rail Rail Design - GN"
     ],
-    "postedAt": "2026-11-13T16:23:59-05:00",
+    "postedAt": "2026-11-16T12:18:41-05:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -182,7 +188,7 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-13T15:13:15-05:00",
+    "postedAt": "2026-11-16T09:15:59-05:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
@@ -200,11 +206,29 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-13T15:13:15-05:00",
+    "postedAt": "2026-11-16T09:15:59-05:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "b16956e2b7b8f751",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Quality Manager, Vendor Compliance",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/54717400-631a-498c-a684-126540a55dd9",
+    "tags": [
+      "Others",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-16T08:31:55.350Z",
+    "tier": "lead",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "dd19725979acc398",
@@ -517,7 +541,7 @@
     "postedAt": "2026-11-04T19:23:05.215+00:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 4,
+    "repostCount": 5,
     "isNew": false
   },
   {
@@ -557,25 +581,6 @@
     "isNew": false
   },
   {
-    "id": "cdeb781f0f54f08f",
-    "source": "ashby",
-    "vendor": "ashby",
-    "title": "People Partner Engineering & Product",
-    "company": "Elevenlabs",
-    "location": "Remote",
-    "remote": true,
-    "url": "https://jobs.ashbyhq.com/ElevenLabs/b050f85c-70d5-4da6-8224-bf9f8f4c5563",
-    "tags": [
-      "Operations",
-      "People",
-      "FullTime"
-    ],
-    "postedAt": "2026-11-03T15:00:30.551+00:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "9b11f84020ada3a8",
     "source": "ashby",
     "vendor": "ashby",
@@ -591,7 +596,6 @@
       "$265,200 – $314,925 • Offers Equity"
     ],
     "postedAt": "2026-11-02T22:12:17.622+00:00",
-    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -782,6 +786,25 @@
     "isNew": false
   },
   {
+    "id": "a4571b48c3064789",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Embedded & Firmware QA Engineer",
+    "company": "Aquablu B.V",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://aquablu.recruitee.com/o/embedded-firmware-qa-engineer",
+    "tags": [
+      "Product & Engineering",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-11-13T15:05:29.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "631c09a606d82db4",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -802,6 +825,25 @@
     "isNew": false
   },
   {
+    "id": "c362597d73701b5a",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "QA Automation & Pipeline Engineer (CI/CD Engineering)",
+    "company": "Aquablu B.V",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://aquablu.recruitee.com/o/qa-automation-pipeline-engineer-cicd-engineering",
+    "tags": [
+      "Product & Engineering",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-11-13T11:28:38.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
     "id": "7c3cab561dc887ae",
     "source": "adzuna",
     "title": "Test Automation & Data Engineer",
@@ -814,6 +856,25 @@
       "Unknown"
     ],
     "postedAt": "2026-11-12T18:06:20Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": false
+  },
+  {
+    "id": "bd73c0ce767c997f",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Software / Full-Stack QA Engineer",
+    "company": "Aquablu B.V",
+    "location": "Amsterdam, Noord-Holland, Netherlands",
+    "remote": false,
+    "url": "https://aquablu.recruitee.com/o/software-full-stack-qa-engineer",
+    "tags": [
+      "Product & Engineering",
+      "fulltime_fixed_term",
+      "engineering"
+    ],
+    "postedAt": "2026-11-12T16:21:31.000Z",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -1002,7 +1063,7 @@
     "postedAt": "2026-11-08T19:13:33Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "d8a4e32da585e0da",
@@ -1019,7 +1080,7 @@
     "postedAt": "2026-11-06T23:15:34Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c3f3f66f2dbbe7b3",
@@ -1155,7 +1216,7 @@
     "postedAt": "2026-11-05T17:53:43Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "dd95b5864a7c80b1",
@@ -1172,7 +1233,7 @@
     "postedAt": "2026-11-05T17:52:58Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "fe2d7a20b669127c",
@@ -1209,7 +1270,7 @@
     "postedAt": "2026-11-05T08:21:01Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6ad05ceeeff77fcf",
@@ -1229,26 +1290,6 @@
     "isNew": false
   },
   {
-    "id": "a0b33db367ba1e54",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Freelance Localization Games Tester - Remote (French Speaker)",
-    "company": "TransPerfect",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://transperfect.com/o/freelance-localization-games-tester-remote-french-speaker",
-    "tags": [
-      "QA Testing",
-      "freelance",
-      "internet",
-      "Freelance"
-    ],
-    "postedAt": "2026-11-03T08:17:32.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
     "id": "e9ec988cc100a7c5",
     "source": "adzuna",
     "title": "Software Test Engineer",
@@ -1264,27 +1305,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 6,
-    "isNew": true
-  },
-  {
-    "id": "89d7f9f6493d4269",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "French LQA Games Tester - Remote (Freelance)",
-    "company": "TransPerfect",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://transperfect.com/o/french-lqa-games-tester-remote-freelance",
-    "tags": [
-      "QA Testing",
-      "freelance",
-      "internet",
-      "Freelance"
-    ],
-    "postedAt": "2026-11-03T01:57:13.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cdbc2077903888bd",
@@ -1321,6 +1342,7 @@
     "postedAt": "2026-10-28T09:37:26.694Z",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -1341,33 +1363,22 @@
     "isNew": false
   },
   {
-    "id": "660feac100e84363",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Quality Engineer (1st shift)",
-    "company": "Clarios",
-    "location": "United States, Ohio, Holland",
-    "remote": false,
-    "url": "https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Ohio-Holland/Quality-Engineer--1st-shift-_WD51238",
-    "tags": [],
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "3d0c5779e8d1cc01",
-    "source": "workday",
-    "vendor": "workday",
-    "title": "Software QA and Support Engineer (Remote)",
-    "company": "Solvenergy",
-    "location": "51 Locations",
+    "id": "0c3f1324df861491",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Engineer (Backend): Treasury Automation",
+    "company": "Jobgether",
+    "location": "Netherlands",
     "remote": true,
-    "url": "https://solvenergy.wd1.myworkdayjobs.com/SOLV_External_Career/job/Remote---CA/Software-QA-and-Support-Engineer_J14036",
-    "tags": [],
+    "url": "https://jobs.lever.co/jobgether/5fba20ec-8261-4d79-ad29-4980f8302dea",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-16T09:50:00.590Z",
     "tier": "ic",
-    "score": 1,
-    "isNew": false
+    "score": 0.5,
+    "isNew": true
   },
   {
     "id": "c8b4981746237a26",
