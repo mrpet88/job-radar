@@ -1,5 +1,76 @@
 [
   {
+    "id": "5ea6ae83daa2b016",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Customs",
+    "company": "Flexport",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/8393338",
+    "tags": [
+      "Engineering, Customs"
+    ],
+    "postedAt": "2026-11-18T11:55:09-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "6036840e74fedbd4",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Developer Ecosystem",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8937807002",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-18T10:44:34-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "437fd6e8ef0e39c0",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Sr. Engineering Manager - Developer Ecosystem",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8940907002",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-18T10:44:34-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "998244acd4946f48",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Pricing & Revenue",
+    "company": "Nuitée",
+    "location": "Europe (remote)",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/nuitee/jobs/5015027101",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-18T06:16:38-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 2,
+    "isNew": false
+  },
+  {
     "id": "97108b364d030852",
     "source": "ashby",
     "vendor": "ashby",
@@ -36,24 +107,7 @@
     "postedAt": "2026-11-17T12:56:19.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
-  },
-  {
-    "id": "5ea6ae83daa2b016",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Customs",
-    "company": "Flexport",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/flexport/jobs/8393338",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-11-17T11:25:41-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9b6b3f07a1f5479c",
@@ -71,42 +125,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 5,
-    "isNew": false
-  },
-  {
-    "id": "6036840e74fedbd4",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Developer Ecosystem",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8937807002",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-11-16T17:44:11-05:00",
-    "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "437fd6e8ef0e39c0",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Sr. Engineering Manager - Developer Ecosystem",
-    "company": "Databricks",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8940907002",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-11-16T17:44:11-05:00",
-    "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -142,7 +160,7 @@
     "postedAt": "2026-11-09T19:52:16.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "42b0a7a89f98afc7",
@@ -157,24 +175,6 @@
       "Development"
     ],
     "postedAt": "2026-11-02T07:59:19-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "998244acd4946f48",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Pricing & Revenue",
-    "company": "Nuitée",
-    "location": "Europe (remote)",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/nuitee/jobs/5015027101",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-10-27T10:29:48-04:00",
     "tier": "adjacent",
     "score": 5,
     "repostCount": 2,
@@ -217,59 +217,39 @@
     "isNew": false
   },
   {
-    "id": "e169983797d09754",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Group Engineering Manager",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "206541dddb90a37c",
+    "source": "smartrecruiters",
+    "vendor": "smartrecruiters",
+    "title": "DevOps Automation (Platform) Engineer",
+    "company": "ARHS",
+    "location": "The Hague, ZH, Netherlands",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/ee5a0b04-ac2f-4f51-8a0b-849422c99319",
+    "url": "https://jobs.smartrecruiters.com/ARHS/744000162246849",
     "tags": [
-      "IT",
-      "Full-time"
+      "Information Technology",
+      "Full-time",
+      "Information Technology And Services"
     ],
-    "postedAt": "2026-11-10T11:46:54.218Z",
-    "tier": "adjacent",
-    "score": 2.5,
+    "postedAt": "2026-11-18T09:06:17.478Z",
+    "tier": "ic",
+    "score": 1,
     "isNew": false
   },
   {
-    "id": "cce65eaf7a9cab3e",
-    "source": "arbeitnow",
-    "title": "Software Engineer – Desktop Automation / RPA (m/w/d)",
-    "company": "Recare Deutschland GmbH",
-    "location": "Remote job",
+    "id": "0704098c5976e22c",
+    "source": "workable",
+    "vendor": "workable",
+    "title": "QA Engineer, Contract",
+    "company": "Xcelirate",
+    "location": "Amsterdam, North Holland, Netherlands",
     "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/recare-deutschland-gmbh/remote-software-engineer-desktop-automation-rpa-berlin-169089",
+    "url": "https://apply.workable.com/j/AE2C627CC5",
     "tags": [
       "Engineering",
-      "Remote",
-      "Mid",
-      "fulltime permanent"
+      "Engineering",
+      "Contract"
     ],
-    "postedAt": "2026-11-17T06:51:27.000Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "81046f88f89be1d7",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Freelance QA Test Engineer – Manual & Automation",
-    "company": "Sword Technologies N.V./S.A.",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://swordtechnologies.recruitee.com/o/freelance-qa-test-engineer-manual-automation",
-    "tags": [
-      "LEI",
-      "freelance",
-      "consulting",
-      "650 EUR max",
-      "Sonia WEISSE"
-    ],
-    "postedAt": "2026-11-16T16:17:16.000Z",
+    "postedAt": "2026-11-18",
     "tier": "ic",
     "score": 1,
     "isNew": true
@@ -364,25 +344,6 @@
       "Accounting en Financiële vacatures"
     ],
     "postedAt": "2026-11-08T19:13:33Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "206541dddb90a37c",
-    "source": "smartrecruiters",
-    "vendor": "smartrecruiters",
-    "title": "DevOps Automation (Platform) Engineer",
-    "company": "ARHS",
-    "location": "The Hague, ZH, Netherlands",
-    "remote": true,
-    "url": "https://jobs.smartrecruiters.com/ARHS/744000160205954",
-    "tags": [
-      "Information Technology",
-      "Full-time",
-      "Information Technology And Services"
-    ],
-    "postedAt": "2026-11-06T13:49:30.836Z",
     "tier": "ic",
     "score": 1,
     "isNew": false
@@ -493,6 +454,44 @@
     "score": 1,
     "repostCount": 2,
     "isNew": false
+  },
+  {
+    "id": "2616e602311a6c36",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/72eff8a8-5d06-4bf6-bf02-60b74d0404ae",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-18T05:45:15.440Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 6,
+    "isNew": true
+  },
+  {
+    "id": "0e6842e529cdafd9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Backend QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/877d3321-89b9-49cc-8b63-4d846d236571",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-18T04:04:26.429Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "0c3f1324df861491",
