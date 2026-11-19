@@ -1,20 +1,22 @@
 [
   {
-    "id": "5ea6ae83daa2b016",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Customs",
-    "company": "Flexport",
-    "location": "Amsterdam, Netherlands",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/flexport/jobs/8393338",
+    "id": "1e02facb06d98775",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Lead Quality Engineer (Test Automation & Transformation)",
+    "company": "8 West Consulting",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://8westconsulting.recruitee.com/o/lead-quality-engineer-test-automation-transformation",
     "tags": [
-      "Engineering, Customs"
+      "eCommerce",
+      "contract",
+      "internet"
     ],
-    "postedAt": "2026-11-18T11:55:09-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
+    "postedAt": "2026-11-11T18:48:35.000Z",
+    "tier": "lead",
+    "score": 10,
+    "isNew": true
   },
   {
     "id": "6036840e74fedbd4",
@@ -28,11 +30,28 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-18T10:44:34-05:00",
+    "postedAt": "2026-11-19T08:02:56-05:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "4fa34b951a9665ef",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Manager, AI Forward Deployed Engineering",
+    "company": "Databricks",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8937360002",
+    "tags": [
+      "Professional Services Operations"
+    ],
+    "postedAt": "2026-11-19T08:02:56-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "437fd6e8ef0e39c0",
@@ -46,7 +65,79 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-18T10:44:34-05:00",
+    "postedAt": "2026-11-19T08:02:56-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "23845a353e0650cb",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Group Engineering Manager",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/5010158101",
+    "tags": [
+      "Product Engineering"
+    ],
+    "postedAt": "2026-11-19T06:46:06-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "a3fb9cf62d89e8b5",
+    "source": "ashby",
+    "vendor": "ashby",
+    "title": "Staff Technical Lead Manager, Ingestion",
+    "company": "Protege",
+    "location": "Remote",
+    "remote": true,
+    "url": "https://jobs.ashbyhq.com/protege/3ff9849f-4175-4526-adc5-0255d43dd688",
+    "tags": [
+      "Engineering",
+      "Engineering",
+      "FullTime"
+    ],
+    "postedAt": "2026-11-18T20:10:48.988+00:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "7b3fd80da08732d6",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Incident Operations Commander - EMEA",
+    "company": "Alpaca ",
+    "location": "Remote - EMEA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/alpaca/jobs/6186844004",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-18T15:57:34-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "5ea6ae83daa2b016",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager, Customs",
+    "company": "Flexport",
+    "location": "Amsterdam, Netherlands",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/flexport/jobs/8393338",
+    "tags": [
+      "Engineering, Customs"
+    ],
+    "postedAt": "2026-11-18T11:55:09-05:00",
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
@@ -108,6 +199,25 @@
     "tier": "adjacent",
     "score": 5,
     "isNew": false
+  },
+  {
+    "id": "36f11b657d2ae173",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager (Data Direction)",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4914586101",
+    "tags": [
+      "Data and AI"
+    ],
+    "postedAt": "2026-11-17T08:22:27-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": true
   },
   {
     "id": "9b6b3f07a1f5479c",
@@ -181,42 +291,6 @@
     "isNew": false
   },
   {
-    "id": "86f29f0b9b4faae2",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Realtime",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/bac4389f-37c1-4a2f-8ab1-1d973049bfc7",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-13T07:04:04.015Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
-    "id": "b9e4cf246c8d84fc",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Engineering Manager - Pipelines",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/1d41042a-9a80-454c-8f7f-a2ad6f4f35ab",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-13T06:54:47.282Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
-  },
-  {
     "id": "206541dddb90a37c",
     "source": "smartrecruiters",
     "vendor": "smartrecruiters",
@@ -252,7 +326,7 @@
     "postedAt": "2026-11-18",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "a4571b48c3064789",
@@ -312,6 +386,25 @@
     "tier": "ic",
     "score": 1,
     "isNew": false
+  },
+  {
+    "id": "e36e5b0f6dd6e051",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior Quality Engineer (Test Automation & Transformation)",
+    "company": "8 West Consulting",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://8westconsulting.recruitee.com/o/senior-quality-engineer-test-automation-transformation",
+    "tags": [
+      "eCommerce",
+      "contract",
+      "internet"
+    ],
+    "postedAt": "2026-11-11T19:02:01.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "2b6ac38eee923a49",
@@ -456,6 +549,42 @@
     "isNew": false
   },
   {
+    "id": "8bb3d2330334a185",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Middle Manual QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/f62c9609-ae94-4228-9850-9ba305dfbd76",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-19T13:47:52.372Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "78265a8c50466f8a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Middle QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/a9dab4bd-3103-4bc9-bca6-def6a20950fc",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-19T05:21:30.278Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
     "id": "2616e602311a6c36",
     "source": "lever",
     "vendor": "lever",
@@ -471,8 +600,8 @@
     "postedAt": "2026-11-18T05:45:15.440Z",
     "tier": "ic",
     "score": 0.5,
-    "repostCount": 6,
-    "isNew": true
+    "repostCount": 7,
+    "isNew": false
   },
   {
     "id": "0e6842e529cdafd9",
@@ -491,7 +620,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0c3f1324df861491",
