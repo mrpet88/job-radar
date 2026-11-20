@@ -1,5 +1,24 @@
 [
   {
+    "id": "534230d6baa0d583",
+    "source": "arbeitnow",
+    "title": "Engineering Lead – Connectivity Domain",
+    "company": "Sunweb Group",
+    "location": "Rotterdam, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/sunweb-group/engineering-lead-connectivity-domain-rotterdam-65222",
+    "tags": [
+      "Tech",
+      "Manager",
+      "fulltime fixed term"
+    ],
+    "postedAt": "2026-11-20T15:31:39.000Z",
+    "tier": "lead",
+    "score": 10,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
     "id": "1e02facb06d98775",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -16,6 +35,77 @@
     "postedAt": "2026-11-11T18:48:35.000Z",
     "tier": "lead",
     "score": 10,
+    "isNew": false
+  },
+  {
+    "id": "23845a353e0650cb",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Group Engineering Manager",
+    "company": "JustMarkets",
+    "location": "Remote, Europe",
+    "remote": true,
+    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/5010158101",
+    "tags": [
+      "Product Engineering"
+    ],
+    "postedAt": "2026-11-20T10:25:41-05:00",
+    "otherLocations": 1,
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "42b0a7a89f98afc7",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Engineering Manager - Android",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
+    "tags": [
+      "Development"
+    ],
+    "postedAt": "2026-11-20T08:17:30-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": false
+  },
+  {
+    "id": "7433274f0b5340ea",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": "Senior Technical Product Manager - Internal Developer Platform",
+    "company": "Adyen",
+    "location": "Amsterdam",
+    "remote": false,
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8179443",
+    "tags": [
+      "Product Management"
+    ],
+    "postedAt": "2026-11-20T08:17:30-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 4,
+    "isNew": true
+  },
+  {
+    "id": "cd0d4937696570d1",
+    "source": "arbeitnow",
+    "title": "Senior Engineering Manager",
+    "company": "Mytomorrows",
+    "location": "Amsterdam HQ",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/senior-engineering-manager-amsterdam-485449",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-19T21:40:33.000Z",
+    "tier": "adjacent",
+    "score": 5,
     "isNew": true
   },
   {
@@ -30,8 +120,7 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-19T08:02:56-05:00",
-    "otherLocations": 1,
+    "postedAt": "2026-11-19T16:47:39-05:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -48,10 +137,11 @@
     "tags": [
       "Professional Services Operations"
     ],
-    "postedAt": "2026-11-19T08:02:56-05:00",
+    "postedAt": "2026-11-19T16:47:39-05:00",
+    "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "437fd6e8ef0e39c0",
@@ -65,29 +155,10 @@
     "tags": [
       "Engineering"
     ],
-    "postedAt": "2026-11-19T08:02:56-05:00",
-    "otherLocations": 1,
+    "postedAt": "2026-11-19T16:47:39-05:00",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
-  },
-  {
-    "id": "23845a353e0650cb",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Group Engineering Manager",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/5010158101",
-    "tags": [
-      "Product Engineering"
-    ],
-    "postedAt": "2026-11-19T06:46:06-05:00",
-    "otherLocations": 1,
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": true
   },
   {
     "id": "a3fb9cf62d89e8b5",
@@ -106,7 +177,7 @@
     "postedAt": "2026-11-18T20:10:48.988+00:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "7b3fd80da08732d6",
@@ -123,7 +194,7 @@
     "postedAt": "2026-11-18T15:57:34-05:00",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5ea6ae83daa2b016",
@@ -141,24 +212,6 @@
     "otherLocations": 1,
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "998244acd4946f48",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager, Pricing & Revenue",
-    "company": "Nuitée",
-    "location": "Europe (remote)",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/nuitee/jobs/5015027101",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-11-18T06:16:38-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
     "isNew": false
   },
   {
@@ -217,7 +270,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "9b6b3f07a1f5479c",
@@ -255,10 +308,10 @@
     "isNew": false
   },
   {
-    "id": "9353a71bb04377b0",
+    "id": "14768e1b8b242a07",
     "source": "recruitee",
     "vendor": "recruitee",
-    "title": "Hands-on Engineering Manager DevOps (GCP/Kubernetes)",
+    "title": "Hands-on Engineering Manager - DevOps (GCP/Kubernetes)",
     "company": "Miaplaza",
     "location": "Remote job",
     "remote": true,
@@ -270,25 +323,25 @@
     "postedAt": "2026-11-09T19:52:16.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "42b0a7a89f98afc7",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Engineering Manager - Android",
-    "company": "Adyen",
-    "location": "Amsterdam",
+    "id": "4ff5bd1880ca5c23",
+    "source": "arbeitnow",
+    "title": "macOS & Jamf Automation Engineer",
+    "company": "Tomtom",
+    "location": "Amsterdam, The Netherlands",
     "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
+    "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/macos-jamf-automation-engineer-amsterdam-the-netherlands-441329",
     "tags": [
-      "Development"
+      "IT",
+      "Employee",
+      "Full Time"
     ],
-    "postedAt": "2026-11-02T07:59:19-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 2,
-    "isNew": false
+    "postedAt": "2026-11-20T03:08:35.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "206541dddb90a37c",
@@ -404,7 +457,7 @@
     "postedAt": "2026-11-11T19:02:01.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2b6ac38eee923a49",
@@ -421,93 +474,7 @@
     "postedAt": "2026-11-10T15:48:15-05:00",
     "tier": "ic",
     "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "6638627b59cbeb61",
-    "source": "adzuna",
-    "title": "Quality Engineering Architect [Financial Services]",
-    "company": "CGI",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5958350213?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Accounting en Financiële vacatures"
-    ],
-    "postedAt": "2026-11-08T19:13:33Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "a27f1905a37b65a6",
-    "source": "adzuna",
-    "title": "Senior Engineer, QA",
-    "company": "ASM",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5954537199?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-11-05T17:53:43Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "dd95b5864a7c80b1",
-    "source": "adzuna",
-    "title": "Software Quality Assurance Engineer",
-    "company": "Thermo Fisher Scientific",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5954536630?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-11-05T17:52:58Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "9cd9e202812544f6",
-    "source": "adzuna",
-    "title": "Software Quality Assurance Engineer",
-    "company": "ThermoFisher Scientific",
-    "location": "Eindhoven, Noord-Brabant",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5953932714?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-11-05T08:21:01Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": false
-  },
-  {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-11-03T07:25:02Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 6,
+    "repostCount": 3,
     "isNew": false
   },
   {
@@ -527,6 +494,7 @@
     "postedAt": "2026-10-29T18:26:38.452+00:00",
     "tier": "ic",
     "score": 1,
+    "repostCount": 2,
     "isNew": false
   },
   {
@@ -549,132 +517,25 @@
     "isNew": false
   },
   {
-    "id": "8bb3d2330334a185",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Middle Manual QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
+    "id": "d822c31a8b90cd15",
+    "source": "recruitee",
+    "vendor": "recruitee",
+    "title": "Senior QA Automation Engineer",
+    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
+    "location": "Remote job",
     "remote": true,
-    "url": "https://jobs.lever.co/jobgether/f62c9609-ae94-4228-9850-9ba305dfbd76",
+    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
     "tags": [
-      "IT",
-      "Full-time"
+      "Development",
+      "fulltime_permanent",
+      "information_technology",
+      "MUFG",
+      "Senior"
     ],
-    "postedAt": "2026-11-19T13:47:52.372Z",
+    "postedAt": "2026-10-22T07:49:09.000Z",
     "tier": "ic",
-    "score": 0.5,
+    "score": 1,
+    "repostCount": 4,
     "isNew": true
-  },
-  {
-    "id": "78265a8c50466f8a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Middle QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/a9dab4bd-3103-4bc9-bca6-def6a20950fc",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-19T05:21:30.278Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": true
-  },
-  {
-    "id": "2616e602311a6c36",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/72eff8a8-5d06-4bf6-bf02-60b74d0404ae",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-18T05:45:15.440Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 7,
-    "isNew": false
-  },
-  {
-    "id": "0e6842e529cdafd9",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Backend QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/877d3321-89b9-49cc-8b63-4d846d236571",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-18T04:04:26.429Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "0c3f1324df861491",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Senior Software Engineer (Backend): Treasury Automation",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/5fba20ec-8261-4d79-ad29-4980f8302dea",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-16T09:50:00.590Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "c8b4981746237a26",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Data QA Engineer",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/71c43fee-a795-427c-9d54-1f072c4b26b5",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-13T10:07:16.042Z",
-    "tier": "ic",
-    "score": 0.5,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "d1d305cb93238427",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Software Development Engineer in Test (SDET)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3db5264a-6cf9-416d-aea3-901d7f8859ca",
-    "tags": [
-      "IT",
-      "Contract"
-    ],
-    "postedAt": "2026-11-13T08:36:35.780Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
   }
 ]
