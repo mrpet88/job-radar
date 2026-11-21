@@ -16,7 +16,7 @@
     "tier": "lead",
     "score": 10,
     "repostCount": 2,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "1e02facb06d98775",
@@ -36,6 +36,36 @@
     "tier": "lead",
     "score": 10,
     "isNew": false
+  },
+  {
+    "id": "4d6224d476f0b4f7",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "housinganywhere",
+    "location": "Rotterdam",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/housinganywhere/engineering-manager-rotterdam-173959",
+    "tags": [
+      "Engineering"
+    ],
+    "postedAt": "2026-11-21T15:55:31.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "c81642965d64b6fb",
+    "source": "arbeitnow",
+    "title": "Engineering Manager",
+    "company": "HousingAnywhere Group",
+    "location": "Rotterdam, Zuid-Holland, Netherlands",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/housinganywhere-group/engineering-manager-rotterdam-82636",
+    "tags": [],
+    "postedAt": "2026-11-20T18:45:34.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
   },
   {
     "id": "23845a353e0650cb",
@@ -89,7 +119,7 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 4,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "cd0d4937696570d1",
@@ -106,7 +136,7 @@
     "postedAt": "2026-11-19T21:40:33.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "6036840e74fedbd4",
@@ -287,7 +317,7 @@
     "postedAt": "2026-11-17T08:22:27-05:00",
     "tier": "adjacent",
     "score": 5,
-    "repostCount": 5,
+    "repostCount": 6,
     "isNew": false
   },
   {
@@ -323,6 +353,24 @@
     "postedAt": "2026-11-09T19:52:16.000Z",
     "tier": "adjacent",
     "score": 5,
+    "isNew": false
+  },
+  {
+    "id": "825db626e7e3079a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Hands-on Engineering Manager DevOps (GCP/Kubernetes)",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-20T07:43:07.230Z",
+    "tier": "adjacent",
+    "score": 2.5,
     "isNew": true
   },
   {
@@ -341,7 +389,7 @@
     "postedAt": "2026-11-20T03:08:35.000Z",
     "tier": "ic",
     "score": 1,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "206541dddb90a37c",
@@ -517,25 +565,113 @@
     "isNew": false
   },
   {
-    "id": "d822c31a8b90cd15",
-    "source": "recruitee",
-    "vendor": "recruitee",
-    "title": "Senior QA Automation Engineer",
-    "company": "Codest Ltd. Company No. 12590542, VAT number: GB363431020",
-    "location": "Remote job",
+    "id": "7b47a8c433a2a36a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Manual QA Engineer (with Payments/Fintech Experience)",
+    "company": "Jobgether",
+    "location": "Netherlands",
     "remote": true,
-    "url": "https://thecodest.recruitee.com/o/senior-qa-automation-engineer-4",
+    "url": "https://jobs.lever.co/jobgether/3d815b7d-62d8-460f-a868-9d67c53b2117",
     "tags": [
-      "Development",
-      "fulltime_permanent",
-      "information_technology",
-      "MUFG",
-      "Senior"
+      "IT",
+      "Full-time"
     ],
-    "postedAt": "2026-10-22T07:49:09.000Z",
+    "postedAt": "2026-11-21T09:52:55.645Z",
     "tier": "ic",
-    "score": 1,
-    "repostCount": 4,
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "8bb3d2330334a185",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Middle Manual QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/f62c9609-ae94-4228-9850-9ba305dfbd76",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-19T13:47:52.372Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "78265a8c50466f8a",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Middle QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/a9dab4bd-3103-4bc9-bca6-def6a20950fc",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-19T05:21:30.278Z",
+    "tier": "ic",
+    "score": 0.5,
+    "isNew": true
+  },
+  {
+    "id": "2616e602311a6c36",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/72eff8a8-5d06-4bf6-bf02-60b74d0404ae",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-18T05:45:15.440Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 7,
+    "isNew": true
+  },
+  {
+    "id": "0e6842e529cdafd9",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Backend QA Engineer",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/877d3321-89b9-49cc-8b63-4d846d236571",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-18T04:04:26.429Z",
+    "tier": "ic",
+    "score": 0.5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
+    "id": "0c3f1324df861491",
+    "source": "lever",
+    "vendor": "lever",
+    "title": "Senior Software Engineer (Backend): Treasury Automation",
+    "company": "Jobgether",
+    "location": "Netherlands",
+    "remote": true,
+    "url": "https://jobs.lever.co/jobgether/5fba20ec-8261-4d79-ad29-4980f8302dea",
+    "tags": [
+      "IT",
+      "Full-time"
+    ],
+    "postedAt": "2026-11-16T09:50:00.590Z",
+    "tier": "ic",
+    "score": 0.5,
     "isNew": true
   }
 ]

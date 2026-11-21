@@ -76,9 +76,6 @@
   "architect engineering manager uk::axis": [
     "2026-09-22"
   ],
-  "area service delivery manager::jobs for humanity": [
-    "2026-08-23"
-  ],
   "assistant construction project manager ii aecom hunt::aecom": [
     "2026-08-27"
   ],
@@ -185,9 +182,6 @@
   ],
   "cloud engineering manager::canonical": [
     "2026-09-23"
-  ],
-  "cloud engineering manager::canonical ltd.": [
-    "2026-08-23"
   ],
   "cloud engineering manager::jobgether": [
     "2026-09-02"
@@ -463,9 +457,6 @@
     "2026-11-06",
     "2026-11-20"
   ],
-  "engineering manager api product::convex dev": [
-    "2026-08-23"
-  ],
   "engineering manager app primitives can::vanta": [
     "2026-09-04",
     "2026-09-18"
@@ -587,9 +578,6 @@
   "engineering manager data platform::canonical": [
     "2026-09-23"
   ],
-  "engineering manager data platform::canonical ltd.": [
-    "2026-08-23"
-  ],
   "engineering manager data::stepful": [
     "2026-08-27",
     "2026-09-10"
@@ -626,7 +614,6 @@
     "2026-09-11"
   ],
   "engineering manager devops::maven agi": [
-    "2026-08-23",
     "2026-09-06"
   ],
   "engineering manager emea::pencil": [
@@ -683,9 +670,6 @@
     "2026-08-28",
     "2026-09-11"
   ],
-  "engineering manager i applications::stackadapt": [
-    "2026-08-23"
-  ],
   "engineering manager iam::bestow": [
     "2026-09-02"
   ],
@@ -720,7 +704,6 @@
     "2026-09-17"
   ],
   "engineering manager language security::cloudlinux": [
-    "2026-08-23",
     "2026-09-06",
     "2026-09-20"
   ],
@@ -915,9 +898,6 @@
     "2026-09-23",
     "2026-10-24"
   ],
-  "engineering manager solutions engineering::canonical ltd.": [
-    "2026-08-23"
-  ],
   "engineering manager sre platform::jobgether": [
     "2026-09-23"
   ],
@@ -976,17 +956,11 @@
   "engineering manager ubuntu linux kernel::canonical": [
     "2026-09-23"
   ],
-  "engineering manager ubuntu linux kernel::canonical ltd.": [
-    "2026-08-23"
-  ],
   "engineering manager ubuntu linux kernel::jobgether": [
     "2026-09-03"
   ],
   "engineering manager ubuntu security::canonical": [
     "2026-09-23"
-  ],
-  "engineering manager ubuntu security::canonical ltd.": [
-    "2026-08-23"
   ],
   "engineering manager united kingdom::bjakcareer": [
     "2026-08-28",
@@ -1081,6 +1055,12 @@
   ],
   "engineering manager::horizon3ai": [
     "2026-09-22"
+  ],
+  "engineering manager::housinganywhere": [
+    "2026-11-21"
+  ],
+  "engineering manager::housinganywhere group": [
+    "2026-11-21"
   ],
   "engineering manager::insify": [
     "2026-11-05"
@@ -1184,9 +1164,6 @@
   ],
   "engineering manager::workmotion": [
     "2026-09-23"
-  ],
-  "engineering manager::worth ai": [
-    "2026-08-23"
   ],
   "engineering manager::xero": [
     "2026-08-25"
@@ -1355,6 +1332,9 @@
     "2026-09-03",
     "2026-09-18"
   ],
+  "hands on engineering manager devops::jobgether": [
+    "2026-11-21"
+  ],
   "hands on engineering manager devops::miaplaza": [
     "2026-11-17"
   ],
@@ -1467,7 +1447,8 @@
     "2026-09-26",
     "2026-10-10",
     "2026-10-24",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-21"
   ],
   "lead field service representative::veolia environnement sa": [
     "2026-09-24"
@@ -1771,7 +1752,6 @@
     "2026-08-31"
   ],
   "manager quality assurance::availity": [
-    "2026-08-23",
     "2026-09-06",
     "2026-09-20"
   ],
@@ -1884,6 +1864,9 @@
   ],
   "manual qa engineer::growe talents": [
     "2026-09-05"
+  ],
+  "manual qa engineer::jobgether": [
+    "2026-11-21"
   ],
   "manual qa engineer::playson": [
     "2026-09-14",
@@ -2330,9 +2313,6 @@
   ],
   "project manager::mactores": [
     "2026-08-31"
-  ],
-  "project systems specialist::dart": [
-    "2026-08-23"
   ],
   "python automation test engineer::jobgether": [
     "2026-09-30"
@@ -2985,7 +2965,6 @@
     "2026-08-24"
   ],
   "senior engineering manager infrastructure security engineering dgx cloud::nvidia": [
-    "2026-08-23",
     "2026-09-10"
   ],
   "senior engineering manager infrastructure::distribusion technologies": [
@@ -3639,7 +3618,6 @@
     "2026-08-28"
   ],
   "senior qa engineer::cloaked": [
-    "2026-08-23",
     "2026-09-06"
   ],
   "senior qa engineer::contabo": [
@@ -4135,9 +4113,6 @@
   "software engineering director::canonical": [
     "2026-09-23"
   ],
-  "software engineering director::canonical ltd.": [
-    "2026-08-23"
-  ],
   "software engineering manager data::kard financial, inc.": [
     "2026-09-09",
     "2026-09-23"
@@ -4249,7 +4224,6 @@
     "2026-09-24"
   ],
   "solutions engineer::worth ai": [
-    "2026-08-23",
     "2026-09-06"
   ],
   "solutions engineering manager::attio": [
@@ -4427,7 +4401,6 @@
     "2026-09-19"
   ],
   "sr staff technical program manager monetization::pinterest": [
-    "2026-08-23",
     "2026-09-06",
     "2026-09-20"
   ],
@@ -4526,7 +4499,6 @@
     "2026-09-05"
   ],
   "staff qa automation engineer::empower pharmacy": [
-    "2026-08-23",
     "2026-09-06",
     "2026-09-20"
   ],
@@ -4625,9 +4597,6 @@
   ],
   "support engineering manager::canonical": [
     "2026-09-24"
-  ],
-  "support engineering manager::canonical ltd.": [
-    "2026-08-23"
   ],
   "support engineering manager::supabase": [
     "2026-09-16"
