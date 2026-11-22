@@ -38,6 +38,42 @@
     "isNew": false
   },
   {
+    "id": "8558d09a3a2ebf11",
+    "source": "arbeitnow",
+    "title": "Engineering Manager EU/UK (m/f/x)",
+    "company": "Makersite GmbH",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-engineering-manager-eu-uk-berlin-491641",
+    "tags": [
+      "Technology",
+      "Remote",
+      "Senior manager",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-11-22T15:31:28.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
+    "id": "d94bde5aed947d44",
+    "source": "arbeitnow",
+    "title": "Sr. Engineering Manager",
+    "company": "Mytomorrows",
+    "location": "Amsterdam HQ",
+    "remote": false,
+    "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/sr-engineering-manager-amsterdam-167050",
+    "tags": [
+      "Engineering",
+      "Full Time"
+    ],
+    "postedAt": "2026-11-21T18:40:33.000Z",
+    "tier": "adjacent",
+    "score": 5,
+    "isNew": true
+  },
+  {
     "id": "4d6224d476f0b4f7",
     "source": "arbeitnow",
     "title": "Engineering Manager",
@@ -51,7 +87,7 @@
     "postedAt": "2026-11-21T15:55:31.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "c81642965d64b6fb",
@@ -65,7 +101,7 @@
     "postedAt": "2026-11-20T18:45:34.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "23845a353e0650cb",
@@ -371,7 +407,7 @@
     "postedAt": "2026-11-20T07:43:07.230Z",
     "tier": "adjacent",
     "score": 2.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "4ff5bd1880ca5c23",
@@ -526,6 +562,59 @@
     "isNew": false
   },
   {
+    "id": "6638627b59cbeb61",
+    "source": "adzuna",
+    "title": "Quality Engineering Architect [Financial Services]",
+    "company": "CGI",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5958350213?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Accounting en Financiële vacatures"
+    ],
+    "postedAt": "2026-11-08T19:13:33Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
+  },
+  {
+    "id": "a27f1905a37b65a6",
+    "source": "adzuna",
+    "title": "Senior Engineer, QA",
+    "company": "ASM",
+    "location": "Nederland",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5954537199?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Unknown"
+    ],
+    "postedAt": "2026-11-05T17:53:43Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 2,
+    "isNew": true
+  },
+  {
+    "id": "e9ec988cc100a7c5",
+    "source": "adzuna",
+    "title": "Software Test Engineer",
+    "company": "Optics11",
+    "location": "Zuidoost, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
+    "currency": "EUR",
+    "tags": [
+      "Vacatures Ander of Algemeen"
+    ],
+    "postedAt": "2026-11-03T07:25:02Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 6,
+    "isNew": true
+  },
+  {
     "id": "cdbc2077903888bd",
     "source": "ashby",
     "vendor": "ashby",
@@ -580,7 +669,7 @@
     "postedAt": "2026-11-21T09:52:55.645Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "8bb3d2330334a185",
@@ -598,7 +687,7 @@
     "postedAt": "2026-11-19T13:47:52.372Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "78265a8c50466f8a",
@@ -616,7 +705,7 @@
     "postedAt": "2026-11-19T05:21:30.278Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "2616e602311a6c36",
@@ -635,7 +724,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 7,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0e6842e529cdafd9",
@@ -654,7 +743,7 @@
     "tier": "ic",
     "score": 0.5,
     "repostCount": 3,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "0c3f1324df861491",
@@ -672,6 +761,6 @@
     "postedAt": "2026-11-16T09:50:00.590Z",
     "tier": "ic",
     "score": 0.5,
-    "isNew": true
+    "isNew": false
   }
 ]
