@@ -55,25 +55,6 @@
     "isNew": false
   },
   {
-    "id": "8558d09a3a2ebf11",
-    "source": "arbeitnow",
-    "title": "Engineering Manager EU/UK (m/f/x)",
-    "company": "Makersite GmbH",
-    "location": "Remote job",
-    "remote": true,
-    "url": "https://www.arbeitnow.com/jobs/companies/makersite-gmbh/remote-engineering-manager-eu-uk-berlin-491641",
-    "tags": [
-      "Technology",
-      "Remote",
-      "Senior manager",
-      "fulltime permanent"
-    ],
-    "postedAt": "2026-11-22T15:31:28.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
     "id": "d94bde5aed947d44",
     "source": "arbeitnow",
     "title": "Sr. Engineering Manager",
@@ -155,41 +136,6 @@
     "tier": "adjacent",
     "score": 5,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "7433274f0b5340ea",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Senior Technical Product Manager - Internal Developer Platform",
-    "company": "Adyen",
-    "location": "Amsterdam",
-    "remote": false,
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8179443",
-    "tags": [
-      "Product Management"
-    ],
-    "postedAt": "2026-11-20T08:17:30-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 4,
-    "isNew": false
-  },
-  {
-    "id": "cd0d4937696570d1",
-    "source": "arbeitnow",
-    "title": "Senior Engineering Manager",
-    "company": "Mytomorrows",
-    "location": "Amsterdam HQ",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/senior-engineering-manager-amsterdam-485449",
-    "tags": [
-      "Engineering",
-      "Full Time"
-    ],
-    "postedAt": "2026-11-19T21:40:33.000Z",
-    "tier": "adjacent",
-    "score": 5,
     "isNew": false
   },
   {
@@ -323,24 +269,6 @@
     "isNew": false
   },
   {
-    "id": "9b6b3f07a1f5479c",
-    "source": "greenhouse",
-    "vendor": "greenhouse",
-    "title": "Lead Engineering Manager",
-    "company": "JustMarkets",
-    "location": "Remote, Europe",
-    "remote": true,
-    "url": "https://job-boards.eu.greenhouse.io/justmarkets/jobs/4949667101",
-    "tags": [
-      "Trading Tech"
-    ],
-    "postedAt": "2026-11-17T08:22:27-05:00",
-    "tier": "adjacent",
-    "score": 5,
-    "repostCount": 6,
-    "isNew": false
-  },
-  {
     "id": "14768e1b8b242a07",
     "source": "recruitee",
     "vendor": "recruitee",
@@ -359,6 +287,24 @@
     "isNew": false
   },
   {
+    "id": "fb0e92fccb70a0a0",
+    "source": "greenhouse",
+    "vendor": "greenhouse",
+    "title": " Engineering Manager, EMEA (Platform)",
+    "company": "Testlio",
+    "location": "Remote in EMEA",
+    "remote": true,
+    "url": "https://job-boards.greenhouse.io/testlio/jobs/8179579",
+    "tags": [
+      "620- Engineering"
+    ],
+    "postedAt": "2026-11-09T08:51:25-05:00",
+    "tier": "adjacent",
+    "score": 5,
+    "repostCount": 3,
+    "isNew": true
+  },
+  {
     "id": "825db626e7e3079a",
     "source": "lever",
     "vendor": "lever",
@@ -375,6 +321,25 @@
     "tier": "adjacent",
     "score": 2.5,
     "isNew": false
+  },
+  {
+    "id": "402f49b06a416bdf",
+    "source": "arbeitnow",
+    "title": "Test Engineer HIL Autonomy Systems – Land Domain (m/f/d)",
+    "company": "Quantum-Systems GmbH",
+    "location": "Remote job",
+    "remote": true,
+    "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/remote-test-engineer-hil-autonomy-systems-land-domain-gilching-417479",
+    "tags": [
+      "Software",
+      "Remote",
+      "Experienced",
+      "fulltime permanent"
+    ],
+    "postedAt": "2026-11-23T21:31:12.000Z",
+    "tier": "ic",
+    "score": 1,
+    "isNew": true
   },
   {
     "id": "4ff5bd1880ca5c23",
@@ -527,42 +492,6 @@
     "isNew": false
   },
   {
-    "id": "a27f1905a37b65a6",
-    "source": "adzuna",
-    "title": "Senior Engineer, QA",
-    "company": "ASM",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5954537199?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-11-05T17:53:43Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-11-03T07:25:02Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 6,
-    "isNew": false
-  },
-  {
     "id": "13f77c4e7b7fd8ea",
     "source": "lever",
     "vendor": "lever",
@@ -651,7 +580,7 @@
     "postedAt": "2026-11-18T05:45:15.440Z",
     "tier": "ic",
     "score": 0.5,
-    "repostCount": 7,
+    "repostCount": 6,
     "isNew": false
   },
   {
