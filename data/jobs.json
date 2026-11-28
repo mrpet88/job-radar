@@ -54,7 +54,7 @@
     "postedAt": "2026-11-27T15:31:28.000Z",
     "tier": "adjacent",
     "score": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5b1bd9980b171429",
@@ -106,36 +106,6 @@
       "Full Time"
     ],
     "postedAt": "2026-11-21T18:40:33.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "4d6224d476f0b4f7",
-    "source": "arbeitnow",
-    "title": "Engineering Manager",
-    "company": "housinganywhere",
-    "location": "Rotterdam",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/housinganywhere/engineering-manager-rotterdam-173959",
-    "tags": [
-      "Engineering"
-    ],
-    "postedAt": "2026-11-21T15:55:31.000Z",
-    "tier": "adjacent",
-    "score": 5,
-    "isNew": false
-  },
-  {
-    "id": "c81642965d64b6fb",
-    "source": "arbeitnow",
-    "title": "Engineering Manager",
-    "company": "HousingAnywhere Group",
-    "location": "Rotterdam, Zuid-Holland, Netherlands",
-    "remote": false,
-    "url": "https://www.arbeitnow.nl/jobs/companies/housinganywhere-group/engineering-manager-rotterdam-82636",
-    "tags": [],
-    "postedAt": "2026-11-20T18:45:34.000Z",
     "tier": "adjacent",
     "score": 5,
     "isNew": false
@@ -342,22 +312,24 @@
     "isNew": false
   },
   {
-    "id": "825db626e7e3079a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Hands-on Engineering Manager DevOps (GCP/Kubernetes)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/4581e1e7-fe7c-44f6-9f9f-f6fd688c0b91",
+    "id": "4ee2bd8735d92409",
+    "source": "adzuna",
+    "title": "Quality Assurance Automation Engineer",
+    "company": "Fairphone",
+    "location": "Noord west, Amsterdam",
+    "remote": false,
+    "url": "https://www.adzuna.nl/details/5981991265?utm_medium=api&utm_source=9b7a3075",
+    "salaryMin": 3000,
+    "salaryMax": 3000,
+    "currency": "EUR",
     "tags": [
-      "IT",
-      "Full-time"
+      "Unknown"
     ],
-    "postedAt": "2026-11-20T07:43:07.230Z",
-    "tier": "adjacent",
-    "score": 2.5,
-    "isNew": false
+    "postedAt": "2026-11-28T18:28:22Z",
+    "tier": "ic",
+    "score": 1,
+    "repostCount": 3,
+    "isNew": true
   },
   {
     "id": "10b4c01fdb2c8f49",
@@ -377,7 +349,7 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 5,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "19a1bf54a9aa8f32",
@@ -397,40 +369,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": true
-  },
-  {
-    "id": "d204cf93f4d0c0de",
-    "source": "adzuna",
-    "title": "Test Automation Engineer Horizon",
-    "company": "Lely",
-    "location": "Maassluis, Zuid-Holland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5979997468?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Bouwkunde vacatures"
-    ],
-    "postedAt": "2026-11-26T20:29:59Z",
-    "tier": "ic",
-    "score": 1,
-    "isNew": true
-  },
-  {
-    "id": "f01fe9980cb0a9ba",
-    "source": "adzuna",
-    "title": "Senior QA Automation Engineer",
-    "company": "Context Labs",
-    "location": "Oud Zuid, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5979905437?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "IT ICT vacatures"
-    ],
-    "postedAt": "2026-11-26T18:18:58Z",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -472,25 +410,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "0704098c5976e22c",
-    "source": "workable",
-    "vendor": "workable",
-    "title": "QA Engineer, Contract",
-    "company": "Xcelirate",
-    "location": "Amsterdam, North Holland, Netherlands",
-    "remote": true,
-    "url": "https://apply.workable.com/j/AE2C627CC5",
-    "tags": [
-      "Engineering",
-      "Engineering",
-      "Contract"
-    ],
-    "postedAt": "2026-11-18",
-    "tier": "ic",
-    "score": 1,
     "isNew": false
   },
   {
@@ -604,114 +523,6 @@
     "tier": "ic",
     "score": 1,
     "repostCount": 3,
-    "isNew": false
-  },
-  {
-    "id": "6638627b59cbeb61",
-    "source": "adzuna",
-    "title": "Quality Engineering Architect [Financial Services]",
-    "company": "CGI",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5958350213?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Accounting en Financiële vacatures"
-    ],
-    "postedAt": "2026-11-08T19:13:33Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "a27f1905a37b65a6",
-    "source": "adzuna",
-    "title": "Senior Engineer, QA",
-    "company": "ASM",
-    "location": "Nederland",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5954537199?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Unknown"
-    ],
-    "postedAt": "2026-11-05T17:53:43Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 2,
-    "isNew": false
-  },
-  {
-    "id": "e9ec988cc100a7c5",
-    "source": "adzuna",
-    "title": "Software Test Engineer",
-    "company": "Optics11",
-    "location": "Zuidoost, Amsterdam",
-    "remote": false,
-    "url": "https://www.adzuna.nl/details/5951444419?utm_medium=api&utm_source=9b7a3075",
-    "currency": "EUR",
-    "tags": [
-      "Vacatures Ander of Algemeen"
-    ],
-    "postedAt": "2026-11-03T07:25:02Z",
-    "tier": "ic",
-    "score": 1,
-    "repostCount": 6,
-    "isNew": false
-  },
-  {
-    "id": "a32962d0970114ea",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manual QA Specialist",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/8ea2dd4d-fb5c-4ffe-a3e2-99767bc5a64e",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-27T08:09:30.302Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": true
-  },
-  {
-    "id": "65ed85b32a0f2949",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Principal Software Development Engineer in Test (AI-Driven Quality Engineering)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/644465b1-1876-4854-be0d-d9885c852546",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-26T05:59:37.766Z",
-    "tier": "ic",
-    "score": 0.5,
-    "isNew": false
-  },
-  {
-    "id": "7b47a8c433a2a36a",
-    "source": "lever",
-    "vendor": "lever",
-    "title": "Manual QA Engineer (with Payments/Fintech Experience)",
-    "company": "Jobgether",
-    "location": "Netherlands",
-    "remote": true,
-    "url": "https://jobs.lever.co/jobgether/3d815b7d-62d8-460f-a868-9d67c53b2117",
-    "tags": [
-      "IT",
-      "Full-time"
-    ],
-    "postedAt": "2026-11-21T09:52:55.645Z",
-    "tier": "ic",
-    "score": 0.5,
     "isNew": false
   }
 ]
